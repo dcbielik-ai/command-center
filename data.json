@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:56:14-05:00",
+  "updatedAt": "2026-10-04T16:58:51-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -462,23 +462,26 @@
       "zone": "venture",
       "className": "Artisan: Design",
       "role": "Slogan and product design bot for the side venture: turns trending niches into original, trademark-checked designs. Details stay private until launch.",
-      "status": "Setting up",
+      "status": "Working",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "No runs yet",
-      "runTimes": [],
+      "lastRun": "Finished 14 designs",
+      "lastRunAt": "2026-10-04T16:58:51-05:00",
+      "runTimes": [
+        "2026-10-04T16:58:51-05:00"
+      ],
       "nextRun": "Not scheduled yet",
-      "latestFinding": "No findings yet",
+      "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Needs info from you (optional)"
+        "Waiting on Dennis (optional)"
       ],
       "waitingSince": "2026-10-04T16:25:21-05:00",
-      "runsCompleted": 0,
+      "runsCompleted": 1,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-04T16:25:21-05:00",
+      "firstSeenAt": "2026-10-04T16:58:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:25:21-05:00",
+      "updatedAt": "2026-10-04T16:58:51-05:00",
       "avatar": {
         "hat": "beret",
         "head": "#fff1d6",
@@ -599,7 +602,7 @@
     },
     {
       "bot": "design-studio",
-      "text": "Needs info from you (optional)",
+      "text": "Waiting on Dennis (optional)",
       "since": "2026-10-04T16:25:21-05:00"
     },
     {
@@ -609,6 +612,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "design-studio",
+      "at": "2026-10-04T16:58:51-05:00",
+      "text": "Finished 14 designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "merch-lead",
       "at": "2026-10-04T16:57:00-05:00",
@@ -684,11 +693,11 @@
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 5 items need you · 1 setting up",
+      "7 of 7 scheduled bots healthy · 5 items need you",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Merch Lead: Coordinated the team"
+      "Latest: Design Studio: Finished 14 designs"
     ],
-    "at": "2026-10-04T16:56:14-05:00"
+    "at": "2026-10-04T16:58:51-05:00"
   },
-  "generatedAt": "2026-10-04T16:56:14-05:00"
+  "generatedAt": "2026-10-04T16:58:51-05:00"
 }
