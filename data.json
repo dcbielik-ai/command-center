@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:23:19-05:00",
+  "updatedAt": "2026-10-04T16:25:31-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -29,6 +29,14 @@
       "span": 2
     },
     {
+      "id": "venture",
+      "name": "Product Studio",
+      "theme": "studio",
+      "icon": "shop",
+      "tagline": "Side venture: trends, designs, and storefront",
+      "span": 2
+    },
+    {
       "id": "realestate",
       "name": "Real Estate",
       "theme": "realestate",
@@ -49,10 +57,6 @@
     {
       "title": "Unlock new zone",
       "hint": "Idea: budgeting and personal finance"
-    },
-    {
-      "title": "Unlock new zone",
-      "hint": "Idea: career and sales pipeline"
     }
   ],
   "bots": [
@@ -312,24 +316,142 @@
       "zone": "travel",
       "className": "Agent: Travel Deals",
       "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
-      "status": "Setting up",
-      "schedule": "Not scheduled yet",
-      "routines": "Not confirmed yet",
-      "slots": [],
-      "lastRun": "No runs yet",
-      "runTimes": [],
-      "nextRun": "Not scheduled yet",
-      "latestFinding": "No findings yet",
+      "status": "Active",
+      "schedule": "Scheduled",
+      "routines": "Set up",
+      "slots": [
+        {
+          "label": "Deal check",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "07:54"
+          ]
+        }
+      ],
+      "lastRun": "Completed a deal search",
+      "lastRunAt": "2026-10-04T15:51:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:51:00-05:00"
+      ],
+      "nextRun": "Scheduled",
+      "nextRunAt": "2026-10-05T07:54:00-05:00",
+      "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 0,
+      "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
+      "updatedAt": "2026-10-04T16:26:00-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
         "body": "#12a4b8",
         "accent": "#0b2f4a",
         "eye": "#7dfcff",
+        "trim": "#ffd447"
+      }
+    },
+    {
+      "id": "trend-scout",
+      "name": "Trend Scout",
+      "zone": "venture",
+      "className": "Scout: Trends",
+      "role": "Product trend scout for the side venture. Tracks what's selling right now across major marketplaces and trend reports, and flags rising niches and seasonal windows early. Research only.",
+      "status": "Working",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Building the first trend report on what's selling online in clothing, jewelry, and costumes, with Halloween costumes prioritized.",
+      "runTimes": [],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-10-04T16:26:00-05:00",
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:26:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:26:00-05:00",
+      "avatar": {
+        "hat": "beanie",
+        "head": "#ffe0f0",
+        "body": "#ff5fd2",
+        "accent": "#2a0f3a",
+        "eye": "#ff9be9",
+        "trim": "#3de0ff"
+      }
+    },
+    {
+      "id": "design-studio",
+      "name": "Design Studio",
+      "zone": "venture",
+      "className": "Artisan: Design",
+      "role": "Slogan and product design bot for the side venture. Turns trending niches into original designs and print-ready artwork, and checks phrases for trademark conflicts before recommending them.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Just created; asked Dennis what kind of design work he wants help with.",
+      "runTimes": [],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [
+        "Waiting on Dennis (optional)"
+      ],
+      "waitingSince": "2026-10-04T16:25:21-05:00",
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:25:21-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:25:21-05:00",
+      "avatar": {
+        "hat": "beret",
+        "head": "#fff1d6",
+        "body": "#9b5cff",
+        "accent": "#ff4d6d",
+        "eye": "#ffd447",
+        "trim": "#f4f1e8"
+      }
+    },
+    {
+      "id": "listings-marketing",
+      "name": "Listings & Marketing",
+      "zone": "venture",
+      "className": "Merchant: Storefront",
+      "role": "Storefront, listings, and marketing bot for the side venture. Prepares shop setup, listings, pricing, launch timing, and marketing plans for Dennis to review. Nothing goes live without his OK.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Just created; getting set up with Dennis.",
+      "runTimes": [],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [
+        "Needs a decision from you"
+      ],
+      "waitingSince": "2026-10-04T16:25:24-05:00",
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:25:24-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:25:24-05:00",
+      "avatar": {
+        "hat": "headset",
+        "head": "#d9fff0",
+        "body": "#22c48a",
+        "accent": "#0b2f2a",
+        "eye": "#7dffcf",
         "trim": "#ffd447"
       }
     }
@@ -344,6 +466,21 @@
       "bot": "va-deal-scout",
       "text": "Quick sign-in or check on your computer (optional)",
       "since": "2026-10-04T15:40:00-05:00"
+    },
+    {
+      "bot": "trend-scout",
+      "text": "Waiting on Dennis",
+      "since": "2026-10-04T16:26:00-05:00"
+    },
+    {
+      "bot": "design-studio",
+      "text": "Waiting on Dennis (optional)",
+      "since": "2026-10-04T16:25:21-05:00"
+    },
+    {
+      "bot": "listings-marketing",
+      "text": "Needs a decision from you",
+      "since": "2026-10-04T16:25:24-05:00"
     }
   ],
   "feed": [
@@ -352,6 +489,12 @@
       "at": "2026-10-04T16:19:43-05:00",
       "text": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
       "finding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map."
+    },
+    {
+      "bot": "travel-agent",
+      "at": "2026-10-04T15:51:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
     },
     {
       "bot": "fundamentals-analyst",
@@ -374,11 +517,11 @@
   ],
   "briefing": {
     "lines": [
-      "4 of 4 scheduled bots healthy · 2 items need you · 1 setting up",
+      "5 of 5 scheduled bots healthy · 5 items need you · 2 setting up",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
       "Latest: Chief of Staff: Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline,…"
     ],
-    "at": "2026-10-04T16:23:19-05:00"
+    "at": "2026-10-04T16:25:31-05:00"
   },
-  "generatedAt": "2026-10-04T16:23:19-05:00"
+  "generatedAt": "2026-10-04T16:25:31-05:00"
 }
