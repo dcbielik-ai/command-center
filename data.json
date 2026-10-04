@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:25:31-05:00",
+  "updatedAt": "2026-10-04T16:28:21-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -30,10 +30,10 @@
     },
     {
       "id": "venture",
-      "name": "Product Studio",
+      "name": "The Shop",
       "theme": "studio",
       "icon": "shop",
-      "tagline": "Side venture: trends, designs, and storefront",
+      "tagline": "Products & marketing team for the website",
       "span": 2
     },
     {
@@ -364,17 +364,17 @@
       "name": "Trend Scout",
       "zone": "venture",
       "className": "Scout: Trends",
-      "role": "Product trend scout for the side venture. Tracks what's selling right now across major marketplaces and trend reports, and flags rising niches and seasonal windows early. Research only.",
+      "role": "Product trend scout for the side venture: tracks what's selling across marketplaces and flags rising niches and seasonal windows early. Research only.",
       "status": "Working",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Building the first trend report on what's selling online in clothing, jewelry, and costumes, with Halloween costumes prioritized.",
+      "lastRun": "No runs yet",
       "runTimes": [],
       "nextRun": "Not scheduled yet",
       "latestFinding": "No findings yet",
       "waitingOnYou": [
-        "Waiting on Dennis"
+        "Needs info from you"
       ],
       "waitingSince": "2026-10-04T16:26:00-05:00",
       "runsCompleted": 0,
@@ -396,17 +396,17 @@
       "name": "Design Studio",
       "zone": "venture",
       "className": "Artisan: Design",
-      "role": "Slogan and product design bot for the side venture. Turns trending niches into original designs and print-ready artwork, and checks phrases for trademark conflicts before recommending them.",
+      "role": "Slogan and product design bot for the side venture: turns trending niches into original, trademark-checked designs. Details stay private until launch.",
       "status": "Setting up",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Just created; asked Dennis what kind of design work he wants help with.",
+      "lastRun": "No runs yet",
       "runTimes": [],
       "nextRun": "Not scheduled yet",
       "latestFinding": "No findings yet",
       "waitingOnYou": [
-        "Waiting on Dennis (optional)"
+        "Needs info from you (optional)"
       ],
       "waitingSince": "2026-10-04T16:25:21-05:00",
       "runsCompleted": 0,
@@ -428,12 +428,12 @@
       "name": "Listings & Marketing",
       "zone": "venture",
       "className": "Merchant: Storefront",
-      "role": "Storefront, listings, and marketing bot for the side venture. Prepares shop setup, listings, pricing, launch timing, and marketing plans for Dennis to review. Nothing goes live without his OK.",
+      "role": "Storefront, listings, and marketing bot for the side venture: prepares shops, listings, and launch plans for Dennis to review. Nothing goes live without his OK.",
       "status": "Setting up",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Just created; getting set up with Dennis.",
+      "lastRun": "No runs yet",
       "runTimes": [],
       "nextRun": "Not scheduled yet",
       "latestFinding": "No findings yet",
@@ -469,12 +469,12 @@
     },
     {
       "bot": "trend-scout",
-      "text": "Waiting on Dennis",
+      "text": "Needs info from you",
       "since": "2026-10-04T16:26:00-05:00"
     },
     {
       "bot": "design-studio",
-      "text": "Waiting on Dennis (optional)",
+      "text": "Needs info from you (optional)",
       "since": "2026-10-04T16:25:21-05:00"
     },
     {
@@ -521,7 +521,7 @@
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
       "Latest: Chief of Staff: Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline,…"
     ],
-    "at": "2026-10-04T16:25:31-05:00"
+    "at": "2026-10-04T16:28:21-05:00"
   },
-  "generatedAt": "2026-10-04T16:25:31-05:00"
+  "generatedAt": "2026-10-04T16:28:21-05:00"
 }
