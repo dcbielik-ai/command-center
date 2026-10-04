@@ -1,0 +1,200 @@
+{
+  "updatedAt": "2026-10-04T16:09:24-05:00",
+  "schemaVersion": 1,
+  "team": {
+    "name": "Team Bielik",
+    "owner": "Dennis Bielik",
+    "timezone": "America/Chicago"
+  },
+  "dataNote": "Public live view of the bot team. Updates automatically; private details (holdings, alerts, addresses, contact info) are intentionally left out.",
+  "xpRule": {
+    "xpPerRun": 1,
+    "runsPerLevel": 5
+  },
+  "zones": [
+    {
+      "id": "stocks",
+      "name": "Stock Investing",
+      "theme": "stocks",
+      "icon": "chart",
+      "tagline": "Trading floor: fundamentals, charts, and news",
+      "span": 2
+    },
+    {
+      "id": "hq",
+      "name": "Command HQ",
+      "theme": "hq",
+      "icon": "castle",
+      "tagline": "Central base: runs the team",
+      "span": 1
+    },
+    {
+      "id": "realestate",
+      "name": "Real Estate",
+      "theme": "realestate",
+      "icon": "house",
+      "tagline": "Neighborhood: deal hunting",
+      "span": 1
+    }
+  ],
+  "lockedSlots": [
+    {
+      "title": "Unlock new zone",
+      "hint": "Idea: budgeting and personal finance"
+    },
+    {
+      "title": "Unlock new zone",
+      "hint": "Idea: career and sales pipeline"
+    },
+    {
+      "title": "Unlock new zone",
+      "hint": "Idea: travel and deals"
+    },
+    {
+      "title": "Unlock new zone",
+      "hint": "Recruit a bot to claim this land"
+    }
+  ],
+  "bots": [
+    {
+      "id": "new-bot",
+      "name": "New Bot",
+      "zone": "hq",
+      "className": "Chief of Staff",
+      "role": "Chief of staff and team builder. Coordinates the other bots, recruits new ones as the team grows, and runs this command center dashboard.",
+      "status": "Active",
+      "schedule": "On demand, whenever you message it",
+      "routines": "None needed (works on request)",
+      "lastRun": "Built this command center dashboard (Sun Oct 4, 2026)",
+      "nextRun": "On demand",
+      "latestFinding": "Team roster: 5 bots across 3 zones",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "notes": "",
+      "avatar": {
+        "hat": "crown",
+        "head": "#c8d3f5",
+        "body": "#7b5cff",
+        "accent": "#ffd447",
+        "eye": "#3de0ff",
+        "trim": "#ff4d6d"
+      },
+      "boss": true
+    },
+    {
+      "id": "fundamentals-analyst",
+      "name": "Fundamentals Analyst",
+      "zone": "stocks",
+      "className": "Analyst: Fundamentals",
+      "role": "Screens US large, mid, and small caps (about the Russell 3000) on fundamentals: earnings beats and misses, guidance, revenue and margin trends, free cash flow, valuation vs. peers, insider buying, major 8-K events, and red flags. Picks the top 5 to 10 names each day with sources.",
+      "status": "Active",
+      "schedule": "Weekdays at 8:01 AM CT",
+      "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT)",
+      "lastRun": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
+      "lastRunAt": "2026-10-04T15:37:00-05:00",
+      "nextRun": "",
+      "nextRunAt": "2026-10-05T08:01:00-05:00",
+      "latestFinding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names.",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-04",
+      "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
+      "updatedAt": "2026-10-04T15:40:00-05:00",
+      "avatar": {
+        "hat": "mortarboard",
+        "head": "#b9f5d0",
+        "body": "#1fae6b",
+        "accent": "#1b2440",
+        "eye": "#3dff8b",
+        "trim": "#ffd447"
+      }
+    },
+    {
+      "id": "technical-analyst",
+      "name": "Technical Analyst",
+      "zone": "stocks",
+      "className": "Analyst: Charts",
+      "role": "Screens liquid US stocks for chart setups: breakouts and breakdowns, moving-average trends, RSI and MACD signals, unusual volume, relative strength, and classic patterns. Gives key levels (trigger, support, resistance, invalidation) and opens each brief with a market read.",
+      "status": "Active",
+      "schedule": "Weekdays at 7:38 AM CT; Weekdays at 3:38 PM CT",
+      "routines": "Pre-market technical scan (Weekdays at 7:38 AM CT); After-close big-move alert (Weekdays at 3:38 PM CT)",
+      "lastRun": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
+      "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "nextRun": "",
+      "nextRunAt": "2026-10-05T07:38:00-05:00",
+      "latestFinding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB.",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-04",
+      "notes": "Plans to ask your preferences: swing or position timeframe, long only or both sides, favorite indicators, and names to always track.",
+      "updatedAt": "2026-10-04T15:40:00-05:00",
+      "avatar": {
+        "hat": "antenna",
+        "head": "#bfe9ff",
+        "body": "#1f7ae0",
+        "accent": "#0a0f1f",
+        "eye": "#3de0ff",
+        "trim": "#ff4d6d"
+      }
+    },
+    {
+      "id": "portfolio-news",
+      "name": "Portfolio News",
+      "zone": "stocks",
+      "className": "Scout: News Watch",
+      "role": "Watches Dennis's portfolio for breaking news and sends him private alerts. Details stay private.",
+      "status": "Active",
+      "schedule": "Weekdays during market hours",
+      "routines": "Set up",
+      "lastRun": "No runs yet",
+      "nextRun": "Scheduled",
+      "nextRunAt": "2026-10-05T07:35:00-05:00",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "notes": "",
+      "updatedAt": "2026-10-04T15:40:00-05:00",
+      "avatar": {
+        "hat": "fedora",
+        "head": "#ffe2b8",
+        "body": "#e0662f",
+        "accent": "#5b4636",
+        "eye": "#ffb627",
+        "trim": "#f4f1e8"
+      }
+    },
+    {
+      "id": "va-deal-scout",
+      "name": "VA Deal Scout",
+      "zone": "realestate",
+      "className": "Scout: Deal Hunter",
+      "role": "Finds homes for sale in Texas and Oklahoma with an assumable VA loan and ranks them by the smallest equity gap (cash needed to assume), with the assumable rate alongside. Personal side project.",
+      "status": "Needs you",
+      "schedule": "Every day at 7:42 AM CT",
+      "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT)",
+      "lastRun": "Added 2 new deals; 24 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "nextRun": "",
+      "nextRunAt": "2026-10-05T07:42:00-05:00",
+      "latestFinding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "runsCompleted": 1,
+      "created": "2026-10-04",
+      "notes": "",
+      "updatedAt": "2026-10-04T15:40:00-05:00",
+      "avatar": {
+        "hat": "hardhat",
+        "head": "#e8d6c0",
+        "body": "#c8483f",
+        "accent": "#ffb627",
+        "eye": "#ffe066",
+        "trim": "#f4f1e8"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-04T16:09:24-05:00"
+}
