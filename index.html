@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-04T16:28:47-05:00",
+  "updatedAt": "2026-10-04T16:31:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -33,7 +33,8 @@ const TEAM_DATA = {
       "theme": "stocks",
       "icon": "chart",
       "tagline": "Trading floor: fundamentals, charts, and news",
-      "span": 2
+      "span": 2,
+      "cols": 6
     },
     {
       "id": "hq",
@@ -41,7 +42,8 @@ const TEAM_DATA = {
       "theme": "hq",
       "icon": "castle",
       "tagline": "Central base: runs the team",
-      "span": 2
+      "span": 2,
+      "cols": 6
     },
     {
       "id": "venture",
@@ -49,7 +51,8 @@ const TEAM_DATA = {
       "theme": "studio",
       "icon": "shop",
       "tagline": "Products & marketing team for the website",
-      "span": 2
+      "span": 2,
+      "cols": 8
     },
     {
       "id": "realestate",
@@ -57,7 +60,8 @@ const TEAM_DATA = {
       "theme": "realestate",
       "icon": "house",
       "tagline": "Neighborhood: deal hunting",
-      "span": 1
+      "span": 1,
+      "cols": 4
     },
     {
       "id": "travel",
@@ -65,13 +69,23 @@ const TEAM_DATA = {
       "theme": "travel",
       "icon": "plane",
       "tagline": "Airport and beach: trip deals",
-      "span": 1
+      "span": 1,
+      "cols": 5
+    },
+    {
+      "id": "ailab",
+      "name": "AI Lab",
+      "theme": "ailab",
+      "icon": "chip",
+      "tagline": "AI briefings and scam watch",
+      "span": 1,
+      "cols": 5
     }
   ],
   "lockedSlots": [
     {
       "title": "Unlock new zone",
-      "hint": "Idea: budgeting and personal finance"
+      "hint": "Recruit a bot to claim this land"
     }
   ],
   "bots": [
@@ -85,22 +99,20 @@ const TEAM_DATA = {
       "schedule": "On demand, whenever you message it",
       "routines": "None needed (works on request)",
       "slots": [],
-      "lastRun": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
-      "lastRunAt": "2026-10-04T16:19:43-05:00",
+      "lastRun": "Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone.",
+      "lastRunAt": "2026-10-04T16:30:17-05:00",
       "runTimes": [
-        "2026-10-04T16:19:43-05:00"
+        "2026-10-04T16:19:43-05:00",
+        "2026-10-04T16:30:17-05:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map.",
-      "waitingOnYou": [
-        "Needs a decision from you"
-      ],
-      "waitingSince": "2026-10-04T16:19:43-05:00",
-      "runsCompleted": 1,
+      "latestFinding": "Team now 11 bots across 6 zones.",
+      "waitingOnYou": [],
+      "runsCompleted": 2,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:19:43-05:00",
+      "updatedAt": "2026-10-04T16:30:17-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -375,6 +387,40 @@ const TEAM_DATA = {
       }
     },
     {
+      "id": "merch-lead",
+      "name": "Merch Lead",
+      "zone": "venture",
+      "className": "Team Lead: The Shop",
+      "role": "Team lead for the side venture: sets strategy, coordinates Trend Scout, Design Studio, and Listings & Marketing, and brings Dennis the decisions that need him.",
+      "status": "Active",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Coordinated the team",
+      "lastRunAt": "2026-10-04T16:29:00-05:00",
+      "runTimes": [
+        "2026-10-04T16:29:00-05:00"
+      ],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "Details stay private until launch",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:29:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:30:00-05:00",
+      "avatar": {
+        "hat": "foreman",
+        "head": "#ffe9cf",
+        "body": "#e0457b",
+        "accent": "#3a1030",
+        "eye": "#ffd447",
+        "trim": "#ffd447",
+        "prop": "clipboard"
+      },
+      "lead": true
+    },
+    {
       "id": "trend-scout",
       "name": "Trend Scout",
       "zone": "venture",
@@ -472,14 +518,65 @@ const TEAM_DATA = {
         "eye": "#7dffcf",
         "trim": "#ffd447"
       }
+    },
+    {
+      "id": "ai-guide",
+      "name": "AI Guide",
+      "zone": "ailab",
+      "className": "Guide: AI News & Safety",
+      "role": "Keeps Dennis current on AI advances with Monday and Thursday briefings, and watches for urgent AI scams and safety threats.",
+      "status": "Active",
+      "schedule": "Mondays and Thursdays at 7:50 AM CT; Every day at 12:50 PM CT",
+      "routines": "AI briefing; Scam watch",
+      "slots": [
+        {
+          "label": "AI briefing",
+          "days": [
+            0,
+            3
+          ],
+          "times": [
+            "07:50"
+          ]
+        },
+        {
+          "label": "Scam watch",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "12:50"
+          ]
+        }
+      ],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "Scheduled",
+      "nextRunAt": "2026-10-05T07:50:00-05:00",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:30:03-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:30:03-05:00",
+      "avatar": {
+        "hat": "dish",
+        "head": "#dfe6ff",
+        "body": "#5b6cff",
+        "accent": "#0a0f2a",
+        "eye": "#7af7ff",
+        "trim": "#3dff8b"
+      }
     }
   ],
   "inbox": [
-    {
-      "bot": "chief-of-staff",
-      "text": "Needs a decision from you",
-      "since": "2026-10-04T16:19:43-05:00"
-    },
     {
       "bot": "va-deal-scout",
       "text": "Quick sign-in or check on your computer (optional)",
@@ -502,6 +599,18 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-04T16:30:17-05:00",
+      "text": "Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone.",
+      "finding": "Team now 11 bots across 6 zones."
+    },
+    {
+      "bot": "merch-lead",
+      "at": "2026-10-04T16:29:00-05:00",
+      "text": "Coordinated the team",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "trend-scout",
       "at": "2026-10-04T16:28:00-05:00",
@@ -541,13 +650,13 @@ const TEAM_DATA = {
   ],
   "briefing": {
     "lines": [
-      "5 of 5 scheduled bots healthy · 5 items need you · 2 setting up",
+      "6 of 6 scheduled bots healthy · 4 items need you · 2 setting up",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Trend Scout: Found 23 rising niches"
+      "Latest: Chief of Staff: Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone."
     ],
-    "at": "2026-10-04T16:28:47-05:00"
+    "at": "2026-10-04T16:31:32-05:00"
   },
-  "generatedAt": "2026-10-04T16:28:47-05:00"
+  "generatedAt": "2026-10-04T16:31:32-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -699,6 +808,12 @@ button{font:inherit;color:inherit}
 .theme-studio .units{justify-content:center;gap:6px}
 .theme-studio .unit{flex:0 1 150px}
 .flowarrow{animation:blink 1.6s ease-in-out infinite}
+.theme-ailab{--zc:#7c9cff;background:linear-gradient(180deg,#0a0f2a 0%,#0d1438 60%,#080c22 100%);border-color:#34428a}
+.unit.lead .sprite-wrap{width:62px;height:82px}
+.unit.lead .sprite{width:58px;height:77px}
+.lead-tag{display:inline-block;margin-left:4px;padding:0 4px;border-radius:3px;background:#ff5fd2;color:#1a0b2e;font-family:var(--mono);font-size:8px;font-weight:800;letter-spacing:.08em;vertical-align:2px}
+.flow-lead{border-color:#ffd44788;color:#ffe9a8}
+.flow-sep{width:1px;height:14px;background:#ff5fd266;margin:0 4px}
 .theme-travel{--zc:var(--teal);background:linear-gradient(180deg,#0c2a4a 0%,#1b4f7a 45%,#f2a65a 78%,#e9cf98 100%);border-color:#2a7a8a}
 
 .tape{position:relative;z-index:3;margin:8px 0 0;height:20px;overflow:hidden;background:#000a;border-block:1px solid #3dff8b33;
@@ -984,6 +1099,7 @@ function sprite(av, cls){
     r += `<rect x="${x}" y="${y}" width="1.02" height="1.02" fill="${fill}"/>`; }});
   // highlights
   r += `<rect x="2" y="5" width="2" height="1" fill="${shade(head,.45)}"/><rect x="3" y="11" width="1" height="1" fill="${shade(body,.3)}"/>`;
+  if(av.prop==="clipboard") r += `<rect x="8.5" y="9" width="3.5" height="4.5" fill="#8a5a2a"/><rect x="9" y="9.8" width="2.5" height="3.3" fill="#f4f1e8"/><rect x="9.6" y="8.6" width="1.3" height=".8" fill="#c8d3f5"/><rect x="9.3" y="10.5" width="1.9" height=".35" fill="#5d6a90"/><rect x="9.3" y="11.4" width="1.5" height=".35" fill="#5d6a90"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
@@ -1159,6 +1275,31 @@ ART.studio = function(){
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
 };
 
+HATS.foreman = ["............","...aaaaaa...","..aaatttaa..","..aaaaaaaaaa"];
+HATS.dish    = [".....tt.....","....t..t....","...t.oo.t...","....aaaa...."];
+ICON.chip = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="4" y="4" width="8" height="8" fill="none" stroke="${c}" stroke-width="1.6"/><rect x="6.5" y="6.5" width="3" height="3" fill="${c}"/>${[5,8,11].map(v=>`<rect x="${v-.5}" y="1" width="1" height="2.5" fill="${c}"/><rect x="${v-.5}" y="12.5" width="1" height="2.5" fill="${c}"/><rect x="1" y="${v-.5}" width="2.5" height="1" fill="${c}"/><rect x="12.5" y="${v-.5}" width="2.5" height="1" fill="${c}"/>`).join("")}</svg>`;
+ART.ailab = function(){
+  const R = rng(31), W=400, H=330, G=H-38; let s="";
+  s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="#0a0f2a"/>`;
+  for(let y=0;y<G;y+=16) s+=`<rect x="0" y="${y}" width="${W}" height="1" fill="#7c9cff" opacity=".06"/>`;
+  // neural net hologram
+  const nodes=[]; for(let l=0;l<4;l++) for(let i=0;i<4-(l%2);i++) nodes.push([150+l*36, 96+i*28+(l%2)*14]);
+  nodes.forEach((a,i)=>nodes.forEach((b2,j)=>{ if(b2[0]-a[0]===36) s+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b2[0]}" y2="${b2[1]}" stroke="#7c9cff" stroke-width=".8" opacity=".35"/>`; }));
+  nodes.forEach(([x,y],i)=>s+=`<circle cx="${x}" cy="${y}" r="3.4" fill="#7af7ff" class="twinkle" style="animation-delay:${(i*0.37%3).toFixed(2)}s"/>`);
+  s+=`<ellipse cx="204" cy="${G-46}" rx="80" ry="8" fill="#7c9cff" opacity=".25"/>`;
+  // server racks
+  [[18,G-150],[56,G-150],[330,G-150],[366,G-130]].forEach(([x,y])=>{ s+=`<rect x="${x}" y="${y}" width="32" height="${G-y}" fill="#141b3d" stroke="#2c3a7a"/>`;
+    for(let yy=y+8; yy<G-6; yy+=10){ s+=`<rect x="${x+4}" y="${yy}" width="24" height="6" fill="#0b1029"/>`; for(let k=0;k<3;k++) s+=`<rect x="${x+6+k*5}" y="${yy+2}" width="2" height="2" fill="${R()>.7?"#ff4d6d":(R()>.4?"#3dff8b":"#7af7ff")}" class="${R()>.5?"blink":"twinkle"}" style="animation-delay:${(R()*3).toFixed(1)}s"/>`; } });
+  // scam-watch shield monitor
+  s+=`<rect x="262" y="${G-104}" width="56" height="40" fill="#0d1436" stroke="#7af7ff" stroke-opacity=".6"/><path d="M290 ${G-98} l12 5 v9 q0 10 -12 15 q-12 -5 -12 -15 v-9z" fill="none" stroke="#3dff8b" stroke-width="2"/><path d="M285 ${G-84} l4 4 l7 -8" fill="none" stroke="#3dff8b" stroke-width="2"/>`;
+  s+=`<rect x="286" y="${G-64}" width="8" height="10" fill="#2c3a7a"/>`;
+  // desk + floor
+  s+=`<rect x="110" y="${G-40}" width="220" height="8" fill="#2c3a7a"/><rect x="120" y="${G-32}" width="6" height="32" fill="#1c2656"/><rect x="314" y="${G-32}" width="6" height="32" fill="#1c2656"/>`;
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#080c22"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#7c9cff" opacity=".5"/>`;
+  for(let x=0;x<W;x+=24) s+=`<rect x="${x}" y="${G+10}" width="12" height="1" fill="#7c9cff" opacity=".2"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
+};
+
 /* ---------- time (Central) ---------- */
 const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
 const MS = 60000;
@@ -1236,7 +1377,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
@@ -1249,10 +1390,10 @@ function hbHTML(b, now, chip){ const h=health(b, now||new Date()); return `<span
 function unitHTML(b){
   const s = st(b.status), L = lvl(b), pct = Math.round(L.into/L.per*100);
   const q = (b.waitingOnYou||[]).length ? ICON.quest() : "";
-  return `<button class="unit ${b.boss?"boss":""} ${b.id===openId?"selected":""}" data-id="${esc(b.id)}" aria-label="${esc(b.name)}, ${esc(s.label)}. Open details">
+  return `<button class="unit ${b.boss?"boss":""} ${b.lead?"lead":""} ${b.id===openId?"selected":""}" data-id="${esc(b.id)}" aria-label="${esc(b.name)}, ${esc(s.label)}. Open details">
     <div class="sprite-wrap">${q}<div class="ring"></div><div class="shadow"></div>${sprite(b.avatar,"sprite")}<span class="dot ${s.cls}"></span></div>
     <div class="plate">
-      <div class="name">${esc(b.name)}</div>
+      <div class="name">${esc(b.name)}${b.lead?`<span class="lead-tag">LEAD</span>`:""}</div>
       <div class="cls">${esc(b.className||"")}</div>
       <div class="xprow"><b>LV ${L.level}</b><div class="xp"><i style="width:${pct}%"></i></div><span>${L.into}/${L.per}</span></div>
       <div class="strow"><span class="st ${s.cls}"><span class="dot ${s.cls}"></span>${esc(s.label)}</span><span class="hbslot" data-hb="${esc(b.id)}"></span></div>
@@ -1272,11 +1413,12 @@ function renderWorld(){
   $("#subtitle").textContent = `${(D.team&&D.team.name)||"Team"} · ${(D.team&&D.team.owner)||""}'s operations HQ`;
   let html = "", row = 0, used = 0;
   zones.forEach(z=>{
-    const zb = bots.filter(b=>b.zone===z.id), col = zoneColor(z), span = (+z.span||1) >= 2 ? 6 : 3; // 12-col map: wide zones half, small zones quarter
+    const zb = bots.filter(b=>b.zone===z.id), col = zoneColor(z), span = Math.max(2, Math.min(12, +z.cols || ((+z.span||1) >= 2 ? 6 : 3))); // 12-col map
     if(used + span > 12){ row++; used = 0; } used += span;
     const tape = z.theme==="stocks" ? `<div class="tape" aria-hidden="true"><div class="tape-inner">${TAPE.concat(TAPE).map((t,j)=>`<span><span class="${j%TAPE.length%3===2?"dn":"up"}">${j%TAPE.length%3===2?"▼":"▲"}</span> ${t}</span>`).join("")}</div></div>` : "";
     const flow = z.theme==="studio" ? (()=>{ const stage=[["trend","Trends"],["design","Designs"],["listing","Listings"]];
-        return `<div class="flow" aria-label="Team flow: trends to designs to listings">${stage.map(([k,l],i)=>{ const b=zb.find(x=>x.name.toLowerCase().includes(k));
+        const ld = zb.find(x=>x.lead);
+        return `<div class="flow" aria-label="Team flow: trends to designs to listings">${ld?`<span class="flow-st flow-lead" data-id="${esc(ld.id)}" title="${esc(ld.name)} leads the team"><span class="dot ${st(ld.status).cls}"></span>Lead</span><span class="flow-sep"></span>`:""}${stage.map(([k,l],i)=>{ const b=zb.find(x=>x.name.toLowerCase().includes(k));
           return `${i?'<span class="flow-arr" aria-hidden="true"><i></i><i></i><i></i></span>':""}<span class="flow-st" ${b?`data-id="${esc(b.id)}" title="${esc(b.name)}"`:""}><span class="dot ${b?st(b.status).cls:"s-idle"}"></span>${l}</span>`; }).join("")}</div>`; })() : "";
     const art = artCache[z.theme] || (artCache[z.theme] = (ART[z.theme]||(()=>""))());
     const brief = z.theme==="hq" ? `<div class="brief" aria-live="polite"><h3><i></i>CHIEF OF STAFF BRIEFING</h3><ul id="briefLines"></ul><div class="bfoot" id="briefFoot"></div></div>` : "";

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:28:47-05:00",
+  "updatedAt": "2026-10-04T16:31:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -18,7 +18,8 @@
       "theme": "stocks",
       "icon": "chart",
       "tagline": "Trading floor: fundamentals, charts, and news",
-      "span": 2
+      "span": 2,
+      "cols": 6
     },
     {
       "id": "hq",
@@ -26,7 +27,8 @@
       "theme": "hq",
       "icon": "castle",
       "tagline": "Central base: runs the team",
-      "span": 2
+      "span": 2,
+      "cols": 6
     },
     {
       "id": "venture",
@@ -34,7 +36,8 @@
       "theme": "studio",
       "icon": "shop",
       "tagline": "Products & marketing team for the website",
-      "span": 2
+      "span": 2,
+      "cols": 8
     },
     {
       "id": "realestate",
@@ -42,7 +45,8 @@
       "theme": "realestate",
       "icon": "house",
       "tagline": "Neighborhood: deal hunting",
-      "span": 1
+      "span": 1,
+      "cols": 4
     },
     {
       "id": "travel",
@@ -50,13 +54,23 @@
       "theme": "travel",
       "icon": "plane",
       "tagline": "Airport and beach: trip deals",
-      "span": 1
+      "span": 1,
+      "cols": 5
+    },
+    {
+      "id": "ailab",
+      "name": "AI Lab",
+      "theme": "ailab",
+      "icon": "chip",
+      "tagline": "AI briefings and scam watch",
+      "span": 1,
+      "cols": 5
     }
   ],
   "lockedSlots": [
     {
       "title": "Unlock new zone",
-      "hint": "Idea: budgeting and personal finance"
+      "hint": "Recruit a bot to claim this land"
     }
   ],
   "bots": [
@@ -70,22 +84,20 @@
       "schedule": "On demand, whenever you message it",
       "routines": "None needed (works on request)",
       "slots": [],
-      "lastRun": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
-      "lastRunAt": "2026-10-04T16:19:43-05:00",
+      "lastRun": "Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone.",
+      "lastRunAt": "2026-10-04T16:30:17-05:00",
       "runTimes": [
-        "2026-10-04T16:19:43-05:00"
+        "2026-10-04T16:19:43-05:00",
+        "2026-10-04T16:30:17-05:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map.",
-      "waitingOnYou": [
-        "Needs a decision from you"
-      ],
-      "waitingSince": "2026-10-04T16:19:43-05:00",
-      "runsCompleted": 1,
+      "latestFinding": "Team now 11 bots across 6 zones.",
+      "waitingOnYou": [],
+      "runsCompleted": 2,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:19:43-05:00",
+      "updatedAt": "2026-10-04T16:30:17-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -360,6 +372,40 @@
       }
     },
     {
+      "id": "merch-lead",
+      "name": "Merch Lead",
+      "zone": "venture",
+      "className": "Team Lead: The Shop",
+      "role": "Team lead for the side venture: sets strategy, coordinates Trend Scout, Design Studio, and Listings & Marketing, and brings Dennis the decisions that need him.",
+      "status": "Active",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Coordinated the team",
+      "lastRunAt": "2026-10-04T16:29:00-05:00",
+      "runTimes": [
+        "2026-10-04T16:29:00-05:00"
+      ],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "Details stay private until launch",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:29:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:30:00-05:00",
+      "avatar": {
+        "hat": "foreman",
+        "head": "#ffe9cf",
+        "body": "#e0457b",
+        "accent": "#3a1030",
+        "eye": "#ffd447",
+        "trim": "#ffd447",
+        "prop": "clipboard"
+      },
+      "lead": true
+    },
+    {
       "id": "trend-scout",
       "name": "Trend Scout",
       "zone": "venture",
@@ -457,14 +503,65 @@
         "eye": "#7dffcf",
         "trim": "#ffd447"
       }
+    },
+    {
+      "id": "ai-guide",
+      "name": "AI Guide",
+      "zone": "ailab",
+      "className": "Guide: AI News & Safety",
+      "role": "Keeps Dennis current on AI advances with Monday and Thursday briefings, and watches for urgent AI scams and safety threats.",
+      "status": "Active",
+      "schedule": "Mondays and Thursdays at 7:50 AM CT; Every day at 12:50 PM CT",
+      "routines": "AI briefing; Scam watch",
+      "slots": [
+        {
+          "label": "AI briefing",
+          "days": [
+            0,
+            3
+          ],
+          "times": [
+            "07:50"
+          ]
+        },
+        {
+          "label": "Scam watch",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "12:50"
+          ]
+        }
+      ],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "Scheduled",
+      "nextRunAt": "2026-10-05T07:50:00-05:00",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:30:03-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-04T16:30:03-05:00",
+      "avatar": {
+        "hat": "dish",
+        "head": "#dfe6ff",
+        "body": "#5b6cff",
+        "accent": "#0a0f2a",
+        "eye": "#7af7ff",
+        "trim": "#3dff8b"
+      }
     }
   ],
   "inbox": [
-    {
-      "bot": "chief-of-staff",
-      "text": "Needs a decision from you",
-      "since": "2026-10-04T16:19:43-05:00"
-    },
     {
       "bot": "va-deal-scout",
       "text": "Quick sign-in or check on your computer (optional)",
@@ -487,6 +584,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-04T16:30:17-05:00",
+      "text": "Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone.",
+      "finding": "Team now 11 bots across 6 zones."
+    },
+    {
+      "bot": "merch-lead",
+      "at": "2026-10-04T16:29:00-05:00",
+      "text": "Coordinated the team",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "trend-scout",
       "at": "2026-10-04T16:28:00-05:00",
@@ -526,11 +635,11 @@
   ],
   "briefing": {
     "lines": [
-      "5 of 5 scheduled bots healthy · 5 items need you · 2 setting up",
+      "6 of 6 scheduled bots healthy · 4 items need you · 2 setting up",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Trend Scout: Found 23 rising niches"
+      "Latest: Chief of Staff: Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone."
     ],
-    "at": "2026-10-04T16:28:47-05:00"
+    "at": "2026-10-04T16:31:32-05:00"
   },
-  "generatedAt": "2026-10-04T16:28:47-05:00"
+  "generatedAt": "2026-10-04T16:31:32-05:00"
 }
