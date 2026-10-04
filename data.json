@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T17:56:03-05:00",
+  "updatedAt": "2026-10-04T18:16:07-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -462,29 +462,30 @@
       "zone": "venture",
       "className": "Artisan: Design",
       "role": "Slogan and product design bot for the side venture: turns trending niches into original, trademark-checked designs. Details stay private until launch.",
-      "status": "Working",
+      "status": "Needs you",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Finished 15 designs",
-      "lastRunAt": "2026-10-04T17:56:03-05:00",
+      "lastRun": "Completed a run",
+      "lastRunAt": "2026-10-04T18:16:07-05:00",
       "runTimes": [
         "2026-10-04T16:58:51-05:00",
         "2026-10-04T17:12:25-05:00",
         "2026-10-04T17:36:58-05:00",
-        "2026-10-04T17:56:03-05:00"
+        "2026-10-04T17:56:03-05:00",
+        "2026-10-04T18:16:07-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Waiting on Dennis (optional)"
+        "Needs a decision from you"
       ],
       "waitingSince": "2026-10-04T16:25:21-05:00",
-      "runsCompleted": 4,
+      "runsCompleted": 5,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:58:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T17:56:03-05:00",
+      "updatedAt": "2026-10-04T18:16:07-05:00",
       "avatar": {
         "hat": "beret",
         "head": "#fff1d6",
@@ -606,7 +607,7 @@
     },
     {
       "bot": "design-studio",
-      "text": "Waiting on Dennis (optional)",
+      "text": "Needs a decision from you",
       "since": "2026-10-04T16:25:21-05:00"
     },
     {
@@ -616,6 +617,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "design-studio",
+      "at": "2026-10-04T18:16:07-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "design-studio",
       "at": "2026-10-04T17:56:03-05:00",
@@ -699,21 +706,15 @@
       "at": "2026-10-04T15:51:00-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-04T15:37:00-05:00",
-      "text": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
-      "finding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 5 items need you",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Design Studio: Finished 15 designs"
+      "Latest: Design Studio: Completed a run"
     ],
-    "at": "2026-10-04T17:56:03-05:00"
+    "at": "2026-10-04T18:16:07-05:00"
   },
-  "generatedAt": "2026-10-04T17:56:03-05:00"
+  "generatedAt": "2026-10-04T18:16:07-05:00"
 }
