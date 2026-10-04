@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:13:10-05:00",
+  "updatedAt": "2026-10-04T16:17:18-05:00",
   "schemaVersion": 1,
   "team": {
     "name": "Team Bielik",
@@ -57,8 +57,8 @@
   ],
   "bots": [
     {
-      "id": "new-bot",
-      "name": "New Bot",
+      "id": "chief-of-staff",
+      "name": "Chief of Staff",
       "zone": "hq",
       "className": "Chief of Staff",
       "role": "Chief of staff and team builder. Coordinates the other bots, recruits new ones as the team grows, and runs this command center dashboard.",
@@ -115,7 +115,7 @@
       "name": "Technical Analyst",
       "zone": "stocks",
       "className": "Analyst: Charts",
-      "role": "Screens liquid US stocks for chart setups: breakouts and breakdowns, moving-average trends, RSI and MACD signals, unusual volume, relative strength, and classic patterns. Gives key levels (trigger, support, resistance, invalidation) and opens each brief with a market read.",
+      "role": "Scans US stocks, ETFs, crypto, and large-cap international names for buy setups (pullbacks to moving averages in uptrends, oversold bounces, tight bases and breakouts, heavy volume or money flowing in), and flags sells only on clear breakdowns. Pre-market scan every weekday, plus an after-close alert when there are big moves.",
       "status": "Active",
       "schedule": "Weekdays at 7:38 AM CT; Weekdays at 3:38 PM CT",
       "routines": "Pre-market technical scan (Weekdays at 7:38 AM CT); After-close big-move alert (Weekdays at 3:38 PM CT)",
@@ -127,7 +127,7 @@
       "waitingOnYou": [],
       "runsCompleted": 1,
       "created": "2026-10-04",
-      "notes": "Plans to ask your preferences: swing or position timeframe, long only or both sides, favorite indicators, and names to always track.",
+      "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
         "hat": "antenna",
@@ -196,5 +196,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-04T16:13:10-05:00"
+  "generatedAt": "2026-10-04T16:17:18-05:00"
 }
