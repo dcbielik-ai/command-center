@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:58:51-05:00",
+  "updatedAt": "2026-10-04T17:02:18-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -502,22 +502,23 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Completed a run",
-      "lastRunAt": "2026-10-04T16:44:24-05:00",
+      "lastRunAt": "2026-10-04T17:02:18-05:00",
       "runTimes": [
         "2026-10-04T16:34:05-05:00",
-        "2026-10-04T16:44:24-05:00"
+        "2026-10-04T16:44:24-05:00",
+        "2026-10-04T17:02:18-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Needs your approval"
+        "Waiting on Dennis"
       ],
       "waitingSince": "2026-10-04T16:25:24-05:00",
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:34:05-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:44:24-05:00",
+      "updatedAt": "2026-10-04T17:02:18-05:00",
       "avatar": {
         "hat": "headset",
         "head": "#d9fff0",
@@ -607,11 +608,17 @@
     },
     {
       "bot": "listings-marketing",
-      "text": "Needs your approval",
+      "text": "Waiting on Dennis",
       "since": "2026-10-04T16:25:24-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "listings-marketing",
+      "at": "2026-10-04T17:02:18-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "design-studio",
       "at": "2026-10-04T16:58:51-05:00",
@@ -695,9 +702,9 @@
     "lines": [
       "7 of 7 scheduled bots healthy · 5 items need you",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Design Studio: Finished 14 designs"
+      "Latest: Listings & Marketing: Completed a run"
     ],
-    "at": "2026-10-04T16:58:51-05:00"
+    "at": "2026-10-04T17:02:18-05:00"
   },
-  "generatedAt": "2026-10-04T16:58:51-05:00"
+  "generatedAt": "2026-10-04T17:02:18-05:00"
 }
