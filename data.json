@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:41:12-05:00",
+  "updatedAt": "2026-10-04T16:44:24-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -495,9 +495,10 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Completed a run",
-      "lastRunAt": "2026-10-04T16:34:05-05:00",
+      "lastRunAt": "2026-10-04T16:44:24-05:00",
       "runTimes": [
-        "2026-10-04T16:34:05-05:00"
+        "2026-10-04T16:34:05-05:00",
+        "2026-10-04T16:44:24-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -505,11 +506,11 @@
         "Needs your approval"
       ],
       "waitingSince": "2026-10-04T16:25:24-05:00",
-      "runsCompleted": 1,
+      "runsCompleted": 2,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:34:05-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:34:05-05:00",
+      "updatedAt": "2026-10-04T16:44:24-05:00",
       "avatar": {
         "hat": "headset",
         "head": "#d9fff0",
@@ -600,6 +601,12 @@
   ],
   "feed": [
     {
+      "bot": "listings-marketing",
+      "at": "2026-10-04T16:44:24-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "trend-scout",
       "at": "2026-10-04T16:37:00-05:00",
       "text": "Found 30 rising niches",
@@ -664,9 +671,9 @@
     "lines": [
       "7 of 7 scheduled bots healthy · 4 items need you · 1 setting up",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Trend Scout: Found 30 rising niches"
+      "Latest: Listings & Marketing: Completed a run"
     ],
-    "at": "2026-10-04T16:41:12-05:00"
+    "at": "2026-10-04T16:44:24-05:00"
   },
-  "generatedAt": "2026-10-04T16:41:12-05:00"
+  "generatedAt": "2026-10-04T16:44:24-05:00"
 }
