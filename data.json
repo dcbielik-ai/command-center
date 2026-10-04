@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T17:12:25-05:00",
+  "updatedAt": "2026-10-04T17:36:58-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -466,23 +466,24 @@
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Finished 15 designs",
-      "lastRunAt": "2026-10-04T17:12:25-05:00",
+      "lastRun": "Completed a run",
+      "lastRunAt": "2026-10-04T17:36:58-05:00",
       "runTimes": [
         "2026-10-04T16:58:51-05:00",
-        "2026-10-04T17:12:25-05:00"
+        "2026-10-04T17:12:25-05:00",
+        "2026-10-04T17:36:58-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Waiting on Dennis (optional)"
+        "Needs a decision from you (optional)"
       ],
       "waitingSince": "2026-10-04T16:25:21-05:00",
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:58:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T17:12:25-05:00",
+      "updatedAt": "2026-10-04T17:36:58-05:00",
       "avatar": {
         "hat": "beret",
         "head": "#fff1d6",
@@ -604,7 +605,7 @@
     },
     {
       "bot": "design-studio",
-      "text": "Waiting on Dennis (optional)",
+      "text": "Needs a decision from you (optional)",
       "since": "2026-10-04T16:25:21-05:00"
     },
     {
@@ -614,6 +615,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "design-studio",
+      "at": "2026-10-04T17:36:58-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "design-studio",
       "at": "2026-10-04T17:12:25-05:00",
@@ -697,21 +704,15 @@
       "at": "2026-10-04T15:35:00-05:00",
       "text": "Added 2 new deals; 24 deals tracked across TX and OK",
       "finding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-04T15:35:00-05:00",
-      "text": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
-      "finding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 5 items need you",
       "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Design Studio: Finished 15 designs"
+      "Latest: Design Studio: Completed a run"
     ],
-    "at": "2026-10-04T17:12:25-05:00"
+    "at": "2026-10-04T17:36:58-05:00"
   },
-  "generatedAt": "2026-10-04T17:12:25-05:00"
+  "generatedAt": "2026-10-04T17:36:58-05:00"
 }
