@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-04T16:10:52-05:00",
+  "updatedAt": "2026-10-04T16:13:10-05:00",
   "schemaVersion": 1,
   "team": {
     "name": "Team Bielik",
@@ -211,7 +211,7 @@ const TEAM_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-10-04T16:10:52-05:00"
+  "generatedAt": "2026-10-04T16:13:10-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -608,7 +608,7 @@ const ART = {
 };
 
 /* ---------- time ---------- */
-const STALE_MIN = 30, POLL_MS = 60000;
+const STALE_MIN = 2*24*60, POLL_MS = 60000; // only flag if no bot activity for 2+ days
 function fmtCT(iso, opts){
   const d = new Date(iso); if(!iso || isNaN(d)) return "unknown";
   return new Intl.DateTimeFormat("en-US",Object.assign({timeZone:TZ,weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"},opts||{})).format(d).replace(",","") + " CT";
@@ -619,6 +619,8 @@ function ago(iso){
   const h=Math.round(m/60); if(h<48) return h+" h ago"; return Math.round(h/24)+" d ago";
 }
 const updatedAt = d => d.updatedAt || d.generatedAt;
+// most recent bot update (status post or run), falling back to the data timestamp
+function lastActivity(d){ let best=null, bt=-Infinity; (d.bots||[]).forEach(b=>[b.updatedAt,b.lastRunAt].forEach(v=>{ const t=new Date(v).getTime(); if(v && !isNaN(t) && t>bt){ bt=t; best=v; } })); return best || updatedAt(d); }
 
 /* ---------- render ---------- */
 const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627"};
@@ -647,14 +649,14 @@ function render(){
   const activeCount = bots.filter(b=>["active","working"].includes(String(b.status).toLowerCase())).length;
   $("#brandBadge").innerHTML = ICON.sat("#9ff3ff");
   $("#subtitle").textContent = `${(D.team&&D.team.name)||"Team"} · ${(D.team&&D.team.owner)||""}'s AI bot squad`;
-  const up = updatedAt(D);
+  const up = lastActivity(D);
   $("#stats").innerHTML =
     statBox(ICON.team("#9ff3ff"),"Team size", `${bots.length} <small>bots</small>`) +
     statBox(ICON.map("#c8b5ff"),"Zones", `${zones.length} <small>+${locked.length} locked</small>`) +
     statBox(ICON.bolt("#3dff8b"),"Bots active", `${activeCount}<small>/${bots.length}</small>`, {cls:"ok"}) +
     statBox(ICON.alert(waiting.length?"#ffb627":"#3dff8b"),"Needs you", `${waiting.length} <small>${waiting.length===1?"item":"items"}</small>`,
             waiting.length?{cls:"alert",attrs:`role="button" tabindex="0" id="needsBtn" title="Show what needs you"`}:{cls:"ok"}) +
-    statBox(ICON.clock("#9ff3ff"),`Last updated <span id="live" class="live"><i></i><b>LIVE</b></span>`, `${esc(fmtCT(up))} <small id="agoTxt">${esc(ago(up))}</small>`);
+    statBox(ICON.clock("#9ff3ff"),`Last bot activity <span id="live" class="live"><i></i><b>LIVE</b></span>`, `${esc(fmtCT(up))} <small id="agoTxt">${esc(ago(up))}</small>`);
   let html = "";
   zones.forEach(z=>{
     const zb = bots.filter(b=>b.zone===z.id), col = zoneColor(z);
@@ -731,12 +733,12 @@ let fetchOk = null; // null = not tried yet, true/false = last fetch result
 let lastJSON = JSON.stringify(D);
 function updateLive(){
   const el = $("#live"); if(!el) return;
-  const up = updatedAt(D), ageMin = (Date.now()-new Date(up))/60000;
+  const up = lastActivity(D), ageMin = (Date.now()-new Date(up))/60000;
   let cls="live", label="LIVE", tip;
   if(fetchOk === false){ cls="live off"; label = location.protocol==="file:" ? "SNAPSHOT" : "OFFLINE";
     tip = location.protocol==="file:" ? "Opened from a file, so this shows the built-in data" : "Couldn't reach data.json; showing the last data loaded"; }
-  else if(!(ageMin < STALE_MIN)){ cls="live stale"; label="STALE"; tip=`Data is ${ago(up)} old (no bot updates in the last ${STALE_MIN} min)`; }
-  else tip = "Data refreshes every 60 seconds";
+  else if(!(ageMin < STALE_MIN)){ cls="live stale"; label="STALE"; tip=`No bot activity for over 2 days (last ${ago(up)})`; }
+  else tip = "Connected: data refreshes every 60 seconds";
   el.className = cls; el.querySelector("b").textContent = label; el.title = tip;
   const a=$("#agoTxt"); if(a) a.textContent = ago(up);
 }
