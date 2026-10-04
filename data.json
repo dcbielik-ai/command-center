@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-04T16:17:18-05:00",
-  "schemaVersion": 1,
+  "updatedAt": "2026-10-04T16:23:19-05:00",
+  "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
     "owner": "Dennis Bielik",
     "timezone": "America/Chicago"
   },
-  "dataNote": "Public live view of the bot team. Updates automatically; private details (holdings, alerts, addresses, contact info) are intentionally left out.",
+  "dataNote": "Public live view of the bot team. Updates automatically; private details (holdings, alerts, addresses, trips, contact info) are intentionally left out.",
   "xpRule": {
     "xpPerRun": 1,
     "runsPerLevel": 5
@@ -26,7 +26,7 @@
       "theme": "hq",
       "icon": "castle",
       "tagline": "Central base: runs the team",
-      "span": 1
+      "span": 2
     },
     {
       "id": "realestate",
@@ -34,6 +34,14 @@
       "theme": "realestate",
       "icon": "house",
       "tagline": "Neighborhood: deal hunting",
+      "span": 1
+    },
+    {
+      "id": "travel",
+      "name": "Family Travel",
+      "theme": "travel",
+      "icon": "plane",
+      "tagline": "Airport and beach: trip deals",
       "span": 1
     }
   ],
@@ -45,14 +53,6 @@
     {
       "title": "Unlock new zone",
       "hint": "Idea: career and sales pipeline"
-    },
-    {
-      "title": "Unlock new zone",
-      "hint": "Idea: travel and deals"
-    },
-    {
-      "title": "Unlock new zone",
-      "hint": "Recruit a bot to claim this land"
     }
   ],
   "bots": [
@@ -61,17 +61,27 @@
       "name": "Chief of Staff",
       "zone": "hq",
       "className": "Chief of Staff",
-      "role": "Chief of staff and team builder. Coordinates the other bots, recruits new ones as the team grows, and runs this command center dashboard.",
+      "role": "Dennis's chief of staff: builds and coordinates the bot team, recruits new bots as the team grows, and runs this Command Center.",
       "status": "Active",
       "schedule": "On demand, whenever you message it",
       "routines": "None needed (works on request)",
-      "lastRun": "Built this command center dashboard (Sun Oct 4, 2026)",
+      "slots": [],
+      "lastRun": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
+      "lastRunAt": "2026-10-04T16:19:43-05:00",
+      "runTimes": [
+        "2026-10-04T16:19:43-05:00"
+      ],
       "nextRun": "On demand",
-      "latestFinding": "Team roster: 5 bots across 3 zones",
-      "waitingOnYou": [],
-      "runsCompleted": 0,
+      "latestFinding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map.",
+      "waitingOnYou": [
+        "Needs a decision from you"
+      ],
+      "waitingSince": "2026-10-04T16:19:43-05:00",
+      "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
+      "updatedAt": "2026-10-04T16:19:43-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -91,14 +101,33 @@
       "status": "Active",
       "schedule": "Weekdays at 8:01 AM CT",
       "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT)",
+      "slots": [
+        {
+          "label": "Daily trending stocks heads-up",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "08:01"
+          ]
+        }
+      ],
       "lastRun": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
       "lastRunAt": "2026-10-04T15:37:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:37:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T08:01:00-05:00",
       "latestFinding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names.",
       "waitingOnYou": [],
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:37:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -119,14 +148,46 @@
       "status": "Active",
       "schedule": "Weekdays at 7:38 AM CT; Weekdays at 3:38 PM CT",
       "routines": "Pre-market technical scan (Weekdays at 7:38 AM CT); After-close big-move alert (Weekdays at 3:38 PM CT)",
+      "slots": [
+        {
+          "label": "Pre-market technical scan",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "07:38"
+          ]
+        },
+        {
+          "label": "After-close big-move alert",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "15:38"
+          ]
+        }
+      ],
       "lastRun": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
       "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:35:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T07:38:00-05:00",
       "latestFinding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB.",
       "waitingOnYou": [],
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -147,13 +208,41 @@
       "status": "Active",
       "schedule": "Weekdays during market hours",
       "routines": "Set up",
+      "slots": [
+        {
+          "label": "News check",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "07:35",
+            "08:35",
+            "09:35",
+            "10:35",
+            "11:35",
+            "12:35",
+            "13:35",
+            "14:35",
+            "15:35",
+            "16:35",
+            "17:35",
+            "18:35"
+          ]
+        }
+      ],
       "lastRun": "No runs yet",
+      "runTimes": [],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-10-05T07:35:00-05:00",
       "latestFinding": "No findings yet",
       "waitingOnYou": [],
       "runsCompleted": 0,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -174,16 +263,38 @@
       "status": "Needs you",
       "schedule": "Every day at 7:42 AM CT",
       "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT)",
+      "slots": [
+        {
+          "label": "Daily assumable VA listings check (TX + OK)",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "07:42"
+          ]
+        }
+      ],
       "lastRun": "Added 2 new deals; 24 deals tracked across TX and OK",
       "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:35:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T07:42:00-05:00",
       "latestFinding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)",
       "waitingOnYou": [
-        "Waiting on Dennis"
+        "Quick sign-in or check on your computer (optional)"
       ],
+      "waitingSince": "2026-10-04T15:40:00-05:00",
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -194,7 +305,80 @@
         "eye": "#ffe066",
         "trim": "#f4f1e8"
       }
+    },
+    {
+      "id": "travel-agent",
+      "name": "Travel Agent",
+      "zone": "travel",
+      "className": "Agent: Travel Deals",
+      "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "notes": "",
+      "avatar": {
+        "hat": "pilot",
+        "head": "#d6f3ff",
+        "body": "#12a4b8",
+        "accent": "#0b2f4a",
+        "eye": "#7dfcff",
+        "trim": "#ffd447"
+      }
     }
   ],
-  "generatedAt": "2026-10-04T16:17:18-05:00"
+  "inbox": [
+    {
+      "bot": "chief-of-staff",
+      "text": "Needs a decision from you",
+      "since": "2026-10-04T16:19:43-05:00"
+    },
+    {
+      "bot": "va-deal-scout",
+      "text": "Quick sign-in or check on your computer (optional)",
+      "since": "2026-10-04T15:40:00-05:00"
+    }
+  ],
+  "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-04T16:19:43-05:00",
+      "text": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
+      "finding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map."
+    },
+    {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-04T15:37:00-05:00",
+      "text": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
+      "finding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names."
+    },
+    {
+      "bot": "va-deal-scout",
+      "at": "2026-10-04T15:35:00-05:00",
+      "text": "Added 2 new deals; 24 deals tracked across TX and OK",
+      "finding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)"
+    },
+    {
+      "bot": "technical-analyst",
+      "at": "2026-10-04T15:35:00-05:00",
+      "text": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
+      "finding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB."
+    }
+  ],
+  "briefing": {
+    "lines": [
+      "4 of 4 scheduled bots healthy · 2 items need you · 1 setting up",
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: Chief of Staff: Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline,…"
+    ],
+    "at": "2026-10-04T16:23:19-05:00"
+  },
+  "generatedAt": "2026-10-04T16:23:19-05:00"
 }

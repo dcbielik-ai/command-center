@@ -5,7 +5,7 @@
 <link rel="icon" href="data:,">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Command Center · Team Bielik</title>
+<title>Command Center · Team Bielik Ops HQ</title>
 <script>
 /* =====================================================================
    TEAM_DATA: all bot and zone data lives in this one block.
@@ -14,14 +14,14 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-04T16:17:18-05:00",
-  "schemaVersion": 1,
+  "updatedAt": "2026-10-04T16:23:19-05:00",
+  "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
     "owner": "Dennis Bielik",
     "timezone": "America/Chicago"
   },
-  "dataNote": "Public live view of the bot team. Updates automatically; private details (holdings, alerts, addresses, contact info) are intentionally left out.",
+  "dataNote": "Public live view of the bot team. Updates automatically; private details (holdings, alerts, addresses, trips, contact info) are intentionally left out.",
   "xpRule": {
     "xpPerRun": 1,
     "runsPerLevel": 5
@@ -41,7 +41,7 @@ const TEAM_DATA = {
       "theme": "hq",
       "icon": "castle",
       "tagline": "Central base: runs the team",
-      "span": 1
+      "span": 2
     },
     {
       "id": "realestate",
@@ -49,6 +49,14 @@ const TEAM_DATA = {
       "theme": "realestate",
       "icon": "house",
       "tagline": "Neighborhood: deal hunting",
+      "span": 1
+    },
+    {
+      "id": "travel",
+      "name": "Family Travel",
+      "theme": "travel",
+      "icon": "plane",
+      "tagline": "Airport and beach: trip deals",
       "span": 1
     }
   ],
@@ -60,14 +68,6 @@ const TEAM_DATA = {
     {
       "title": "Unlock new zone",
       "hint": "Idea: career and sales pipeline"
-    },
-    {
-      "title": "Unlock new zone",
-      "hint": "Idea: travel and deals"
-    },
-    {
-      "title": "Unlock new zone",
-      "hint": "Recruit a bot to claim this land"
     }
   ],
   "bots": [
@@ -76,17 +76,27 @@ const TEAM_DATA = {
       "name": "Chief of Staff",
       "zone": "hq",
       "className": "Chief of Staff",
-      "role": "Chief of staff and team builder. Coordinates the other bots, recruits new ones as the team grows, and runs this command center dashboard.",
+      "role": "Dennis's chief of staff: builds and coordinates the bot team, recruits new bots as the team grows, and runs this Command Center.",
       "status": "Active",
       "schedule": "On demand, whenever you message it",
       "routines": "None needed (works on request)",
-      "lastRun": "Built this command center dashboard (Sun Oct 4, 2026)",
+      "slots": [],
+      "lastRun": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
+      "lastRunAt": "2026-10-04T16:19:43-05:00",
+      "runTimes": [
+        "2026-10-04T16:19:43-05:00"
+      ],
       "nextRun": "On demand",
-      "latestFinding": "Team roster: 5 bots across 3 zones",
-      "waitingOnYou": [],
-      "runsCompleted": 0,
+      "latestFinding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map.",
+      "waitingOnYou": [
+        "Needs a decision from you"
+      ],
+      "waitingSince": "2026-10-04T16:19:43-05:00",
+      "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
+      "updatedAt": "2026-10-04T16:19:43-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -106,14 +116,33 @@ const TEAM_DATA = {
       "status": "Active",
       "schedule": "Weekdays at 8:01 AM CT",
       "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT)",
+      "slots": [
+        {
+          "label": "Daily trending stocks heads-up",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "08:01"
+          ]
+        }
+      ],
       "lastRun": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
       "lastRunAt": "2026-10-04T15:37:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:37:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T08:01:00-05:00",
       "latestFinding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names.",
       "waitingOnYou": [],
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:37:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -134,14 +163,46 @@ const TEAM_DATA = {
       "status": "Active",
       "schedule": "Weekdays at 7:38 AM CT; Weekdays at 3:38 PM CT",
       "routines": "Pre-market technical scan (Weekdays at 7:38 AM CT); After-close big-move alert (Weekdays at 3:38 PM CT)",
+      "slots": [
+        {
+          "label": "Pre-market technical scan",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "07:38"
+          ]
+        },
+        {
+          "label": "After-close big-move alert",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "15:38"
+          ]
+        }
+      ],
       "lastRun": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
       "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:35:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T07:38:00-05:00",
       "latestFinding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB.",
       "waitingOnYou": [],
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -162,13 +223,41 @@ const TEAM_DATA = {
       "status": "Active",
       "schedule": "Weekdays during market hours",
       "routines": "Set up",
+      "slots": [
+        {
+          "label": "News check",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "07:35",
+            "08:35",
+            "09:35",
+            "10:35",
+            "11:35",
+            "12:35",
+            "13:35",
+            "14:35",
+            "15:35",
+            "16:35",
+            "17:35",
+            "18:35"
+          ]
+        }
+      ],
       "lastRun": "No runs yet",
+      "runTimes": [],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-10-05T07:35:00-05:00",
       "latestFinding": "No findings yet",
       "waitingOnYou": [],
       "runsCompleted": 0,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -189,16 +278,38 @@ const TEAM_DATA = {
       "status": "Needs you",
       "schedule": "Every day at 7:42 AM CT",
       "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT)",
+      "slots": [
+        {
+          "label": "Daily assumable VA listings check (TX + OK)",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "07:42"
+          ]
+        }
+      ],
       "lastRun": "Added 2 new deals; 24 deals tracked across TX and OK",
       "lastRunAt": "2026-10-04T15:35:00-05:00",
+      "runTimes": [
+        "2026-10-04T15:35:00-05:00"
+      ],
       "nextRun": "",
       "nextRunAt": "2026-10-05T07:42:00-05:00",
       "latestFinding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)",
       "waitingOnYou": [
-        "Waiting on Dennis"
+        "Quick sign-in or check on your computer (optional)"
       ],
+      "waitingSince": "2026-10-04T15:40:00-05:00",
       "runsCompleted": 1,
       "created": "2026-10-04",
+      "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-04T15:40:00-05:00",
       "avatar": {
@@ -209,21 +320,96 @@ const TEAM_DATA = {
         "eye": "#ffe066",
         "trim": "#f4f1e8"
       }
+    },
+    {
+      "id": "travel-agent",
+      "name": "Travel Agent",
+      "zone": "travel",
+      "className": "Agent: Travel Deals",
+      "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-04",
+      "notes": "",
+      "avatar": {
+        "hat": "pilot",
+        "head": "#d6f3ff",
+        "body": "#12a4b8",
+        "accent": "#0b2f4a",
+        "eye": "#7dfcff",
+        "trim": "#ffd447"
+      }
     }
   ],
-  "generatedAt": "2026-10-04T16:17:18-05:00"
+  "inbox": [
+    {
+      "bot": "chief-of-staff",
+      "text": "Needs a decision from you",
+      "since": "2026-10-04T16:19:43-05:00"
+    },
+    {
+      "bot": "va-deal-scout",
+      "text": "Quick sign-in or check on your computer (optional)",
+      "since": "2026-10-04T15:40:00-05:00"
+    }
+  ],
+  "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-04T16:19:43-05:00",
+      "text": "Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline, activity feed, bot health, and a new travel zone.",
+      "finding": "Team roster: 6 bots across 4 zones. 2 more bots exist but have no role yet, so they are not on the map."
+    },
+    {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-04T15:37:00-05:00",
+      "text": "Growth-value screen: 336 US stocks passed 20%+ revenue and EPS growth (172 on all four measures), ranked by valuation.",
+      "finding": "Best non-commodity values include NBIX (fwd P/E ~15, PEG 0.39), ATAT (fwd P/E 11.5), NU (fwd P/E 12); cheapest overall are cyclical gold/memory names."
+    },
+    {
+      "bot": "va-deal-scout",
+      "at": "2026-10-04T15:35:00-05:00",
+      "text": "Added 2 new deals; 24 deals tracked across TX and OK",
+      "finding": "Top-ranked deal right now is in The Colony, TX (24 deals tracked)"
+    },
+    {
+      "bot": "technical-analyst",
+      "at": "2026-10-04T15:35:00-05:00",
+      "text": "First technical scan (Oct 2 close): 200 buy hits across US stocks, ETFs, crypto, and international; 7 strong sell warnings.",
+      "finding": "Top buy setups include DBC (pullback + heavy volume), DHR, TMO, and ABBV holding their moving averages; strongest sell warnings are NVO, WM, DHI, and XHB."
+    }
+  ],
+  "briefing": {
+    "lines": [
+      "4 of 4 scheduled bots healthy · 2 items need you · 1 setting up",
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: Chief of Staff: Rebuilt the Command Center as an operations HQ: needs-you inbox, today timeline,…"
+    ],
+    "at": "2026-10-04T16:23:19-05:00"
+  },
+  "generatedAt": "2026-10-04T16:23:19-05:00"
 };
 /* TEAM_DATA:END */
 </script>
 <style>
 :root{
   --bg:#060a14; --panel:#0f1729; --panel2:#131d35; --line:#22305a; --text:#e8eeff; --muted:#8e9bc2; --dim:#5d6a90;
-  --green:#3dff8b; --red:#ff4d6d; --amber:#ffb627; --cyan:#3de0ff; --purple:#b48cff; --idle:#7d8bb0;
+  --green:#3dff8b; --red:#ff4d6d; --amber:#ffb627; --cyan:#3de0ff; --purple:#b48cff; --idle:#7d8bb0; --teal:#3ff2d0;
   --mono: ui-monospace,"SFMono-Regular","Cascadia Mono",Menlo,Consolas,"Liberation Mono",monospace;
   --sans: system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Noto Sans",sans-serif;
+  --side: 340px;
 }
+@media (min-width:1480px){ :root{ --side: 384px; } }
 *{box-sizing:border-box}
-html,body{margin:0;height:100%}
+html,body{margin:0}
 body{
   font-family:var(--sans); color:var(--text);
   background:
@@ -231,115 +417,168 @@ body{
     radial-gradient(700px 400px at 0% 110%, #0f4a3533, transparent 70%),
     radial-gradient(700px 400px at 100% 110%, #4a1f6a33, transparent 70%),
     var(--bg);
+  background-attachment:fixed;
   min-height:100vh; display:flex; flex-direction:column; overflow-x:hidden;
 }
 body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
   background-image:linear-gradient(#ffffff07 1px,transparent 1px),linear-gradient(90deg,#ffffff07 1px,transparent 1px);
   background-size:24px 24px;}
 body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;
-  background:repeating-linear-gradient(0deg,#00000000 0 2px,#0000001a 2px 3px);mix-blend-mode:multiply;}
+  background:repeating-linear-gradient(0deg,#00000000 0 2px,#00000014 2px 3px);mix-blend-mode:multiply;}
 button{font:inherit;color:inherit}
-.mono{font-family:var(--mono)}
 
 /* ---------------- HUD ---------------- */
-.hud{position:relative;z-index:2;display:flex;align-items:center;gap:18px;padding:12px 20px;
-  background:linear-gradient(180deg,#101a33ee,#0b1226ee);border-bottom:1px solid var(--line);
-  box-shadow:0 6px 30px #0008, 0 1px 0 #3de0ff22 inset;}
+.hud{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:16px;padding:10px 18px;
+  background:linear-gradient(180deg,#101a33f5,#0b1226f2);border-bottom:1px solid var(--line);
+  box-shadow:0 6px 30px #0008, 0 1px 0 #3de0ff22 inset;backdrop-filter:blur(6px)}
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
-.brand-badge{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;
+.brand-badge{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;flex:none;
   background:radial-gradient(circle at 50% 35%,#2a3f88,#111a38);border:1px solid #3de0ff55;
   box-shadow:0 0 16px #3de0ff44, inset 0 0 12px #3de0ff22}
-.brand-badge svg{width:28px;height:28px}
-.brand h1{margin:0;white-space:nowrap;font-family:var(--mono);font-size:18px;letter-spacing:.18em;font-weight:800;
-  background:linear-gradient(90deg,#9ff3ff,#c8b5ff);-webkit-background-clip:text;background-clip:text;color:transparent;
-  text-shadow:0 0 18px #3de0ff33}
-.brand p{margin:2px 0 0;font-size:12px;color:var(--muted);white-space:nowrap}
-.stats{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.stat{display:flex;align-items:center;gap:9px;padding:6px 12px;border-radius:9px;background:#0a1124;
-  border:1px solid var(--line);min-width:96px}
-.stat .ico{width:18px;height:18px;flex:none;opacity:.9}
-.stat .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase}
-.stat .v{font-family:var(--mono);font-size:15px;font-weight:700;line-height:1.15;white-space:nowrap}
-.stat .v small{font-size:11px;color:var(--muted);font-weight:500}
-.live{display:inline-flex;align-items:center;gap:4px;margin-left:6px;padding:0 5px;border-radius:4px;border:1px solid #3dff8b66;color:var(--green);letter-spacing:.12em;vertical-align:1px}
+.brand-badge svg{width:26px;height:26px}
+.brand h1{margin:0;white-space:nowrap;font-family:var(--mono);font-size:17px;letter-spacing:.18em;font-weight:800;
+  background:linear-gradient(90deg,#9ff3ff,#c8b5ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand p{margin:2px 0 0;font-size:11.5px;color:var(--muted);white-space:nowrap}
+.stats{margin-left:auto;display:flex;gap:7px;flex-wrap:nowrap;justify-content:flex-end;min-width:0}
+.stat{display:flex;align-items:center;gap:8px;padding:5px 11px;border-radius:9px;background:#0a1124;border:1px solid var(--line);min-width:0}
+.stat .ico{width:17px;height:17px;flex:none;opacity:.9;display:grid}
+.stat .k{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;white-space:nowrap}
+.stat .v{font-family:var(--mono);font-size:14px;font-weight:700;line-height:1.2;white-space:nowrap}
+.stat .v small{font-size:10.5px;color:var(--muted);font-weight:500}
+.stat.ok .v{color:var(--green)} .stat.warn .v{color:var(--amber)}
+.stat.alert{cursor:pointer;border-color:#ffb62777;box-shadow:0 0 14px #ffb62733;animation:alertGlow 2.2s ease-in-out infinite}
+.stat.alert .v{color:var(--amber)}
+.stat.alert:hover{background:#1a1608}
+@keyframes alertGlow{50%{box-shadow:0 0 24px #ffb62766}}
+.live{display:inline-flex;align-items:center;gap:4px;margin-left:5px;padding:0 5px;border-radius:4px;border:1px solid #3dff8b66;color:var(--green);letter-spacing:.12em;vertical-align:1px}
 .live i{width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 6px currentColor;animation:pulse 1.6s ease-in-out infinite;--c:var(--green)}
 .live b{font-weight:700;font-size:9px}
 .live.stale,.live.off{color:#8a93ad;border-color:#56607e}
 .live.stale i,.live.off i{animation:none;box-shadow:none;opacity:.7}
-.stat.alert{cursor:pointer;border-color:#ffb62777;box-shadow:0 0 14px #ffb62733;animation:alertGlow 2.2s ease-in-out infinite}
-.stat.alert .v{color:var(--amber)}
-.stat.alert:hover{background:#1a1608}
-.stat.ok .v{color:var(--green)}
-@keyframes alertGlow{50%{box-shadow:0 0 24px #ffb62766}}
+
+/* ---------------- LAYOUT ---------------- */
+.ops{position:relative;z-index:1;flex:1;display:grid;grid-template-columns:minmax(0,1fr) var(--side);gap:14px;padding:14px 18px 8px;align-items:start}
+.main{display:flex;flex-direction:column;gap:14px;min-width:0}
+.side{display:flex;flex-direction:column;gap:14px;min-width:0;position:sticky;top:76px;max-height:calc(100vh - 90px)}
+.card{position:relative;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,#0f1830f0,#0a1124f0);
+  box-shadow:0 10px 30px #0007, inset 0 1px 0 #ffffff08;--cc:var(--cyan)}
+.card-head{display:flex;align-items:center;gap:10px;padding:11px 14px 9px;border-bottom:1px solid #1b2647}
+.card-head h2{margin:0;font-family:var(--mono);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--cc);
+  text-shadow:0 0 12px color-mix(in srgb,var(--cc) 50%,transparent);white-space:nowrap}
+.card-head .ico{width:16px;height:16px;flex:none;display:grid}
+.card-head .sub{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.count{font-family:var(--mono);font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:99px;border:1px solid currentColor}
+
+/* ---------------- INBOX ---------------- */
+.inbox{--cc:var(--amber)}
+.inbox.clear{--cc:var(--green)}
+.inbox.has{border-color:#ffb62766;box-shadow:0 10px 30px #0007,0 0 22px #ffb62722}
+.inbox ul{list-style:none;margin:0;padding:6px}
+.ib{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;width:100%;
+  padding:7px 8px;border-radius:10px;border:1px solid transparent}
+.ib:hover{background:#1d1708;border-color:#ffb62744}
+.ib:focus-visible{outline:2px solid var(--amber)}
+.mini{width:34px;height:34px;border-radius:9px;display:grid;place-items:end center;overflow:hidden;flex:none;
+  background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--zc,#3de0ff) 28%,#0b1228),#070c1c 80%);
+  border:1px solid color-mix(in srgb,var(--zc,#3de0ff) 55%,transparent)}
+.mini svg{width:24px;height:32px;image-rendering:pixelated;margin-bottom:-1px}
+.ib .t{min-width:0}
+.ib .t b{display:block;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ib .t span{display:block;font-size:12px;color:#ffe2a3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ib .age{font-family:var(--mono);font-size:10px;color:var(--amber);text-align:right;white-space:nowrap}
+.ib .age small{display:block;color:var(--dim);font-size:9px;letter-spacing:.1em}
+.allclear{display:flex;align-items:center;gap:10px;padding:14px;color:var(--green);font-family:var(--mono);font-size:12px}
+.allclear svg{width:22px;height:22px;flex:none}
+.allclear span{color:var(--muted);font-family:var(--sans);display:block;font-size:11.5px;margin-top:2px}
+
+/* ---------------- FEED ---------------- */
+.feed{--cc:var(--cyan);display:flex;flex-direction:column;min-height:0;flex:1}
+.feed ol{list-style:none;margin:0;padding:4px 6px 8px;overflow:auto;min-height:0;scrollbar-width:thin;scrollbar-color:#2a3866 transparent}
+.fi{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:34px 1fr;gap:10px;width:100%;padding:8px;border-radius:10px;position:relative}
+.fi:hover{background:#111c38}
+.fi:focus-visible{outline:2px solid var(--cyan)}
+.fi + .fi::before{content:"";position:absolute;left:24px;top:-5px;height:8px;border-left:1px dashed #2a3866}
+.fi .meta{display:flex;align-items:baseline;gap:8px;min-width:0}
+.fi .meta b{font-size:12.5px;color:var(--zc);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fi .meta time{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--dim);white-space:nowrap}
+.fi p{margin:2px 0 0;font-size:12px;line-height:1.4;color:#d6def6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fi p.fd{color:var(--muted);font-size:11.5px}
+.fi p.fd::before{content:"▸ ";color:var(--zc)}
+.empty-note{padding:14px;color:var(--dim);font-size:12px;font-style:italic}
 
 /* ---------------- WORLD ---------------- */
-.world{position:relative;z-index:1;flex:1;display:grid;gap:14px;padding:16px 20px 10px;
-  grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:minmax(330px,1fr) auto;}
-.zone{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);
-  isolation:isolate;display:flex;flex-direction:column;min-height:330px;--zc:#3de0ff}
+.world{display:grid;gap:12px;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:minmax(222px,auto)}
+.world .zone.row1{min-height:244px}
+.zone{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);isolation:isolate;display:flex;flex-direction:column;--zc:#3de0ff}
 .zone::after{content:"";position:absolute;inset:0;border-radius:14px;pointer-events:none;
   box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--zc) 25%,transparent), inset 0 0 40px color-mix(in srgb,var(--zc) 10%,transparent)}
 .zone-art{position:absolute;inset:0;z-index:-1}
 .zone-art svg{width:100%;height:100%;display:block}
-.zone-art::after{content:"";position:absolute;inset:0 0 auto 0;height:96px;background:linear-gradient(180deg,#000a,transparent);pointer-events:none}
-.zone-head{display:flex;align-items:center;gap:10px;padding:12px 14px 0;position:relative;z-index:3}
-.zone-icon{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;flex:none;
+.zone-art::after{content:"";position:absolute;inset:0 0 auto 0;height:84px;background:linear-gradient(180deg,#000a,transparent);pointer-events:none}
+.zone-head{display:flex;align-items:center;gap:9px;padding:10px 12px 0;position:relative;z-index:3}
+.zone-icon{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;flex:none;
   background:#0009;border:1px solid color-mix(in srgb,var(--zc) 55%,transparent);box-shadow:0 0 12px color-mix(in srgb,var(--zc) 35%,transparent)}
-.zone-icon svg{width:18px;height:18px}
-.zone-head h2{margin:0;font-family:var(--mono);font-size:13.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--zc);
+.zone-icon svg{width:17px;height:17px}
+.zone-head h2{margin:0;font-family:var(--mono);font-size:12.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--zc);white-space:nowrap;
   text-shadow:0 0 12px color-mix(in srgb,var(--zc) 60%,transparent)}
-.zone-head p{margin:2px 0 0;font-size:11.5px;color:#c7d0eccc}
-.zone-count{margin-left:auto;font-family:var(--mono);font-size:10.5px;padding:3px 8px;border-radius:99px;background:#000a;
+.zone-head p{margin:1px 0 0;font-size:11px;color:#c7d0eccc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.zone-head > div{min-width:0}
+.zone-count{margin-left:auto;font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:99px;background:#000a;
   border:1px solid color-mix(in srgb,var(--zc) 40%,transparent);color:#dfe6ff;white-space:nowrap}
-.flag-banner{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:2px;background:var(--zc);box-shadow:0 0 8px var(--zc)}
-
+.flag-banner{display:inline-block;width:7px;height:7px;margin-right:5px;border-radius:2px;background:var(--zc);box-shadow:0 0 8px var(--zc)}
 .theme-stocks{--zc:var(--green);background:linear-gradient(180deg,#04201c 0%,#08202c 55%,#061019 100%);border-color:#1d5f4b}
 .theme-hq{--zc:var(--purple);background:linear-gradient(180deg,#160f3a 0%,#120c2c 60%,#0a0918 100%);border-color:#4a3a8a}
 .theme-realestate{--zc:var(--amber);background:linear-gradient(180deg,#2b1a3e 0%,#4a2c45 38%,#6b3d3a 62%,#1a3324 100%);border-color:#7a5636}
+.theme-travel{--zc:var(--teal);background:linear-gradient(180deg,#0c2a4a 0%,#1b4f7a 45%,#f2a65a 78%,#e9cf98 100%);border-color:#2a7a8a}
 
-/* ticker tape */
-.tape{position:relative;z-index:3;margin:10px 0 0;height:22px;overflow:hidden;background:#000a;border-block:1px solid #3dff8b33;
-  font-family:var(--mono);font-size:11px;line-height:22px;white-space:nowrap;letter-spacing:.08em}
+.tape{position:relative;z-index:3;margin:8px 0 0;height:20px;overflow:hidden;background:#000a;border-block:1px solid #3dff8b33;
+  font-family:var(--mono);font-size:10.5px;line-height:20px;white-space:nowrap;letter-spacing:.08em}
 .tape-inner{display:inline-block;animation:tape 40s linear infinite}
-.tape span{margin-right:28px;color:#bdf7d6}
+.tape span{margin-right:26px;color:#bdf7d6}
 .tape .up{color:var(--green)} .tape .dn{color:var(--red)}
 @keyframes tape{to{transform:translateX(-50%)}}
 
-/* units */
-.units{position:relative;z-index:4;flex:1;display:flex;align-items:flex-end;justify-content:space-evenly;gap:10px;padding:8px 12px 16px}
-.unit{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;width:min(190px,100%);
-  border-radius:12px;padding:4px 4px 0;transition:transform .15s ease}
+.zbody{position:relative;z-index:4;flex:1;display:flex;align-items:flex-end;gap:12px;padding:6px 10px 12px;min-height:0}
+.units{flex:1;display:flex;align-items:flex-end;justify-content:space-evenly;gap:8px;min-width:0}
+.theme-hq .units{flex:0 0 auto}
+.unit{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;width:min(158px,100%);flex:0 1 158px;
+  border-radius:12px;padding:4px 2px 0;transition:transform .15s ease}
 .unit:hover{transform:translateY(-3px)}
 .unit:focus-visible{outline:2px solid var(--zc);outline-offset:3px}
-.sprite-wrap{position:relative;width:64px;height:86px;display:flex;align-items:flex-end;justify-content:center}
-.unit.boss .sprite-wrap{width:78px;height:104px}
-.sprite{width:60px;height:80px;image-rendering:pixelated;animation:bob 2.6s ease-in-out infinite;
+.sprite-wrap{position:relative;width:56px;height:74px;display:flex;align-items:flex-end;justify-content:center}
+.unit.boss .sprite-wrap{width:68px;height:90px}
+.sprite{width:52px;height:69px;image-rendering:pixelated;animation:bob 2.6s ease-in-out infinite;
   filter:drop-shadow(0 0 6px color-mix(in srgb,var(--eye,#3de0ff) 45%,transparent)) drop-shadow(0 3px 0 #0006)}
-.unit.boss .sprite{width:72px;height:96px}
-.shadow{position:absolute;bottom:-3px;left:50%;width:46px;height:9px;margin-left:-23px;border-radius:50%;background:#0009;
-  animation:shadow 2.6s ease-in-out infinite;filter:blur(1px)}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.unit.boss .sprite{width:63px;height:84px}
+.shadow{position:absolute;bottom:-3px;left:50%;width:40px;height:8px;margin-left:-20px;border-radius:50%;background:#0009;animation:shadow 2.6s ease-in-out infinite;filter:blur(1px)}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes shadow{0%,100%{transform:scaleX(1);opacity:.85}50%{transform:scaleX(.8);opacity:.55}}
 .unit:hover .sprite{animation-duration:1.1s}
-.quest{position:absolute;top:-14px;left:50%;transform:translateX(-50%);width:16px;height:24px;animation:questBob 1.1s ease-in-out infinite;
-  filter:drop-shadow(0 0 6px #ffb627)}
+.quest{position:absolute;top:-12px;left:50%;transform:translateX(-50%);width:14px;height:21px;animation:questBob 1.1s ease-in-out infinite;filter:drop-shadow(0 0 6px #ffb627)}
 @keyframes questBob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,-5px)}}
-.ring{position:absolute;bottom:-6px;left:50%;width:62px;height:16px;margin-left:-31px;border-radius:50%;
+.ring{position:absolute;bottom:-6px;left:50%;width:56px;height:14px;margin-left:-28px;border-radius:50%;
   border:2px solid color-mix(in srgb,var(--zc) 70%,transparent);opacity:0;transition:opacity .2s}
 .unit:hover .ring,.unit.selected .ring{opacity:1;animation:ring 1.4s ease-in-out infinite}
 @keyframes ring{50%{transform:scale(1.12);opacity:.5}}
-
+.sprite-wrap .dot{position:absolute;top:2px;right:-4px;width:10px;height:10px;border:2px solid #050913}
 .plate{width:100%;background:linear-gradient(180deg,#0b1228f2,#070c1cf2);border:1px solid color-mix(in srgb,var(--zc) 40%,#22305a);
-  border-radius:10px;padding:7px 9px 8px;box-shadow:0 6px 18px #0009, 0 0 14px color-mix(in srgb,var(--zc) 12%,transparent)}
-.plate .name{font-weight:700;font-size:13px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
-.plate .cls{font-family:var(--mono);font-size:10px;color:var(--muted);text-align:center;margin-top:2px;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.xprow{display:flex;align-items:center;gap:6px;margin-top:6px;font-family:var(--mono);font-size:9.5px;color:var(--dim)}
+  border-radius:10px;padding:6px 6px 7px;box-shadow:0 6px 18px #0009, 0 0 14px color-mix(in srgb,var(--zc) 12%,transparent)}
+.plate .name{font-weight:700;font-size:12px;letter-spacing:-.01em;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+.plate .cls{font-family:var(--mono);font-size:9.5px;color:var(--muted);text-align:center;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.xprow{display:flex;align-items:center;gap:5px;margin-top:5px;font-family:var(--mono);font-size:9px;color:var(--dim)}
 .xprow b{color:#ffe08a;font-weight:700}
-.xp{flex:1;height:6px;border-radius:3px;background:#1a2442;overflow:hidden;border:1px solid #2a3866}
+.xp{flex:1;height:5px;border-radius:3px;background:#1a2442;overflow:hidden;border:1px solid #2a3866}
 .xp i{display:block;height:100%;background:linear-gradient(90deg,#ffd447,#ff9f1c);box-shadow:0 0 8px #ffd447}
-.st{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase}
+.strow{display:flex;align-items:center;justify-content:space-between;gap:4px;margin-top:5px;font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase}
+.st{display:flex;align-items:center;gap:5px;white-space:nowrap;min-width:0}
+.st .dot{width:8px;height:8px}
+.hb{display:inline-flex;align-items:center;gap:3px;white-space:nowrap;color:var(--hc)}
+.hb svg{width:10px;height:10px;flex:none}
+.h-healthy{--hc:var(--green)} .h-late{--hc:var(--red)} .h-quiet{--hc:var(--idle)}
+.hb.h-healthy svg{animation:beat 1.3s ease-in-out infinite}
+.hb.h-late svg{animation:beat .7s ease-in-out infinite}
+@keyframes beat{0%,60%,100%{transform:scale(1)}20%{transform:scale(1.3)}40%{transform:scale(.95)}}
 
-/* status lights */
 .dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--c);box-shadow:0 0 8px var(--c),0 0 2px var(--c)}
 .s-active{--c:var(--green)} .s-working{--c:var(--cyan)} .s-needs{--c:var(--amber)} .s-setup{--c:var(--purple)} .s-idle{--c:var(--idle)}
 .st.s-active{color:var(--green)} .st.s-working{color:var(--cyan)} .st.s-needs{color:var(--amber)} .st.s-setup{color:var(--purple)} .st.s-idle{color:var(--idle)}
@@ -349,32 +588,72 @@ button{font:inherit;color:inherit}
 .dot.s-working{animation:pulse 1.2s ease-in-out infinite}
 @keyframes pulse{50%{box-shadow:0 0 16px 3px var(--c);transform:scale(1.15)}}
 @keyframes blink{50%{opacity:.35}}
-.sprite-wrap .dot{position:absolute;top:2px;right:-4px;width:11px;height:11px;border:2px solid #050913}
+
+/* HQ briefing */
+.brief{flex:1;min-width:0;align-self:stretch;margin:4px 2px 2px;border-radius:12px;padding:10px 12px 9px;display:flex;flex-direction:column;
+  background:linear-gradient(180deg,#0d0a24e8,#0a0819f0);border:1px solid #6b55c288;box-shadow:0 0 22px #7b5cff22, inset 0 0 18px #7b5cff14}
+.brief h3{margin:0 0 7px;font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--purple);display:flex;align-items:center;gap:7px}
+.brief h3 i{width:6px;height:6px;border-radius:1px;background:var(--purple);box-shadow:0 0 8px var(--purple);animation:blink 1.6s steps(2) infinite}
+.brief ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.brief li{display:flex;gap:8px;font-size:12.5px;line-height:1.38;color:#e2dcff}
+.brief li::before{content:"›";font-family:var(--mono);color:var(--purple);font-weight:700}
+.brief li b{color:#fff}
+.brief .bfoot{margin-top:auto;padding-top:7px;font-family:var(--mono);font-size:9.5px;color:#7d74a8}
 
 /* locked zones */
-.locked{grid-column:span 1;min-height:118px;border:1.5px dashed #33416d;background:
-  repeating-linear-gradient(135deg,#0c1328 0 12px,#0a1022 12px 24px);display:flex;align-items:center;gap:14px;padding:14px 16px;
+.locked{min-height:0;border:1.5px dashed #33416d;background:repeating-linear-gradient(135deg,#0c1328 0 12px,#0a1022 12px 24px);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:14px;
   border-radius:14px;color:var(--muted);position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
 .locked:hover{border-color:#5a6cab;transform:translateY(-2px)}
-.locked::before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle at 30% 50%,#ffffff0d,transparent 40%),radial-gradient(circle at 70% 60%,#ffffff0a,transparent 35%);
-  animation:fog 14s ease-in-out infinite alternate}
+.locked::before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle at 30% 50%,#ffffff0d,transparent 40%),radial-gradient(circle at 70% 60%,#ffffff0a,transparent 35%);animation:fog 14s ease-in-out infinite alternate}
 @keyframes fog{to{transform:translateX(12%)}}
-.locked .lock{width:44px;height:44px;flex:none;opacity:.8;position:relative}
-.locked h3{margin:0;white-space:nowrap;font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#aeb9dd}
-.locked p{margin:4px 0 0;font-size:12px;color:var(--dim)}
-.locked .plus{position:absolute;top:10px;right:10px;font-size:9px !important;font-family:var(--mono);font-size:10px;color:#7f8dbb;border:1px solid #33416d;border-radius:6px;padding:3px 7px;white-space:nowrap}
+.locked .lock{width:38px;height:38px;opacity:.8;position:relative}
+.locked h3{margin:0;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#aeb9dd;position:relative}
+.locked p{margin:0;font-size:11.5px;color:var(--dim);position:relative}
+
+/* ---------------- TIMELINE ---------------- */
+.timeline{--cc:var(--cyan)}
+.tl-sum{display:flex;gap:6px;margin-left:6px}
+.pill{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:99px;border:1px solid #2a3866;color:var(--muted);white-space:nowrap}
+.pill.g{color:var(--green);border-color:#3dff8b55} .pill.c{color:var(--cyan);border-color:#3de0ff55} .pill.r{color:var(--red);border-color:#ff4d6d66}
+.pill.q{color:var(--purple);border-color:#b48cff55}
+.tl-legend{margin-left:auto;display:flex;gap:12px;font-family:var(--mono);font-size:9.5px;color:var(--dim);white-space:nowrap}
+.tl-legend span{display:inline-flex;align-items:center;gap:5px}
+.tl-body{padding:6px 14px 10px}
+.tl-grid{position:relative;display:grid;grid-template-columns:164px 1fr;row-gap:4px}
+.tl-axis{grid-column:2;position:relative;height:16px;font-family:var(--mono);font-size:9.5px;color:var(--dim)}
+.tl-axis span{position:absolute;transform:translateX(-50%);top:0}
+.tl-label{display:flex;align-items:center;gap:8px;min-width:0;height:26px;cursor:pointer;background:none;border:0;padding:0;text-align:left}
+.tl-label .mini{width:22px;height:22px;border-radius:6px}
+.tl-label .mini svg{width:15px;height:20px}
+.tl-label b{font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#dbe3fb}
+.tl-label:hover b{color:#fff}
+.tl-track{position:relative;height:26px;border-radius:7px;background:linear-gradient(90deg,#0a1124,#0c1530);border:1px solid #1b2647;
+  background-image:var(--hours)}
+.tl-track .note{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-family:var(--mono);font-size:10px;color:var(--dim);font-style:italic}
+.mk{position:absolute;top:50%;width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:800;line-height:1;z-index:2}
+.mk.done{background:var(--green);color:#03210f;box-shadow:0 0 10px #3dff8b88}
+.mk.up{background:#0a1124;border:2px solid var(--cyan);box-shadow:0 0 8px #3de0ff55}
+.mk.due{background:#0a1124;border:2px solid var(--amber);box-shadow:0 0 10px #ffb62788;animation:pulse 1s ease-in-out infinite;--c:var(--amber)}
+.mk.miss{background:#2a0a12;border:2px solid var(--red);color:var(--red)}
+.mk.skip{background:transparent;border:1.5px dashed #56607e}
+.mk.sm{width:9px;height:9px;margin:-4.5px 0 0 -4.5px;font-size:0;border-width:1.5px}
+.mk.sm.done{box-shadow:0 0 6px #3dff8b88}
+.mk.ran{width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:2px;transform:rotate(45deg);background:var(--amber);box-shadow:0 0 8px #ffb627aa;z-index:1}
+.lg.mk{position:static;margin:0;display:inline-grid}
+.now{position:absolute;top:16px;bottom:0;width:0;border-left:2px solid #ff4d6d;z-index:3;pointer-events:none;box-shadow:0 0 8px #ff4d6d}
+.now span{position:absolute;top:-16px;left:-22px;width:44px;text-align:center;font-family:var(--mono);font-size:9px;font-weight:700;color:#fff;
+  background:#ff4d6d;border-radius:4px;padding:1px 0}
+.tl-foot{margin-top:8px;font-size:11.5px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.tl-foot b{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:var(--dim);font-weight:600;margin-right:4px}
+.quiet-banner{margin:0 0 6px;padding:7px 10px;border-radius:8px;background:#120f2a;border:1px solid #3a2d80;color:#cbbcff;font-size:12px}
 
 /* footer */
-.foot{position:relative;z-index:2;display:flex;align-items:center;gap:16px;padding:9px 20px 12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
-.quests{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
-.quests .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--amber)}
-.qitem{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:7px;padding:4px 10px;border-radius:8px;background:#1d1708;border:1px solid #ffb62755;color:#ffe2a3}
-.qitem:hover{background:#2a200a}
-.qitem:focus-visible{outline:2px solid var(--amber)}
-.quests .none{color:var(--green);font-family:var(--mono);font-size:11px}
-.legend{margin-left:auto;display:flex;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px}
+.foot{position:relative;z-index:2;display:flex;align-items:center;gap:16px;padding:6px 18px 12px;font-size:11px;color:var(--dim);flex-wrap:wrap}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;color:var(--muted)}
 .legend span{display:inline-flex;align-items:center;gap:5px}
-.note{width:100%;font-size:11px;color:var(--dim);margin-top:-2px}
+.legend .sep{width:1px;height:12px;background:#2a3866}
+.foot .note{margin-left:auto}
 
 /* ---------------- PANEL ---------------- */
 .backdrop{position:fixed;inset:0;background:#02040acc;backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .25s;z-index:60}
@@ -397,6 +676,7 @@ button{font:inherit;color:inherit}
   background:#0a1124;border:1px solid var(--line);text-transform:uppercase}
 .chip.s-active{color:var(--green);border-color:#3dff8b55} .chip.s-needs{color:var(--amber);border-color:#ffb62766}
 .chip.s-setup{color:var(--purple);border-color:#b48cff55} .chip.s-working{color:var(--cyan);border-color:#3de0ff55} .chip.s-idle{color:var(--idle)}
+.chip.hb{border-color:color-mix(in srgb,var(--hc) 45%,transparent)}
 .close{all:unset;cursor:pointer;position:absolute;top:12px;right:12px;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:var(--muted);border:1px solid var(--line);background:#0a1124}
 .close:hover{color:#fff;border-color:#4a5c99}
 .close:focus-visible{outline:2px solid var(--zc)}
@@ -410,21 +690,29 @@ button{font:inherit;color:inherit}
 .sheet dd{color:#dbe3fb}
 .sheet dt:nth-last-of-type(1),.sheet dd:last-child{border-bottom:none}
 .sheet .empty{color:var(--dim);font-style:italic}
-.p-foot{margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim);line-height:1.7;word-break:break-all}
+.p-foot{margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim);line-height:1.7}
 
-@media (max-width:960px){
-  .world{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto}
-  .zone{min-height:320px}
-  .stats .stat{min-width:0}
+@media (max-width:1180px){
+  .stats .stat.opt{display:none}
 }
-@media (max-width:720px){
-  .world{grid-template-columns:1fr}
-  .zone,.locked{grid-column:auto !important}
-  .hud{flex-wrap:wrap}
-  .stats{margin-left:0;justify-content:flex-start}
+@media (max-width:1100px){
+  .ops{grid-template-columns:1fr}
+  .side{position:static;max-height:none;order:-1;display:grid;grid-template-columns:1fr 1fr}
+  .feed ol{max-height:360px}
+  .hud{flex-wrap:wrap} .stats{flex-wrap:wrap;margin-left:0}
+}
+@media (max-width:760px){
+  .world{grid-template-columns:1fr 1fr}
+  .zone{grid-column:span 2 !important}
+  .locked{grid-column:span 1}
+  .side{grid-template-columns:1fr}
+  .tl-grid{grid-template-columns:96px 1fr}
+  .tl-legend{display:none}
+  .theme-hq .zbody{flex-direction:column;align-items:stretch}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
 </style>
+
 </head>
 <body>
 <header class="hud">
@@ -438,10 +726,18 @@ button{font:inherit;color:inherit}
   <div class="stats" id="stats"></div>
 </header>
 
-<main class="world" id="world" aria-label="Team world map"></main>
+<div class="ops">
+  <div class="main">
+    <main class="world" id="world" aria-label="Team world map"></main>
+    <section class="card timeline" id="timeline" aria-label="Today's schedule"></section>
+  </div>
+  <aside class="side">
+    <section class="card inbox" id="inbox" aria-label="Needs you inbox"></section>
+    <section class="card feed" id="feed" aria-label="Activity feed"></section>
+  </aside>
+</div>
 
 <footer class="foot">
-  <div class="quests" id="quests"></div>
   <div class="legend" id="legend"></div>
   <div class="note" id="note"></div>
 </footer>
@@ -607,28 +903,137 @@ const ART = {
   }
 };
 
-/* ---------- time ---------- */
-const STALE_MIN = 2*24*60, POLL_MS = 60000; // only flag if no bot activity for 2+ days
+/* ---------- extra sprites / icons / art (ops HQ) ---------- */
+HATS.pilot = ["............","..aaaaaaaa..","..aaattaaa..",".oooooooooo."];
+ICON.plane = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges" fill="${c}"><rect x="7" y="1" width="2" height="13"/><rect x="2" y="6" width="12" height="2"/><rect x="3" y="5" width="2" height="1"/><rect x="11" y="5" width="2" height="1"/><rect x="5" y="13" width="6" height="1.5"/><rect x="7" y="0" width="2" height="1" fill="#fff"/></svg>`;
+ICON.heart = c=>`<svg viewBox="0 0 8 7" shape-rendering="crispEdges" fill="${c}"><rect x="1" y="0" width="2" height="1"/><rect x="5" y="0" width="2" height="1"/><rect x="0" y="1" width="8" height="2"/><rect x="1" y="3" width="6" height="1"/><rect x="2" y="4" width="4" height="1"/><rect x="3" y="5" width="2" height="1"/></svg>`;
+ICON.inbox = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="1" y="3" width="14" height="11" fill="none" stroke="${c}" stroke-width="1.6"/><path d="M1 9h4l1 2h4l1-2h4" fill="none" stroke="${c}" stroke-width="1.6"/></svg>`;
+ICON.feed = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges" fill="${c}"><rect x="1" y="2" width="2" height="2"/><rect x="5" y="2" width="10" height="2" opacity=".7"/><rect x="1" y="7" width="2" height="2"/><rect x="5" y="7" width="10" height="2" opacity=".7"/><rect x="1" y="12" width="2" height="2"/><rect x="5" y="12" width="7" height="2" opacity=".7"/></svg>`;
+ICON.check = c=>`<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="none" stroke="${c}" stroke-width="1.6"/><path d="M4.5 8.3l2.3 2.3 4.7-5" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+ICON.cal = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="1.5" y="3" width="13" height="11.5" fill="none" stroke="${c}" stroke-width="1.5"/><rect x="1.5" y="3" width="13" height="3" fill="${c}"/><rect x="4" y="1" width="1.5" height="3" fill="${c}"/><rect x="10.5" y="1" width="1.5" height="3" fill="${c}"/><rect x="4" y="8.5" width="2" height="2" fill="${c}"/><rect x="7.5" y="8.5" width="2" height="2" fill="${c}" opacity=".6"/></svg>`;
+ART.travel = function(){
+  const R = rng(19), W=400, H=330, G=H-38; let s="";
+  for(let i=0;i<26;i++) s+=`<rect x="${(R()*W)|0}" y="${(R()*90)|0}" width="1.2" height="1.2" fill="#e6f6ff" class="twinkle" style="animation-delay:${(R()*5).toFixed(1)}s" opacity="${.3+R()*.5}"/>`;
+  s+=`<circle cx="250" cy="${G-92}" r="30" fill="#ffd27a" opacity=".95"/><circle cx="250" cy="${G-92}" r="48" fill="#ffd27a" opacity=".16"/>`;
+  s+=`<g class="cloud"><ellipse cx="120" cy="84" rx="26" ry="6" fill="#ffffff" opacity=".22"/><ellipse cx="138" cy="79" rx="14" ry="6" fill="#ffffff" opacity=".22"/><ellipse cx="300" cy="60" rx="20" ry="5" fill="#ffffff" opacity=".18"/></g>`;
+  // plane + contrail
+  s+=`<g class="flyby"><path d="M-60 0 H-8" stroke="#ffffff" stroke-width="1.6" stroke-dasharray="4 3" opacity=".6"/>
+     <g fill="#f4f8ff"><rect x="-8" y="-2" width="26" height="4" rx="2"/><polygon points="2,-1 10,-1 2,-12 -2,-12"/><polygon points="2,1 10,1 2,11 -2,11"/><polygon points="-8,-2 -4,-2 -8,-8 -10,-8"/></g>
+     <rect x="14" y="-1" width="2" height="1.4" fill="#3de0ff"/></g>`;
+  // sea
+  s+=`<rect x="0" y="${G-62}" width="${W}" height="30" fill="#1d6f8f"/>`;
+  for(let i=0;i<14;i++){ const x=(R()*W)|0, y=G-58+((R()*22)|0); s+=`<rect x="${x}" y="${y}" width="${10+R()*16}" height="1.4" fill="#bff6ff" opacity="${.25+R()*.4}" class="twinkle" style="animation-delay:${(R()*4).toFixed(1)}s"/>`; }
+  s+=`<rect x="0" y="${G-62}" width="${W}" height="2" fill="#ffd27a" opacity=".35"/>`;
+  // beach
+  s+=`<path d="M0 ${G-34} Q100 ${G-44} 200 ${G-36} T400 ${G-38} V${H} H0Z" fill="#e8c98a"/>`;
+  s+=`<path d="M0 ${G-34} Q100 ${G-44} 200 ${G-36} T400 ${G-38}" fill="none" stroke="#fff6d8" stroke-width="2" opacity=".6"/>`;
+  // control tower (left)
+  s+=`<rect x="34" y="${G-120}" width="12" height="${120}" fill="#2b4a6b"/><rect x="24" y="${G-140}" width="32" height="20" fill="#3b6a8f" stroke="#7fd8ff" stroke-width="1"/>
+      <rect x="28" y="${G-136}" width="24" height="8" fill="#7dfcff" opacity=".85"/><rect x="39" y="${G-152}" width="2" height="12" fill="#9fb8d0"/><circle cx="40" cy="${G-153}" r="2.4" fill="#ff4d6d" class="blink"/>`;
+  // terminal
+  s+=`<rect x="56" y="${G-46}" width="84" height="20" fill="#24405e"/><rect x="56" y="${G-48}" width="84" height="3" fill="#3ff2d0" opacity=".7"/>`;
+  for(let x=60;x<136;x+=8) s+=`<rect x="${x}" y="${G-42}" width="5" height="10" fill="#9ff3ff" opacity=".55"/>`;
+  // palms (right)
+  const palm=(x,y,h,flip)=>{ let p=`<path d="M${x} ${y} q${flip?-6:6} ${-h/2} ${flip?-2:2} ${-h}" stroke="#7a4a2a" stroke-width="4" fill="none"/>`;
+    const tx=x+(flip?-2:2), ty=y-h; [[-22,6],[-16,-6],[0,-10],[16,-6],[22,6]].forEach(([dx,dy])=>{ p+=`<path d="M${tx} ${ty} q${dx/2} ${dy-8} ${dx} ${dy}" stroke="#2f8f5a" stroke-width="4" fill="none" stroke-linecap="round"/>`; });
+    return p+`<circle cx="${tx-2}" cy="${ty+3}" r="2.2" fill="#5a3a22"/><circle cx="${tx+2}" cy="${ty+4}" r="2.2" fill="#5a3a22"/>`; };
+  s+=palm(352,G-30,64,true)+palm(318,G-32,46,false);
+  // umbrella + towel
+  s+=`<rect x="270" y="${G-50}" width="1.6" height="22" fill="#5a3a22"/><path d="M256 ${G-48} Q271 ${G-64} 286 ${G-48} Z" fill="#ff4d6d"/><path d="M262 ${G-48} Q271 ${G-60} 280 ${G-48} Z" fill="#f4f1e8" opacity=".85"/>`;
+  s+=`<rect x="240" y="${G-32}" width="22" height="7" fill="#3de0ff" opacity=".85" transform="skewX(-20)"/>`;
+  // runway
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#1f2e3f"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#3ff2d0" opacity=".45"/>`;
+  for(let x=6;x<W;x+=26) s+=`<rect x="${x}" y="${G+18}" width="13" height="2" fill="#f4f1e8" opacity=".7"/>`;
+  for(let x=12;x<W;x+=40) s+=`<circle cx="${x}" cy="${G+5}" r="1.6" fill="#ffd447" class="twinkle" style="animation-delay:${(x%7)/2}s"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
+};
+/* ---------- time (Central) ---------- */
+const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
+const MS = 60000;
 function fmtCT(iso, opts){
   const d = new Date(iso); if(!iso || isNaN(d)) return "unknown";
   return new Intl.DateTimeFormat("en-US",Object.assign({timeZone:TZ,weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"},opts||{})).format(d).replace(",","") + " CT";
 }
+const fmtTime = d => new Intl.DateTimeFormat("en-US",{timeZone:TZ,hour:"numeric",minute:"2-digit"}).format(d);
 function ago(iso){
-  const m = Math.round((Date.now()-new Date(iso))/60000);
+  const m = Math.round((Date.now()-new Date(iso))/MS);
   if(!iso || isNaN(m)) return ""; if(m<1) return "just now"; if(m<60) return m+" min ago";
   const h=Math.round(m/60); if(h<48) return h+" h ago"; return Math.round(h/24)+" d ago";
 }
+function dur(iso){ const s = ago(iso); return s.replace(" ago",""); }
 const updatedAt = d => d.updatedAt || d.generatedAt;
-// most recent bot update (status post or run), falling back to the data timestamp
-function lastActivity(d){ let best=null, bt=-Infinity; (d.bots||[]).forEach(b=>[b.updatedAt,b.lastRunAt].forEach(v=>{ const t=new Date(v).getTime(); if(v && !isNaN(t) && t>bt){ bt=t; best=v; } })); return best || updatedAt(d); }
+function lastActivity(d){ let best=null, bt=-Infinity;
+  (d.bots||[]).forEach(b=>[b.updatedAt,b.lastRunAt].forEach(v=>{ const t=new Date(v).getTime(); if(v && !isNaN(t) && t>bt){ bt=t; best=v; } }));
+  return best || updatedAt(d); }
+const _ctf = new Intl.DateTimeFormat("en-US",{timeZone:TZ,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"});
+function ctParts(date){ const p={}; _ctf.formatToParts(date).forEach(x=>p[x.type]=x.value);
+  return {y:+p.year,m:+p.month,d:+p.day,hh:+p.hour%24,mm:+p.minute,ss:+p.second}; }
+function ctDate(y,m,d,hh,mm){ // Central wall time -> Date
+  let guess = Date.UTC(y,m-1,d,hh,mm);
+  for(let i=0;i<2;i++){ const p=ctParts(new Date(guess)); const asUTC=Date.UTC(p.y,p.m-1,p.d,p.hh,p.mm); guess += Date.UTC(y,m-1,d,hh,mm)-asUTC; }
+  return new Date(guess);
+}
+function ctDay(date, add){ const p=ctParts(date); const u=new Date(Date.UTC(p.y,p.m-1,p.d+(add||0)));
+  return {y:u.getUTCFullYear(),m:u.getUTCMonth()+1,d:u.getUTCDate(),wd:(u.getUTCDay()+6)%7}; } // wd: Mon=0
+function occurrences(slots, now, fromDay, toDay){ const out=[];
+  for(let k=fromDay;k<=toDay;k++){ const dy=ctDay(now,k);
+    (slots||[]).forEach(s=>{ if((s.days||[]).includes(dy.wd)) (s.times||[]).forEach(t=>{ const [hh,mm]=t.split(":").map(Number);
+      out.push({at:ctDate(dy.y,dy.m,dy.d,hh,mm),label:s.label||"Scheduled run",day:k,hourly:(s.times||[]).length>3}); }); }); }
+  return out.sort((a,b)=>a.at-b.at); }
+const runsOf = b => (b.runTimes||[]).concat(b.lastRunAt?[b.lastRunAt]:[]).map(x=>new Date(x)).filter(d=>!isNaN(d));
+function slotDone(at, runs, next){ const hi = Math.max(next ? +next : +at+6*3600e3, +at+GRACE_MIN*MS);
+  return runs.some(r => r >= +at-30*MS && r < hi); }
+
+/* ---------- health (mirrors publish.py) ---------- */
+const HEALTH = {Healthy:{cls:"h-healthy"}, Late:{cls:"h-late"}, Quiet:{cls:"h-quiet"}};
+function health(b, now){
+  const slots=b.slots||[];
+  if(!slots.length){ const od=/on demand|request/i.test((b.schedule||"")+" "+(b.routines||""));
+    return {h:"Quiet", why: od ? "Works on demand (no schedule)" : "No scheduled runs yet"}; }
+  const runs=runsOf(b), first=b.firstSeenAt?new Date(b.firstSeenAt):null;
+  const occ=occurrences(slots, now, -3, 2);
+  const past=occ.map((o,i)=>[o,i]).filter(([o])=> +o.at+GRACE_MIN*MS <= +now && (!first || o.at >= first));
+  if(!past.length) return {h:"Healthy", why:"No runs due yet"};
+  const [o,i]=past[past.length-1], nxt=occ[i+1]?occ[i+1].at:null;
+  return slotDone(o.at, runs, nxt) ? {h:"Healthy", why:`Last scheduled run (${o.label}, ${fmtCT(o.at)}) checked in`}
+                                   : {h:"Late", why:`No check-in for ${o.label} at ${fmtCT(o.at)}`};
+}
+function nextRun(now){ let best=null;
+  bots.forEach(b=>{ const o=occurrences(b.slots, now, 0, 4).find(o=>o.at>now); if(o && (!best || o.at<best.at)) best={...o,bot:b}; });
+  return best; }
+function whenWord(at, now){ const t=fmtTime(at), a=ctDay(at), n0=ctDay(now), n1=ctDay(now,1);
+  if(a.y===n0.y&&a.m===n0.m&&a.d===n0.d) return "today "+t; if(a.y===n1.y&&a.m===n1.m&&a.d===n1.d) return "tomorrow "+t;
+  return new Intl.DateTimeFormat("en-US",{timeZone:TZ,weekday:"short"}).format(at)+" "+t; }
+const plural=(n,w)=>`${n} ${w}${n===1?"":"s"}`;
+
+/* ---------- briefing (rule-based; mirrors publish.py so it stays current) ---------- */
+function briefingLines(now){
+  const sched=bots.filter(b=>(b.slots||[]).length), hs=Object.fromEntries(bots.map(b=>[b.id,health(b,now).h]));
+  const healthy=sched.filter(b=>hs[b.id]==="Healthy").length, late=sched.filter(b=>hs[b.id]==="Late").map(b=>b.name);
+  const n=inbox.length, setup=bots.filter(b=>String(b.status).toLowerCase()==="setting up").length;
+  let l1 = sched.length ? `${healthy} of ${plural(sched.length,"scheduled bot")} healthy` : "No scheduled bots yet";
+  if(late.length) l1 += ` (${late.join(", ")} late)`;
+  l1 += " · " + (n ? `${plural(n,"item")} need${n===1?"s":""} you` : "nothing needs you");
+  if(setup) l1 += ` · ${setup} setting up`;
+  const nr=nextRun(now);
+  const l2 = nr ? `Next run: ${nr.bot.name} · ${nr.label}, ${whenWord(nr.at,now)} CT` : "No scheduled runs in the next few days";
+  const lines=[l1,l2];
+  if(feed.length){ const f=feed[0], bn=(bots.find(b=>b.id===f.bot)||{}).name||"A bot";
+    let t=f.text; if(t.length>90){ t=t.slice(0,87); t=t.slice(0,t.lastIndexOf(" "))+"…"; } lines.push(`Latest: ${bn}: ${t}`); }
+  return lines;
+}
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
-let bots=[], zones=[], locked=[], zoneById={}, waiting=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
+let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
+const botById = id => bots.find(b=>b.id===id);
+const zcOf = b => zoneColor(zoneById[b&&b.zone]);
 function lvl(b){ const runs = +b.runsCompleted||0, per = XP.runsPerLevel||5; return {level:1+Math.floor(runs/per), into:runs%per, per}; }
-function statBox(icon, k, v, extra){ return `<div class="stat ${extra&&extra.cls||""}" ${extra&&extra.attrs||""}><span class="ico">${icon}</span><div><div class="k">${k}</div><div class="v">${v}</div></div></div>`; }
+function statBox(icon, k, v, extra){ extra=extra||{}; return `<div class="stat ${extra.cls||""}" ${extra.attrs||""}><span class="ico">${icon}</span><div style="min-width:0"><div class="k">${k}</div><div class="v">${v}</div></div></div>`; }
+const mini = b => `<span class="mini" style="--zc:${zcOf(b)}">${sprite(b.avatar)}</span>`;
+function hbHTML(b, now, chip){ const h=health(b, now||new Date()); return `<span class="hb ${HEALTH[h.h].cls} ${chip?"chip":""}" title="${esc(h.why)}">${ICON.heart("currentColor")}${h.h}</span>`; }
 function unitHTML(b){
   const s = st(b.status), L = lvl(b), pct = Math.round(L.into/L.per*100);
   const q = (b.waitingOnYou||[]).length ? ICON.quest() : "";
@@ -637,76 +1042,163 @@ function unitHTML(b){
     <div class="plate">
       <div class="name">${esc(b.name)}</div>
       <div class="cls">${esc(b.className||"")}</div>
-      <div class="xprow"><b>LV ${L.level}</b><div class="xp"><i style="width:${pct}%"></i></div><span>${L.into}/${L.per} runs</span></div>
-      <div class="st ${s.cls}"><span class="dot ${s.cls}"></span>${esc(s.label)}</div>
+      <div class="xprow"><b>LV ${L.level}</b><div class="xp"><i style="width:${pct}%"></i></div><span>${L.into}/${L.per}</span></div>
+      <div class="strow"><span class="st ${s.cls}"><span class="dot ${s.cls}"></span>${esc(s.label)}</span><span class="hbslot" data-hb="${esc(b.id)}"></span></div>
     </div></button>`;
 }
 let artCache = {};
-function render(){
+function deriveCollections(){
   bots = D.bots||[]; zones = D.zones||[]; locked = D.lockedSlots||[]; XP = D.xpRule || XP;
   zoneById = Object.fromEntries(zones.map(z=>[z.id,z]));
-  waiting = bots.flatMap(b => (b.waitingOnYou||[]).map(t=>({bot:b,text:t})));
-  const activeCount = bots.filter(b=>["active","working"].includes(String(b.status).toLowerCase())).length;
+  inbox = Array.isArray(D.inbox) ? D.inbox.filter(i=>botById(i.bot))
+        : bots.flatMap(b=>(b.waitingOnYou||[]).map(t=>({bot:b.id,text:t,since:b.waitingSince||b.updatedAt})));
+  feed = Array.isArray(D.feed) ? D.feed.filter(f=>botById(f.bot))
+        : bots.filter(b=>b.lastRunAt).map(b=>({bot:b.id,at:b.lastRunAt,text:b.lastRun,finding:b.latestFinding})).sort((a,b)=>new Date(b.at)-new Date(a.at));
+}
+function renderWorld(){
   $("#brandBadge").innerHTML = ICON.sat("#9ff3ff");
-  $("#subtitle").textContent = `${(D.team&&D.team.name)||"Team"} · ${(D.team&&D.team.owner)||""}'s AI bot squad`;
-  const up = lastActivity(D);
-  $("#stats").innerHTML =
-    statBox(ICON.team("#9ff3ff"),"Team size", `${bots.length} <small>bots</small>`) +
-    statBox(ICON.map("#c8b5ff"),"Zones", `${zones.length} <small>+${locked.length} locked</small>`) +
-    statBox(ICON.bolt("#3dff8b"),"Bots active", `${activeCount}<small>/${bots.length}</small>`, {cls:"ok"}) +
-    statBox(ICON.alert(waiting.length?"#ffb627":"#3dff8b"),"Needs you", `${waiting.length} <small>${waiting.length===1?"item":"items"}</small>`,
-            waiting.length?{cls:"alert",attrs:`role="button" tabindex="0" id="needsBtn" title="Show what needs you"`}:{cls:"ok"}) +
-    statBox(ICON.clock("#9ff3ff"),`Last bot activity <span id="live" class="live"><i></i><b>LIVE</b></span>`, `${esc(fmtCT(up))} <small id="agoTxt">${esc(ago(up))}</small>`);
-  let html = "";
+  $("#subtitle").textContent = `${(D.team&&D.team.name)||"Team"} · ${(D.team&&D.team.owner)||""}'s operations HQ`;
+  let html = "", row = 0, used = 0;
   zones.forEach(z=>{
-    const zb = bots.filter(b=>b.zone===z.id), col = zoneColor(z);
+    const zb = bots.filter(b=>b.zone===z.id), col = zoneColor(z), span = (+z.span||1) >= 2 ? 3 : 2; // 6-col map: wide zones 3, small 2
+    if(used + span > 6){ row++; used = 0; } used += span;
     const tape = z.theme==="stocks" ? `<div class="tape" aria-hidden="true"><div class="tape-inner">${TAPE.concat(TAPE).map((t,j)=>`<span><span class="${j%TAPE.length%3===2?"dn":"up"}">${j%TAPE.length%3===2?"▼":"▲"}</span> ${t}</span>`).join("")}</div></div>` : "";
     const art = artCache[z.theme] || (artCache[z.theme] = (ART[z.theme]||(()=>""))());
-    html += `<section class="zone theme-${esc(z.theme)}" style="grid-column:span ${+z.span||1};--zc:${col}" aria-label="${esc(z.name)} zone">
+    const brief = z.theme==="hq" ? `<div class="brief" aria-live="polite"><h3><i></i>CHIEF OF STAFF BRIEFING</h3><ul id="briefLines"></ul><div class="bfoot" id="briefFoot"></div></div>` : "";
+    html += `<section class="zone theme-${esc(z.theme)} ${row===0?"row1":""}" style="grid-column:span ${span};--zc:${col}" aria-label="${esc(z.name)} zone">
       <div class="zone-art">${art}</div>
       <header class="zone-head"><span class="zone-icon">${(ICON[z.icon]||ICON.map)(col)}</span>
         <div><h2>${esc(z.name)}</h2><p>${esc(z.tagline||"")}</p></div>
         <span class="zone-count"><span class="flag-banner"></span>${zb.length} ${zb.length===1?"bot":"bots"}</span></header>
       ${tape}
-      <div class="units">${zb.map(unitHTML).join("") || `<p style="color:var(--muted)">No bots stationed yet</p>`}</div>
+      <div class="zbody"><div class="units">${zb.map(unitHTML).join("") || `<p style="color:var(--muted)">No bots stationed yet</p>`}</div>${brief}</div>
     </section>`;
   });
-  locked.forEach(l=>{
-    html += `<div class="locked" title="Coming soon">${ICON.lock()}<div style="position:relative"><h3>${esc(l.title||"Unlock new zone")}</h3><p>${esc(l.hint||"Coming soon")}</p></div><span class="plus">COMING SOON</span></div>`;
-  });
+  locked.forEach(l=>{ html += `<div class="locked" title="Coming soon">${ICON.lock()}<h3>${esc(l.title||"Unlock new zone")}</h3><p>${esc(l.hint||"Coming soon")}</p></div>`; });
   $("#world").innerHTML = html;
-  $("#quests").innerHTML = `<span class="lbl">QUEST LOG</span>` + (waiting.length
-    ? waiting.map(w=>`<button class="qitem" data-id="${esc(w.bot.id)}"><span class="dot s-needs"></span><b>${esc(w.bot.name)}:</b> ${esc(w.text)}</button>`).join("")
-    : `<span class="none">All clear. Nothing needs you right now.</span>`);
-  $("#legend").innerHTML = Object.values(STATUS).map(s=>`<span><span class="dot ${s.cls}"></span>${s.label}</span>`).join("");
+  $("#legend").innerHTML = Object.values(STATUS).map(s=>`<span><span class="dot ${s.cls}"></span>${s.label}</span>`).join("") +
+    `<span class="sep"></span>` + Object.keys(HEALTH).map(h=>`<span class="hb ${HEALTH[h].cls}">${ICON.heart("currentColor")}${h}</span>`).join("");
   $("#note").textContent = D.dataNote || "";
-  const nb=$("#needsBtn"); if(nb){ const go=()=>openBot(waiting[0].bot.id); nb.onclick=go; nb.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();go();} }; }
-  if(openId) fillPanel(openId);
-  updateLive();
 }
+function renderHUD(now){
+  const up = lastActivity(D), sched = bots.filter(b=>(b.slots||[]).length);
+  const hs = bots.map(b=>health(b,now)), late = hs.filter(h=>h.h==="Late").length, healthy = bots.filter((b,i)=>(b.slots||[]).length && hs[i].h==="Healthy").length;
+  const quiet = hs.filter(h=>h.h==="Quiet").length, nr = nextRun(now);
+  $("#stats").innerHTML =
+    statBox(ICON.heart(late?"#ff4d6d":"#3dff8b"),"Team health", sched.length ? `${healthy}<small>/${sched.length} healthy${late?` · ${late} late`:""}${quiet?` · ${quiet} quiet`:""}</small>` : `<small>no schedules yet</small>`,
+      {cls: late?"warn":"ok", attrs:`title="Healthy: last scheduled run checked in. Late: a scheduled run looks missed. Quiet: on demand or not scheduled yet."`}) +
+    statBox(ICON.team("#9ff3ff"),"Team", `${bots.length} <small>bots · ${zones.length} zones</small>`, {cls:"opt"}) +
+    statBox(ICON.alert(inbox.length?"#ffb627":"#3dff8b"),"Needs you", `${inbox.length} <small>${inbox.length===1?"item":"items"}</small>`,
+      inbox.length?{cls:"alert",attrs:`role="button" tabindex="0" id="needsBtn" title="Jump to the Needs you inbox"`}:{cls:"ok"}) +
+    statBox(ICON.cal("#9ff3ff"),"Next run", nr ? `${esc(whenWord(nr.at,now).replace("today ",""))}` : `<small>none scheduled</small>`, {cls:"opt", attrs: nr?`title="${esc(nr.bot.name)} · ${esc(nr.label)}"`:""}) +
+    statBox(ICON.clock("#9ff3ff"),`Last bot activity <span id="live" class="live"><i></i><b>LIVE</b></span>`, `${esc(fmtCT(up,{weekday:undefined}))} <small id="agoTxt">${esc(ago(up))}</small>`);
+  const nb=$("#needsBtn"); if(nb){ const go=()=>{ const el=$("#inbox"); el.scrollIntoView({behavior:"smooth",block:"nearest"}); const f=el.querySelector(".ib"); if(f) f.focus({preventScroll:true}); };
+    nb.onclick=go; nb.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();go();} }; }
+}
+function renderInbox(){
+  const el=$("#inbox"); el.classList.toggle("has", !!inbox.length); el.classList.toggle("clear", !inbox.length);
+  el.innerHTML = `<div class="card-head"><span class="ico">${ICON.inbox(inbox.length?"#ffb627":"#3dff8b")}</span><h2>Needs you</h2>
+      <span class="count" style="color:${inbox.length?"var(--amber)":"var(--green)"}">${inbox.length}</span><span class="sub">across all bots</span></div>` +
+    (inbox.length ? `<ul>${inbox.map(i=>{ const b=botById(i.bot); return `<li><button class="ib" data-id="${esc(b.id)}">${mini(b)}
+        <span class="t"><b>${esc(b.name)}</b><span>${esc(i.text)}</span></span>
+        <span class="age">${i.since?esc(dur(i.since)):"—"}<small>WAITING</small></span></button></li>`; }).join("")}</ul>`
+      : `<div class="allclear">${ICON.check("#3dff8b")}<div>ALL CLEAR<span>Nothing is waiting on you right now.</span></div></div>`);
+}
+function renderFeed(){
+  const el=$("#feed"), items=feed.slice(0,15), prev=el.querySelector("ol"), keep=prev?prev.scrollTop:0;
+  el.innerHTML = `<div class="card-head"><span class="ico">${ICON.feed("#3de0ff")}</span><h2>Activity</h2><span class="sub">latest real runs &amp; findings</span></div>` +
+    (items.length ? `<ol>${items.map(f=>{ const b=botById(f.bot); return `<li><button class="fi" data-id="${esc(b.id)}" style="--zc:${zcOf(b)}">${mini(b)}
+        <div style="min-width:0"><div class="meta"><b>${esc(b.name)}</b><time datetime="${esc(f.at||"")}" title="${esc(f.at?fmtCT(f.at):"")}">${esc(f.at?ago(f.at):"")}</time></div>
+        <p>${esc(f.text)}</p>${f.finding?`<p class="fd">${esc(f.finding)}</p>`:""}</div></button></li>`; }).join("")}</ol>`
+      : `<div class="empty-note">No bot runs recorded yet.</div>`);
+  const ol=el.querySelector("ol"); if(ol) ol.scrollTop=keep;
+}
+function renderBrief(now){
+  const ul=$("#briefLines"); if(!ul) return;
+  let lines; try{ lines=briefingLines(now); }catch(e){ lines=(D.briefing&&D.briefing.lines)||[]; }
+  ul.innerHTML = lines.map(l=>`<li><span>${esc(l)}</span></li>`).join("");
+  $("#briefFoot").textContent = `Rule-based summary · as of ${fmtTime(now)} CT`;
+}
+function renderHealthBadges(now){ document.querySelectorAll("[data-hb]").forEach(el=>{ const b=botById(el.dataset.hb); if(b) el.innerHTML=hbHTML(b,now); }); }
+
+/* ---------- today timeline ---------- */
+function pct(at){ const p=ctParts(at), h=p.hh+p.mm/60; return Math.max(0,Math.min(100,(h-DAY_START)/(DAY_END-DAY_START)*100)); }
+function inWindow(at){ const p=ctParts(at), h=p.hh+p.mm/60; return h>=DAY_START && h<=DAY_END; }
+function sameCTDay(a,b){ const x=ctParts(a), y=ctParts(b); return x.y===y.y&&x.m===y.m&&x.d===y.d; }
+function todayState(b, o, occAll, now){
+  const first=b.firstSeenAt?new Date(b.firstSeenAt):null;
+  if(first && o.at < first) return "skip";
+  const i=occAll.findIndex(x=>+x.at===+o.at && x.label===o.label), nxt=occAll[i+1]?occAll[i+1].at:null;
+  if(slotDone(o.at, runsOf(b), nxt)) return "done";
+  if(+now >= +o.at + GRACE_MIN*MS) return "miss";
+  if(+now >= +o.at) return "due";
+  return "up";
+}
+const STATE_TXT = {done:"done", up:"upcoming", due:"due now", miss:"missed", skip:"before this bot was set up"};
+function renderTimeline(now){
+  const el=$("#timeline"), today=ctDay(now), wkend=today.wd>=5;
+  const dayName=new Intl.DateTimeFormat("en-US",{timeZone:TZ,weekday:"long",month:"short",day:"numeric"}).format(now);
+  const rows=[], counts={done:0,up:0,due:0,miss:0};
+  bots.forEach(b=>{
+    const occAll=occurrences(b.slots, now, -1, 2), todays=occAll.filter(o=>o.day===0);
+    const ran=runsOf(b).filter(r=>sameCTDay(r,now));
+    if(!(b.slots||[]).length && !ran.length) return;
+    const marks=todays.map(o=>{ const s=todayState(b,o,occAll,now); if(counts[s]!=null) counts[s]++; return {o,s}; });
+    rows.push({b,marks,ran,hasSlots:(b.slots||[]).length>0});
+  });
+  const scheduledToday=rows.some(r=>r.marks.length);
+  let hoursBg=[]; for(let h=DAY_START;h<=DAY_END;h++){ hoursBg.push(`linear-gradient(90deg,transparent calc(${(h-DAY_START)/(DAY_END-DAY_START)*100}% - .5px),#ffffff${h%3===0?"14":"08"} calc(${(h-DAY_START)/(DAY_END-DAY_START)*100}% - .5px),#ffffff${h%3===0?"14":"08"} calc(${(h-DAY_START)/(DAY_END-DAY_START)*100}% + .5px),transparent calc(${(h-DAY_START)/(DAY_END-DAY_START)*100}% + .5px))`); }
+  let axis=""; for(let h=DAY_START;h<=DAY_END;h++){ if((h-DAY_START)%2 && h!==DAY_END) continue; const lab=h===12?"12p":(h>12?(h-12)+"p":h+"a"); axis+=`<span style="left:${(h-DAY_START)/(DAY_END-DAY_START)*100}%">${lab}</span>`; }
+  const rowHTML = rows.map(({b,marks,ran,hasSlots})=>{
+    let inner = ran.filter(inWindow).map(r=>`<span class="mk ran" style="left:${pct(r)}%" title="${esc(b.name)} ran at ${esc(fmtTime(r))} CT"></span>`).join("");
+    inner += marks.filter(m=>inWindow(m.o.at)).map(({o,s})=>`<span class="mk ${s} ${o.hourly?"sm":""}" style="left:${pct(o.at)}%" title="${esc(o.label)} · ${esc(fmtTime(o.at))} CT · ${STATE_TXT[s]}">${s==="done"?"✓":(s==="miss"?"✕":"")}</span>`).join("");
+    if(!marks.length) inner += `<span class="note">${hasSlots ? (wkend ? "No runs today · weekday schedule" : "No runs scheduled today") : "On demand · ran today"}</span>`;
+    return `<button class="tl-label" data-id="${esc(b.id)}">${mini(b)}<b>${esc(b.name)}</b></button><div class="tl-track">${inner}</div>`;
+  }).join("");
+  const off = bots.filter(b=>!rows.some(r=>r.b===b));
+  const od = off.filter(b=>/on demand|request/i.test((b.schedule||"")+" "+(b.routines||""))), ns = off.filter(b=>!od.includes(b));
+  const n = now, showNow = inWindow(n);
+  const pills = scheduledToday
+    ? `${counts.done?`<span class="pill g">${counts.done} done</span>`:""}${(counts.up+counts.due)?`<span class="pill c">${counts.up+counts.due} upcoming</span>`:""}${counts.miss?`<span class="pill r">${counts.miss} missed</span>`:""}`
+    : `<span class="pill q">${wkend?"Weekend · quiet day":"Quiet day"}</span>`;
+  el.innerHTML = `<div class="card-head"><span class="ico">${ICON.cal("#3de0ff")}</span><h2>Today</h2><span class="sub" style="margin-left:0">${esc(dayName)} · Central</span>
+      <span class="tl-sum">${pills}</span>
+      <span class="tl-legend"><span><i class="lg mk done" style="width:11px;height:11px;font-size:7px">✓</i>Done</span><span><i class="lg mk up" style="width:11px;height:11px"></i>Upcoming</span><span><i class="lg mk miss" style="width:11px;height:11px;font-size:7px">✕</i>Missed</span><span><i class="lg mk ran" style="transform:rotate(45deg);width:8px;height:8px"></i>Ran</span></span></div>
+    <div class="tl-body" style="--hours:${hoursBg.join(",")}">
+      ${!scheduledToday ? `<div class="quiet-banner">${wkend?"Weekend: no scheduled runs today. Weekday routines resume Monday.":"No scheduled runs today."}${rows.some(r=>r.ran.length)?" Diamonds mark runs that happened anyway.":""}</div>` : ""}
+      <div class="tl-grid"><div></div><div class="tl-axis">${axis}</div>${rowHTML || `<div></div><div class="note" style="color:var(--dim);font-size:12px">No bots have a schedule yet.</div>`}
+        ${showNow && rows.length ? `<div class="now" style="left:calc(164px + (100% - 164px) * ${pct(n)/100})"><span>${esc(fmtTime(n).replace(/ [AP]M$/,""))}</span></div>` : ""}</div>
+      ${(od.length||ns.length)?`<div class="tl-foot">${od.length?`<span><b>ON DEMAND</b>${od.map(b=>esc(b.name)).join(", ")}</span>`:""}${ns.length?`<span><b>NOT SCHEDULED YET</b>${ns.map(b=>esc(b.name)).join(", ")}</span>`:""}</div>`:""}
+    </div>`;
+}
+
+function renderLive(){ const now=new Date(); renderHUD(now); renderInbox(); renderFeed(); renderBrief(now); renderHealthBadges(now); renderTimeline(now); if(openId) fillPanel(openId); updateLive(); }
+function render(){ deriveCollections(); renderWorld(); renderLive(); }
 
 /* ---------- panel ---------- */
 const panel=$("#panel"), backdrop=$("#backdrop");
 let lastFocus=null;
 const isEmpty = v => !v || /^no (runs|findings) yet$/i.test(v) || /^not (confirmed|scheduled)/i.test(v);
-function row(k,v){ return `<dt>${k}</dt><dd class="${isEmpty(v)?"empty":""}">${esc(v||"—")}</dd>`; }
+function row(k,v,raw){ return `<dt>${k}</dt><dd class="${isEmpty(v)?"empty":""}">${raw?v:esc(v||"—")}</dd>`; }
 function whenText(at, text){ if(at){ const t = fmtCT(at); return text ? `${t} · ${text}` : t; } return text; }
 function fillPanel(id){
-  const b = bots.find(x=>x.id===id); if(!b){ closePanel(); return false; }
-  const z = zoneById[b.zone]||{}, s=st(b.status), L=lvl(b), col=zoneColor(z);
+  const b = botById(id); if(!b){ closePanel(); return false; }
+  const z = zoneById[b.zone]||{}, s=st(b.status), L=lvl(b), col=zoneColor(z), now=new Date(), h=health(b,now);
   panel.style.setProperty("--zc",col);
   $("#pPortrait").innerHTML = sprite(b.avatar);
   $("#pZone").textContent = z.name||b.zone||"";
   $("#pName").textContent = b.name;
   $("#pCls").textContent = `${b.className||""} · LV ${L.level} · ${L.into}/${L.per} runs to next level`;
-  $("#pChips").innerHTML = `<span class="chip ${s.cls}"><span class="dot ${s.cls}"></span>${esc(s.label)}</span>`+
+  $("#pChips").innerHTML = `<span class="chip ${s.cls}"><span class="dot ${s.cls}"></span>${esc(s.label)}</span>`+ hbHTML(b, now, true) +
     `<span class="chip">${+b.runsCompleted||0} ${(+b.runsCompleted===1)?"run":"runs"}</span>`+
     (b.created?`<span class="chip">Joined ${esc(new Date(b.created+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}))}</span>`:"");
-  const w = b.waitingOnYou||[];
+  const w = inbox.filter(i=>i.bot===b.id);
+  const occAll=occurrences(b.slots, now, -1, 2), todays=occAll.filter(o=>o.day===0);
+  const todayTxt = todays.length ? todays.map(o=>`${esc(fmtTime(o.at))} ${esc(o.label)}: ${STATE_TXT[todayState(b,o,occAll,now)]}`).join("<br>") : esc((b.slots||[]).length ? "No runs scheduled today" : "Nothing scheduled");
   $("#pBody").innerHTML =
-    (w.length?`<div class="wait"><h4>! WAITING ON YOU</h4><ul>${w.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`:"") +
-    `<dl class="sheet">${row("Role",b.role)}${row("Schedule",b.schedule)}${row("Routines",b.routines)}${row("Last run",whenText(b.lastRunAt,b.lastRun))}${row("Next run",whenText(b.nextRunAt,b.nextRunAt?"":b.nextRun))}${row("Latest finding",b.latestFinding)}${w.length?"":row("Waiting on you","Nothing right now")}${b.notes?row("Notes",b.notes):""}</dl>`+
-    `<div class="p-foot">${b.updatedAt?`Bot status posted ${esc(fmtCT(b.updatedAt))}<br>`:""}Data as of ${esc(fmtCT(updatedAt(D)))}</div>`;
+    (w.length?`<div class="wait"><h4>! WAITING ON YOU</h4><ul>${w.map(i=>`<li>${esc(i.text)}${i.since?` <span style="color:#b9925a">(${esc(dur(i.since))})</span>`:""}</li>`).join("")}</ul></div>`:"") +
+    `<dl class="sheet">${row("Role",b.role)}${row("Health",`${h.h}: ${h.why}`)}${row("Schedule",b.schedule)}${row("Today",todayTxt,true)}${row("Routines",b.routines)}${row("Last run",whenText(b.lastRunAt,b.lastRun))}${row("Next run",whenText(b.nextRunAt,b.nextRunAt?"":b.nextRun))}${row("Latest finding",b.latestFinding)}${w.length?"":row("Waiting on you","Nothing right now")}${b.notes?row("Notes",b.notes):""}</dl>`+
+    `<div class="p-foot">${b.updatedAt?`Bot status posted ${esc(fmtCT(b.updatedAt))}<br>`:""}Data published ${esc(fmtCT(updatedAt(D)))}</div>`;
   return true;
 }
 function openBot(id){
@@ -733,7 +1225,7 @@ let fetchOk = null; // null = not tried yet, true/false = last fetch result
 let lastJSON = JSON.stringify(D);
 function updateLive(){
   const el = $("#live"); if(!el) return;
-  const up = lastActivity(D), ageMin = (Date.now()-new Date(up))/60000;
+  const up = lastActivity(D), ageMin = (Date.now()-new Date(up))/MS;
   let cls="live", label="LIVE", tip;
   if(fetchOk === false){ cls="live off"; label = location.protocol==="file:" ? "SNAPSHOT" : "OFFLINE";
     tip = location.protocol==="file:" ? "Opened from a file, so this shows the built-in data" : "Couldn't reach data.json; showing the last data loaded"; }
@@ -759,10 +1251,12 @@ render();
 const m = location.hash.match(/^#bot=(.+)$/); if(m) openBot(decodeURIComponent(m[1]));
 poll();
 setInterval(poll, POLL_MS);
+setInterval(renderLive, POLL_MS);   // keeps the now-line, health, ages, and briefing current between data changes
 setInterval(updateLive, 15000);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) poll(); });
 })();
 </script>
+
 <style>
 .twinkle{animation:twinkle 3.5s ease-in-out infinite}
 @keyframes twinkle{50%{opacity:.12}}
@@ -773,6 +1267,8 @@ document.addEventListener("visibilitychange",()=>{ if(!document.hidden) poll(); 
 @keyframes beacon{50%{transform:scale(1.35);opacity:.6}}
 .cloud{animation:cloud 18s ease-in-out infinite alternate}
 @keyframes cloud{to{transform:translateX(-40px)}}
+.flyby{animation:flyby 18s linear infinite}
+@keyframes flyby{0%{transform:translate(-90px,96px)}100%{transform:translate(520px,40px)}}
 </style>
 </body>
 </html>
