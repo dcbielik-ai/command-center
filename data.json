@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T14:43:43-05:00",
+  "updatedAt": "2026-10-05T15:41:18-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -272,8 +272,8 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-05T14:43:00-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-05T15:40:00-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -282,17 +282,18 @@
         "2026-10-05T11:48:11-05:00",
         "2026-10-05T12:46:00-05:00",
         "2026-10-05T13:47:00-05:00",
-        "2026-10-05T14:43:00-05:00"
+        "2026-10-05T14:43:00-05:00",
+        "2026-10-05T15:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-05T15:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-05T16:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 8,
+      "runsCompleted": 9,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-05T14:45:00-05:00",
+      "updatedAt": "2026-10-05T15:45:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -665,6 +666,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-05T15:40:00-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-05T14:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -745,21 +751,15 @@
       "at": "2026-10-05T08:10:00-05:00",
       "text": "Added 248 new deals; 272 deals tracked across TX and OK",
       "finding": "272 deals tracked"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-05T08:03:24-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 6 items need you",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-05T14:43:43-05:00"
+    "at": "2026-10-05T15:41:18-05:00"
   },
-  "generatedAt": "2026-10-05T14:43:43-05:00"
+  "generatedAt": "2026-10-05T15:41:18-05:00"
 }
