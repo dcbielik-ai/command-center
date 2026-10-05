@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T13:46:01-05:00",
+  "updatedAt": "2026-10-05T14:43:43-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -273,7 +273,7 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-05T13:47:00-05:00",
+      "lastRunAt": "2026-10-05T14:43:00-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -281,17 +281,18 @@
         "2026-10-05T10:45:00-05:00",
         "2026-10-05T11:48:11-05:00",
         "2026-10-05T12:46:00-05:00",
-        "2026-10-05T13:47:00-05:00"
+        "2026-10-05T13:47:00-05:00",
+        "2026-10-05T14:43:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-05T14:35:00-05:00",
+      "nextRunAt": "2026-10-05T15:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 7,
+      "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-05T13:47:00-05:00",
+      "updatedAt": "2026-10-05T14:45:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -664,6 +665,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-05T14:43:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-05T13:47:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -744,21 +751,15 @@
       "at": "2026-10-05T08:03:24-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-05T07:55:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 6 items need you",
-      "Next run: Portfolio News · News check, today 2:35 PM CT",
+      "Next run: Portfolio News · News check, today 3:35 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-05T13:46:01-05:00"
+    "at": "2026-10-05T14:43:43-05:00"
   },
-  "generatedAt": "2026-10-05T13:46:01-05:00"
+  "generatedAt": "2026-10-05T14:43:43-05:00"
 }
