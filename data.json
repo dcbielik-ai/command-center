@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T08:53:04-05:00",
+  "updatedAt": "2026-10-05T09:49:33-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -272,21 +272,22 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-05T08:53:04-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-05T09:52:00-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
-        "2026-10-05T08:53:04-05:00"
+        "2026-10-05T08:53:04-05:00",
+        "2026-10-05T09:52:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-05T09:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-05T10:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-05T08:53:04-05:00",
+      "updatedAt": "2026-10-05T09:52:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -303,8 +304,8 @@
       "className": "Scout: Deal Hunter",
       "role": "Finds homes for sale in Texas and Oklahoma with an assumable VA loan and ranks them by the smallest equity gap (cash needed to assume), with the assumable rate alongside. Personal side project.",
       "status": "Active",
-      "schedule": "Every day at 7:42 AM CT; Once Oct 5 at 8:43 AM CT",
-      "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT); Zillow direct keyword search try (one-time) (Once Oct 5 at 8:43 AM CT)",
+      "schedule": "Every day at 7:42 AM CT",
+      "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT)",
       "slots": [
         {
           "label": "Daily assumable VA listings check (TX + OK)",
@@ -322,21 +323,22 @@
           ]
         }
       ],
-      "lastRun": "Added 248 new deals; 272 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-05T08:10:00-05:00",
+      "lastRun": "Added 268 new deals; 540 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-05T09:05:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
-        "2026-10-05T08:10:00-05:00"
+        "2026-10-05T08:10:00-05:00",
+        "2026-10-05T09:05:00-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-06T07:42:00-05:00",
-      "latestFinding": "272 deals tracked",
+      "latestFinding": "540 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-05T08:10:00-05:00",
+      "updatedAt": "2026-10-05T09:05:00-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -656,10 +658,21 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-05T09:52:00-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "trend-scout",
       "at": "2026-10-05T09:05:00-05:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "va-deal-scout",
+      "at": "2026-10-05T09:05:00-05:00",
+      "text": "Added 268 new deals; 540 deals tracked across TX and OK",
+      "finding": "540 deals tracked"
     },
     {
       "bot": "portfolio-news",
@@ -731,27 +744,15 @@
       "at": "2026-10-04T17:36:58-05:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "design-studio",
-      "at": "2026-10-04T17:12:25-05:00",
-      "text": "Finished 15 designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "listings-marketing",
-      "at": "2026-10-04T17:02:18-05:00",
-      "text": "Completed a run",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 6 items need you",
-      "Next run: Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Trend Scout: Completed a run"
+      "Next run: Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-05T08:53:04-05:00"
+    "at": "2026-10-05T09:49:33-05:00"
   },
-  "generatedAt": "2026-10-05T08:53:04-05:00"
+  "generatedAt": "2026-10-05T09:49:33-05:00"
 }
