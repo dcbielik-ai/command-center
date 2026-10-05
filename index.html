@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-05T08:17:19-05:00",
+  "updatedAt": "2026-10-05T08:22:51-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -96,23 +96,40 @@ const TEAM_DATA = {
       "className": "Chief of Staff",
       "role": "Dennis's chief of staff: builds and coordinates the bot team, recruits new bots as the team grows, and runs this Command Center.",
       "status": "Active",
-      "schedule": "On demand, whenever you message it",
-      "routines": "None needed (works on request)",
-      "slots": [],
-      "lastRun": "Added Merch Lead to The Shop as team lead and AI Guide in a new AI Lab zone.",
-      "lastRunAt": "2026-10-04T16:30:17-05:00",
+      "schedule": "Weekdays at 8:10 AM and 7:10 PM CT",
+      "routines": "Command center refresh (Weekdays at 8:10 AM and 7:10 PM CT)",
+      "slots": [
+        {
+          "label": "Command center refresh",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "08:10",
+            "19:10"
+          ]
+        }
+      ],
+      "lastRun": "Morning command center refresh: pulled every bot's latest status into the dashboard and published it.",
+      "lastRunAt": "2026-10-05T08:22:51-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
-        "2026-10-04T16:30:17-05:00"
+        "2026-10-04T16:30:17-05:00",
+        "2026-10-05T08:22:51-05:00"
       ],
-      "nextRun": "On demand",
-      "latestFinding": "Team now 11 bots across 6 zones.",
+      "nextRun": "",
+      "nextRunAt": "2026-10-05T19:10:00-05:00",
+      "latestFinding": "Team at 11 bots across 6 zones; all bots reported within the last day.",
       "waitingOnYou": [],
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:30:17-05:00",
+      "updatedAt": "2026-10-05T08:22:51-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -651,6 +668,12 @@ const TEAM_DATA = {
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-10-05T08:22:51-05:00",
+      "text": "Morning command center refresh: pulled every bot's latest status into the dashboard and published it.",
+      "finding": "Team at 11 bots across 6 zones; all bots reported within the last day."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-05T08:14:00-05:00",
       "text": "Daily trending-stocks heads-up: 5 of the morning's hyped names (MU, NU, NVDA, TSM, WDC) clear the 20%+ growth and valuation bar.",
@@ -732,23 +755,17 @@ const TEAM_DATA = {
       "at": "2026-10-04T16:44:24-05:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "trend-scout",
-      "at": "2026-10-04T16:37:00-05:00",
-      "text": "Found 30 rising niches",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 6 items need you",
+      "8 of 8 scheduled bots healthy · 6 items need you",
       "Next run: Trend Scout · Trend scan, today 8:31 AM CT",
-      "Latest: Fundamentals Analyst: Daily trending-stocks heads-up: 5 of the morning's hyped names (MU, NU, NVDA, TSM,…"
+      "Latest: Chief of Staff: Morning command center refresh: pulled every bot's latest status into the dashboard…"
     ],
-    "at": "2026-10-05T08:17:19-05:00"
+    "at": "2026-10-05T08:22:51-05:00"
   },
-  "generatedAt": "2026-10-05T08:17:19-05:00"
+  "generatedAt": "2026-10-05T08:22:51-05:00"
 };
 /* TEAM_DATA:END */
 </script>
