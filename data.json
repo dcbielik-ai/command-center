@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T08:49:00-05:00",
+  "updatedAt": "2026-10-05T08:53:04-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -272,20 +272,21 @@
           ]
         }
       ],
-      "lastRun": "Sent 2 alerts",
-      "lastRunAt": "2026-10-05T07:39:53-05:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-10-05T08:53:04-05:00",
       "runTimes": [
-        "2026-10-05T07:39:53-05:00"
+        "2026-10-05T07:39:53-05:00",
+        "2026-10-05T08:53:04-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-05T08:35:00-05:00",
-      "latestFinding": "Sent 2 alerts",
+      "nextRunAt": "2026-10-05T09:35:00-05:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 1,
+      "runsCompleted": 2,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-05T07:40:46-05:00",
+      "updatedAt": "2026-10-05T08:53:04-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -661,6 +662,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-05T08:53:04-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "trend-scout",
       "at": "2026-10-05T08:49:00-05:00",
       "text": "Completed a run",
@@ -736,12 +743,6 @@
       "at": "2026-10-04T17:02:18-05:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "design-studio",
-      "at": "2026-10-04T16:58:51-05:00",
-      "text": "Finished 14 designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
@@ -750,7 +751,7 @@
       "Next run: Portfolio News · News check, today 9:35 AM CT",
       "Latest: Trend Scout: Completed a run"
     ],
-    "at": "2026-10-05T08:49:00-05:00"
+    "at": "2026-10-05T08:53:04-05:00"
   },
-  "generatedAt": "2026-10-05T08:49:00-05:00"
+  "generatedAt": "2026-10-05T08:53:04-05:00"
 }
