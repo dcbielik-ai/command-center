@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-06T16:12:58-05:00",
+  "updatedAt": "2026-10-06T16:14:22-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -70,7 +70,7 @@ const TEAM_DATA = {
       "icon": "plane",
       "tagline": "Airport and beach: trip deals",
       "span": 1,
-      "cols": 5
+      "cols": 4
     },
     {
       "id": "ailab",
@@ -79,7 +79,16 @@ const TEAM_DATA = {
       "icon": "chip",
       "tagline": "AI briefings and scam watch",
       "span": 1,
-      "cols": 5
+      "cols": 4
+    },
+    {
+      "id": "puppy",
+      "name": "Puppy Studio",
+      "theme": "puppy",
+      "icon": "clapper",
+      "tagline": "Pet photos into films, trailers & storybooks",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -125,13 +134,13 @@ const TEAM_DATA = {
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-06T19:10:00-05:00",
-      "latestFinding": "Team at 11 bots across 6 zones; every daily bot reported this morning, and 7 items are waiting on Dennis.",
+      "latestFinding": "Team at 12 bots across 7 zones; Puppy Studio is online, and 7 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 5,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T08:20:56-05:00",
+      "updatedAt": "2026-10-06T16:13:25-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -671,6 +680,39 @@ const TEAM_DATA = {
         "eye": "#7af7ff",
         "trim": "#3dff8b"
       }
+    },
+    {
+      "id": "puppy-media",
+      "name": "Puppy Media",
+      "zone": "puppy",
+      "className": "Creator: Pet Media",
+      "role": "Turns family pet photos into short films, trailers, and picture books. Pet names and photo details stay private.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [
+        "Needs info from you"
+      ],
+      "waitingSince": "2026-10-06T16:12:00-05:00",
+      "runsCompleted": 0,
+      "created": "2026-10-06",
+      "firstSeenAt": "2026-10-06T16:12:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-06T16:12:00-05:00",
+      "avatar": {
+        "hat": "ears",
+        "head": "#ffe0c2",
+        "body": "#ff8a4c",
+        "accent": "#5b3a2a",
+        "eye": "#ffd447",
+        "trim": "#ff5fd2",
+        "prop": "clapper"
+      }
     }
   ],
   "inbox": [
@@ -703,6 +745,11 @@ const TEAM_DATA = {
       "bot": "ai-guide",
       "text": "Needs a decision from you",
       "since": "2026-10-05T07:55:00-05:00"
+    },
+    {
+      "bot": "puppy-media",
+      "text": "Needs info from you",
+      "since": "2026-10-06T16:12:00-05:00"
     }
   ],
   "feed": [
@@ -797,13 +844,13 @@ const TEAM_DATA = {
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 6 items need you",
+      "8 of 8 scheduled bots healthy · 7 items need you · 1 setting up",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
       "Latest: Listings & Marketing: Completed a run"
     ],
-    "at": "2026-10-06T16:12:58-05:00"
+    "at": "2026-10-06T16:14:22-05:00"
   },
-  "generatedAt": "2026-10-06T16:12:58-05:00"
+  "generatedAt": "2026-10-06T16:14:22-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -956,6 +1003,7 @@ button{font:inherit;color:inherit}
 .theme-studio .unit{flex:0 1 150px}
 .flowarrow{animation:blink 1.6s ease-in-out infinite}
 .theme-ailab{--zc:#7c9cff;background:linear-gradient(180deg,#0a0f2a 0%,#0d1438 60%,#080c22 100%);border-color:#34428a}
+.theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
 .lead-tag{display:inline-block;margin-left:4px;padding:0 4px;border-radius:3px;background:#ff5fd2;color:#1a0b2e;font-family:var(--mono);font-size:8px;font-weight:800;letter-spacing:.08em;vertical-align:2px}
@@ -1247,6 +1295,7 @@ function sprite(av, cls){
   // highlights
   r += `<rect x="2" y="5" width="2" height="1" fill="${shade(head,.45)}"/><rect x="3" y="11" width="1" height="1" fill="${shade(body,.3)}"/>`;
   if(av.prop==="clipboard") r += `<rect x="8.5" y="9" width="3.5" height="4.5" fill="#8a5a2a"/><rect x="9" y="9.8" width="2.5" height="3.3" fill="#f4f1e8"/><rect x="9.6" y="8.6" width="1.3" height=".8" fill="#c8d3f5"/><rect x="9.3" y="10.5" width="1.9" height=".35" fill="#5d6a90"/><rect x="9.3" y="11.4" width="1.5" height=".35" fill="#5d6a90"/>`;
+  if(av.prop==="clapper") r += `<rect x="8.2" y="9.2" width="3.6" height="2.4" fill="#1a1018"/><path d="M8.2 9.2 L9.6 7.4 H11.2 L10 9.2Z" fill="#ff9f6b"/><rect x="8.5" y="10.6" width="1.2" height=".5" fill="#ffd447"/><rect x="10" y="10.6" width="1.4" height=".5" fill="#ffd447" opacity=".7"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
@@ -1424,7 +1473,10 @@ ART.studio = function(){
 
 HATS.foreman = ["............","...aaaaaa...","..aaatttaa..","..aaaaaaaaaa"];
 HATS.dish    = [".....tt.....","....t..t....","...t.oo.t...","....aaaa...."];
+HATS.ears    = ["..t......t..",".tt......tt.",".aa......aa.","..aaaaaaaa.."];
 ICON.chip = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="4" y="4" width="8" height="8" fill="none" stroke="${c}" stroke-width="1.6"/><rect x="6.5" y="6.5" width="3" height="3" fill="${c}"/>${[5,8,11].map(v=>`<rect x="${v-.5}" y="1" width="1" height="2.5" fill="${c}"/><rect x="${v-.5}" y="12.5" width="1" height="2.5" fill="${c}"/><rect x="1" y="${v-.5}" width="2.5" height="1" fill="${c}"/><rect x="12.5" y="${v-.5}" width="2.5" height="1" fill="${c}"/>`).join("")}</svg>`;
+ICON.clapper = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="1" y="6" width="14" height="8" fill="none" stroke="${c}" stroke-width="1.4"/><rect x="1" y="6" width="14" height="2" fill="${c}" opacity=".35"/><path d="M2 6 L6 2 L9 2 L5 6" fill="none" stroke="${c}" stroke-width="1.4"/><rect x="3" y="9" width="3" height="1.5" fill="${c}"/><rect x="8" y="9" width="5" height="1.5" fill="${c}" opacity=".6"/></svg>`;
+ICON.paw = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges" fill="${c}"><circle cx="4" cy="4" r="1.8"/><circle cx="8" cy="2.5" r="1.8"/><circle cx="12" cy="4" r="1.8"/><ellipse cx="8" cy="10.5" rx="4.2" ry="3.6"/></svg>`;
 ART.ailab = function(){
   const R = rng(31), W=400, H=330, G=H-38; let s="";
   s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="#0a0f2a"/>`;
@@ -1444,6 +1496,40 @@ ART.ailab = function(){
   s+=`<rect x="110" y="${G-40}" width="220" height="8" fill="#2c3a7a"/><rect x="120" y="${G-32}" width="6" height="32" fill="#1c2656"/><rect x="314" y="${G-32}" width="6" height="32" fill="#1c2656"/>`;
   s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#080c22"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#7c9cff" opacity=".5"/>`;
   for(let x=0;x<W;x+=24) s+=`<rect x="${x}" y="${G+10}" width="12" height="1" fill="#7c9cff" opacity=".2"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
+};
+
+
+ART.puppy = function(){
+  const R = rng(41), W=400, H=330, G=H-38; let s="";
+  s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="#2a1420"/>`;
+  // warm studio glow
+  s+=`<circle cx="200" cy="${G-80}" r="90" fill="#ff9f6b" opacity=".10"/>`;
+  for(let i=0;i<28;i++) s+=`<rect x="${(R()*W)|0}" y="${(R()*100)|0}" width="1.2" height="1.2" fill="#ffe0c2" class="twinkle" style="animation-delay:${(R()*5).toFixed(1)}s" opacity="${.25+R()*.5}"/>`;
+  // filmstrip left
+  s+=`<rect x="10" y="40" width="36" height="${G-50}" fill="#1a1018" stroke="#ff9f6b" stroke-opacity=".5"/>`;
+  for(let y=48;y<G-20;y+=18){ s+=`<rect x="14" y="${y}" width="28" height="12" fill="#3a1e28"/>`;
+    s+=`<rect x="12" y="${y+3}" width="3" height="3" fill="#ffd447" opacity=".7"/><rect x="41" y="${y+3}" width="3" height="3" fill="#ffd447" opacity=".7"/>`;
+    if(R()>.4) s+=`<ellipse cx="28" cy="${y+6}" rx="6" ry="4" fill="#ff8a4c" opacity=".55"/>`; }
+  // storybook right
+  s+=`<rect x="320" y="${G-120}" width="60" height="48" fill="#f4e4c8" stroke="#c89a5a"/><rect x="320" y="${G-120}" width="10" height="48" fill="#e8c98a"/>`;
+  s+=`<rect x="338" y="${G-108}" width="34" height="3" fill="#ff8a4c" opacity=".7"/><rect x="338" y="${G-100}" width="28" height="2" fill="#5b3a2a" opacity=".35"/><rect x="338" y="${G-94}" width="30" height="2" fill="#5b3a2a" opacity=".3"/>`;
+  s+=`<ellipse cx="355" cy="${G-84}" rx="8" ry="5" fill="#ff9f6b" opacity=".8"/>`;
+  // director clapper center desk
+  s+=`<rect x="130" y="${G-70}" width="140" height="10" fill="#5b3a2a"/><rect x="140" y="${G-62}" width="8" height="24" fill="#3a2418"/><rect x="252" y="${G-62}" width="8" height="24" fill="#3a2418"/>`;
+  s+=`<rect x="168" y="${G-96}" width="64" height="22" fill="#1a1018" stroke="#ffd447"/><path d="M168 ${G-96} l18 -14 h28 l-10 14z" fill="#ff9f6b"/><path d="M176 ${G-96} l12 -10 h8 l-8 10z" fill="#1a1018"/>`;
+  // pixel pup silhouette on a cushion
+  s+=`<ellipse cx="200" cy="${G-42}" rx="28" ry="8" fill="#ff5fd2" opacity=".25"/>`;
+  s+=`<ellipse cx="200" cy="${G-52}" rx="16" ry="10" fill="#ff8a4c"/><circle cx="200" cy="${G-68}" r="11" fill="#ffe0c2"/>`;
+  s+=`<ellipse cx="188" cy="${G-74}" rx="4" ry="7" fill="#ff8a4c" transform="rotate(-20 188 ${G-74})"/><ellipse cx="212" cy="${G-74}" rx="4" ry="7" fill="#ff8a4c" transform="rotate(20 212 ${G-74})"/>`;
+  s+=`<circle cx="196" cy="${G-70}" r="1.6" fill="#5b3a2a"/><circle cx="204" cy="${G-70}" r="1.6" fill="#5b3a2a"/>`;
+  s+=`<ellipse cx="200" cy="${G-64}" rx="2.2" ry="1.4" fill="#ff5fd2"/>`;
+  // projector beam
+  s+=`<polygon points="70,${G-110} 160,${G-90} 160,${G-70} 70,${G-78}" fill="#ffd447" opacity=".12" class="beacon"/>`;
+  s+=`<rect x="58" y="${G-116}" width="16" height="12" fill="#3a2d60" stroke="#ffd447" stroke-opacity=".6"/><circle cx="66" cy="${G-110}" r="3" fill="#ffd447" class="blink"/>`;
+  // floor
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#1a1018"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#ff9f6b" opacity=".5"/>`;
+  for(let x=0;x<W;x+=20) s+=`<rect x="${x}" y="${G+14}" width="10" height="1.5" fill="#ff9f6b" opacity=".18"/>`;
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
 };
 
@@ -1524,7 +1610,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};

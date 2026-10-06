@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:12:58-05:00",
+  "updatedAt": "2026-10-06T16:14:22-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -55,7 +55,7 @@
       "icon": "plane",
       "tagline": "Airport and beach: trip deals",
       "span": 1,
-      "cols": 5
+      "cols": 4
     },
     {
       "id": "ailab",
@@ -64,7 +64,16 @@
       "icon": "chip",
       "tagline": "AI briefings and scam watch",
       "span": 1,
-      "cols": 5
+      "cols": 4
+    },
+    {
+      "id": "puppy",
+      "name": "Puppy Studio",
+      "theme": "puppy",
+      "icon": "clapper",
+      "tagline": "Pet photos into films, trailers & storybooks",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -110,13 +119,13 @@
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-06T19:10:00-05:00",
-      "latestFinding": "Team at 11 bots across 6 zones; every daily bot reported this morning, and 7 items are waiting on Dennis.",
+      "latestFinding": "Team at 12 bots across 7 zones; Puppy Studio is online, and 7 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 5,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T08:20:56-05:00",
+      "updatedAt": "2026-10-06T16:13:25-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -656,6 +665,39 @@
         "eye": "#7af7ff",
         "trim": "#3dff8b"
       }
+    },
+    {
+      "id": "puppy-media",
+      "name": "Puppy Media",
+      "zone": "puppy",
+      "className": "Creator: Pet Media",
+      "role": "Turns family pet photos into short films, trailers, and picture books. Pet names and photo details stay private.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [
+        "Needs info from you"
+      ],
+      "waitingSince": "2026-10-06T16:12:00-05:00",
+      "runsCompleted": 0,
+      "created": "2026-10-06",
+      "firstSeenAt": "2026-10-06T16:12:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-06T16:12:00-05:00",
+      "avatar": {
+        "hat": "ears",
+        "head": "#ffe0c2",
+        "body": "#ff8a4c",
+        "accent": "#5b3a2a",
+        "eye": "#ffd447",
+        "trim": "#ff5fd2",
+        "prop": "clapper"
+      }
     }
   ],
   "inbox": [
@@ -688,6 +730,11 @@
       "bot": "ai-guide",
       "text": "Needs a decision from you",
       "since": "2026-10-05T07:55:00-05:00"
+    },
+    {
+      "bot": "puppy-media",
+      "text": "Needs info from you",
+      "since": "2026-10-06T16:12:00-05:00"
     }
   ],
   "feed": [
@@ -782,11 +829,11 @@
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 6 items need you",
+      "8 of 8 scheduled bots healthy · 7 items need you · 1 setting up",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
       "Latest: Listings & Marketing: Completed a run"
     ],
-    "at": "2026-10-06T16:12:58-05:00"
+    "at": "2026-10-06T16:14:22-05:00"
   },
-  "generatedAt": "2026-10-06T16:12:58-05:00"
+  "generatedAt": "2026-10-06T16:14:22-05:00"
 }
