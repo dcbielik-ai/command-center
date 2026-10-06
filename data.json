@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:19:11-05:00",
+  "updatedAt": "2026-10-06T16:19:18-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -534,27 +534,25 @@
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Finished 1 design",
-      "lastRunAt": "2026-10-06T16:10:02-05:00",
+      "lastRun": "Completed a run",
+      "lastRunAt": "2026-10-06T16:19:18-05:00",
       "runTimes": [
         "2026-10-04T16:58:51-05:00",
         "2026-10-04T17:12:25-05:00",
         "2026-10-04T17:36:58-05:00",
         "2026-10-04T17:56:03-05:00",
         "2026-10-04T18:16:07-05:00",
-        "2026-10-06T16:10:02-05:00"
+        "2026-10-06T16:10:02-05:00",
+        "2026-10-06T16:19:18-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
-      "waitingOnYou": [
-        "Waiting on Dennis (optional)"
-      ],
-      "waitingSince": "2026-10-04T16:25:21-05:00",
+      "waitingOnYou": [],
       "runsCompleted": 5,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:58:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T16:10:02-05:00",
+      "updatedAt": "2026-10-06T16:19:18-05:00",
       "avatar": {
         "hat": "beret",
         "head": "#fff1d6",
@@ -722,11 +720,6 @@
       "since": "2026-10-04T16:58:00-05:00"
     },
     {
-      "bot": "design-studio",
-      "text": "Waiting on Dennis (optional)",
-      "since": "2026-10-04T16:25:21-05:00"
-    },
-    {
       "bot": "listings-marketing",
       "text": "Needs your approval",
       "since": "2026-10-04T16:25:24-05:00"
@@ -743,6 +736,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "design-studio",
+      "at": "2026-10-06T16:19:18-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "merch-lead",
       "at": "2026-10-06T16:19:00-05:00",
@@ -826,21 +825,15 @@
       "at": "2026-10-06T11:50:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-06T10:50:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 7 items need you",
+      "8 of 8 scheduled bots healthy · 6 items need you",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Merch Lead: Coordinated the team"
+      "Latest: Design Studio: Completed a run"
     ],
-    "at": "2026-10-06T16:19:11-05:00"
+    "at": "2026-10-06T16:19:18-05:00"
   },
-  "generatedAt": "2026-10-06T16:19:11-05:00"
+  "generatedAt": "2026-10-06T16:19:18-05:00"
 }
