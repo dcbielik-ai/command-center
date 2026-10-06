@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:39:21-05:00",
+  "updatedAt": "2026-10-06T16:42:47-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -686,10 +686,11 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Completed a run",
-      "lastRunAt": "2026-10-06T16:22:26-05:00",
+      "lastRunAt": "2026-10-06T16:42:47-05:00",
       "runTimes": [
         "2026-10-06T16:17:32-05:00",
-        "2026-10-06T16:22:26-05:00"
+        "2026-10-06T16:22:26-05:00",
+        "2026-10-06T16:42:47-05:00"
       ],
       "nextRun": "On demand",
       "latestFinding": "Details stay private",
@@ -697,11 +698,11 @@
         "Needs info from you"
       ],
       "waitingSince": "2026-10-06T16:12:00-05:00",
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-06",
       "firstSeenAt": "2026-10-06T16:17:32-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T16:22:26-05:00",
+      "updatedAt": "2026-10-06T16:42:47-05:00",
       "avatar": {
         "hat": "ears",
         "head": "#ffe0c2",
@@ -751,6 +752,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "puppy-media",
+      "at": "2026-10-06T16:42:47-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-06T16:38:50-05:00",
@@ -834,21 +841,15 @@
       "at": "2026-10-06T16:10:02-05:00",
       "text": "Finished 1 design",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "merch-lead",
-      "at": "2026-10-06T16:10:00-05:00",
-      "text": "Coordinated the team",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
       "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Puppy Media: Completed a run"
     ],
-    "at": "2026-10-06T16:39:21-05:00"
+    "at": "2026-10-06T16:42:47-05:00"
   },
-  "generatedAt": "2026-10-06T16:39:21-05:00"
+  "generatedAt": "2026-10-06T16:42:47-05:00"
 }
