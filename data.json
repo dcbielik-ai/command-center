@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:24:05-05:00",
+  "updatedAt": "2026-10-06T16:33:26-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -534,8 +534,8 @@
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "Finished 14 designs",
-      "lastRunAt": "2026-10-06T16:24:04-05:00",
+      "lastRun": "Completed a run",
+      "lastRunAt": "2026-10-06T16:33:26-05:00",
       "runTimes": [
         "2026-10-04T16:58:51-05:00",
         "2026-10-04T17:12:25-05:00",
@@ -545,7 +545,8 @@
         "2026-10-06T16:10:02-05:00",
         "2026-10-06T16:19:18-05:00",
         "2026-10-06T16:23:39-05:00",
-        "2026-10-06T16:24:04-05:00"
+        "2026-10-06T16:24:04-05:00",
+        "2026-10-06T16:33:26-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -557,7 +558,7 @@
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:58:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T16:24:04-05:00",
+      "updatedAt": "2026-10-06T16:33:26-05:00",
       "avatar": {
         "hat": "beret",
         "head": "#fff1d6",
@@ -751,6 +752,12 @@
   "feed": [
     {
       "bot": "design-studio",
+      "at": "2026-10-06T16:33:26-05:00",
+      "text": "Completed a run",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "design-studio",
       "at": "2026-10-06T16:24:04-05:00",
       "text": "Finished 14 designs",
       "finding": "Details stay private until launch"
@@ -832,21 +839,15 @@
       "at": "2026-10-06T15:52:00-05:00",
       "text": "After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong sell warnings (UDR new); alerted Dennis to a heavy-volume power rally and a failed STX pick.",
       "finding": "CEG +12.2% on 4.7x volume and VST +10.8% on 3.6x led power names; STX fell 9.2% to 805.63, losing its 20- and 50-day averages; SPY closed 779.09, 0.3% off its 52-week high."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-06T15:40:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Design Studio: Finished 14 designs"
+      "Latest: Design Studio: Completed a run"
     ],
-    "at": "2026-10-06T16:24:05-05:00"
+    "at": "2026-10-06T16:33:26-05:00"
   },
-  "generatedAt": "2026-10-06T16:24:05-05:00"
+  "generatedAt": "2026-10-06T16:33:26-05:00"
 }
