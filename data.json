@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T14:47:42-05:00",
+  "updatedAt": "2026-10-06T15:41:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -279,7 +279,7 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-06T14:48:00-05:00",
+      "lastRunAt": "2026-10-06T15:40:00-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -300,17 +300,18 @@
         "2026-10-06T11:50:00-05:00",
         "2026-10-06T12:42:00-05:00",
         "2026-10-06T13:39:00-05:00",
-        "2026-10-06T14:48:00-05:00"
+        "2026-10-06T14:48:00-05:00",
+        "2026-10-06T15:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-06T15:35:00-05:00",
+      "nextRunAt": "2026-10-06T16:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 20,
+      "runsCompleted": 21,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T14:48:00-05:00",
+      "updatedAt": "2026-10-06T15:43:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -694,6 +695,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-06T15:40:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-06T14:48:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -773,21 +780,15 @@
       "at": "2026-10-06T07:44:00-05:00",
       "text": "Pre-market scan on the Oct 5 session: 219 buy hits across 682 liquid names, 9 strong sell warnings (none new since the after-close check).",
       "finding": "Top setups: MNST and PGR holding their 20-day averages (43.34 and 212.14) near support; SPY closed 774.83, 0.3% off its 52-week high."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-05T19:15:20-05:00",
-      "text": "Evening command center refresh: pulled every bot's latest status into the dashboard and published it.",
-      "finding": "Team at 11 bots across 6 zones; every scheduled bot reported today, and 6 items are waiting on Dennis."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-06T14:47:42-05:00"
+    "at": "2026-10-06T15:41:32-05:00"
   },
-  "generatedAt": "2026-10-06T14:47:42-05:00"
+  "generatedAt": "2026-10-06T15:41:32-05:00"
 }
