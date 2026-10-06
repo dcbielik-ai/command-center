@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:09:11-05:00",
+  "updatedAt": "2026-10-06T16:09:21-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -434,15 +434,16 @@
       "zone": "venture",
       "className": "Team Lead: The Shop",
       "role": "Team lead for the side venture: sets strategy, coordinates Trend Scout, Design Studio, and Listings & Marketing, and brings Dennis the decisions that need him.",
-      "status": "Needs you",
+      "status": "Working",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Coordinated the team",
-      "lastRunAt": "2026-10-04T16:57:00-05:00",
+      "lastRunAt": "2026-10-06T16:10:00-05:00",
       "runTimes": [
         "2026-10-04T16:29:00-05:00",
-        "2026-10-04T16:57:00-05:00"
+        "2026-10-04T16:57:00-05:00",
+        "2026-10-06T16:10:00-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -450,11 +451,11 @@
         "Needs your approval"
       ],
       "waitingSince": "2026-10-04T16:58:00-05:00",
-      "runsCompleted": 2,
+      "runsCompleted": 3,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:29:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-04T16:58:00-05:00",
+      "updatedAt": "2026-10-06T16:10:00-05:00",
       "avatar": {
         "hat": "foreman",
         "head": "#ffe9cf",
@@ -688,6 +689,12 @@
   ],
   "feed": [
     {
+      "bot": "merch-lead",
+      "at": "2026-10-06T16:10:00-05:00",
+      "text": "Coordinated the team",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-10-06T15:52:00-05:00",
       "text": "After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong sell warnings (UDR new); alerted Dennis to a heavy-volume power rally and a failed STX pick.",
@@ -768,21 +775,15 @@
       "at": "2026-10-06T08:02:00-05:00",
       "text": "Added 9 new deals; 549 deals tracked across TX and OK",
       "finding": "549 deals tracked"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-06T07:47:21-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 6 items need you",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Technical Analyst: After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong…"
+      "Latest: Merch Lead: Coordinated the team"
     ],
-    "at": "2026-10-06T16:09:11-05:00"
+    "at": "2026-10-06T16:09:21-05:00"
   },
-  "generatedAt": "2026-10-06T16:09:11-05:00"
+  "generatedAt": "2026-10-06T16:09:21-05:00"
 }
