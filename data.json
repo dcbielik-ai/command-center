@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T17:07:39-05:00",
+  "updatedAt": "2026-10-06T17:39:00-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -288,8 +288,8 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-06T16:38:50-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-06T17:37:50-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -312,17 +312,18 @@
         "2026-10-06T13:39:00-05:00",
         "2026-10-06T14:48:00-05:00",
         "2026-10-06T15:40:00-05:00",
-        "2026-10-06T16:38:50-05:00"
+        "2026-10-06T16:38:50-05:00",
+        "2026-10-06T17:37:50-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-06T17:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-06T18:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 22,
+      "runsCompleted": 23,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T16:39:21-05:00",
+      "updatedAt": "2026-10-06T17:39:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -756,6 +757,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-06T17:37:50-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "puppy-media",
       "at": "2026-10-06T17:07:38-05:00",
       "text": "Completed a run",
@@ -838,21 +844,15 @@
       "at": "2026-10-06T16:18:55-05:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "puppy-media",
-      "at": "2026-10-06T16:17:32-05:00",
-      "text": "Completed a run",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Puppy Media: Completed a run"
+      "Next run: Portfolio News · News check, today 6:35 PM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-06T17:07:39-05:00"
+    "at": "2026-10-06T17:39:00-05:00"
   },
-  "generatedAt": "2026-10-06T17:07:39-05:00"
+  "generatedAt": "2026-10-06T17:39:00-05:00"
 }
