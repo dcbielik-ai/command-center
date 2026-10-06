@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T15:41:32-05:00",
+  "updatedAt": "2026-10-06T15:50:06-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -216,24 +216,25 @@
           ]
         }
       ],
-      "lastRun": "Pre-market scan on the Oct 5 session: 219 buy hits across 682 liquid names, 9 strong sell warnings (none new since the after-close check).",
-      "lastRunAt": "2026-10-06T07:44:00-05:00",
+      "lastRun": "After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong sell warnings (UDR new); alerted Dennis to a heavy-volume power rally and a failed STX pick.",
+      "lastRunAt": "2026-10-06T15:52:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
         "2026-10-05T15:42:00-05:00",
         "2026-10-05T15:45:00-05:00",
-        "2026-10-06T07:44:00-05:00"
+        "2026-10-06T07:44:00-05:00",
+        "2026-10-06T15:52:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-06T15:38:00-05:00",
-      "latestFinding": "Top setups: MNST and PGR holding their 20-day averages (43.34 and 212.14) near support; SPY closed 774.83, 0.3% off its 52-week high.",
+      "nextRunAt": "2026-10-07T07:38:00-05:00",
+      "latestFinding": "CEG +12.2% on 4.7x volume and VST +10.8% on 3.6x led power names; STX fell 9.2% to 805.63, losing its 20- and 50-day averages; SPY closed 779.09, 0.3% off its 52-week high.",
       "waitingOnYou": [],
-      "runsCompleted": 4,
+      "runsCompleted": 5,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T07:44:00-05:00",
+      "updatedAt": "2026-10-06T15:52:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -694,6 +695,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-06T15:52:00-05:00",
+      "text": "After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong sell warnings (UDR new); alerted Dennis to a heavy-volume power rally and a failed STX pick.",
+      "finding": "CEG +12.2% on 4.7x volume and VST +10.8% on 3.6x led power names; STX fell 9.2% to 805.63, losing its 20- and 50-day averages; SPY closed 779.09, 0.3% off its 52-week high."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-06T15:40:00-05:00",
       "text": "Completed a news check",
@@ -774,21 +781,15 @@
       "at": "2026-10-06T07:47:21-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-06T07:44:00-05:00",
-      "text": "Pre-market scan on the Oct 5 session: 219 buy hits across 682 liquid names, 9 strong sell warnings (none new since the after-close check).",
-      "finding": "Top setups: MNST and PGR holding their 20-day averages (43.34 and 212.14) near support; SPY closed 774.83, 0.3% off its 52-week high."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Technical Analyst: After-close check on the Oct 6 session: 239 buy hits across 682 liquid names, 6 strong…"
     ],
-    "at": "2026-10-06T15:41:32-05:00"
+    "at": "2026-10-06T15:50:06-05:00"
   },
-  "generatedAt": "2026-10-06T15:41:32-05:00"
+  "generatedAt": "2026-10-06T15:50:06-05:00"
 }
