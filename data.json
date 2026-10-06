@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T13:38:08-05:00",
+  "updatedAt": "2026-10-06T14:47:42-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -279,7 +279,7 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-06T13:39:00-05:00",
+      "lastRunAt": "2026-10-06T14:48:00-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -299,17 +299,18 @@
         "2026-10-06T10:50:00-05:00",
         "2026-10-06T11:50:00-05:00",
         "2026-10-06T12:42:00-05:00",
-        "2026-10-06T13:39:00-05:00"
+        "2026-10-06T13:39:00-05:00",
+        "2026-10-06T14:48:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-06T14:35:00-05:00",
+      "nextRunAt": "2026-10-06T15:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 19,
+      "runsCompleted": 20,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T13:39:00-05:00",
+      "updatedAt": "2026-10-06T14:48:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -693,6 +694,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-06T14:48:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-06T13:39:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -772,21 +779,15 @@
       "at": "2026-10-05T19:15:20-05:00",
       "text": "Evening command center refresh: pulled every bot's latest status into the dashboard and published it.",
       "finding": "Team at 11 bots across 6 zones; every scheduled bot reported today, and 6 items are waiting on Dennis."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-05T18:37:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 2:35 PM CT",
+      "Next run: Portfolio News · News check, today 3:35 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-06T13:38:08-05:00"
+    "at": "2026-10-06T14:47:42-05:00"
   },
-  "generatedAt": "2026-10-06T13:38:08-05:00"
+  "generatedAt": "2026-10-06T14:47:42-05:00"
 }
