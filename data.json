@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T08:20:56-05:00",
+  "updatedAt": "2026-10-06T08:47:09-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -278,8 +278,8 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-06T07:47:21-05:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-10-06T08:48:30-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -293,17 +293,18 @@
         "2026-10-05T16:37:00-05:00",
         "2026-10-05T17:37:00-05:00",
         "2026-10-05T18:37:00-05:00",
-        "2026-10-06T07:47:21-05:00"
+        "2026-10-06T07:47:21-05:00",
+        "2026-10-06T08:48:30-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-06T08:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-06T09:35:00-05:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 13,
+      "runsCompleted": 14,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T07:47:21-05:00",
+      "updatedAt": "2026-10-06T08:48:30-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -685,6 +686,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-06T08:48:30-05:00",
+      "text": "Sent 2 alerts"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-10-06T08:20:56-05:00",
       "text": "Morning command center refresh: pulled every bot's latest status into the dashboard and published it.",
@@ -766,21 +772,15 @@
       "at": "2026-10-05T14:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-05T13:47:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Chief of Staff: Morning command center refresh: pulled every bot's latest status into the dashboard…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-10-06T08:20:56-05:00"
+    "at": "2026-10-06T08:47:09-05:00"
   },
-  "generatedAt": "2026-10-06T08:20:56-05:00"
+  "generatedAt": "2026-10-06T08:47:09-05:00"
 }
