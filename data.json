@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T20:25:49-05:00",
+  "updatedAt": "2026-10-07T07:46:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -289,8 +289,8 @@
           ]
         }
       ],
-      "lastRun": "Sent 0 alerts",
-      "lastRunAt": "2026-10-06T18:41:07-05:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-10-07T07:45:19-05:00",
       "runTimes": [
         "2026-10-05T07:39:53-05:00",
         "2026-10-05T08:53:04-05:00",
@@ -315,17 +315,18 @@
         "2026-10-06T15:40:00-05:00",
         "2026-10-06T16:38:50-05:00",
         "2026-10-06T17:37:50-05:00",
-        "2026-10-06T18:41:07-05:00"
+        "2026-10-06T18:41:07-05:00",
+        "2026-10-07T07:45:19-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-07T07:35:00-05:00",
-      "latestFinding": "Sent 0 alerts",
+      "nextRunAt": "2026-10-07T08:35:00-05:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 24,
+      "runsCompleted": 25,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T18:44:00-05:00",
+      "updatedAt": "2026-10-07T07:50:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -765,6 +766,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-07T07:45:19-05:00",
+      "text": "Sent 2 alerts"
+    },
+    {
       "bot": "puppy-media",
       "at": "2026-10-06T20:25:49-05:00",
       "text": "Completed a run",
@@ -845,21 +851,15 @@
       "at": "2026-10-06T16:38:50-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "design-studio",
-      "at": "2026-10-06T16:33:26-05:00",
-      "text": "Completed a run",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Puppy Media: Completed a run"
+      "Next run: Travel Agent · Deal check, today 7:54 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-10-06T20:25:49-05:00"
+    "at": "2026-10-07T07:46:32-05:00"
   },
-  "generatedAt": "2026-10-06T20:25:49-05:00"
+  "generatedAt": "2026-10-07T07:46:32-05:00"
 }
