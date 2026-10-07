@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T07:47:15-05:00",
+  "updatedAt": "2026-10-07T08:11:01-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -417,24 +417,25 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-06T08:06:00-05:00",
+      "lastRunAt": "2026-10-07T08:10:00-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
-        "2026-10-06T08:06:00-05:00"
+        "2026-10-06T08:06:00-05:00",
+        "2026-10-07T08:10:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-07T07:54:00-05:00",
+      "nextRunAt": "2026-10-08T07:54:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [
-        "Needs a decision from you"
+        "Waiting on Dennis"
       ],
       "waitingSince": "2026-10-06T08:06:00-05:00",
-      "runsCompleted": 3,
+      "runsCompleted": 4,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-06T08:06:00-05:00",
+      "updatedAt": "2026-10-07T08:11:01-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -737,7 +738,7 @@
     },
     {
       "bot": "travel-agent",
-      "text": "Needs a decision from you",
+      "text": "Waiting on Dennis",
       "since": "2026-10-06T08:06:00-05:00"
     },
     {
@@ -767,6 +768,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "travel-agent",
+      "at": "2026-10-07T08:10:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
     {
       "bot": "technical-analyst",
       "at": "2026-10-07T07:50:00-05:00",
@@ -847,21 +854,15 @@
       "at": "2026-10-06T16:45:08-05:00",
       "text": "Completed a run",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "design-studio",
-      "at": "2026-10-06T16:44:09-05:00",
-      "text": "Completed a run",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Travel Agent · Deal check, today 7:54 AM CT",
-      "Latest: Technical Analyst: Pre-market scan on the Oct 6 session: 240 buy hits across 681 liquid names, 6 strong…"
+      "Next run: Portfolio News · News check, today 8:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-07T07:47:15-05:00"
+    "at": "2026-10-07T08:11:01-05:00"
   },
-  "generatedAt": "2026-10-07T07:47:15-05:00"
+  "generatedAt": "2026-10-07T08:11:01-05:00"
 }
