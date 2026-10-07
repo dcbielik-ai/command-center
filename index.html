@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-07T16:44:25-05:00",
+  "updatedAt": "2026-10-07T16:49:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -98,6 +98,15 @@ const TEAM_DATA = {
       "tagline": "Golf apparel brand for girls & young women",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "games",
+      "name": "Game Studio",
+      "theme": "games",
+      "icon": "gamepad",
+      "tagline": "Kids design their own video games",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -132,8 +141,8 @@ const TEAM_DATA = {
           ]
         }
       ],
-      "lastRun": "Recruited the Fairway Daughters brand lead and opened its new Fairway Daughters zone.",
-      "lastRunAt": "2026-10-07T15:41:07-05:00",
+      "lastRun": "Recruited Game Studio and opened its new Game Studio zone.",
+      "lastRunAt": "2026-10-07T16:48:49-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -142,17 +151,18 @@ const TEAM_DATA = {
         "2026-10-06T08:20:56-05:00",
         "2026-10-06T19:17:56-05:00",
         "2026-10-07T08:29:47-05:00",
-        "2026-10-07T15:41:07-05:00"
+        "2026-10-07T15:41:07-05:00",
+        "2026-10-07T16:48:49-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-07T19:10:00-05:00",
-      "latestFinding": "Team at 13 bots across 8 zones; 7 items are waiting on Dennis.",
+      "latestFinding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 7,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T15:41:07-05:00",
+      "updatedAt": "2026-10-07T16:48:49-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -801,6 +811,39 @@ const TEAM_DATA = {
         "trim": "#ffffff",
         "prop": "golfclub"
       }
+    },
+    {
+      "id": "game-studio",
+      "name": "Game Studio",
+      "zone": "games",
+      "className": "Game Designer",
+      "role": "Helps the family design and build their own video games. Names, ages, and game details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Building a family video game project",
+      "lastRunAt": "2026-10-07T16:48:45-05:00",
+      "runTimes": [
+        "2026-10-07T16:48:45-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-07",
+      "firstSeenAt": "2026-10-07T16:48:45-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-07T16:48:45-05:00",
+      "avatar": {
+        "hat": "propeller",
+        "head": "#efe4ff",
+        "body": "#9b3dff",
+        "accent": "#19e3c8",
+        "eye": "#3dfff0",
+        "trim": "#ffd447",
+        "prop": "gamepad"
+      }
     }
   ],
   "inbox": [
@@ -846,6 +889,18 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-07T16:48:49-05:00",
+      "text": "Recruited Game Studio and opened its new Game Studio zone.",
+      "finding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis."
+    },
+    {
+      "bot": "game-studio",
+      "at": "2026-10-07T16:48:45-05:00",
+      "text": "Building a family video game project",
+      "finding": "Details stay private"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-07T16:43:00-05:00",
@@ -921,29 +976,17 @@ const TEAM_DATA = {
       "bot": "portfolio-news",
       "at": "2026-10-07T10:45:16-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T09:45:16-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T08:44:49-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 8 items need you",
       "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Chief of Staff: Recruited Game Studio and opened its new Game Studio zone."
     ],
-    "at": "2026-10-07T16:44:25-05:00"
+    "at": "2026-10-07T16:49:32-05:00"
   },
-  "generatedAt": "2026-10-07T16:44:25-05:00"
+  "generatedAt": "2026-10-07T16:49:32-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1098,6 +1141,7 @@ button{font:inherit;color:inherit}
 .theme-ailab{--zc:#7c9cff;background:linear-gradient(180deg,#0a0f2a 0%,#0d1438 60%,#080c22 100%);border-color:#34428a}
 .theme-fairway{--zc:#ff8fc8;background:linear-gradient(180deg,#0f2a3a 0%,#1d4a52 40%,#2f6a46 70%,#123a24 100%);border-color:#3f8a5a}
 .theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
+.theme-games{--zc:#c04dff;background:linear-gradient(180deg,#0b0424 0%,#2a0b4a 45%,#3a1060 70%,#0e0420 100%);border-color:#6a3aa8}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
 .lead-tag{display:inline-block;margin-left:4px;padding:0 4px;border-radius:3px;background:#ff5fd2;color:#1a0b2e;font-family:var(--mono);font-size:8px;font-weight:800;letter-spacing:.08em;vertical-align:2px}
@@ -1391,6 +1435,7 @@ function sprite(av, cls){
   if(av.prop==="clipboard") r += `<rect x="8.5" y="9" width="3.5" height="4.5" fill="#8a5a2a"/><rect x="9" y="9.8" width="2.5" height="3.3" fill="#f4f1e8"/><rect x="9.6" y="8.6" width="1.3" height=".8" fill="#c8d3f5"/><rect x="9.3" y="10.5" width="1.9" height=".35" fill="#5d6a90"/><rect x="9.3" y="11.4" width="1.5" height=".35" fill="#5d6a90"/>`;
   if(av.prop==="golfclub") r += `<rect x="10.4" y="7.2" width=".8" height="1.8" fill="#1b2440"/><rect x="10.6" y="9" width=".45" height="5.6" fill="#c8d3f5"/><rect x="9.3" y="14.4" width="1.8" height=".9" fill="#9fb8d0"/><rect x="1.2" y="14.6" width="1" height="1" fill="#f4f1e8"/>`;
   if(av.prop==="clapper") r += `<rect x="8.2" y="9.2" width="3.6" height="2.4" fill="#1a1018"/><path d="M8.2 9.2 L9.6 7.4 H11.2 L10 9.2Z" fill="#ff9f6b"/><rect x="8.5" y="10.6" width="1.2" height=".5" fill="#ffd447"/><rect x="10" y="10.6" width="1.4" height=".5" fill="#ffd447" opacity=".7"/>`;
+  if(av.prop==="gamepad") r += `<rect x="7.8" y="9.4" width="4.2" height="1.9" fill="#1b2440"/><rect x="7.5" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="11.1" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="8.3" y="9.9" width="1.2" height=".4" fill="#19e3c8"/><rect x="8.7" y="9.5" width=".4" height="1.2" fill="#19e3c8"/><rect x="10.6" y="9.7" width=".5" height=".5" fill="#ff5fd2"/><rect x="11.2" y="10.2" width=".5" height=".5" fill="#ffd447"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
@@ -1664,6 +1709,52 @@ ART.fairway = function(){
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice"><defs><linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f2a3a"/><stop offset=".6" stop-color="#3a3a5a"/><stop offset="1" stop-color="#b86a8a"/></linearGradient></defs>${s}</svg>`;
 };
 
+/* ---------- Game Studio (arcade zone) ---------- */
+HATS.propeller = ["..ttt..ttt..",".....ww.....","...aabbaa...","..aabbbbaa.."];
+ICON.gamepad = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><path d="M3 5 H13 Q15 5 15 8 V11 Q15 13 13 13 L11 11 H5 L3 13 Q1 13 1 11 V8 Q1 5 3 5Z" fill="${c}"/><rect x="3" y="8" width="4" height="1.4" fill="#0a0f1f"/><rect x="4.3" y="6.7" width="1.4" height="4" fill="#0a0f1f"/><circle cx="11" cy="7.6" r="1" fill="#19e3c8"/><circle cx="12.6" cy="9.2" r="1" fill="#ffd447"/><rect x="7.2" y="6.4" width="1.6" height=".9" fill="#0a0f1f" opacity=".6"/></svg>`;
+ART.games = function(){
+  const R = rng(67), W=400, H=330, G=H-38, HZ=G-62; let s="";
+  // night sky + pixel stars
+  s+=`<rect x="0" y="0" width="${W}" height="${HZ}" fill="url(#gsky)"/>`;
+  for(let i=0;i<40;i++){ const z=R()>.85?2:1.2; s+=`<rect x="${(R()*W)|0}" y="${(R()*(HZ-40))|0}" width="${z}" height="${z}" fill="${R()>.7?"#7dfcf0":"#f2e6ff"}" class="twinkle" style="animation-delay:${(R()*5).toFixed(1)}s" opacity="${.3+R()*.6}"/>`; }
+  // pixel plus-stars
+  [[48,28],[352,40],[262,18]].forEach(([x,y],i)=>s+=`<g class="twinkle" style="animation-delay:${i*1.3}s"><rect x="${x-3}" y="${y}" width="7" height="1.5" fill="#ffd447"/><rect x="${x}" y="${y-3}" width="1.5" height="7" fill="#ffd447"/></g>`);
+  // striped retro sun on the horizon
+  s+=`<circle cx="200" cy="${HZ}" r="48" fill="url(#gsun)" opacity=".9"/>`;
+  for(let k=0;k<5;k++) s+=`<rect x="150" y="${HZ-30+k*6.5}" width="100" height="${1.2+k*.5}" fill="#1a0838"/>`;
+  // neon grid floor
+  s+=`<rect x="0" y="${HZ}" width="${W}" height="${G-HZ}" fill="#14062e"/><rect x="0" y="${HZ}" width="${W}" height="1.5" fill="#19e3c8" opacity=".8"/>`;
+  for(let i=1;i<9;i++){ const y=HZ+Math.pow(i/8,1.7)*(G-HZ); s+=`<rect x="0" y="${y.toFixed(1)}" width="${W}" height="1" fill="#c04dff" opacity="${(.2+i*.06).toFixed(2)}"/>`; }
+  for(let x=-400;x<=800;x+=50) s+=`<line x1="200" y1="${HZ}" x2="${x}" y2="${G}" stroke="#c04dff" stroke-width="1" opacity=".45"/>`;
+  // pixel invader helper
+  const INV = ["..x.....x..","...x...x...","..xxxxxxx..",".xx.xxx.xx.","xxxxxxxxxxx","x.xxxxxxx.x","x.x.....x.x","...xx.xx..."];
+  const inv = (x,y,p,c)=>INV.map((r,j)=>[...r].map((ch,i)=>ch==="x"?`<rect x="${x+i*p}" y="${y+j*p}" width="${p}" height="${p}" fill="${c}"/>`:"").join("")).join("");
+  // arcade cabinet helper
+  const cab = (x,w,h,mc,sc,screen)=>{ const y=G-h; let c="";
+    c+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#241046" stroke="${mc}" stroke-opacity=".55"/>`;
+    c+=`<rect x="${x+3}" y="${y+4}" width="${w-6}" height="12" fill="${mc}" opacity=".85" class="blink" style="animation-duration:2.6s"/>`;
+    c+=`<rect x="${x+5}" y="${y+7}" width="${w-10}" height="2" fill="#ffffff" opacity=".7"/>`;
+    c+=`<rect x="${x+4}" y="${y+22}" width="${w-8}" height="${h*.36}" fill="#05020f" stroke="${sc}" stroke-opacity=".7"/>${screen(x+4,y+22,w-8,h*.36)}`;
+    const py=y+26+h*.36; c+=`<polygon points="${x-3},${py+10} ${x+w+3},${py+10} ${x+w},${py} ${x},${py}" fill="#3a1a6a"/>`;
+    c+=`<rect x="${x+9}" y="${py-3}" width="1.6" height="7" fill="#c8d3f5"/><circle cx="${x+9.8}" cy="${py-4}" r="2.6" fill="#ff4d6d"/>`;
+    c+=`<circle cx="${x+w-14}" cy="${py+5}" r="2" fill="#19e3c8"/><circle cx="${x+w-8}" cy="${py+4}" r="2" fill="#ffd447"/>`;
+    c+=`<rect x="${x+w/2-6}" y="${G-22}" width="12" height="8" fill="#0a0418" stroke="${mc}" stroke-opacity=".5"/><rect x="${x+w/2-1}" y="${G-20}" width="2" height="4" fill="${mc}" opacity=".8"/>`;
+    return c; };
+  // cabinets: left pair + right one
+  s+=cab(14,44,128,"#ff5fd2","#19e3c8",(x,y,w,h)=>inv(x+w/2-11,y+8,2,"#19e3c8")+`<rect x="${x+6}" y="${y+h-8}" width="6" height="3" fill="#ffd447" class="blink"/>`);
+  s+=cab(64,40,116,"#19e3c8","#c04dff",(x,y,w,h)=>{ let q=""; for(let i=0;i<6;i++) q+=`<rect x="${x+4+i*5}" y="${y+h-10-((i*7)%13)}" width="4" height="${4+((i*7)%13)}" fill="${["#c04dff","#19e3c8","#ffd447"][i%3]}" opacity=".85"/>`; return q+`<rect x="${x+w/2-1.5}" y="${y+5}" width="3" height="3" fill="#ffffff" class="twinkle"/>`; });
+  s+=cab(338,48,132,"#ffd447","#ff5fd2",(x,y,w,h)=>inv(x+w/2-11,y+6,2,"#ff5fd2")+`<rect x="${x+4}" y="${y+h-7}" width="${w-8}" height="2" fill="#19e3c8" opacity=".7"/><rect x="${x+w/2-2}" y="${y+h-13}" width="4" height="4" fill="#19e3c8"/>`);
+  // big joystick (foreground right)
+  s+=`<rect x="286" y="${G-12}" width="34" height="10" rx="2" fill="#2a1452" stroke="#c04dff" stroke-opacity=".7"/><rect x="301" y="${G-34}" width="4" height="23" fill="#c8d3f5" transform="rotate(10 303 ${G-12})"/><circle cx="307" cy="${G-36}" r="7" fill="#ff4d6d"/><circle cx="305" cy="${G-38}" r="2.2" fill="#ffffff" opacity=".6"/><circle cx="292" cy="${G-7}" r="2" fill="#19e3c8"/>`;
+  // floating pixel coins + 1UP heart
+  [[150,HZ-74],[226,HZ-88],[124,HZ-40]].forEach(([x,y],i)=>s+=`<g class="twinkle" style="animation-delay:${(i*.9).toFixed(1)}s"><rect x="${x}" y="${y}" width="6" height="8" fill="#ffd447"/><rect x="${x+2}" y="${y+2}" width="2" height="4" fill="#ffb627"/></g>`);
+  s+=`<g class="twinkle" style="animation-delay:2s"><rect x="272" y="${HZ-60}" width="3" height="3" fill="#ff5fd2"/><rect x="278" y="${HZ-60}" width="3" height="3" fill="#ff5fd2"/><rect x="270" y="${HZ-57}" width="13" height="3" fill="#ff5fd2"/><rect x="272" y="${HZ-54}" width="9" height="3" fill="#ff5fd2"/><rect x="275" y="${HZ-51}" width="3" height="3" fill="#ff5fd2"/></g>`;
+  // floor
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#0e0420"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#c04dff" opacity=".6"/>`;
+  for(let x=0;x<W;x+=20) s+=`<rect x="${x}" y="${G+14}" width="10" height="1.5" fill="#19e3c8" opacity=".2"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice"><defs><linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0424"/><stop offset=".65" stop-color="#2a0b4a"/><stop offset="1" stop-color="#6a1a7a"/></linearGradient><linearGradient id="gsun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd447"/><stop offset=".5" stop-color="#ff5fd2"/><stop offset="1" stop-color="#c04dff"/></linearGradient></defs>${s}</svg>`;
+};
+
 /* ---------- time (Central) ---------- */
 const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
 const MS = 60000;
@@ -1741,7 +1832,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};

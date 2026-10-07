@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T16:44:25-05:00",
+  "updatedAt": "2026-10-07T16:49:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -83,6 +83,15 @@
       "tagline": "Golf apparel brand for girls & young women",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "games",
+      "name": "Game Studio",
+      "theme": "games",
+      "icon": "gamepad",
+      "tagline": "Kids design their own video games",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -117,8 +126,8 @@
           ]
         }
       ],
-      "lastRun": "Recruited the Fairway Daughters brand lead and opened its new Fairway Daughters zone.",
-      "lastRunAt": "2026-10-07T15:41:07-05:00",
+      "lastRun": "Recruited Game Studio and opened its new Game Studio zone.",
+      "lastRunAt": "2026-10-07T16:48:49-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -127,17 +136,18 @@
         "2026-10-06T08:20:56-05:00",
         "2026-10-06T19:17:56-05:00",
         "2026-10-07T08:29:47-05:00",
-        "2026-10-07T15:41:07-05:00"
+        "2026-10-07T15:41:07-05:00",
+        "2026-10-07T16:48:49-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-07T19:10:00-05:00",
-      "latestFinding": "Team at 13 bots across 8 zones; 7 items are waiting on Dennis.",
+      "latestFinding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 7,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T15:41:07-05:00",
+      "updatedAt": "2026-10-07T16:48:49-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -786,6 +796,39 @@
         "trim": "#ffffff",
         "prop": "golfclub"
       }
+    },
+    {
+      "id": "game-studio",
+      "name": "Game Studio",
+      "zone": "games",
+      "className": "Game Designer",
+      "role": "Helps the family design and build their own video games. Names, ages, and game details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Building a family video game project",
+      "lastRunAt": "2026-10-07T16:48:45-05:00",
+      "runTimes": [
+        "2026-10-07T16:48:45-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-07",
+      "firstSeenAt": "2026-10-07T16:48:45-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-07T16:48:45-05:00",
+      "avatar": {
+        "hat": "propeller",
+        "head": "#efe4ff",
+        "body": "#9b3dff",
+        "accent": "#19e3c8",
+        "eye": "#3dfff0",
+        "trim": "#ffd447",
+        "prop": "gamepad"
+      }
     }
   ],
   "inbox": [
@@ -831,6 +874,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-07T16:48:49-05:00",
+      "text": "Recruited Game Studio and opened its new Game Studio zone.",
+      "finding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis."
+    },
+    {
+      "bot": "game-studio",
+      "at": "2026-10-07T16:48:45-05:00",
+      "text": "Building a family video game project",
+      "finding": "Details stay private"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-07T16:43:00-05:00",
@@ -906,27 +961,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-07T10:45:16-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T09:45:16-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T08:44:49-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 8 items need you",
       "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Chief of Staff: Recruited Game Studio and opened its new Game Studio zone."
     ],
-    "at": "2026-10-07T16:44:25-05:00"
+    "at": "2026-10-07T16:49:32-05:00"
   },
-  "generatedAt": "2026-10-07T16:44:25-05:00"
+  "generatedAt": "2026-10-07T16:49:32-05:00"
 }
