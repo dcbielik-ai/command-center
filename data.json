@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T16:57:48-05:00",
+  "updatedAt": "2026-10-07T17:17:02-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -808,18 +808,22 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Building a family video game project",
-      "lastRunAt": "2026-10-07T16:48:45-05:00",
+      "lastRunAt": "2026-10-07T17:17:02-05:00",
       "runTimes": [
-        "2026-10-07T16:48:45-05:00"
+        "2026-10-07T16:48:45-05:00",
+        "2026-10-07T17:17:02-05:00"
       ],
       "nextRun": "On demand",
       "latestFinding": "Details stay private",
-      "waitingOnYou": [],
-      "runsCompleted": 0,
+      "waitingOnYou": [
+        "Needs info from you"
+      ],
+      "waitingSince": "2026-10-07T17:17:02-05:00",
+      "runsCompleted": 1,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T16:48:45-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T16:48:45-05:00",
+      "updatedAt": "2026-10-07T17:17:02-05:00",
       "avatar": {
         "type": "duo",
         "catAccent": "#b05cff",
@@ -868,9 +872,20 @@
       "bot": "fairway-daughters",
       "text": "Waiting on Dennis",
       "since": "2026-10-07T15:49:07-05:00"
+    },
+    {
+      "bot": "bielik-game-studio",
+      "text": "Needs info from you",
+      "since": "2026-10-07T17:17:02-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "bielik-game-studio",
+      "at": "2026-10-07T17:17:02-05:00",
+      "text": "Building a family video game project",
+      "finding": "Details stay private"
+    },
     {
       "bot": "chief-of-staff",
       "at": "2026-10-07T16:48:49-05:00",
@@ -953,20 +968,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-07T11:45:34-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T10:45:16-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 8 items need you",
+      "8 of 8 scheduled bots healthy · 9 items need you",
       "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Chief of Staff: Recruited Game Studio and opened its new Game Studio zone."
+      "Latest: Bielik Game Studio: Building a family video game project"
     ],
-    "at": "2026-10-07T16:57:48-05:00"
+    "at": "2026-10-07T17:17:02-05:00"
   },
-  "generatedAt": "2026-10-07T16:57:48-05:00"
+  "generatedAt": "2026-10-07T17:17:02-05:00"
 }
