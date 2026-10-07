@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T14:47:26-05:00",
+  "updatedAt": "2026-10-07T15:39:33-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -72,6 +72,15 @@
       "theme": "puppy",
       "icon": "clapper",
       "tagline": "Pet photos into films, trailers & storybooks",
+      "span": 1,
+      "cols": 4
+    },
+    {
+      "id": "fairway",
+      "name": "Fairway Daughters",
+      "theme": "fairway",
+      "icon": "golf",
+      "tagline": "Golf apparel brand for girls & young women",
       "span": 1,
       "cols": 4
     }
@@ -737,6 +746,39 @@
         "trim": "#ff5fd2",
         "prop": "clapper"
       }
+    },
+    {
+      "id": "fairway-daughters",
+      "name": "Fairway Daughters",
+      "zone": "fairway",
+      "className": "Brand Lead",
+      "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
+      "status": "Active",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on brand designs",
+      "lastRunAt": "2026-10-07T15:39:16-05:00",
+      "runTimes": [
+        "2026-10-07T15:39:16-05:00"
+      ],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "Details stay private until launch",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-07",
+      "firstSeenAt": "2026-10-07T15:39:16-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-07T15:39:16-05:00",
+      "avatar": {
+        "hat": "visor",
+        "head": "#ffe6ee",
+        "body": "#2fbf71",
+        "accent": "#ff7eb6",
+        "eye": "#ff9be9",
+        "trim": "#ffffff",
+        "prop": "golfclub"
+      }
     }
   ],
   "inbox": [
@@ -777,6 +819,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-07T15:39:16-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-07T14:46:43-05:00",
@@ -858,20 +906,15 @@
       "at": "2026-10-07T07:47:00-05:00",
       "text": "Pre-market scan on the Oct 6 session: 240 buy hits across 681 liquid names, 6 strong sell warnings (none new since last night's check).",
       "finding": "Top setups MDLZ (59.62, pullback plus bounce off 60-day support) and AIZ (270.96); NU 15.66 on 2.5x volume near its 15.82 breakout; SPY 779.09, 0.3% off its 52-week high."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T07:45:19-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-07T14:47:26-05:00"
+    "at": "2026-10-07T15:39:33-05:00"
   },
-  "generatedAt": "2026-10-07T14:47:26-05:00"
+  "generatedAt": "2026-10-07T15:39:33-05:00"
 }

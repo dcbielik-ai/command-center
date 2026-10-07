@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-07T14:47:26-05:00",
+  "updatedAt": "2026-10-07T15:39:33-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -87,6 +87,15 @@ const TEAM_DATA = {
       "theme": "puppy",
       "icon": "clapper",
       "tagline": "Pet photos into films, trailers & storybooks",
+      "span": 1,
+      "cols": 4
+    },
+    {
+      "id": "fairway",
+      "name": "Fairway Daughters",
+      "theme": "fairway",
+      "icon": "golf",
+      "tagline": "Golf apparel brand for girls & young women",
       "span": 1,
       "cols": 4
     }
@@ -752,6 +761,39 @@ const TEAM_DATA = {
         "trim": "#ff5fd2",
         "prop": "clapper"
       }
+    },
+    {
+      "id": "fairway-daughters",
+      "name": "Fairway Daughters",
+      "zone": "fairway",
+      "className": "Brand Lead",
+      "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
+      "status": "Active",
+      "schedule": "Not scheduled yet",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on brand designs",
+      "lastRunAt": "2026-10-07T15:39:16-05:00",
+      "runTimes": [
+        "2026-10-07T15:39:16-05:00"
+      ],
+      "nextRun": "Not scheduled yet",
+      "latestFinding": "Details stay private until launch",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-07",
+      "firstSeenAt": "2026-10-07T15:39:16-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-07T15:39:16-05:00",
+      "avatar": {
+        "hat": "visor",
+        "head": "#ffe6ee",
+        "body": "#2fbf71",
+        "accent": "#ff7eb6",
+        "eye": "#ff9be9",
+        "trim": "#ffffff",
+        "prop": "golfclub"
+      }
     }
   ],
   "inbox": [
@@ -792,6 +834,12 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-07T15:39:16-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-07T14:46:43-05:00",
@@ -873,22 +921,17 @@ const TEAM_DATA = {
       "at": "2026-10-07T07:47:00-05:00",
       "text": "Pre-market scan on the Oct 6 session: 240 buy hits across 681 liquid names, 6 strong sell warnings (none new since last night's check).",
       "finding": "Top setups MDLZ (59.62, pullback plus bounce off 60-day support) and AIZ (270.96); NU 15.66 on 2.5x volume near its 15.82 breakout; SPY 779.09, 0.3% off its 52-week high."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-07T07:45:19-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 7 items need you",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-07T14:47:26-05:00"
+    "at": "2026-10-07T15:39:33-05:00"
   },
-  "generatedAt": "2026-10-07T14:47:26-05:00"
+  "generatedAt": "2026-10-07T15:39:33-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1041,6 +1084,7 @@ button{font:inherit;color:inherit}
 .theme-studio .unit{flex:0 1 150px}
 .flowarrow{animation:blink 1.6s ease-in-out infinite}
 .theme-ailab{--zc:#7c9cff;background:linear-gradient(180deg,#0a0f2a 0%,#0d1438 60%,#080c22 100%);border-color:#34428a}
+.theme-fairway{--zc:#ff8fc8;background:linear-gradient(180deg,#0f2a3a 0%,#1d4a52 40%,#2f6a46 70%,#123a24 100%);border-color:#3f8a5a}
 .theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
@@ -1333,6 +1377,7 @@ function sprite(av, cls){
   // highlights
   r += `<rect x="2" y="5" width="2" height="1" fill="${shade(head,.45)}"/><rect x="3" y="11" width="1" height="1" fill="${shade(body,.3)}"/>`;
   if(av.prop==="clipboard") r += `<rect x="8.5" y="9" width="3.5" height="4.5" fill="#8a5a2a"/><rect x="9" y="9.8" width="2.5" height="3.3" fill="#f4f1e8"/><rect x="9.6" y="8.6" width="1.3" height=".8" fill="#c8d3f5"/><rect x="9.3" y="10.5" width="1.9" height=".35" fill="#5d6a90"/><rect x="9.3" y="11.4" width="1.5" height=".35" fill="#5d6a90"/>`;
+  if(av.prop==="golfclub") r += `<rect x="10.4" y="7.2" width=".8" height="1.8" fill="#1b2440"/><rect x="10.6" y="9" width=".45" height="5.6" fill="#c8d3f5"/><rect x="9.3" y="14.4" width="1.8" height=".9" fill="#9fb8d0"/><rect x="1.2" y="14.6" width="1" height="1" fill="#f4f1e8"/>`;
   if(av.prop==="clapper") r += `<rect x="8.2" y="9.2" width="3.6" height="2.4" fill="#1a1018"/><path d="M8.2 9.2 L9.6 7.4 H11.2 L10 9.2Z" fill="#ff9f6b"/><rect x="8.5" y="10.6" width="1.2" height=".5" fill="#ffd447"/><rect x="10" y="10.6" width="1.4" height=".5" fill="#ffd447" opacity=".7"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
@@ -1571,6 +1616,42 @@ ART.puppy = function(){
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
 };
 
+/* ---------- Fairway Daughters (golf apparel) ---------- */
+HATS.visor = ["............","............","..tttttttt..","..aaaaaaaaaa"];
+ICON.golf = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="6" y="1" width="1.4" height="12" fill="#f4f1e8"/><polygon points="7.4,1 14,3.5 7.4,6" fill="${c}"/><ellipse cx="7" cy="14" rx="6" ry="1.6" fill="#3dcf7a" opacity=".7"/><circle cx="11.5" cy="12.6" r="1.4" fill="#ffffff"/></svg>`;
+ART.fairway = function(){
+  const R = rng(53), W=400, H=330, G=H-38; let s="";
+  // dusk sky + sun
+  s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="url(#fsky)"/>`;
+  for(let i=0;i<22;i++) s+=`<rect x="${(R()*W)|0}" y="${(R()*80)|0}" width="1.2" height="1.2" fill="#ffe6ee" class="twinkle" style="animation-delay:${(R()*5).toFixed(1)}s" opacity="${.25+R()*.5}"/>`;
+  s+=`<circle cx="300" cy="${G-120}" r="26" fill="#ffc2dc" opacity=".9"/><circle cx="300" cy="${G-120}" r="44" fill="#ff8fc8" opacity=".14"/>`;
+  s+=`<g class="cloud"><ellipse cx="110" cy="70" rx="24" ry="6" fill="#ffffff" opacity=".2"/><ellipse cx="128" cy="65" rx="13" ry="6" fill="#ffffff" opacity=".2"/></g>`;
+  // rolling hills + tree line
+  s+=`<path d="M0 ${G-96} Q80 ${G-122} 170 ${G-100} T330 ${G-104} T400 ${G-98} V${H} H0Z" fill="#245a3a"/>`;
+  for(let x=6;x<W;x+=18+((R()*10)|0)){ const r=6+R()*5; s+=`<circle cx="${x}" cy="${G-98-R()*10}" r="${r}" fill="#1b4a2e"/>`; }
+  s+=`<path d="M0 ${G-64} Q90 ${G-84} 200 ${G-66} T400 ${G-70} V${H} H0Z" fill="#2f8a4e"/>`;
+  // mowed fairway stripes
+  for(let i=0;i<8;i++) s+=`<path d="M${i*56-20} ${G} L${i*56+8} ${G-64} L${i*56+36} ${G-64} L${i*56+8} ${G}Z" fill="#3dcf7a" opacity=".12"/>`;
+  // putting green + pin with pink flag
+  s+=`<ellipse cx="250" cy="${G-34}" rx="74" ry="14" fill="#5ee08a"/><ellipse cx="250" cy="${G-34}" rx="74" ry="14" fill="none" stroke="#9af7b8" stroke-opacity=".5"/>`;
+  s+=`<ellipse cx="262" cy="${G-32}" rx="4" ry="1.6" fill="#0a1f12"/><rect x="261" y="${G-92}" width="2" height="60" fill="#f4f1e8"/>`;
+  s+=`<polygon points="263,${G-92} 290,${G-84} 263,${G-76}" fill="#ff8fc8" class="flag"/>`;
+  // sand bunker
+  s+=`<ellipse cx="160" cy="${G-18}" rx="30" ry="7" fill="#f0dca8"/><ellipse cx="160" cy="${G-19}" rx="22" ry="4" fill="#fff0c8" opacity=".6"/>`;
+  // apparel rack (left): polos + skirts in brand pinks/greens
+  s+=`<rect x="18" y="${G-104}" width="3" height="78" fill="#c8d3f5"/><rect x="98" y="${G-104}" width="3" height="78" fill="#c8d3f5"/><rect x="16" y="${G-106}" width="87" height="3" fill="#e6ecff"/>`;
+  ["#ff8fc8","#ffffff","#3dcf7a","#ffc2dc","#2fbf71"].forEach((c,i)=>{ const x=24+i*15;
+    s+=`<rect x="${x+5}" y="${G-103}" width="1" height="4" fill="#9fb8d0"/><path d="M${x} ${G-98} l4 -2 h4 l4 2 l-2 4 h-1 v14 h-8 v-14 h-1z" fill="${c}"/><rect x="${x+4}" y="${G-96}" width="4" height="2" fill="#0a1f12" opacity=".25"/>`; });
+  s+=`<rect x="12" y="${G-26}" width="95" height="4" fill="#0f2a1c" opacity=".5"/>`;
+  // ball on a tee (foreground) + golf bag
+  s+=`<rect x="78" y="${G-10}" width="2" height="8" fill="#ff8fc8"/><circle cx="79" cy="${G-13}" r="3.4" fill="#ffffff"/>`;
+  s+=`<rect x="352" y="${G-58}" width="16" height="40" rx="3" fill="#ff8fc8"/><rect x="352" y="${G-48}" width="16" height="4" fill="#ffffff"/><rect x="355" y="${G-72}" width="2" height="16" fill="#c8d3f5"/><rect x="360" y="${G-76}" width="2" height="20" fill="#c8d3f5"/><rect x="364" y="${G-70}" width="2" height="14" fill="#c8d3f5"/><rect x="353" y="${G-74}" width="6" height="3" fill="#1b2440"/><rect x="359" y="${G-78}" width="5" height="3" fill="#1b2440"/>`;
+  // turf floor
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#123a24"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#ff8fc8" opacity=".45"/>`;
+  for(let x=0;x<W;x+=20) s+=`<rect x="${x}" y="${G+14}" width="10" height="1.5" fill="#5ee08a" opacity=".2"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice"><defs><linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f2a3a"/><stop offset=".6" stop-color="#3a3a5a"/><stop offset="1" stop-color="#b86a8a"/></linearGradient></defs>${s}</svg>`;
+};
+
 /* ---------- time (Central) ---------- */
 const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
 const MS = 60000;
@@ -1648,7 +1729,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
