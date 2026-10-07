@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:49:07-05:00",
+  "updatedAt": "2026-10-07T16:19:45-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -760,22 +760,23 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-07T15:49:07-05:00",
+      "lastRunAt": "2026-10-07T16:20:00-05:00",
       "runTimes": [
         "2026-10-07T15:39:16-05:00",
-        "2026-10-07T15:49:07-05:00"
+        "2026-10-07T15:49:07-05:00",
+        "2026-10-07T16:20:00-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Needs a decision from you"
+        "Waiting on Dennis"
       ],
       "waitingSince": "2026-10-07T15:49:07-05:00",
-      "runsCompleted": 1,
+      "runsCompleted": 2,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T15:39:16-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T15:49:07-05:00",
+      "updatedAt": "2026-10-07T16:20:00-05:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -825,11 +826,17 @@
     },
     {
       "bot": "fairway-daughters",
-      "text": "Needs a decision from you",
+      "text": "Waiting on Dennis",
       "since": "2026-10-07T15:49:07-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-07T16:20:00-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "fairway-daughters",
       "at": "2026-10-07T15:49:07-05:00",
@@ -911,12 +918,6 @@
       "at": "2026-10-07T08:29:47-05:00",
       "text": "Morning command center refresh: pulled every bot's latest status into the dashboard and published it.",
       "finding": "Team at 12 bots across 7 zones; 7 items are waiting on Dennis."
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-07T08:27:36-05:00",
-      "text": "Added 6 new deals; 555 deals tracked across TX and OK",
-      "finding": "555 deals tracked"
     }
   ],
   "briefing": {
@@ -925,7 +926,7 @@
       "Next run: Portfolio News · News check, today 4:35 PM CT",
       "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-07T15:49:07-05:00"
+    "at": "2026-10-07T16:19:45-05:00"
   },
-  "generatedAt": "2026-10-07T15:49:07-05:00"
+  "generatedAt": "2026-10-07T16:19:45-05:00"
 }
