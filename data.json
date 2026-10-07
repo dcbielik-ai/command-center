@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:47:02-05:00",
+  "updatedAt": "2026-10-07T15:49:07-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -755,23 +755,27 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Active",
+      "status": "Waiting on Dennis",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-07T15:39:16-05:00",
+      "lastRunAt": "2026-10-07T15:49:07-05:00",
       "runTimes": [
-        "2026-10-07T15:39:16-05:00"
+        "2026-10-07T15:39:16-05:00",
+        "2026-10-07T15:49:07-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
-      "waitingOnYou": [],
-      "runsCompleted": 0,
+      "waitingOnYou": [
+        "Needs a decision from you"
+      ],
+      "waitingSince": "2026-10-07T15:49:07-05:00",
+      "runsCompleted": 1,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T15:39:16-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T15:39:16-05:00",
+      "updatedAt": "2026-10-07T15:49:07-05:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -818,9 +822,20 @@
       "bot": "puppy-media",
       "text": "Waiting on Dennis",
       "since": "2026-10-06T20:25:49-05:00"
+    },
+    {
+      "bot": "fairway-daughters",
+      "text": "Needs a decision from you",
+      "since": "2026-10-07T15:49:07-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-07T15:49:07-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "technical-analyst",
       "at": "2026-10-07T15:48:00-05:00",
@@ -902,21 +917,15 @@
       "at": "2026-10-07T08:27:36-05:00",
       "text": "Added 6 new deals; 555 deals tracked across TX and OK",
       "finding": "555 deals tracked"
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-07T08:16:00-05:00",
-      "text": "Daily trending-stocks heads-up: 7 of the morning's hyped names (MU, NVDA, WDC, PENG, AVGO, SNDK, AMD) clear the 20%+ growth and valuation bar; chips are down 2-3% premarket on rising yields.",
-      "finding": "Webull fell roughly 20-30% premarket after a House China committee report flagged its China ties; Penguin Solutions rose 4-8% on a Q4 beat and clears the growth bar at about 13x forward earnings."
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 7 items need you",
+      "8 of 8 scheduled bots healthy · 8 items need you",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Technical Analyst: After-close check on the Oct 7 session: quiet day, no alert sent; 147 buy hits across…"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-07T15:47:02-05:00"
+    "at": "2026-10-07T15:49:07-05:00"
   },
-  "generatedAt": "2026-10-07T15:47:02-05:00"
+  "generatedAt": "2026-10-07T15:49:07-05:00"
 }
