@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T16:49:32-05:00",
+  "updatedAt": "2026-10-07T16:57:48-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -798,8 +798,8 @@
       }
     },
     {
-      "id": "game-studio",
-      "name": "Game Studio",
+      "id": "bielik-game-studio",
+      "name": "Bielik Game Studio",
       "zone": "games",
       "className": "Game Designer",
       "role": "Helps the family design and build their own video games. Names, ages, and game details stay private.",
@@ -821,13 +821,10 @@
       "notes": "",
       "updatedAt": "2026-10-07T16:48:45-05:00",
       "avatar": {
-        "hat": "propeller",
-        "head": "#efe4ff",
-        "body": "#9b3dff",
-        "accent": "#19e3c8",
-        "eye": "#3dfff0",
-        "trim": "#ffd447",
-        "prop": "gamepad"
+        "type": "duo",
+        "catAccent": "#b05cff",
+        "pupAccent": "#19e3c8",
+        "eye": "#3dfff0"
       }
     }
   ],
@@ -881,7 +878,7 @@
       "finding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis."
     },
     {
-      "bot": "game-studio",
+      "bot": "bielik-game-studio",
       "at": "2026-10-07T16:48:45-05:00",
       "text": "Building a family video game project",
       "finding": "Details stay private"
@@ -969,7 +966,7 @@
       "Next run: Portfolio News · News check, today 5:35 PM CT",
       "Latest: Chief of Staff: Recruited Game Studio and opened its new Game Studio zone."
     ],
-    "at": "2026-10-07T16:49:32-05:00"
+    "at": "2026-10-07T16:57:48-05:00"
   },
-  "generatedAt": "2026-10-07T16:49:32-05:00"
+  "generatedAt": "2026-10-07T16:57:48-05:00"
 }

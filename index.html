@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-07T16:49:32-05:00",
+  "updatedAt": "2026-10-07T16:57:48-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -813,8 +813,8 @@ const TEAM_DATA = {
       }
     },
     {
-      "id": "game-studio",
-      "name": "Game Studio",
+      "id": "bielik-game-studio",
+      "name": "Bielik Game Studio",
       "zone": "games",
       "className": "Game Designer",
       "role": "Helps the family design and build their own video games. Names, ages, and game details stay private.",
@@ -836,13 +836,10 @@ const TEAM_DATA = {
       "notes": "",
       "updatedAt": "2026-10-07T16:48:45-05:00",
       "avatar": {
-        "hat": "propeller",
-        "head": "#efe4ff",
-        "body": "#9b3dff",
-        "accent": "#19e3c8",
-        "eye": "#3dfff0",
-        "trim": "#ffd447",
-        "prop": "gamepad"
+        "type": "duo",
+        "catAccent": "#b05cff",
+        "pupAccent": "#19e3c8",
+        "eye": "#3dfff0"
       }
     }
   ],
@@ -896,7 +893,7 @@ const TEAM_DATA = {
       "finding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis."
     },
     {
-      "bot": "game-studio",
+      "bot": "bielik-game-studio",
       "at": "2026-10-07T16:48:45-05:00",
       "text": "Building a family video game project",
       "finding": "Details stay private"
@@ -984,9 +981,9 @@ const TEAM_DATA = {
       "Next run: Portfolio News · News check, today 5:35 PM CT",
       "Latest: Chief of Staff: Recruited Game Studio and opened its new Game Studio zone."
     ],
-    "at": "2026-10-07T16:49:32-05:00"
+    "at": "2026-10-07T16:57:48-05:00"
   },
-  "generatedAt": "2026-10-07T16:49:32-05:00"
+  "generatedAt": "2026-10-07T16:57:48-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1168,6 +1165,13 @@ button{font:inherit;color:inherit}
 .sprite{width:52px;height:69px;image-rendering:pixelated;animation:bob 2.6s ease-in-out infinite;
   filter:drop-shadow(0 0 6px color-mix(in srgb,var(--eye,#3de0ff) 45%,transparent)) drop-shadow(0 3px 0 #0006)}
 .unit.boss .sprite{width:63px;height:84px}
+.sprite.duo{width:106px;height:63px}
+.sprite-wrap:has(> svg.duo){width:110px}
+.sprite-wrap:has(> svg.duo) .shadow{width:88px;margin-left:-44px}
+.sprite-wrap:has(> svg.duo) .ring{width:104px;margin-left:-52px}
+.mini svg.duo{width:32px;height:19px;margin-bottom:3px}
+.tl-label .mini svg.duo{width:21px;height:12.5px}
+.portrait svg.duo{width:88px;height:52px}
 .shadow{position:absolute;bottom:-3px;left:50%;width:40px;height:8px;margin-left:-20px;border-radius:50%;background:#0009;animation:shadow 2.6s ease-in-out infinite;filter:blur(1px)}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes shadow{0%,100%{transform:scaleX(1);opacity:.85}50%{transform:scaleX(.8);opacity:.55}}
@@ -1421,8 +1425,56 @@ function shade(hex, amt){
   const f = v => Math.max(0,Math.min(255,Math.round(v+(amt<0?v*amt:(255-v)*amt))));
   return "#"+[f(r),f(g),f(b)].map(v=>v.toString(16).padStart(2,"0")).join("");
 }
+/* Two-robot "duo" avatar (Bielik Game Studio): cat bot (left, purple) + puppy bot (right, teal), both holding controllers.
+   Used when avatar.type === "duo"; every other avatar still goes through the normal sprite() path. */
+const DUO_CAT = [
+  ".p....c...p.",
+  ".pp...o..pp.",
+  ".opoooooopo.",
+  ".owwwwwwwwo.",
+  ".owsssssswo.",
+  "gowscsscswog",
+  "gowssccsswog",
+  "..oooooooo..",
+  ".owwwppwwwo.",
+  "wwkkckkbkkww",
+  ".okkkkkkkko.",
+  "..owwwwwwo..",
+  "..oww..wwo..",
+  "..opp..ppo.."
+];
+const DUO_PUP = [
+  "......c.....",
+  "......o.....",
+  "..oooooooo..",
+  ".towwwwwwot.",
+  "ttwsssssswtt",
+  "ttwscsscswtt",
+  "ttwsssssswtt",
+  ".t.oooooo.t.",
+  ".owwwttwwwo.",
+  "wwkkckkbkkww",
+  ".okkkkkkkko.",
+  "..owwwwwwo..",
+  "..oww..wwo..",
+  "..ott..tto.."
+];
+function duoSprite(av, cls){
+  const cat = av.catAccent||"#b05cff", pup = av.pupAccent||"#19e3c8", eye = av.eye||"#3dfff0";
+  const base = { o:"#0a0f1f", w:"#e3e7f5", s:"#0d1030", c:eye, k:"#2a1a4a", b:"#ff5fd2", g:"#c8d3f5" };
+  const draw = (rows, dx, pal) => { let r=""; rows.forEach((row,y)=>{ for(let x=0;x<row.length;x++){ const ch=row[x]; if(ch===".") continue;
+      r += `<rect x="${x+dx}" y="${y+2}" width="1.02" height="1.02" fill="${pal[ch]}"/>`; } }); return r; };
+  let r = draw(DUO_CAT, 1, {...base, p:cat}) + draw(DUO_PUP, 14, {...base, t:pup});
+  // head highlights
+  r += `<rect x="3" y="5" width="2" height="1" fill="#ffffff" opacity=".8"/><rect x="17" y="5" width="2" height="1" fill="#ffffff" opacity=".8"/>`;
+  // cat tail (left, purple tip) + puppy tail (right, teal tip)
+  r += `<rect x="0" y="10" width="1" height="3" fill="#c8d3f5"/><rect x="0" y="9" width="1" height="1" fill="${cat}"/>`;
+  r += `<rect x="26" y="10" width="1" height="3" fill="#c8d3f5"/><rect x="26" y="9" width="1" height="1" fill="${pup}"/>`;
+  return `<svg class="${cls||""} duo" viewBox="0 0 27 16" shape-rendering="crispEdges" style="--eye:${eye}" aria-hidden="true">${r}</svg>`;
+}
 function sprite(av, cls){
   av = av || {};
+  if(av.type==="duo") return duoSprite(av, cls);
   const head = av.head||"#c8d3f5", body = av.body||"#3a6df0";
   const pal = { o:"#0a0f1f", h:head, e:av.eye||"#3de0ff", b:body, a:av.accent||"#ffd447", m:shade(head,-.45), t:av.trim||"#ff4d6d", w:"#f4f1e8" };
   const rows = (HATS[av.hat]||HATS.none).concat(BASE);
