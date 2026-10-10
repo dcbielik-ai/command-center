@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-09T19:01:37-05:00",
+  "updatedAt": "2026-10-09T19:17:05-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -107,6 +107,15 @@ const TEAM_DATA = {
       "tagline": "Kids design their own video games",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "dance",
+      "name": "Dance Studio",
+      "theme": "dance",
+      "icon": "music",
+      "tagline": "Hip hop choreography",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -141,8 +150,8 @@ const TEAM_DATA = {
           ]
         }
       ],
-      "lastRun": "Recruited Game Studio and opened its new Game Studio zone.",
-      "lastRunAt": "2026-10-07T16:48:49-05:00",
+      "lastRun": "Evening command center refresh: synced 15 bots across 10 zones from status files, added Dance Bot, marked stale scheduled bots needing attention, built and published the dashboard.",
+      "lastRunAt": "2026-10-09T19:16:45-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -152,17 +161,18 @@ const TEAM_DATA = {
         "2026-10-06T19:17:56-05:00",
         "2026-10-07T08:29:47-05:00",
         "2026-10-07T15:41:07-05:00",
-        "2026-10-07T16:48:49-05:00"
+        "2026-10-07T16:48:49-05:00",
+        "2026-10-09T19:16:45-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-07T19:10:00-05:00",
-      "latestFinding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis.",
+      "nextRunAt": "2026-10-12T08:10:00-05:00",
+      "latestFinding": "Team at 15 bots across 10 zones; 9 items waiting on Dennis.",
       "waitingOnYou": [],
-      "runsCompleted": 7,
+      "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T16:48:49-05:00",
+      "updatedAt": "2026-10-09T19:16:45-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -849,6 +859,33 @@ const TEAM_DATA = {
         "pupAccent": "#19e3c8",
         "eye": "#3dfff0"
       }
+    },
+    {
+      "id": "dance-bot",
+      "name": "Dance Bot",
+      "zone": "dance",
+      "className": "Choreographer",
+      "role": "Hip hop choreography bot.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "None (works on request)",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-09",
+      "notes": "Named by Dennis; no status file yet.",
+      "avatar": {
+        "hat": "cap",
+        "head": "#ffe0b8",
+        "body": "#ff4d8d",
+        "accent": "#1a0a2a",
+        "eye": "#ffd447",
+        "trim": "#3de0ff"
+      }
     }
   ],
   "inbox": [
@@ -894,6 +931,12 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-09T19:16:45-05:00",
+      "text": "Evening command center refresh: synced 15 bots across 10 zones from status files, added Dance Bot, marked stale scheduled bots needing attention, built and published the dashboard.",
+      "finding": "Team at 15 bots across 10 zones; 9 items waiting on Dennis."
+    },
     {
       "bot": "bielik-game-studio",
       "at": "2026-10-09T19:01:37-05:00",
@@ -976,23 +1019,17 @@ const TEAM_DATA = {
       "at": "2026-10-07T16:48:49-05:00",
       "text": "Recruited Game Studio and opened its new Game Studio zone.",
       "finding": "Team at 14 bots across 9 zones; 8 items are waiting on Dennis."
-    },
-    {
-      "bot": "bielik-game-studio",
-      "at": "2026-10-07T16:48:45-05:00",
-      "text": "Building a family video game project",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
-      "4 of 8 scheduled bots healthy (Chief of Staff, Fundamentals Analyst, Technical Analyst, AI Guide late) · 8 items need you",
-      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Bielik Game Studio: Building a family video game project"
+      "4 of 8 scheduled bots healthy (Chief of Staff, Fundamentals Analyst, Technical Analyst, AI Guide late) · 8 items need you · 1 setting up",
+      "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
+      "Latest: Chief of Staff: Evening command center refresh: synced 15 bots across 10 zones from status files,…"
     ],
-    "at": "2026-10-09T19:01:37-05:00"
+    "at": "2026-10-09T19:17:05-05:00"
   },
-  "generatedAt": "2026-10-09T19:01:37-05:00"
+  "generatedAt": "2026-10-09T19:17:05-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1148,6 +1185,7 @@ button{font:inherit;color:inherit}
 .theme-fairway{--zc:#ff8fc8;background:linear-gradient(180deg,#0f2a3a 0%,#1d4a52 40%,#2f6a46 70%,#123a24 100%);border-color:#3f8a5a}
 .theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
 .theme-games{--zc:#c04dff;background:linear-gradient(180deg,#0b0424 0%,#2a0b4a 45%,#3a1060 70%,#0e0420 100%);border-color:#6a3aa8}
+.theme-dance{--zc:#ff6bcb;background:linear-gradient(180deg,#2a0a24 0%,#4a1038 45%,#1a0818 100%);border-color:#8a3a6a}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
 .lead-tag{display:inline-block;margin-left:4px;padding:0 4px;border-radius:3px;background:#ff5fd2;color:#1a0b2e;font-family:var(--mono);font-size:8px;font-weight:800;letter-spacing:.08em;vertical-align:2px}
@@ -1893,7 +1931,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff", dance:"#ff6bcb"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
