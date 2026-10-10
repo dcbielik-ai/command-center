@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T07:57:53-05:00",
+  "updatedAt": "2026-10-10T08:01:30-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -438,44 +438,28 @@
       "zone": "travel",
       "className": "Agent: Travel Deals",
       "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
-      "status": "Active",
+      "status": "complete",
       "schedule": "Scheduled",
       "routines": "Set up",
-      "slots": [
-        {
-          "label": "Deal check",
-          "days": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "times": [
-            "07:54"
-          ]
-        }
-      ],
+      "slots": [],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-09T16:12:54-05:00",
+      "lastRunAt": "2026-10-10T08:01:30.278440-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
         "2026-10-06T08:06:00-05:00",
         "2026-10-07T08:10:00-05:00",
-        "2026-10-09T16:12:54-05:00"
+        "2026-10-09T16:12:54-05:00",
+        "2026-10-10T08:01:30.278440-05:00"
       ],
-      "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-10T07:54:00-05:00",
+      "nextRun": "Not scheduled yet",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 5,
+      "runsCompleted": 0,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-09T16:12:54-05:00",
+      "updatedAt": "2026-10-10T08:01:30.278440-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -918,6 +902,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-10T08:01:30.278440-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-10-10T07:57:53-05:00",
       "text": "Added 3 new deals; 560 deals tracked across TX and OK",
@@ -999,21 +989,15 @@
       "at": "2026-10-07T17:26:36-05:00",
       "text": "Building a family video game project",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "bielik-game-studio",
-      "at": "2026-10-07T17:17:02-05:00",
-      "text": "Building a family video game project",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
-      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 8 items need you · 1 setting up",
+      "4 of 7 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 8 items need you · 1 setting up",
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: VA Deal Scout: Added 3 new deals; 560 deals tracked across TX and OK"
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-10T07:57:53-05:00"
+    "at": "2026-10-10T08:01:30-05:00"
   },
-  "generatedAt": "2026-10-10T07:57:53-05:00"
+  "generatedAt": "2026-10-10T08:01:30-05:00"
 }
