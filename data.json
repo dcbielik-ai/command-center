@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:09:12-05:00",
+  "updatedAt": "2026-10-10T13:12:56-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -101,6 +101,15 @@
       "tagline": "Hip hop choreography",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "familyoffice",
+      "name": "Family Office",
+      "theme": "familyoffice",
+      "icon": "vault",
+      "tagline": "Family finances & tax planning",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -135,8 +144,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 15 bots across 10 zones from status files, added Dance Bot, marked stale scheduled bots needing attention, built and published the dashboard.",
-      "lastRunAt": "2026-10-09T19:16:45-05:00",
+      "lastRun": "",
+      "lastRunAt": "2026-10-10T13:11:48-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -147,17 +156,18 @@
         "2026-10-07T08:29:47-05:00",
         "2026-10-07T15:41:07-05:00",
         "2026-10-07T16:48:49-05:00",
-        "2026-10-09T19:16:45-05:00"
+        "2026-10-09T19:16:45-05:00",
+        "2026-10-10T13:11:48-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-12T08:10:00-05:00",
-      "latestFinding": "Team at 15 bots across 10 zones; 9 items waiting on Dennis.",
+      "latestFinding": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-09T19:16:45-05:00",
+      "updatedAt": "2026-10-10T13:11:48-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -875,6 +885,78 @@
         "eye": "#ffd447",
         "trim": "#3de0ff"
       }
+    },
+    {
+      "id": "tax-strategist",
+      "name": "Tax Strategist",
+      "zone": "familyoffice",
+      "className": "Tax Strategist",
+      "role": "Finds legal ways to lower the family's tax bill. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on the family tax plan",
+      "lastRunAt": "2026-10-10T13:10:00-05:00",
+      "runTimes": [
+        "2026-10-10T13:10:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-10-10T13:10:00-05:00",
+      "runsCompleted": 1,
+      "created": "2026-10-10",
+      "firstSeenAt": "2026-10-10T13:10:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-10T13:10:00-05:00",
+      "avatar": {
+        "hat": "eyeshade",
+        "head": "#f1e6d0",
+        "body": "#1b2a5a",
+        "accent": "#2fbf71",
+        "eye": "#ffd447",
+        "trim": "#d4a537",
+        "prop": "calculator"
+      }
+    },
+    {
+      "id": "credit-coach",
+      "name": "Credit Coach",
+      "zone": "familyoffice",
+      "className": "Credit Coach",
+      "role": "Helps improve the family's credit profile. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on the family credit plan",
+      "lastRunAt": "2026-10-10T13:11:00-05:00",
+      "runTimes": [
+        "2026-10-10T13:11:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-10-10T13:11:00-05:00",
+      "runsCompleted": 1,
+      "created": "2026-10-10",
+      "firstSeenAt": "2026-10-10T13:11:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-10T13:11:00-05:00",
+      "avatar": {
+        "hat": "helm",
+        "head": "#dfe7ee",
+        "body": "#14b8a6",
+        "accent": "#b8c4d0",
+        "eye": "#7dfcf0",
+        "trim": "#e8eef5",
+        "prop": "shield"
+      }
     }
   ],
   "inbox": [
@@ -912,9 +994,36 @@
       "bot": "bielik-game-studio",
       "text": "Needs info from you",
       "since": "2026-10-07T17:17:02-05:00"
+    },
+    {
+      "bot": "tax-strategist",
+      "text": "Waiting on Dennis",
+      "since": "2026-10-10T13:10:00-05:00"
+    },
+    {
+      "bot": "credit-coach",
+      "text": "Waiting on Dennis",
+      "since": "2026-10-10T13:11:00-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-10T13:11:48-05:00",
+      "text": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis."
+    },
+    {
+      "bot": "credit-coach",
+      "at": "2026-10-10T13:11:00-05:00",
+      "text": "Working on the family credit plan",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "tax-strategist",
+      "at": "2026-10-10T13:10:00-05:00",
+      "text": "Working on the family tax plan",
+      "finding": "Details stay private"
+    },
     {
       "bot": "listings-marketing",
       "at": "2026-10-10T13:09:12-05:00",
@@ -985,33 +1094,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-09T16:40:00-05:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-09T16:25:00-05:00",
-      "text": "Added 2 new deals; 557 deals tracked across TX and OK",
-      "finding": "557 deals tracked"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-09T16:12:54-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-09T16:11:00-05:00",
-      "text": "Added 2 new deals; 557 deals tracked across TX and OK",
-      "finding": "557 deals tracked"
     }
   ],
   "briefing": {
     "lines": [
-      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 7 items need you · 1 setting up",
+      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 9 items need you · 1 setting up",
       "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
-      "Latest: Listings & Marketing: Completed a run"
+      "Latest: Chief of Staff: Team at 17 bots across 11 zones; 9 items are waiting on Dennis."
     ],
-    "at": "2026-10-10T13:09:12-05:00"
+    "at": "2026-10-10T13:12:56-05:00"
   },
-  "generatedAt": "2026-10-10T13:09:12-05:00"
+  "generatedAt": "2026-10-10T13:12:56-05:00"
 }

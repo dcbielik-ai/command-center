@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-10T13:09:12-05:00",
+  "updatedAt": "2026-10-10T13:12:56-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -116,6 +116,15 @@ const TEAM_DATA = {
       "tagline": "Hip hop choreography",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "familyoffice",
+      "name": "Family Office",
+      "theme": "familyoffice",
+      "icon": "vault",
+      "tagline": "Family finances & tax planning",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -150,8 +159,8 @@ const TEAM_DATA = {
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 15 bots across 10 zones from status files, added Dance Bot, marked stale scheduled bots needing attention, built and published the dashboard.",
-      "lastRunAt": "2026-10-09T19:16:45-05:00",
+      "lastRun": "",
+      "lastRunAt": "2026-10-10T13:11:48-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -162,17 +171,18 @@ const TEAM_DATA = {
         "2026-10-07T08:29:47-05:00",
         "2026-10-07T15:41:07-05:00",
         "2026-10-07T16:48:49-05:00",
-        "2026-10-09T19:16:45-05:00"
+        "2026-10-09T19:16:45-05:00",
+        "2026-10-10T13:11:48-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-12T08:10:00-05:00",
-      "latestFinding": "Team at 15 bots across 10 zones; 9 items waiting on Dennis.",
+      "latestFinding": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-09T19:16:45-05:00",
+      "updatedAt": "2026-10-10T13:11:48-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -890,6 +900,78 @@ const TEAM_DATA = {
         "eye": "#ffd447",
         "trim": "#3de0ff"
       }
+    },
+    {
+      "id": "tax-strategist",
+      "name": "Tax Strategist",
+      "zone": "familyoffice",
+      "className": "Tax Strategist",
+      "role": "Finds legal ways to lower the family's tax bill. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on the family tax plan",
+      "lastRunAt": "2026-10-10T13:10:00-05:00",
+      "runTimes": [
+        "2026-10-10T13:10:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-10-10T13:10:00-05:00",
+      "runsCompleted": 1,
+      "created": "2026-10-10",
+      "firstSeenAt": "2026-10-10T13:10:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-10T13:10:00-05:00",
+      "avatar": {
+        "hat": "eyeshade",
+        "head": "#f1e6d0",
+        "body": "#1b2a5a",
+        "accent": "#2fbf71",
+        "eye": "#ffd447",
+        "trim": "#d4a537",
+        "prop": "calculator"
+      }
+    },
+    {
+      "id": "credit-coach",
+      "name": "Credit Coach",
+      "zone": "familyoffice",
+      "className": "Credit Coach",
+      "role": "Helps improve the family's credit profile. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on the family credit plan",
+      "lastRunAt": "2026-10-10T13:11:00-05:00",
+      "runTimes": [
+        "2026-10-10T13:11:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-10-10T13:11:00-05:00",
+      "runsCompleted": 1,
+      "created": "2026-10-10",
+      "firstSeenAt": "2026-10-10T13:11:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-10T13:11:00-05:00",
+      "avatar": {
+        "hat": "helm",
+        "head": "#dfe7ee",
+        "body": "#14b8a6",
+        "accent": "#b8c4d0",
+        "eye": "#7dfcf0",
+        "trim": "#e8eef5",
+        "prop": "shield"
+      }
     }
   ],
   "inbox": [
@@ -927,9 +1009,36 @@ const TEAM_DATA = {
       "bot": "bielik-game-studio",
       "text": "Needs info from you",
       "since": "2026-10-07T17:17:02-05:00"
+    },
+    {
+      "bot": "tax-strategist",
+      "text": "Waiting on Dennis",
+      "since": "2026-10-10T13:10:00-05:00"
+    },
+    {
+      "bot": "credit-coach",
+      "text": "Waiting on Dennis",
+      "since": "2026-10-10T13:11:00-05:00"
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-10T13:11:48-05:00",
+      "text": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis."
+    },
+    {
+      "bot": "credit-coach",
+      "at": "2026-10-10T13:11:00-05:00",
+      "text": "Working on the family credit plan",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "tax-strategist",
+      "at": "2026-10-10T13:10:00-05:00",
+      "text": "Working on the family tax plan",
+      "finding": "Details stay private"
+    },
     {
       "bot": "listings-marketing",
       "at": "2026-10-10T13:09:12-05:00",
@@ -1000,35 +1109,17 @@ const TEAM_DATA = {
       "bot": "portfolio-news",
       "at": "2026-10-09T16:40:00-05:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-09T16:25:00-05:00",
-      "text": "Added 2 new deals; 557 deals tracked across TX and OK",
-      "finding": "557 deals tracked"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-09T16:12:54-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-09T16:11:00-05:00",
-      "text": "Added 2 new deals; 557 deals tracked across TX and OK",
-      "finding": "557 deals tracked"
     }
   ],
   "briefing": {
     "lines": [
-      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 7 items need you · 1 setting up",
+      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 9 items need you · 1 setting up",
       "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
-      "Latest: Listings & Marketing: Completed a run"
+      "Latest: Chief of Staff: Team at 17 bots across 11 zones; 9 items are waiting on Dennis."
     ],
-    "at": "2026-10-10T13:09:12-05:00"
+    "at": "2026-10-10T13:12:56-05:00"
   },
-  "generatedAt": "2026-10-10T13:09:12-05:00"
+  "generatedAt": "2026-10-10T13:12:56-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1184,6 +1275,7 @@ button{font:inherit;color:inherit}
 .theme-fairway{--zc:#ff8fc8;background:linear-gradient(180deg,#0f2a3a 0%,#1d4a52 40%,#2f6a46 70%,#123a24 100%);border-color:#3f8a5a}
 .theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
 .theme-games{--zc:#c04dff;background:linear-gradient(180deg,#0b0424 0%,#2a0b4a 45%,#3a1060 70%,#0e0420 100%);border-color:#6a3aa8}
+.theme-familyoffice{--zc:#d4a537;background:linear-gradient(180deg,#2a1a10 0%,#3a2414 50%,#1a0f08 100%);border-color:#7a5a2a}
 .theme-dance{--zc:#ff6bcb;background:linear-gradient(180deg,#2a0a24 0%,#4a1038 45%,#1a0818 100%);border-color:#8a3a6a}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
@@ -1534,6 +1626,8 @@ function sprite(av, cls){
   if(av.prop==="golfclub") r += `<rect x="10.4" y="7.2" width=".8" height="1.8" fill="#1b2440"/><rect x="10.6" y="9" width=".45" height="5.6" fill="#c8d3f5"/><rect x="9.3" y="14.4" width="1.8" height=".9" fill="#9fb8d0"/><rect x="1.2" y="14.6" width="1" height="1" fill="#f4f1e8"/>`;
   if(av.prop==="clapper") r += `<rect x="8.2" y="9.2" width="3.6" height="2.4" fill="#1a1018"/><path d="M8.2 9.2 L9.6 7.4 H11.2 L10 9.2Z" fill="#ff9f6b"/><rect x="8.5" y="10.6" width="1.2" height=".5" fill="#ffd447"/><rect x="10" y="10.6" width="1.4" height=".5" fill="#ffd447" opacity=".7"/>`;
   if(av.prop==="gamepad") r += `<rect x="7.8" y="9.4" width="4.2" height="1.9" fill="#1b2440"/><rect x="7.5" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="11.1" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="8.3" y="9.9" width="1.2" height=".4" fill="#19e3c8"/><rect x="8.7" y="9.5" width=".4" height="1.2" fill="#19e3c8"/><rect x="10.6" y="9.7" width=".5" height=".5" fill="#ff5fd2"/><rect x="11.2" y="10.2" width=".5" height=".5" fill="#ffd447"/>`;
+  if(av.prop==="calculator") r += `<rect x="8.3" y="9" width="3.2" height="4.2" fill="#1b2440"/><rect x="8.7" y="9.4" width="2.4" height="1" fill="#3dff8b"/><rect x="8.7" y="10.8" width=".8" height=".7" fill="#d4a537"/><rect x="9.9" y="10.8" width=".8" height=".7" fill="#c8d3f5"/><rect x="8.7" y="12" width=".8" height=".7" fill="#c8d3f5"/><rect x="9.9" y="12" width=".8" height=".7" fill="#c8d3f5"/>`;
+  if(av.prop==="shield") r += `<path d="M8.2 8.8 H11.8 V11 Q11.8 13 10 14 Q8.2 13 8.2 11Z" fill="#b8c4d0"/><path d="M8.8 9.4 H11.2 V11 Q11.2 12.4 10 13.2 Q8.8 12.4 8.8 11Z" fill="#14b8a6"/><rect x="9.7" y="9.8" width=".6" height="2.6" fill="#e8eef5"/><rect x="9.1" y="10.6" width="1.8" height=".6" fill="#e8eef5"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
@@ -1853,6 +1947,48 @@ ART.games = function(){
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice"><defs><linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0424"/><stop offset=".65" stop-color="#2a0b4a"/><stop offset="1" stop-color="#6a1a7a"/></linearGradient><linearGradient id="gsun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd447"/><stop offset=".5" stop-color="#ff5fd2"/><stop offset="1" stop-color="#c04dff"/></linearGradient></defs>${s}</svg>`;
 };
 
+/* ---------- Family Office (study + vault) ---------- */
+HATS.eyeshade = ["............","............","..tttttttt..",".aaaaaaaaaa."];
+HATS.helm     = ["............","....tttt....","...aaaaaa...","..aaaaaaaa.."];
+ICON.vault = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><rect x="1" y="2" width="14" height="12" fill="none" stroke="${c}" stroke-width="1.5"/><circle cx="8" cy="8" r="3.6" fill="none" stroke="${c}" stroke-width="1.3"/><circle cx="8" cy="8" r="1" fill="${c}"/><rect x="7.5" y="3.6" width="1" height="2" fill="${c}"/><rect x="7.5" y="10.4" width="1" height="2" fill="${c}"/><rect x="3.6" y="7.5" width="2" height="1" fill="${c}"/><rect x="10.4" y="7.5" width="2" height="1" fill="${c}"/><rect x="2" y="14" width="2" height="1.5" fill="${c}"/><rect x="12" y="14" width="2" height="1.5" fill="${c}"/></svg>`;
+ART.familyoffice = function(){
+  const R = rng(79), W=400, H=330, G=H-38; let s="";
+  // wood-paneled wall
+  s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="#2a1a10"/>`;
+  for(let x=0;x<W;x+=40){ s+=`<rect x="${x+3}" y="10" width="34" height="${G-110}" fill="#3a2414" stroke="#5a3a20" stroke-opacity=".6"/>`;
+    for(let k=0;k<4;k++) s+=`<rect x="${x+6+((R()*26)|0)}" y="${20+((R()*(G-140))|0)}" width="${4+((R()*8)|0)}" height="1" fill="#24160c" opacity=".5"/>`; }
+  s+=`<rect x="0" y="${G-96}" width="${W}" height="6" fill="#6a4424"/><rect x="0" y="${G-90}" width="${W}" height="90" fill="#24160c"/>`;
+  for(let x=0;x<W;x+=50) s+=`<rect x="${x+4}" y="${G-82}" width="42" height="74" fill="none" stroke="#5a3a20" stroke-opacity=".7"/>`;
+  // bookshelf (left)
+  s+=`<rect x="14" y="40" width="70" height="${G-136}" fill="#1a0f08" stroke="#6a4424"/>`;
+  for(let y=48;y<G-100;y+=26){ s+=`<rect x="14" y="${y+20}" width="70" height="3" fill="#6a4424"/>`;
+    let x=18; while(x<78){ const w=4+((R()*5)|0), hh=12+((R()*7)|0); s+=`<rect x="${x}" y="${y+20-hh}" width="${w}" height="${hh}" fill="${["#7a1f2a","#1b3a5a","#2a5a3a","#c8a04a","#4a2a5a"][(R()*5)|0]}"/>`; x+=w+1; } }
+  // framed picture
+  s+=`<rect x="120" y="34" width="54" height="38" fill="#c8a04a"/><rect x="124" y="38" width="46" height="30" fill="#1d3a4a"/><path d="M124 64 l14 -12 l10 8 l8 -6 l14 10 v4 h-46z" fill="#2f6a46"/><circle cx="160" cy="46" r="3" fill="#ffe9a8"/>`;
+  // vault door (right)
+  const vx=318, vy=G-150;
+  s+=`<rect x="${vx-48}" y="${vy-48}" width="96" height="96" fill="#3a3f4a" stroke="#8a93a6" stroke-width="2"/>`;
+  s+=`<circle cx="${vx}" cy="${vy}" r="38" fill="#5a6274" stroke="#c8d0e0" stroke-width="2"/><circle cx="${vx}" cy="${vy}" r="28" fill="#4a5162" stroke="#8a93a6"/>`;
+  for(let a=0;a<6;a++){ const t=a*Math.PI/3; s+=`<line x1="${vx}" y1="${vy}" x2="${(vx+Math.cos(t)*24).toFixed(1)}" y2="${(vy+Math.sin(t)*24).toFixed(1)}" stroke="#d4a537" stroke-width="3"/>`; }
+  s+=`<circle cx="${vx}" cy="${vy}" r="6" fill="#d4a537"/><circle cx="${vx}" cy="${vy}" r="2" fill="#3a2a10"/>`;
+  for(let i=0;i<4;i++) s+=`<rect x="${vx-46}" y="${vy-36+i*22}" width="6" height="8" fill="#8a93a6"/>`;
+  s+=`<circle cx="${vx+40}" cy="${vy-40}" r="2" fill="#3dff8b" class="blink"/>`;
+  // desk with ledger, calculator, banker's lamp
+  s+=`<ellipse cx="150" cy="${G-70}" rx="70" ry="40" fill="#ffd98a" opacity=".08" class="beacon"/>`;
+  s+=`<rect x="96" y="${G-58}" width="200" height="10" fill="#6a4424"/><rect x="96" y="${G-58}" width="200" height="2" fill="#9a6a3a"/><rect x="104" y="${G-48}" width="10" height="48" fill="#4a2c16"/><rect x="278" y="${G-48}" width="10" height="48" fill="#4a2c16"/>`;
+  s+=`<rect x="120" y="${G-66}" width="44" height="8" fill="#f4ecd8"/><rect x="141" y="${G-66}" width="2" height="8" fill="#7a1f2a"/>`;
+  for(let i=0;i<3;i++) s+=`<rect x="${124}" y="${G-64+i*2}" width="14" height=".8" fill="#2a5a3a" opacity=".7"/><rect x="${146}" y="${G-64+i*2}" width="14" height=".8" fill="#2a5a3a" opacity=".7"/>`;
+  s+=`<rect x="176" y="${G-70}" width="18" height="12" fill="#1b2440"/><rect x="178" y="${G-68}" width="14" height="3" fill="#3dff8b" opacity=".75"/>`;
+  for(let i=0;i<3;i++) for(let j=0;j<2;j++) s+=`<rect x="${179+i*4.5}" y="${G-63.5+j*2.8}" width="3" height="2" fill="#c8d3f5"/>`;
+  s+=`<rect x="220" y="${G-62}" width="22" height="4" fill="#c8a04a"/><rect x="229" y="${G-84}" width="3" height="22" fill="#c8a04a"/><path d="M214 ${G-84} q17 -14 34 0 z" fill="#1f7a4a"/><rect x="214" y="${G-85}" width="34" height="2" fill="#c8a04a"/><polygon points="216,${G-83} 246,${G-83} 262,${G-58} 200,${G-58}" fill="#ffe9a8" opacity=".1"/>`;
+  // gold coins stack
+  for(let i=0;i<4;i++) s+=`<ellipse cx="270" cy="${G-60-i*2.5}" rx="6" ry="2" fill="#d4a537" stroke="#8a6a1a" stroke-width=".5"/>`;
+  // rug + floor
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#1a0f08"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#d4a537" opacity=".55"/>`;
+  for(let x=0;x<W;x+=20) s+=`<rect x="${x}" y="${G+14}" width="10" height="1.5" fill="#d4a537" opacity=".18"/>`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
+};
+
 /* ---------- time (Central) ---------- */
 const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
 const MS = 60000;
@@ -1930,7 +2066,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff", dance:"#ff6bcb"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff", dance:"#ff6bcb", familyoffice:"#d4a537"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};
