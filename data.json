@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:30:27-05:00",
+  "updatedAt": "2026-10-11T07:49:14-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -412,8 +412,8 @@
           ]
         }
       ],
-      "lastRun": "Added 3 new deals; 560 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-10T07:57:53-05:00",
+      "lastRun": "Added 4 new deals; 564 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-11T07:52:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T08:10:00-05:00",
@@ -422,17 +422,18 @@
         "2026-10-07T08:27:36-05:00",
         "2026-10-09T16:11:00-05:00",
         "2026-10-09T16:25:00-05:00",
-        "2026-10-10T07:57:53-05:00"
+        "2026-10-10T07:57:53-05:00",
+        "2026-10-11T07:52:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-11T07:42:00-05:00",
-      "latestFinding": "560 deals tracked",
+      "nextRunAt": "2026-10-12T07:42:00-05:00",
+      "latestFinding": "564 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 7,
+      "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-10T07:57:53-05:00",
+      "updatedAt": "2026-10-11T07:52:00-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1010,6 +1011,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-11T07:52:00-05:00",
+      "text": "Added 4 new deals; 564 deals tracked across TX and OK",
+      "finding": "564 deals tracked"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-10-10T13:40:00-05:00",
       "text": "Working on brand designs",
@@ -1091,21 +1098,15 @@
       "at": "2026-10-09T19:16:45-05:00",
       "text": "Evening command center refresh: synced 15 bots across 10 zones from status files, added Dance Bot, marked stale scheduled bots needing attention, built and published the dashboard.",
       "finding": "Team at 15 bots across 10 zones; 9 items waiting on Dennis."
-    },
-    {
-      "bot": "bielik-game-studio",
-      "at": "2026-10-09T19:01:37-05:00",
-      "text": "Building a family video game project",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
-      "5 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst, AI Guide late) · 9 items need you · 1 setting up",
-      "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "6 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst late) · 9 items need you · 1 setting up",
+      "Next run: Travel Agent · Deal check, today 7:54 AM CT",
+      "Latest: VA Deal Scout: Added 4 new deals; 564 deals tracked across TX and OK"
     ],
-    "at": "2026-10-10T13:30:27-05:00"
+    "at": "2026-10-11T07:49:14-05:00"
   },
-  "generatedAt": "2026-10-10T13:30:27-05:00"
+  "generatedAt": "2026-10-11T07:49:14-05:00"
 }
