@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T09:24:17-05:00",
+  "updatedAt": "2026-10-11T12:54:21-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -726,26 +726,27 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-10-10T12:52:03-05:00",
+      "lastRunAt": "2026-10-11T12:53:08-05:00",
       "runTimes": [
         "2026-10-05T07:55:00-05:00",
         "2026-10-05T12:55:00-05:00",
         "2026-10-06T13:03:00-05:00",
         "2026-10-07T12:58:21-05:00",
-        "2026-10-10T12:52:03-05:00"
+        "2026-10-10T12:52:03-05:00",
+        "2026-10-11T12:53:08-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-11T12:50:00-05:00",
+      "nextRunAt": "2026-10-12T07:50:00-05:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [
         "Needs a decision from you"
       ],
       "waitingSince": "2026-10-05T07:55:00-05:00",
-      "runsCompleted": 5,
+      "runsCompleted": 6,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:55:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-10T12:52:03-05:00",
+      "updatedAt": "2026-10-11T12:53:08-05:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1028,6 +1029,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-10-11T12:53:08-05:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "travel-agent",
       "at": "2026-10-11T09:24:17-05:00",
       "text": "Completed a deal search",
@@ -1109,21 +1116,15 @@
       "at": "2026-10-10T08:02:02-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-10T08:01:30.278440-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst late) · 9 items need you · 1 setting up",
-      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-10-11T09:24:17-05:00"
+    "at": "2026-10-11T12:54:21-05:00"
   },
-  "generatedAt": "2026-10-11T09:24:17-05:00"
+  "generatedAt": "2026-10-11T12:54:21-05:00"
 }
