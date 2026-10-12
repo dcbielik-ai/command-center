@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T08:29:49-05:00",
+  "updatedAt": "2026-10-12T08:41:25-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -145,7 +145,7 @@
         }
       ],
       "lastRun": "",
-      "lastRunAt": "2026-10-10T13:11:48-05:00",
+      "lastRunAt": "2026-10-12T08:40:46-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -157,17 +157,18 @@
         "2026-10-07T15:41:07-05:00",
         "2026-10-07T16:48:49-05:00",
         "2026-10-09T19:16:45-05:00",
-        "2026-10-10T13:11:48-05:00"
+        "2026-10-10T13:11:48-05:00",
+        "2026-10-12T08:40:46-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-12T08:10:00-05:00",
-      "latestFinding": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis.",
+      "nextRunAt": "2026-10-12T19:10:00-05:00",
+      "latestFinding": "Team at 18 bots across 11 zones; 8 items are waiting on Dennis.",
       "waitingOnYou": [],
-      "runsCompleted": 8,
+      "runsCompleted": 9,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-10T13:11:48-05:00",
+      "updatedAt": "2026-10-12T08:40:46-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -899,7 +900,7 @@
       "waitingOnYou": [],
       "runsCompleted": 0,
       "created": "2026-10-09",
-      "notes": "Named by Dennis; no status file yet.",
+      "notes": "Named by Dennis; no status file yet (works on request).",
       "avatar": {
         "hat": "cap",
         "head": "#ffe0b8",
@@ -915,7 +916,7 @@
       "zone": "familyoffice",
       "className": "Tax Strategist",
       "role": "Finds legal ways to lower the family's tax bill. Details stay private.",
-      "status": "Active",
+      "status": "Needs you",
       "schedule": "On request",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -951,7 +952,7 @@
       "zone": "familyoffice",
       "className": "Credit Coach",
       "role": "Helps improve the family's credit profile. Details stay private.",
-      "status": "Active",
+      "status": "Needs you",
       "schedule": "On request",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -979,6 +980,34 @@
         "eye": "#7dfcf0",
         "trim": "#e8eef5",
         "prop": "shield"
+      }
+    },
+    {
+      "id": "bookkeeper",
+      "name": "Bookkeeper",
+      "zone": "familyoffice",
+      "className": "Bookkeeper",
+      "role": "Family Office bot: helps with family finances. Details stay private.",
+      "status": "Setting up",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-10",
+      "notes": "",
+      "avatar": {
+        "hat": "eyeshade",
+        "head": "#efe6d6",
+        "body": "#7a5c2e",
+        "accent": "#2fbf71",
+        "eye": "#ffd447",
+        "trim": "#f4f1e8",
+        "prop": "calculator"
       }
     }
   ],
@@ -1025,6 +1054,11 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-12T08:40:46-05:00",
+      "text": "Team at 18 bots across 11 zones; 8 items are waiting on Dennis."
+    },
     {
       "bot": "fundamentals-analyst",
       "at": "2026-10-12T08:29:00-05:00",
@@ -1106,21 +1140,15 @@
       "bot": "chief-of-staff",
       "at": "2026-10-10T13:11:48-05:00",
       "text": "Team at 17 bots across 11 zones; 9 items are waiting on Dennis."
-    },
-    {
-      "bot": "credit-coach",
-      "at": "2026-10-10T13:11:00-05:00",
-      "text": "Working on the family credit plan",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Technical Analyst late) · 8 items need you · 1 setting up",
-      "Next run: Trend Scout · Trend scan, today 8:31 AM CT",
-      "Latest: Fundamentals Analyst: Mon pre-market heads-up: 5 hyped names clear the bar (MU, NVDA, PLTR, SOFI, NU);…"
+      "8 of 8 scheduled bots healthy · 8 items need you · 2 setting up",
+      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
+      "Latest: Chief of Staff: Team at 18 bots across 11 zones; 8 items are waiting on Dennis."
     ],
-    "at": "2026-10-12T08:29:49-05:00"
+    "at": "2026-10-12T08:41:25-05:00"
   },
-  "generatedAt": "2026-10-12T08:29:49-05:00"
+  "generatedAt": "2026-10-12T08:41:25-05:00"
 }
