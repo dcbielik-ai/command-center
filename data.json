@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T09:08:52-05:00",
+  "updatedAt": "2026-10-12T09:55:58-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -486,7 +486,7 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-12T08:20:00-05:00",
+      "lastRunAt": "2026-10-12T09:55:00-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
@@ -497,17 +497,18 @@
         "2026-10-10T08:02:02-05:00",
         "2026-10-11T08:17:00-05:00",
         "2026-10-11T09:24:17-05:00",
-        "2026-10-12T08:20:00-05:00"
+        "2026-10-12T08:20:00-05:00",
+        "2026-10-12T09:55:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-13T07:54:00-05:00",
+      "nextRunAt": "2026-10-13T09:16:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 9,
+      "runsCompleted": 10,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-12T08:20:00-05:00",
+      "updatedAt": "2026-10-12T09:55:00-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1065,6 +1066,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-12T09:55:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "trend-scout",
       "at": "2026-10-12T09:08:52-05:00",
       "text": "Completed a run",
@@ -1145,21 +1152,15 @@
       "at": "2026-10-11T07:52:00-05:00",
       "text": "Added 4 new deals; 564 deals tracked across TX and OK",
       "finding": "564 deals tracked"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-10-10T13:40:00-05:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 9 items need you · 2 setting up",
-      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Trend Scout: Completed a run"
+      "Next run: Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-12T09:08:52-05:00"
+    "at": "2026-10-12T09:55:58-05:00"
   },
-  "generatedAt": "2026-10-12T09:08:52-05:00"
+  "generatedAt": "2026-10-12T09:55:58-05:00"
 }
