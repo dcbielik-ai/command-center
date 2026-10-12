@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-12T13:48:01-05:00",
+  "updatedAt": "2026-10-12T14:29:29-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -125,6 +125,15 @@ const TEAM_DATA = {
       "tagline": "Family finances & tax planning",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "productlab",
+      "name": "Product Lab",
+      "theme": "productlab",
+      "icon": "bulb",
+      "tagline": "New product inventions",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -159,8 +168,8 @@ const TEAM_DATA = {
           ]
         }
       ],
-      "lastRun": "",
-      "lastRunAt": "2026-10-12T08:40:46-05:00",
+      "lastRun": "Recruited Product Lab and opened its new Product Lab zone.",
+      "lastRunAt": "2026-10-12T14:28:17-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -173,17 +182,18 @@ const TEAM_DATA = {
         "2026-10-07T16:48:49-05:00",
         "2026-10-09T19:16:45-05:00",
         "2026-10-10T13:11:48-05:00",
-        "2026-10-12T08:40:46-05:00"
+        "2026-10-12T08:40:46-05:00",
+        "2026-10-12T14:28:17-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-12T19:10:00-05:00",
-      "latestFinding": "Team at 18 bots across 11 zones; 8 items are waiting on Dennis.",
+      "latestFinding": "Team at 19 bots across 12 zones; 9 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 9,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-12T08:40:46-05:00",
+      "updatedAt": "2026-10-12T14:28:17-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1031,6 +1041,39 @@ const TEAM_DATA = {
         "trim": "#f4f1e8",
         "prop": "calculator"
       }
+    },
+    {
+      "id": "product-lab",
+      "name": "Product Lab",
+      "zone": "productlab",
+      "className": "Product Designer",
+      "role": "Designs and develops new product inventions. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on a new product concept",
+      "lastRunAt": "2026-10-12T14:30:00-05:00",
+      "runTimes": [
+        "2026-10-12T14:30:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-12",
+      "firstSeenAt": "2026-10-12T14:30:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-12T14:30:00-05:00",
+      "avatar": {
+        "hat": "goggles",
+        "head": "#e4e8ec",
+        "body": "#3a3f47",
+        "accent": "#a3e635",
+        "eye": "#d9ff6b",
+        "trim": "#a3e635",
+        "prop": "wrench"
+      }
     }
   ],
   "inbox": [
@@ -1081,6 +1124,18 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "product-lab",
+      "at": "2026-10-12T14:30:00-05:00",
+      "text": "Working on a new product concept",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-12T14:28:17-05:00",
+      "text": "Recruited Product Lab and opened its new Product Lab zone.",
+      "finding": "Team at 19 bots across 12 zones; 9 items are waiting on Dennis."
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-12T13:46:33-05:00",
@@ -1156,29 +1211,17 @@ const TEAM_DATA = {
       "at": "2026-10-12T08:20:00-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-12T08:12:14-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-12T08:10:00-05:00",
-      "text": "Added 11 new deals; 575 deals tracked across TX and OK",
-      "finding": "575 deals tracked"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 9 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 2:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Product Lab: Working on a new product concept"
     ],
-    "at": "2026-10-12T13:48:01-05:00"
+    "at": "2026-10-12T14:29:29-05:00"
   },
-  "generatedAt": "2026-10-12T13:48:01-05:00"
+  "generatedAt": "2026-10-12T14:29:29-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1335,6 +1378,7 @@ button{font:inherit;color:inherit}
 .theme-puppy{--zc:#ff9f6b;background:linear-gradient(180deg,#2a1420 0%,#3a1e28 40%,#4a2a1a 70%,#1a1018 100%);border-color:#8a4a3a}
 .theme-games{--zc:#c04dff;background:linear-gradient(180deg,#0b0424 0%,#2a0b4a 45%,#3a1060 70%,#0e0420 100%);border-color:#6a3aa8}
 .theme-familyoffice{--zc:#d4a537;background:linear-gradient(180deg,#2a1a10 0%,#3a2414 50%,#1a0f08 100%);border-color:#7a5a2a}
+.theme-productlab{--zc:#a3e635;background:linear-gradient(180deg,#15191f 0%,#1f252d 55%,#0e1115 100%);border-color:#4a5a2a}
 .theme-dance{--zc:#ff6bcb;background:linear-gradient(180deg,#2a0a24 0%,#4a1038 45%,#1a0818 100%);border-color:#8a3a6a}
 .unit.lead .sprite-wrap{width:62px;height:82px}
 .unit.lead .sprite{width:58px;height:77px}
@@ -1687,6 +1731,7 @@ function sprite(av, cls){
   if(av.prop==="gamepad") r += `<rect x="7.8" y="9.4" width="4.2" height="1.9" fill="#1b2440"/><rect x="7.5" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="11.1" y="10.4" width="1.2" height="1.4" fill="#1b2440"/><rect x="8.3" y="9.9" width="1.2" height=".4" fill="#19e3c8"/><rect x="8.7" y="9.5" width=".4" height="1.2" fill="#19e3c8"/><rect x="10.6" y="9.7" width=".5" height=".5" fill="#ff5fd2"/><rect x="11.2" y="10.2" width=".5" height=".5" fill="#ffd447"/>`;
   if(av.prop==="calculator") r += `<rect x="8.3" y="9" width="3.2" height="4.2" fill="#1b2440"/><rect x="8.7" y="9.4" width="2.4" height="1" fill="#3dff8b"/><rect x="8.7" y="10.8" width=".8" height=".7" fill="#d4a537"/><rect x="9.9" y="10.8" width=".8" height=".7" fill="#c8d3f5"/><rect x="8.7" y="12" width=".8" height=".7" fill="#c8d3f5"/><rect x="9.9" y="12" width=".8" height=".7" fill="#c8d3f5"/>`;
   if(av.prop==="shield") r += `<path d="M8.2 8.8 H11.8 V11 Q11.8 13 10 14 Q8.2 13 8.2 11Z" fill="#b8c4d0"/><path d="M8.8 9.4 H11.2 V11 Q11.2 12.4 10 13.2 Q8.8 12.4 8.8 11Z" fill="#14b8a6"/><rect x="9.7" y="9.8" width=".6" height="2.6" fill="#e8eef5"/><rect x="9.1" y="10.6" width="1.8" height=".6" fill="#e8eef5"/>`;
+  if(av.prop==="wrench") r += `<rect x="10.2" y="9.4" width=".7" height="4.6" fill="#c8d3f5"/><rect x="9.6" y="8.4" width="1.9" height="1.4" fill="#c8d3f5"/><rect x="10.2" y="8.2" width=".7" height=".8" fill="#3a3f47"/><rect x="10" y="12.4" width="1.1" height="1.6" fill="#a3e635"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
@@ -2048,6 +2093,46 @@ ART.familyoffice = function(){
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
 };
 
+/* ---------- Product Lab (invention workshop) ---------- */
+HATS.goggles = ["............","............","..tttttttt..",".taattaatt.."];
+ICON.bulb = c=>`<svg viewBox="0 0 16 16" shape-rendering="crispEdges"><path d="M8 1.5 a5 5 0 0 1 3 9 V12 H5 V10.5 a5 5 0 0 1 3 -9z" fill="${c}"/><rect x="5.5" y="12.6" width="5" height="1.2" fill="#c8d3f5"/><rect x="6.3" y="14.2" width="3.4" height="1.2" fill="#9aa3c0"/><rect x="7" y="5" width="2" height="5" fill="#ffffff" opacity=".55"/><rect x="2" y="2" width="1.5" height="1.5" fill="${c}" opacity=".6"/><rect x="12.5" y="2" width="1.5" height="1.5" fill="${c}" opacity=".6"/></svg>`;
+ART.productlab = function(){
+  const R = rng(91), W=400, H=330, G=H-38; let s="";
+  s+=`<rect x="0" y="0" width="${W}" height="${G}" fill="#15191f"/>`;
+  // blueprint wall
+  s+=`<rect x="110" y="22" width="180" height="96" fill="#123a6a" stroke="#4a8ad0"/>`;
+  for(let x=118;x<290;x+=12) s+=`<rect x="${x}" y="22" width="1" height="96" fill="#7ab8ff" opacity=".18"/>`;
+  for(let y=30;y<118;y+=12) s+=`<rect x="110" y="${y}" width="180" height="1" fill="#7ab8ff" opacity=".18"/>`;
+  s+=`<circle cx="160" cy="70" r="24" fill="none" stroke="#cfe6ff" stroke-width="1.3"/><circle cx="160" cy="70" r="4" fill="none" stroke="#cfe6ff"/><line x1="136" y1="70" x2="184" y2="70" stroke="#cfe6ff" stroke-dasharray="3 2"/>`;
+  s+=`<rect x="200" y="46" width="70" height="40" fill="none" stroke="#cfe6ff" stroke-width="1.3"/><path d="M200 86 l14 -18 l20 12 l18 -22 l18 10" fill="none" stroke="#a3e635" stroke-width="1.3"/><line x1="200" y1="96" x2="270" y2="96" stroke="#cfe6ff"/><rect x="199" y="93" width="1" height="6" fill="#cfe6ff"/><rect x="270" y="93" width="1" height="6" fill="#cfe6ff"/>`;
+  [[112,24],[284,24],[112,112],[284,112]].forEach(([x,y])=>s+=`<rect x="${x}" y="${y}" width="4" height="4" fill="#ff4d6d"/>`);
+  // pegboard with tools (left)
+  s+=`<rect x="10" y="30" width="80" height="80" fill="#3a2f22"/>`;
+  for(let y=36;y<110;y+=8) for(let x=16;x<90;x+=8) s+=`<rect x="${x}" y="${y}" width="1.2" height="1.2" fill="#1a140e"/>`;
+  s+=`<rect x="22" y="40" width="3" height="26" fill="#c8d3f5"/><rect x="18" y="38" width="11" height="5" fill="#9aa3c0"/><rect x="40" y="42" width="4" height="22" fill="#a3e635"/><rect x="41" y="64" width="2" height="12" fill="#c8d3f5"/><rect x="58" y="40" width="20" height="3" fill="#ffb627"/><rect x="60" y="43" width="3" height="16" fill="#ffb627"/><circle cx="70" cy="90" r="9" fill="none" stroke="#ff9f6b" stroke-width="2"/>`;
+  // drafting table (left)
+  s+=`<polygon points="20,${G-74} 98,${G-90} 104,${G-80} 26,${G-64}" fill="#e8ecf2"/><polygon points="30,${G-72} 92,${G-85} 95,${G-80} 33,${G-67}" fill="#9cc8ff" opacity=".55"/><rect x="40" y="${G-66}" width="4" height="66" fill="#5a6274"/><rect x="84" y="${G-82}" width="4" height="82" fill="#5a6274"/><rect x="30" y="${G-4}" width="68" height="4" fill="#5a6274"/>`;
+  s+=`<rect x="60" y="${G-104}" width="2" height="20" fill="#9aa3c0" transform="rotate(-30 61 ${G-84})"/><polygon points="44,${G-110} 64,${G-110} 54,${G-122}" fill="#a3e635"/><circle cx="54" cy="${G-110}" r="5" fill="#ffe9a8" opacity=".25" class="beacon"/>`;
+  // 3D printer (right)
+  const px=316, py=G-128;
+  s+=`<rect x="${px}" y="${py}" width="68" height="76" fill="#22272f" stroke="#a3e635" stroke-opacity=".6"/><rect x="${px+6}" y="${py+6}" width="56" height="52" fill="#0d1014"/>`;
+  s+=`<rect x="${px+6}" y="${py+16}" width="56" height="2" fill="#5a6274"/><rect x="${px+28}" y="${py+12}" width="12" height="8" fill="#9aa3c0"/><rect x="${px+33}" y="${py+20}" width="2" height="4" fill="#ff9f6b"/><circle cx="${px+34}" cy="${py+25}" r="1.2" fill="#ffb627" class="blink"/>`;
+  s+=`<rect x="${px+24}" y="${py+40}" width="20" height="14" fill="#a3e635" opacity=".85"/><rect x="${px+28}" y="${py+34}" width="12" height="6" fill="#a3e635" opacity=".6"/><rect x="${px+10}" y="${py+54}" width="48" height="3" fill="#5a6274"/>`;
+  s+=`<rect x="${px+8}" y="${py+62}" width="22" height="8" fill="#0d1014"/><rect x="${px+10}" y="${py+64}" width="12" height="4" fill="#a3e635" opacity=".7" class="twinkle"/><circle cx="${px+56}" cy="${py+66}" r="3" fill="#ff4d6d"/>`;
+  s+=`<rect x="${px+6}" y="${G-52}" width="56" height="52" fill="#2a2f38"/>`;
+  // workbench with mystery object on a turntable (center); the object is under a cloth
+  s+=`<rect x="122" y="${G-46}" width="170" height="8" fill="#6a5034"/><rect x="132" y="${G-38}" width="8" height="38" fill="#4a3824"/><rect x="274" y="${G-38}" width="8" height="38" fill="#4a3824"/>`;
+  s+=`<ellipse cx="236" cy="${G-50}" rx="24" ry="5" fill="#5a6274"/><ellipse cx="236" cy="${G-52}" rx="22" ry="4" fill="#9aa3c0"/>`;
+  s+=`<path d="M218 ${G-52} q4 -26 18 -28 q14 2 18 28 z" fill="#a3e635" opacity=".9"/><path d="M226 ${G-52} q3 -18 10 -22" stroke="#6a9a1a" fill="none"/><text x="236" y="${G-60}" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#15191f">?</text>`;
+  s+=`<g class="twinkle"><rect x="208" y="${G-86}" width="2" height="6" fill="#d9ff6b"/><rect x="262" y="${G-80}" width="2" height="6" fill="#d9ff6b"/><rect x="235" y="${G-96}" width="2" height="6" fill="#d9ff6b"/></g>`;
+  // gears on bench
+  s+=`<circle cx="160" cy="${G-52}" r="6" fill="none" stroke="#ffb627" stroke-width="2.5" stroke-dasharray="2 1.5"/><circle cx="174" cy="${G-50}" r="4" fill="none" stroke="#c8d3f5" stroke-width="2" stroke-dasharray="1.6 1.2"/>`;
+  // floor
+  s+=`<rect x="0" y="${G}" width="${W}" height="38" fill="#0e1115"/><rect x="0" y="${G}" width="${W}" height="1.5" fill="#a3e635" opacity=".5"/>`;
+  for(let x=0;x<W;x+=24){ s+=`<rect x="${x}" y="${G+12}" width="12" height="3" fill="#ffd447" opacity=".22"/><rect x="${x+12}" y="${G+12}" width="12" height="3" fill="#15191f" opacity=".4"/>`; }
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice">${s}</svg>`;
+};
+
 /* ---------- time (Central) ---------- */
 const STALE_MIN = 2*24*60, POLL_MS = 60000, GRACE_MIN = 60, DAY_START = 6, DAY_END = 21;
 const MS = 60000;
@@ -2125,7 +2210,7 @@ function briefingLines(now){
 }
 
 /* ---------- render ---------- */
-const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff", dance:"#ff6bcb", familyoffice:"#d4a537"};
+const ZC = {stocks:"#3dff8b", hq:"#b48cff", realestate:"#ffb627", travel:"#3ff2d0", studio:"#ff5fd2", ailab:"#7c9cff", puppy:"#ff9f6b", fairway:"#ff8fc8", games:"#c04dff", dance:"#ff6bcb", familyoffice:"#d4a537", productlab:"#a3e635"};
 const zoneColor = z => (z && (z.color || ZC[z.theme])) || "#3de0ff";
 const TAPE = ["FUNDAMENTALS","EARNINGS","MARGINS","FREE CASH FLOW","INSIDER BUYS","BREAKOUTS","KEY LEVELS","RSI · MACD","PORTFOLIO NEWS","SEC FILINGS"];
 let bots=[], zones=[], locked=[], zoneById={}, inbox=[], feed=[], openId=null, XP={xpPerRun:1,runsPerLevel:5};

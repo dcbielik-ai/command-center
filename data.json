@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T13:48:01-05:00",
+  "updatedAt": "2026-10-12T14:29:29-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -110,6 +110,15 @@
       "tagline": "Family finances & tax planning",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "productlab",
+      "name": "Product Lab",
+      "theme": "productlab",
+      "icon": "bulb",
+      "tagline": "New product inventions",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -144,8 +153,8 @@
           ]
         }
       ],
-      "lastRun": "",
-      "lastRunAt": "2026-10-12T08:40:46-05:00",
+      "lastRun": "Recruited Product Lab and opened its new Product Lab zone.",
+      "lastRunAt": "2026-10-12T14:28:17-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -158,17 +167,18 @@
         "2026-10-07T16:48:49-05:00",
         "2026-10-09T19:16:45-05:00",
         "2026-10-10T13:11:48-05:00",
-        "2026-10-12T08:40:46-05:00"
+        "2026-10-12T08:40:46-05:00",
+        "2026-10-12T14:28:17-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-12T19:10:00-05:00",
-      "latestFinding": "Team at 18 bots across 11 zones; 8 items are waiting on Dennis.",
+      "latestFinding": "Team at 19 bots across 12 zones; 9 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 9,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-12T08:40:46-05:00",
+      "updatedAt": "2026-10-12T14:28:17-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1016,6 +1026,39 @@
         "trim": "#f4f1e8",
         "prop": "calculator"
       }
+    },
+    {
+      "id": "product-lab",
+      "name": "Product Lab",
+      "zone": "productlab",
+      "className": "Product Designer",
+      "role": "Designs and develops new product inventions. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on a new product concept",
+      "lastRunAt": "2026-10-12T14:30:00-05:00",
+      "runTimes": [
+        "2026-10-12T14:30:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-12",
+      "firstSeenAt": "2026-10-12T14:30:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-12T14:30:00-05:00",
+      "avatar": {
+        "hat": "goggles",
+        "head": "#e4e8ec",
+        "body": "#3a3f47",
+        "accent": "#a3e635",
+        "eye": "#d9ff6b",
+        "trim": "#a3e635",
+        "prop": "wrench"
+      }
     }
   ],
   "inbox": [
@@ -1066,6 +1109,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "product-lab",
+      "at": "2026-10-12T14:30:00-05:00",
+      "text": "Working on a new product concept",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-12T14:28:17-05:00",
+      "text": "Recruited Product Lab and opened its new Product Lab zone.",
+      "finding": "Team at 19 bots across 12 zones; 9 items are waiting on Dennis."
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-12T13:46:33-05:00",
@@ -1141,27 +1196,15 @@
       "at": "2026-10-12T08:20:00-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-12T08:12:14-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-12T08:10:00-05:00",
-      "text": "Added 11 new deals; 575 deals tracked across TX and OK",
-      "finding": "575 deals tracked"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 9 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 2:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Product Lab: Working on a new product concept"
     ],
-    "at": "2026-10-12T13:48:01-05:00"
+    "at": "2026-10-12T14:29:29-05:00"
   },
-  "generatedAt": "2026-10-12T13:48:01-05:00"
+  "generatedAt": "2026-10-12T14:29:29-05:00"
 }
