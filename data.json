@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T12:48:35-05:00",
+  "updatedAt": "2026-10-12T13:03:40-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -703,7 +703,7 @@
       "zone": "ailab",
       "className": "Guide: AI News & Safety",
       "role": "Keeps Dennis current on AI advances with Monday and Thursday briefings, and watches for urgent AI scams and safety threats.",
-      "status": "Active",
+      "status": "Idle",
       "schedule": "Mondays and Thursdays at 7:50 AM CT; Every day at 12:50 PM CT",
       "routines": "AI briefing; Scam watch",
       "slots": [
@@ -734,7 +734,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-10-12T08:12:14-05:00",
+      "lastRunAt": "2026-10-12T13:02:02-05:00",
       "runTimes": [
         "2026-10-05T07:55:00-05:00",
         "2026-10-05T12:55:00-05:00",
@@ -742,20 +742,21 @@
         "2026-10-07T12:58:21-05:00",
         "2026-10-10T12:52:03-05:00",
         "2026-10-11T12:53:08-05:00",
-        "2026-10-12T08:12:14-05:00"
+        "2026-10-12T08:12:14-05:00",
+        "2026-10-12T13:02:02-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-12T12:50:00-05:00",
+      "nextRunAt": "2026-10-13T12:50:00-05:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [
         "Needs a decision from you"
       ],
       "waitingSince": "2026-10-05T07:55:00-05:00",
-      "runsCompleted": 7,
+      "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:55:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-12T08:12:14-05:00",
+      "updatedAt": "2026-10-12T13:05:00-05:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1066,6 +1067,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-10-12T13:02:02-05:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-12T12:47:18-05:00",
       "text": "Completed a news check",
@@ -1146,20 +1153,15 @@
       "at": "2026-10-12T07:58:17-05:00",
       "text": "Pre-market scan on the Fri Oct 9 session: 207 buy hits across 681 liquid names, 1 strong sell warning (VZ, new).",
       "finding": "SPY 778.57 (+0.60%), QQQ 751.27 (+0.49%), VIX 14.84; top setup TEVA broke out above 40.79 to 41.10 on 2.8x volume; VZ fell 8.7% to 41.65 below its 200-day on 4.7x volume."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-12T07:57:00-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 9 items need you · 2 setting up",
-      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 1:35 PM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-10-12T12:48:35-05:00"
+    "at": "2026-10-12T13:03:40-05:00"
   },
-  "generatedAt": "2026-10-12T12:48:35-05:00"
+  "generatedAt": "2026-10-12T13:03:40-05:00"
 }
