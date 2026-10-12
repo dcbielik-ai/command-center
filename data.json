@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T12:54:21-05:00",
+  "updatedAt": "2026-10-12T07:58:17-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -268,8 +268,8 @@
           ]
         }
       ],
-      "lastRun": "After-close check on the Oct 7 session: quiet day, no alert sent; 147 buy hits across 680 liquid names, 8 sell warnings (none on heavy volume).",
-      "lastRunAt": "2026-10-07T15:48:00-05:00",
+      "lastRun": "Pre-market scan on the Fri Oct 9 session: 207 buy hits across 681 liquid names, 1 strong sell warning (VZ, new).",
+      "lastRunAt": "2026-10-12T07:58:17-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
@@ -279,17 +279,18 @@
         "2026-10-06T15:52:00-05:00",
         "2026-10-07T07:47:00-05:00",
         "2026-10-07T07:50:00-05:00",
-        "2026-10-07T15:48:00-05:00"
+        "2026-10-07T15:48:00-05:00",
+        "2026-10-12T07:58:17-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-08T07:38:00-05:00",
-      "latestFinding": "SPY 777.22 (-0.24%) and QQQ 757.73 (-0.25%) on ~0.7x volume; VST +3.9% to 166.72 on 2.3x volume above its 154.65 20-day high; morning picks held support (MDLZ 59.38, NU 15.58 just under 15.82).",
+      "nextRunAt": "2026-10-12T15:38:00-05:00",
+      "latestFinding": "SPY 778.57 (+0.60%), QQQ 751.27 (+0.49%), VIX 14.84; top setup TEVA broke out above 40.79 to 41.10 on 2.8x volume; VZ fell 8.7% to 41.65 below its 200-day on 4.7x volume.",
       "waitingOnYou": [],
-      "runsCompleted": 7,
+      "runsCompleted": 8,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-07T15:48:00-05:00",
+      "updatedAt": "2026-10-12T07:58:17-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1029,6 +1030,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-12T07:58:17-05:00",
+      "text": "Pre-market scan on the Fri Oct 9 session: 207 buy hits across 681 liquid names, 1 strong sell warning (VZ, new).",
+      "finding": "SPY 778.57 (+0.60%), QQQ 751.27 (+0.49%), VIX 14.84; top setup TEVA broke out above 40.79 to 41.10 on 2.8x volume; VZ fell 8.7% to 41.65 below its 200-day on 4.7x volume."
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-10-11T12:53:08-05:00",
       "text": "Sent a safety alert",
@@ -1110,21 +1117,15 @@
       "at": "2026-10-10T12:52:03-05:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-10T08:02:02-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 8 scheduled bots healthy (Fundamentals Analyst, Technical Analyst late) · 9 items need you · 1 setting up",
-      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "Latest: Technical Analyst: Pre-market scan on the Fri Oct 9 session: 207 buy hits across 681 liquid names, 1…"
     ],
-    "at": "2026-10-11T12:54:21-05:00"
+    "at": "2026-10-12T07:58:17-05:00"
   },
-  "generatedAt": "2026-10-11T12:54:21-05:00"
+  "generatedAt": "2026-10-12T07:58:17-05:00"
 }
