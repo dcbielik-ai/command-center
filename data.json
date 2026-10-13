@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T14:47:55-05:00",
+  "updatedAt": "2026-10-13T14:48:02-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -350,9 +350,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-13T14:52:00-05:00",
+      "lastRunAt": "2026-10-13T14:48:00-05:00",
       "runTimes": [
-        "2026-10-07T12:39:25-05:00",
         "2026-10-07T13:46:13-05:00",
         "2026-10-07T14:46:43-05:00",
         "2026-10-07T15:39:00-05:00",
@@ -381,6 +380,7 @@
         "2026-10-13T12:00:22-05:00",
         "2026-10-13T12:53:08-05:00",
         "2026-10-13T13:55:00-05:00",
+        "2026-10-13T14:48:00-05:00",
         "2026-10-13T14:52:00-05:00"
       ],
       "nextRun": "Scheduled",
@@ -391,7 +391,7 @@
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-13T14:52:00-05:00",
+      "updatedAt": "2026-10-13T14:48:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1136,6 +1136,12 @@
     },
     {
       "bot": "portfolio-news",
+      "at": "2026-10-13T14:48:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-13T13:55:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1210,12 +1216,6 @@
       "at": "2026-10-13T08:05:00-05:00",
       "text": "Added 1 new deal; 576 deals tracked across TX and OK",
       "finding": "576 deals tracked"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-13T07:57:52-05:00",
-      "text": "Pre-market scan as-of Mon Oct 12: 236 buy hits across 681 liquid names, 4 sell warnings (VZ carryover; CMG/HRL/IP new vs last morning).",
-      "finding": "SPY 778.10 (-0.06%), QQQ 746.04 (-0.70%); top mixes VTV/RSP base-near-BO, TD/JNJ/PAYX 20d pullbacks, AMT/CCI heavy-vol bounces; sells CMG/VZ/HRL/IP."
     }
   ],
   "briefing": {
@@ -1224,7 +1224,7 @@
       "Next run: Portfolio News · News check, today 3:35 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-13T14:47:55-05:00"
+    "at": "2026-10-13T14:48:02-05:00"
   },
-  "generatedAt": "2026-10-13T14:47:55-05:00"
+  "generatedAt": "2026-10-13T14:48:02-05:00"
 }
