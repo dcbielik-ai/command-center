@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-14T15:46:33-05:00",
+  "updatedAt": "2026-10-14T16:36:12-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -168,8 +168,8 @@ const TEAM_DATA = {
           ]
         }
       ],
-      "lastRun": "Morning command center refresh: synced 19 bots across 12 zones from status files, built and published the dashboard.",
-      "lastRunAt": "2026-10-14T08:17:22-05:00",
+      "lastRun": "Recruited Home Tech and stationed it in Command HQ.",
+      "lastRunAt": "2026-10-14T16:35:58-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -186,17 +186,18 @@ const TEAM_DATA = {
         "2026-10-12T14:28:17-05:00",
         "2026-10-13T08:27:25-05:00",
         "2026-10-13T19:19:49-05:00",
-        "2026-10-14T08:17:22-05:00"
+        "2026-10-14T08:17:22-05:00",
+        "2026-10-14T16:35:58-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-14T19:10:00-05:00",
-      "latestFinding": "Team at 19 bots across 12 zones; 10 item(s) waiting on Dennis.",
+      "latestFinding": "Team at 20 bots across 12 zones; 10 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 12,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-14T08:17:22-05:00",
+      "updatedAt": "2026-10-14T16:35:58-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1099,6 +1100,39 @@ const TEAM_DATA = {
         "trim": "#a3e635",
         "prop": "wrench"
       }
+    },
+    {
+      "id": "home-tech",
+      "name": "Home Tech",
+      "zone": "hq",
+      "className": "Home Tech Support",
+      "role": "Fixes the smart-home system and home network. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Working on home tech support",
+      "lastRunAt": "2026-10-14T16:35:32-05:00",
+      "runTimes": [
+        "2026-10-14T16:35:32-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-14",
+      "firstSeenAt": "2026-10-14T16:35:32-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-14T16:35:32-05:00",
+      "avatar": {
+        "hat": "headset",
+        "head": "#dbeafe",
+        "body": "#2563eb",
+        "accent": "#0b1f4a",
+        "eye": "#7dd3fc",
+        "trim": "#38bdf8",
+        "prop": "techwrench"
+      }
     }
   ],
   "inbox": [
@@ -1154,6 +1188,18 @@ const TEAM_DATA = {
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-14T16:35:58-05:00",
+      "text": "Recruited Home Tech and stationed it in Command HQ.",
+      "finding": "Team at 20 bots across 12 zones; 10 items are waiting on Dennis."
+    },
+    {
+      "bot": "home-tech",
+      "at": "2026-10-14T16:35:32-05:00",
+      "text": "Working on home tech support",
+      "finding": "Details stay private"
+    },
     {
       "bot": "technical-analyst",
       "at": "2026-10-14T15:46:00-05:00",
@@ -1228,29 +1274,17 @@ const TEAM_DATA = {
       "at": "2026-10-14T08:11:28-05:00",
       "text": "Wed pre-market: 9 hyped names clear the bar (MU, ASML, BLK, MS, DELL, NVDA, AMD, SNDK, ALB); BAC/BMBL/CRWV/FRMI/CIFR/GME fail growth, EPS, or size.",
       "finding": "Earnings day: ASML Q3 rev ~+55%/EPS ~+136% with AI demand outlook; BLK and MS also clear 20%+ growth on beats; MU still standout (Q rev +379%, fwd P/E ~7)."
-    },
-    {
-      "bot": "va-deal-scout",
-      "at": "2026-10-14T08:05:00-05:00",
-      "text": "Added 2 new deals; 578 deals tracked across TX and OK",
-      "finding": "578 deals tracked"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-14T07:59:00-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Technical Analyst: After-close Wed Oct 14: risk-off session; QQQ -1.97% on 50-day, SMH broke 50-day,…"
+      "Next run: Portfolio News · News check, today 5:35 PM CT",
+      "Latest: Chief of Staff: Recruited Home Tech and stationed it in Command HQ."
     ],
-    "at": "2026-10-14T15:46:33-05:00"
+    "at": "2026-10-14T16:36:12-05:00"
   },
-  "generatedAt": "2026-10-14T15:46:33-05:00"
+  "generatedAt": "2026-10-14T16:36:12-05:00"
 };
 /* TEAM_DATA:END */
 </script>
@@ -1761,6 +1795,7 @@ function sprite(av, cls){
   if(av.prop==="calculator") r += `<rect x="8.3" y="9" width="3.2" height="4.2" fill="#1b2440"/><rect x="8.7" y="9.4" width="2.4" height="1" fill="#3dff8b"/><rect x="8.7" y="10.8" width=".8" height=".7" fill="#d4a537"/><rect x="9.9" y="10.8" width=".8" height=".7" fill="#c8d3f5"/><rect x="8.7" y="12" width=".8" height=".7" fill="#c8d3f5"/><rect x="9.9" y="12" width=".8" height=".7" fill="#c8d3f5"/>`;
   if(av.prop==="shield") r += `<path d="M8.2 8.8 H11.8 V11 Q11.8 13 10 14 Q8.2 13 8.2 11Z" fill="#b8c4d0"/><path d="M8.8 9.4 H11.2 V11 Q11.2 12.4 10 13.2 Q8.8 12.4 8.8 11Z" fill="#14b8a6"/><rect x="9.7" y="9.8" width=".6" height="2.6" fill="#e8eef5"/><rect x="9.1" y="10.6" width="1.8" height=".6" fill="#e8eef5"/>`;
   if(av.prop==="wrench") r += `<rect x="10.2" y="9.4" width=".7" height="4.6" fill="#c8d3f5"/><rect x="9.6" y="8.4" width="1.9" height="1.4" fill="#c8d3f5"/><rect x="10.2" y="8.2" width=".7" height=".8" fill="#3a3f47"/><rect x="10" y="12.4" width="1.1" height="1.6" fill="#a3e635"/>`;
+  if(av.prop==="techwrench") r += `<rect x="10.2" y="9.4" width=".7" height="4.6" fill="#c8d3f5"/><rect x="9.6" y="8.4" width="1.9" height="1.4" fill="#c8d3f5"/><rect x="10.2" y="8.2" width=".7" height=".8" fill="#0b1f4a"/><rect x="10" y="12.4" width="1.1" height="1.6" fill="#38bdf8"/>`;
   return `<svg class="${cls||""}" viewBox="0 0 12 16" shape-rendering="crispEdges" style="--eye:${pal.e}" aria-hidden="true">${r}</svg>`;
 }
 
