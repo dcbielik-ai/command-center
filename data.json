@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:55:17-05:00",
+  "updatedAt": "2026-10-14T07:59:21-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -507,7 +507,7 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-13T09:35:00-05:00",
+      "lastRunAt": "2026-10-14T07:59:00-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
@@ -521,17 +521,18 @@
         "2026-10-12T08:20:00-05:00",
         "2026-10-12T09:55:00-05:00",
         "2026-10-13T08:10:00-05:00",
-        "2026-10-13T09:35:00-05:00"
+        "2026-10-13T09:35:00-05:00",
+        "2026-10-14T07:59:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-14T07:54:00-05:00",
+      "nextRunAt": "2026-10-15T07:54:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 12,
+      "runsCompleted": 13,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-13T09:35:00-05:00",
+      "updatedAt": "2026-10-14T07:59:00-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1140,6 +1141,12 @@
       "finding": "578 deals tracked"
     },
     {
+      "bot": "travel-agent",
+      "at": "2026-10-14T07:59:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-10-14T07:48:00-05:00",
       "text": "Pre-market scan Wed Oct 14 (as of Oct 13 close): 168 buy hits across 681 liquid names, 6 strong sell warnings (PHM, MAA new).",
@@ -1215,12 +1222,6 @@
       "at": "2026-10-13T13:11:14-05:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-13T12:53:08-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1229,7 +1230,7 @@
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
       "Latest: VA Deal Scout: Added 2 new deals; 578 deals tracked across TX and OK"
     ],
-    "at": "2026-10-14T07:55:17-05:00"
+    "at": "2026-10-14T07:59:21-05:00"
   },
-  "generatedAt": "2026-10-14T07:55:17-05:00"
+  "generatedAt": "2026-10-14T07:59:21-05:00"
 }
