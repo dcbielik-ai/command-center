@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:43:56-05:00",
+  "updatedAt": "2026-10-14T07:46:25-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -281,8 +281,8 @@
           ]
         }
       ],
-      "lastRun": "After-close check Tue Oct 13: 170 buy hits across 681 liquid names, 6 sell warnings; morning picks JNJ and AMAT failed, TTWO new strong sell.",
-      "lastRunAt": "2026-10-13T15:49:00-05:00",
+      "lastRun": "Pre-market scan Wed Oct 14 (as of Oct 13 close): 168 buy hits across 681 liquid names, 6 strong sell warnings (PHM, MAA new).",
+      "lastRunAt": "2026-10-14T07:48:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
@@ -297,17 +297,18 @@
         "2026-10-12T15:53:21-05:00",
         "2026-10-13T07:57:52-05:00",
         "2026-10-13T15:49:00-05:00",
-        "2026-10-13T15:52:00-05:00"
+        "2026-10-13T15:52:00-05:00",
+        "2026-10-14T07:48:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-14T07:38:00-05:00",
-      "latestFinding": "JNJ -5.7% to 248.61 on 2.5x vol (below 20d low 251.17); AMAT -6.7% to 464.24 lost 20/50-day; TTWO -4.1% on 2.1x vol death cross; SPY 778.01 flat, QQQ -0.33%.",
+      "nextRunAt": "2026-10-14T15:38:00-05:00",
+      "latestFinding": "Top setups RSP 213.30 (base, breakout 214.05), MDY 668.12, TEVA 41.25 (breakout 42.02); SPY 778.01 flat, 0.5% off 52w high; IWM RSI 35 below 20/50-day.",
       "waitingOnYou": [],
-      "runsCompleted": 11,
+      "runsCompleted": 12,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-13T15:49:00-05:00",
+      "updatedAt": "2026-10-14T07:48:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1132,6 +1133,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-14T07:48:00-05:00",
+      "text": "Pre-market scan Wed Oct 14 (as of Oct 13 close): 168 buy hits across 681 liquid names, 6 strong sell warnings (PHM, MAA new).",
+      "finding": "Top setups RSP 213.30 (base, breakout 214.05), MDY 668.12, TEVA 41.25 (breakout 42.02); SPY 778.01 flat, 0.5% off 52w high; IWM RSI 35 below 20/50-day."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-14T07:42:00-05:00",
       "text": "Completed a news check",
@@ -1213,21 +1220,15 @@
       "at": "2026-10-13T12:00:22-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-13T10:53:19-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
       "Next run: Travel Agent · Deal check, today 7:54 AM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Technical Analyst: Pre-market scan Wed Oct 14 (as of Oct 13 close): 168 buy hits across 681 liquid names,…"
     ],
-    "at": "2026-10-14T07:43:56-05:00"
+    "at": "2026-10-14T07:46:25-05:00"
   },
-  "generatedAt": "2026-10-14T07:43:56-05:00"
+  "generatedAt": "2026-10-14T07:46:25-05:00"
 }
