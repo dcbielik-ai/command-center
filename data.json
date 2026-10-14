@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:11:47-05:00",
+  "updatedAt": "2026-10-14T08:17:29-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -153,8 +153,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 19 bots across 12 zones from status files, built and published the dashboard.",
-      "lastRunAt": "2026-10-13T19:19:49-05:00",
+      "lastRun": "Morning command center refresh: synced 19 bots across 12 zones from status files, built and published the dashboard.",
+      "lastRunAt": "2026-10-14T08:17:22-05:00",
       "runTimes": [
         "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
@@ -170,17 +170,18 @@
         "2026-10-12T08:40:46-05:00",
         "2026-10-12T14:28:17-05:00",
         "2026-10-13T08:27:25-05:00",
-        "2026-10-13T19:19:49-05:00"
+        "2026-10-13T19:19:49-05:00",
+        "2026-10-14T08:17:22-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-14T08:10:00-05:00",
+      "nextRunAt": "2026-10-14T19:10:00-05:00",
       "latestFinding": "Team at 19 bots across 12 zones; 10 item(s) waiting on Dennis.",
       "waitingOnYou": [],
-      "runsCompleted": 11,
+      "runsCompleted": 12,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T16:19:43-05:00",
       "notes": "",
-      "updatedAt": "2026-10-13T19:19:49-05:00",
+      "updatedAt": "2026-10-14T08:17:22-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1136,6 +1137,12 @@
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-10-14T08:17:22-05:00",
+      "text": "Morning command center refresh: synced 19 bots across 12 zones from status files, built and published the dashboard.",
+      "finding": "Team at 19 bots across 12 zones; 10 item(s) waiting on Dennis."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-14T08:11:28-05:00",
       "text": "Wed pre-market: 9 hyped names clear the bar (MU, ASML, BLK, MS, DELL, NVDA, AMD, SNDK, ALB); BAC/BMBL/CRWV/FRMI/CIFR/GME fail growth, EPS, or size.",
@@ -1217,21 +1224,15 @@
       "at": "2026-10-13T14:48:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-13T13:55:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Fundamentals Analyst: Wed pre-market: 9 hyped names clear the bar (MU, ASML, BLK, MS, DELL, NVDA, AMD, SNDK,…"
+      "Latest: Chief of Staff: Morning command center refresh: synced 19 bots across 12 zones from status files,…"
     ],
-    "at": "2026-10-14T08:11:47-05:00"
+    "at": "2026-10-14T08:17:29-05:00"
   },
-  "generatedAt": "2026-10-14T08:11:47-05:00"
+  "generatedAt": "2026-10-14T08:17:29-05:00"
 }
