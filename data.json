@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:38:00-05:00",
+  "updatedAt": "2026-10-14T09:20:27-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -509,7 +509,7 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-14T07:59:00-05:00",
+      "lastRunAt": "2026-10-14T09:20:26-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
@@ -524,17 +524,18 @@
         "2026-10-12T09:55:00-05:00",
         "2026-10-13T08:10:00-05:00",
         "2026-10-13T09:35:00-05:00",
-        "2026-10-14T07:59:00-05:00"
+        "2026-10-14T07:59:00-05:00",
+        "2026-10-14T09:20:26-05:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-10-15T07:54:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 13,
+      "runsCompleted": 14,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-14T07:59:00-05:00",
+      "updatedAt": "2026-10-14T09:20:26-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1137,6 +1138,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-14T09:20:26-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-14T08:36:00-05:00",
       "text": "Completed a news check",
@@ -1218,21 +1225,15 @@
       "at": "2026-10-13T15:37:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-13T14:52:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-14T08:38:00-05:00"
+    "at": "2026-10-14T09:20:27-05:00"
   },
-  "generatedAt": "2026-10-14T08:38:00-05:00"
+  "generatedAt": "2026-10-14T09:20:27-05:00"
 }
