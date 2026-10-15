@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T09:26:11-05:00",
+  "updatedAt": "2026-10-15T09:52:38-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -362,9 +362,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-15T08:47:17-05:00",
+      "lastRunAt": "2026-10-15T09:52:35-05:00",
       "runTimes": [
-        "2026-10-12T16:45:11-05:00",
         "2026-10-12T17:39:06-05:00",
         "2026-10-12T18:40:04-05:00",
         "2026-10-13T07:44:25-05:00",
@@ -393,17 +392,18 @@
         "2026-10-14T17:51:46-05:00",
         "2026-10-14T18:38:27-05:00",
         "2026-10-15T07:43:21-05:00",
-        "2026-10-15T08:47:17-05:00"
+        "2026-10-15T08:47:17-05:00",
+        "2026-10-15T09:52:35-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-15T09:35:00-05:00",
+      "nextRunAt": "2026-10-15T10:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 77,
+      "runsCompleted": 78,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:39:53-05:00",
       "notes": "",
-      "updatedAt": "2026-10-15T08:47:17-05:00",
+      "updatedAt": "2026-10-15T09:52:35-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1190,6 +1190,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-15T09:52:35-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "travel-agent",
       "at": "2026-10-15T09:26:00-05:00",
       "text": "Completed a deal search",
@@ -1271,21 +1277,15 @@
       "at": "2026-10-14T16:35:58-05:00",
       "text": "Recruited Home Tech and stationed it in Command HQ.",
       "finding": "Team at 20 bots across 12 zones; 10 items are waiting on Dennis."
-    },
-    {
-      "bot": "home-tech",
-      "at": "2026-10-14T16:35:32-05:00",
-      "text": "Working on home tech support",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
-      "Next run: Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Next run: Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-15T09:26:11-05:00"
+    "at": "2026-10-15T09:52:38-05:00"
   },
-  "generatedAt": "2026-10-15T09:26:11-05:00"
+  "generatedAt": "2026-10-15T09:52:38-05:00"
 }
