@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T07:43:28-05:00",
+  "updatedAt": "2026-10-15T07:45:05-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -285,8 +285,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Wed Oct 14: risk-off session; QQQ -1.97% on 50-day, SMH broke 50-day, morning chip picks failed, C new 200-day sell.",
-      "lastRunAt": "2026-10-14T15:46:00-05:00",
+      "lastRun": "Pre-market scan Thu Oct 15 (as of Oct 14 close): 154 buy hits, 3 sell warnings (C, TTWO, JD), none new since last night's close check.",
+      "lastRunAt": "2026-10-15T07:46:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
@@ -303,17 +303,18 @@
         "2026-10-13T15:49:00-05:00",
         "2026-10-13T15:52:00-05:00",
         "2026-10-14T07:48:00-05:00",
-        "2026-10-14T15:46:00-05:00"
+        "2026-10-14T15:46:00-05:00",
+        "2026-10-15T07:46:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-15T07:38:00-05:00",
-      "latestFinding": "QQQ 728.95 (-1.97%, 1.5x) on 50-day 726.18; SMH 564.74 (-4.0%, 1.75x) below 50-day 579.88; IWM 271.37 RSI 28; FAST +1.1% on 3.6x through 51.83.",
+      "nextRunAt": "2026-10-15T15:38:00-05:00",
+      "latestFinding": "FAST 52.00 breakout on 3.7x volume (RSI 64); QQQ 728.95 holding 50-day 726.18; SPY 769.60 on 50-day 767.39; IWM RSI 28 below 200-day.",
       "waitingOnYou": [],
-      "runsCompleted": 13,
+      "runsCompleted": 14,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-14T15:46:00-05:00",
+      "updatedAt": "2026-10-15T07:46:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1175,6 +1176,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-15T07:46:00-05:00",
+      "text": "Pre-market scan Thu Oct 15 (as of Oct 14 close): 154 buy hits, 3 sell warnings (C, TTWO, JD), none new since last night's close check.",
+      "finding": "FAST 52.00 breakout on 3.7x volume (RSI 64); QQQ 728.95 holding 50-day 726.18; SPY 769.60 on 50-day 767.39; IWM RSI 28 below 200-day."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-15T07:43:21-05:00",
       "text": "Sent 1 alert"
@@ -1255,20 +1262,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-14T11:38:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-14T10:38:00-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
       "Next run: AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Latest: Technical Analyst: Pre-market scan Thu Oct 15 (as of Oct 14 close): 154 buy hits, 3 sell warnings (C,…"
     ],
-    "at": "2026-10-15T07:43:28-05:00"
+    "at": "2026-10-15T07:45:05-05:00"
   },
-  "generatedAt": "2026-10-15T07:43:28-05:00"
+  "generatedAt": "2026-10-15T07:45:05-05:00"
 }
