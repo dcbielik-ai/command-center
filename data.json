@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T08:45:50-05:00",
+  "updatedAt": "2026-10-16T09:27:23-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -523,7 +523,7 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-16T08:05:00-05:00",
+      "lastRunAt": "2026-10-16T09:25:19-05:00",
       "runTimes": [
         "2026-10-04T15:51:00-05:00",
         "2026-10-05T08:03:24-05:00",
@@ -542,20 +542,21 @@
         "2026-10-14T09:20:26-05:00",
         "2026-10-15T07:56:00-05:00",
         "2026-10-15T09:26:00-05:00",
-        "2026-10-16T08:05:00-05:00"
+        "2026-10-16T08:05:00-05:00",
+        "2026-10-16T09:25:19-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-16T09:16:00-05:00",
+      "nextRunAt": "2026-10-17T07:54:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [
-        "Needs your approval"
+        "Needs a decision from you"
       ],
       "waitingSince": "2026-10-16T08:05:00-05:00",
-      "runsCompleted": 17,
+      "runsCompleted": 18,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:51:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-16T08:05:00-05:00",
+      "updatedAt": "2026-10-16T09:27:23-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1143,7 +1144,7 @@
   "inbox": [
     {
       "bot": "travel-agent",
-      "text": "Needs your approval",
+      "text": "Needs a decision from you",
       "since": "2026-10-16T08:05:00-05:00"
     },
     {
@@ -1198,6 +1199,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "travel-agent",
+      "at": "2026-10-16T09:25:19-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-16T08:47:00-05:00",
@@ -1280,21 +1287,15 @@
       "at": "2026-10-15T15:39:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-15T14:41:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
-      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-16T08:45:50-05:00"
+    "at": "2026-10-16T09:27:23-05:00"
   },
-  "generatedAt": "2026-10-16T08:45:50-05:00"
+  "generatedAt": "2026-10-16T09:27:23-05:00"
 }
