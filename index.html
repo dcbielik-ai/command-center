@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-10-16T18:40:11-05:00",
+  "updatedAt": "2026-10-16T18:45:48-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -219,8 +219,8 @@ const TEAM_DATA = {
       "className": "Analyst: Fundamentals",
       "role": "Screens US large, mid, and small caps (about the Russell 3000) on fundamentals: earnings beats and misses, guidance, revenue and margin trends, free cash flow, valuation vs. peers, insider buying, major 8-K events, and red flags. Picks the top 5 to 10 names each day with sources.",
       "status": "Active",
-      "schedule": "Weekdays at 8:01 AM CT",
-      "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT)",
+      "schedule": "Weekdays at 8:01 AM CT; Weekdays at 6:40 PM CT",
+      "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT); After-close fundamentals brief (Weekdays at 6:40 PM CT)",
       "slots": [
         {
           "label": "Daily trending stocks heads-up",
@@ -234,10 +234,23 @@ const TEAM_DATA = {
           "times": [
             "08:01"
           ]
+        },
+        {
+          "label": "After-close fundamentals brief",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "18:40"
+          ]
         }
       ],
-      "lastRun": "Fri pre-market: 4 hyped names clear the bar (MU, SNDK, TSM, AMD); TSLA/NOW/ZETA/NFLX/CRWV/NBIS/IREN/SPCX fail growth, EPS, or valuation.",
-      "lastRunAt": "2026-10-16T08:04:30-05:00",
+      "lastRun": "Fri after-close brief: 7 picks (GS, ASML, AA, CMC, PAM, UNH, TRV); 4 clear 20%+ growth; red flags on GPRO restatement, TFC one-time losses, ERIC margins.",
+      "lastRunAt": "2026-10-16T18:55:00-05:00",
       "runTimes": [
         "2026-10-04T15:37:00-05:00",
         "2026-10-05T08:14:00-05:00",
@@ -249,17 +262,18 @@ const TEAM_DATA = {
         "2026-10-14T08:11:28-05:00",
         "2026-10-15T08:08:20-05:00",
         "2026-10-16T08:04:30-05:00",
-        "2026-10-16T08:10:00-05:00"
+        "2026-10-16T08:10:00-05:00",
+        "2026-10-16T18:55:00-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-19T08:01:00-05:00",
-      "latestFinding": "Oct 16 CT: SNDK Q rev +372% with fwd P/E ~5 and MU Q rev +379% with fwd P/E ~4.6 amid a memory-stock pullback; neoclouds (CRWV, NBIS, IREN) fall premarket on AI debt worries.",
+      "latestFinding": "Oct 16 CT: GS Q3 rev +23%, EPS $17.01 vs $13.09 est at ~12.7x P/E; Pampa Energía CEO bought ~$35M of ADSs; GoPro will restate 2025-1H26 financials.",
       "waitingOnYou": [],
-      "runsCompleted": 9,
+      "runsCompleted": 10,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:37:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-16T08:04:30-05:00",
+      "updatedAt": "2026-10-16T18:55:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1230,6 +1244,12 @@ const TEAM_DATA = {
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-16T18:55:00-05:00",
+      "text": "Fri after-close brief: 7 picks (GS, ASML, AA, CMC, PAM, UNH, TRV); 4 clear 20%+ growth; red flags on GPRO restatement, TFC one-time losses, ERIC margins.",
+      "finding": "Oct 16 CT: GS Q3 rev +23%, EPS $17.01 vs $13.09 est at ~12.7x P/E; Pampa Energía CEO bought ~$35M of ADSs; GoPro will restate 2025-1H26 financials."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-16T18:39:00-05:00",
       "text": "Completed a news check",
@@ -1310,23 +1330,17 @@ const TEAM_DATA = {
       "at": "2026-10-16T09:25:19-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-16T08:47:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Fri after-close brief: 7 picks (GS, ASML, AA, CMC, PAM, UNH, TRV); 4 clear 20%+…"
     ],
-    "at": "2026-10-16T18:40:11-05:00"
+    "at": "2026-10-16T18:45:48-05:00"
   },
-  "generatedAt": "2026-10-16T18:40:11-05:00"
+  "generatedAt": "2026-10-16T18:45:48-05:00"
 };
 /* TEAM_DATA:END */
 </script>
