@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T08:03:32-05:00",
+  "updatedAt": "2026-10-16T08:04:36-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -220,8 +220,8 @@
           ]
         }
       ],
-      "lastRun": "Thu pre-market: 5 hyped names clear the bar (NVDA, MU, TSM, DELL, ORCL); CRWV/RKLB/WMT/UNH/BAC/ASTS/NBIS/AAPL/GFS fail growth, EPS, size, or valuation.",
-      "lastRunAt": "2026-10-15T08:08:20-05:00",
+      "lastRun": "Fri pre-market: 4 hyped names clear the bar (MU, SNDK, TSM, AMD); TSLA/NOW/ZETA/NFLX/CRWV/NBIS/IREN/SPCX fail growth, EPS, or valuation.",
+      "lastRunAt": "2026-10-16T08:10:00-05:00",
       "runTimes": [
         "2026-10-04T15:37:00-05:00",
         "2026-10-05T08:14:00-05:00",
@@ -231,17 +231,18 @@
         "2026-10-13T08:14:10.457207-05:00",
         "2026-10-13T08:14:52-05:00",
         "2026-10-14T08:11:28-05:00",
-        "2026-10-15T08:08:20-05:00"
+        "2026-10-15T08:08:20-05:00",
+        "2026-10-16T08:10:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-16T08:01:00-05:00",
-      "latestFinding": "Oct 15 CT: MU + NVDA still clear 20%+ rev/EPS (MU Q rev +379%/EPS +1078%, fwd P/E ~7; NVDA Q rev +106%/EPS +126%, PEG ~0.48); CRWV/RKLB hype fails on negative EPS.",
+      "nextRunAt": "2026-10-19T08:01:00-05:00",
+      "latestFinding": "Oct 16 CT: SNDK Q rev +372% with fwd P/E ~5 and MU Q rev +379% with fwd P/E ~4.6 amid a memory-stock pullback; neoclouds (CRWV, NBIS, IREN) fall premarket on AI debt worries.",
       "waitingOnYou": [],
-      "runsCompleted": 8,
+      "runsCompleted": 9,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:37:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-15T08:08:20-05:00",
+      "updatedAt": "2026-10-16T08:10:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1203,6 +1204,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-16T08:10:00-05:00",
+      "text": "Fri pre-market: 4 hyped names clear the bar (MU, SNDK, TSM, AMD); TSLA/NOW/ZETA/NFLX/CRWV/NBIS/IREN/SPCX fail growth, EPS, or valuation.",
+      "finding": "Oct 16 CT: SNDK Q rev +372% with fwd P/E ~5 and MU Q rev +379% with fwd P/E ~4.6 amid a memory-stock pullback; neoclouds (CRWV, NBIS, IREN) fall premarket on AI debt worries."
+    },
+    {
       "bot": "travel-agent",
       "at": "2026-10-16T08:05:00-05:00",
       "text": "Completed a deal search",
@@ -1284,21 +1291,15 @@
       "at": "2026-10-15T11:36:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-15T10:47:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 2 setting up",
       "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Latest: Fundamentals Analyst: Fri pre-market: 4 hyped names clear the bar (MU, SNDK, TSM, AMD);…"
     ],
-    "at": "2026-10-16T08:03:32-05:00"
+    "at": "2026-10-16T08:04:36-05:00"
   },
-  "generatedAt": "2026-10-16T08:03:32-05:00"
+  "generatedAt": "2026-10-16T08:04:36-05:00"
 }
