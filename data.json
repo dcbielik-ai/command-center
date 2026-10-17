@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T08:00:46-05:00",
+  "updatedAt": "2026-10-17T08:01:24-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -476,7 +476,7 @@
         }
       ],
       "lastRun": "Added 11 new deals; 641 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-17T08:05:00-05:00",
+      "lastRunAt": "2026-10-17T08:01:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T08:10:00-05:00",
@@ -492,6 +492,7 @@
         "2026-10-14T08:05:00-05:00",
         "2026-10-15T08:13:00-05:00",
         "2026-10-16T08:10:00-05:00",
+        "2026-10-17T08:01:00-05:00",
         "2026-10-17T08:05:00-05:00"
       ],
       "nextRun": "",
@@ -502,7 +503,7 @@
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-17T08:05:00-05:00",
+      "updatedAt": "2026-10-17T08:01:00-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1238,6 +1239,12 @@
       "finding": "641 deals tracked"
     },
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-17T08:01:00-05:00",
+      "text": "Added 11 new deals; 641 deals tracked across TX and OK",
+      "finding": "641 deals tracked"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-10-16T19:16:20-05:00",
       "text": "Evening command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
@@ -1312,12 +1319,6 @@
       "at": "2026-10-16T11:48:30-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-16T10:40:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1326,7 +1327,7 @@
       "Next run: Travel Agent · Deal check, today 9:16 AM CT",
       "Latest: VA Deal Scout: Added 11 new deals; 641 deals tracked across TX and OK"
     ],
-    "at": "2026-10-17T08:00:46-05:00"
+    "at": "2026-10-17T08:01:24-05:00"
   },
-  "generatedAt": "2026-10-17T08:00:46-05:00"
+  "generatedAt": "2026-10-17T08:01:24-05:00"
 }
