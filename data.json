@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T09:30:35-05:00",
+  "updatedAt": "2026-10-17T12:57:16-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -801,7 +801,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-10-16T12:56:00-05:00",
+      "lastRunAt": "2026-10-17T12:58:00-05:00",
       "runTimes": [
         "2026-10-05T07:55:00-05:00",
         "2026-10-05T12:55:00-05:00",
@@ -815,20 +815,21 @@
         "2026-10-14T12:58:45-05:00",
         "2026-10-15T07:58:00-05:00",
         "2026-10-15T13:02:00-05:00",
-        "2026-10-16T12:56:00-05:00"
+        "2026-10-16T12:56:00-05:00",
+        "2026-10-17T12:58:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-17T12:50:00-05:00",
+      "nextRunAt": "2026-10-18T12:50:00-05:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [
         "Needs a decision from you"
       ],
       "waitingSince": "2026-10-05T07:55:00-05:00",
-      "runsCompleted": 13,
+      "runsCompleted": 14,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:55:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-16T12:56:00-05:00",
+      "updatedAt": "2026-10-17T12:58:00-05:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1220,6 +1221,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-10-17T12:58:00-05:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "travel-agent",
       "at": "2026-10-17T09:30:12.678173-05:00",
       "text": "Completed a deal search",
@@ -1301,21 +1308,15 @@
       "at": "2026-10-16T13:45:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-16T12:56:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
-      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-10-17T09:30:35-05:00"
+    "at": "2026-10-17T12:57:16-05:00"
   },
-  "generatedAt": "2026-10-17T09:30:35-05:00"
+  "generatedAt": "2026-10-17T12:57:16-05:00"
 }
