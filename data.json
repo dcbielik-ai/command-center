@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:47:38-05:00",
+  "updatedAt": "2026-10-18T12:52:02-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -803,7 +803,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-10-17T12:58:00-05:00",
+      "lastRunAt": "2026-10-18T12:55:00-05:00",
       "runTimes": [
         "2026-10-05T07:55:00-05:00",
         "2026-10-05T12:55:00-05:00",
@@ -818,20 +818,21 @@
         "2026-10-15T07:58:00-05:00",
         "2026-10-15T13:02:00-05:00",
         "2026-10-16T12:56:00-05:00",
-        "2026-10-17T12:58:00-05:00"
+        "2026-10-17T12:58:00-05:00",
+        "2026-10-18T12:55:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-18T12:50:00-05:00",
+      "nextRunAt": "2026-10-19T07:50:00-05:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [
         "Needs a decision from you"
       ],
       "waitingSince": "2026-10-05T07:55:00-05:00",
-      "runsCompleted": 14,
+      "runsCompleted": 15,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T07:55:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-17T12:58:00-05:00",
+      "updatedAt": "2026-10-18T12:55:00-05:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1218,6 +1219,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-10-18T12:55:00-05:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-10-18T11:47:00-05:00",
       "text": "Working on brand designs",
@@ -1300,21 +1307,15 @@
       "at": "2026-10-16T17:37:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-16T16:44:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-10-18T11:47:38-05:00"
+    "at": "2026-10-18T12:52:02-05:00"
   },
-  "generatedAt": "2026-10-18T11:47:38-05:00"
+  "generatedAt": "2026-10-18T12:52:02-05:00"
 }
