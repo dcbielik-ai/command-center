@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T09:27:59-05:00",
+  "updatedAt": "2026-10-18T11:47:38-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -893,31 +893,30 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Waiting on Dennis",
-      "schedule": "Not scheduled yet",
-      "routines": "Not confirmed yet",
+      "status": "Running routines",
+      "schedule": "Scheduled",
+      "routines": "Set up",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-17T22:07:00-05:00",
+      "lastRunAt": "2026-10-18T11:47:00-05:00",
       "runTimes": [
         "2026-10-07T15:39:16-05:00",
         "2026-10-07T15:49:07-05:00",
         "2026-10-07T16:20:00-05:00",
         "2026-10-10T13:15:00-05:00",
         "2026-10-10T13:40:00-05:00",
-        "2026-10-17T22:07:00-05:00"
+        "2026-10-17T22:07:00-05:00",
+        "2026-10-18T11:47:00-05:00"
       ],
-      "nextRun": "Not scheduled yet",
+      "nextRun": "Scheduled",
+      "nextRunAt": "2026-10-18T23:45:00-05:00",
       "latestFinding": "Details stay private until launch",
-      "waitingOnYou": [
-        "Needs your approval"
-      ],
-      "waitingSince": "2026-10-07T15:49:07-05:00",
-      "runsCompleted": 5,
+      "waitingOnYou": [],
+      "runsCompleted": 6,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T15:39:16-05:00",
       "notes": "",
-      "updatedAt": "2026-10-17T22:07:00-05:00",
+      "updatedAt": "2026-10-18T11:48:00-05:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1197,11 +1196,6 @@
       "since": "2026-10-06T20:25:49-05:00"
     },
     {
-      "bot": "fairway-daughters",
-      "text": "Needs your approval",
-      "since": "2026-10-07T15:49:07-05:00"
-    },
-    {
       "bot": "bielik-game-studio",
       "text": "Needs info from you",
       "since": "2026-10-07T17:17:02-05:00"
@@ -1223,6 +1217,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-18T11:47:00-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "travel-agent",
       "at": "2026-10-18T09:27:00-05:00",
@@ -1306,21 +1306,15 @@
       "at": "2026-10-16T16:44:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-16T15:45:00-05:00",
-      "text": "After-close Oct 16: 140 buy hits, 0 sell warnings; alert sent on QQQ -2.5% losing its 50-day on ~2x volume.",
-      "finding": "QQQ 709.80 (-2.5%, 2.0x vol) closed below 50-day 726.33; SMH -3.4%, XLK -3.0%, VIX 19.99; BLK held breakout at 1134.38 on 2.0x vol."
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
+      "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-18T09:27:59-05:00"
+    "at": "2026-10-18T11:47:38-05:00"
   },
-  "generatedAt": "2026-10-18T09:27:59-05:00"
+  "generatedAt": "2026-10-18T11:47:38-05:00"
 }
