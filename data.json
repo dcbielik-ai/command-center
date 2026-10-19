@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:52:30-05:00",
+  "updatedAt": "2026-10-19T08:07:41-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -476,8 +476,8 @@
           ]
         }
       ],
-      "lastRun": "Added 17 new deals; 659 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-18T08:14:00-05:00",
+      "lastRun": "Added 6 new deals; 665 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-19T08:10:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T08:10:00-05:00",
@@ -495,17 +495,18 @@
         "2026-10-16T08:10:00-05:00",
         "2026-10-17T08:01:00-05:00",
         "2026-10-17T08:05:00-05:00",
-        "2026-10-18T08:14:00-05:00"
+        "2026-10-18T08:14:00-05:00",
+        "2026-10-19T08:10:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-19T07:42:00-05:00",
-      "latestFinding": "659 deals tracked",
+      "nextRunAt": "2026-10-20T07:42:00-05:00",
+      "latestFinding": "665 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 15,
+      "runsCompleted": 16,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-18T08:14:00-05:00",
+      "updatedAt": "2026-10-19T08:10:00-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1222,6 +1223,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-19T08:10:00-05:00",
+      "text": "Added 6 new deals; 665 deals tracked across TX and OK",
+      "finding": "665 deals tracked"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-10-19T07:58:00-05:00",
       "text": "Sent a safety alert",
@@ -1303,21 +1310,15 @@
       "at": "2026-10-17T08:01:00-05:00",
       "text": "Added 11 new deals; 641 deals tracked across TX and OK",
       "finding": "641 deals tracked"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-16T19:16:20-05:00",
-      "text": "Evening command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
-      "finding": "Team at 20 bots across 12 zones; 11 items are waiting on Dennis."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: VA Deal Scout: Added 6 new deals; 665 deals tracked across TX and OK"
     ],
-    "at": "2026-10-19T07:52:30-05:00"
+    "at": "2026-10-19T08:07:41-05:00"
   },
-  "generatedAt": "2026-10-19T07:52:30-05:00"
+  "generatedAt": "2026-10-19T08:07:41-05:00"
 }
