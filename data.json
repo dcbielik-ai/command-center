@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:38:34-05:00",
+  "updatedAt": "2026-10-19T07:46:04-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -307,8 +307,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Oct 16: 140 buy hits, 0 sell warnings; alert sent on QQQ -2.5% losing its 50-day on ~2x volume.",
-      "lastRunAt": "2026-10-16T15:45:00-05:00",
+      "lastRun": "Pre-market Oct 19 (data as of Oct 16): 143 buy hits across 681 liquid tickers, 0 strong sell warnings.",
+      "lastRunAt": "2026-10-19T07:50:00-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
@@ -329,17 +329,18 @@
         "2026-10-15T07:46:00-05:00",
         "2026-10-15T15:46:00-05:00",
         "2026-10-16T07:44:00-05:00",
-        "2026-10-16T15:45:00-05:00"
+        "2026-10-16T15:45:00-05:00",
+        "2026-10-19T07:50:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-19T07:38:00-05:00",
-      "latestFinding": "QQQ 709.80 (-2.5%, 2.0x vol) closed below 50-day 726.33; SMH -3.4%, XLK -3.0%, VIX 19.99; BLK held breakout at 1134.38 on 2.0x vol.",
+      "nextRunAt": "2026-10-19T15:38:00-05:00",
+      "latestFinding": "Top setup FAST 51.02 held its 50-day (50.39) after a 3.7x volume spike; QQQ 709.80 and IWM 270.44 below 50-day, VIX 19.99.",
       "waitingOnYou": [],
-      "runsCompleted": 17,
+      "runsCompleted": 18,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-16T15:45:00-05:00",
+      "updatedAt": "2026-10-19T07:50:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1220,6 +1221,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-19T07:50:00-05:00",
+      "text": "Pre-market Oct 19 (data as of Oct 16): 143 buy hits across 681 liquid tickers, 0 strong sell warnings.",
+      "finding": "Top setup FAST 51.02 held its 50-day (50.39) after a 3.7x volume spike; QQQ 709.80 and IWM 270.44 below 50-day, VIX 19.99."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-19T07:37:00-05:00",
       "text": "Sent 1 alert"
@@ -1301,21 +1308,15 @@
       "at": "2026-10-16T18:55:00-05:00",
       "text": "Fri after-close brief: 7 picks (GS, ASML, AA, CMC, PAM, UNH, TRV); 4 clear 20%+ growth; red flags on GPRO restatement, TFC one-time losses, ERIC margins.",
       "finding": "Oct 16 CT: GS Q3 rev +23%, EPS $17.01 vs $13.09 est at ~12.7x P/E; Pampa Energía CEO bought ~$35M of ADSs; GoPro will restate 2025-1H26 financials."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-16T18:46:00-05:00",
-      "text": "Fri after-close brief: 7 picks (GS, ASML, AA, CMC, PAM, UNH, TRV); 4 clear 20%+ growth; red flags on GPRO restatement, TFC one-time losses, ERIC margins.",
-      "finding": "Oct 16 CT: GS Q3 rev +23%, EPS $17.01 vs $13.09 est at ~12.7x P/E; Pampa Energía CEO bought ~$35M of ADSs; GoPro will restate 2025-1H26 financials."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), today 7:42 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Next run: AI Guide · AI briefing, today 7:50 AM CT",
+      "Latest: Technical Analyst: Pre-market Oct 19 (data as of Oct 16): 143 buy hits across 681 liquid tickers, 0…"
     ],
-    "at": "2026-10-19T07:38:34-05:00"
+    "at": "2026-10-19T07:46:04-05:00"
   },
-  "generatedAt": "2026-10-19T07:38:34-05:00"
+  "generatedAt": "2026-10-19T07:46:04-05:00"
 }
