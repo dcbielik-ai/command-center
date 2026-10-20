@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T08:00:41-05:00",
+  "updatedAt": "2026-10-20T08:06:00-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -236,8 +236,8 @@
           ]
         }
       ],
-      "lastRun": "Oct 19 after-close brief: reviewed ~27 Q3 reporters; STLD and SFBS cleared the 20% growth bar; red flags in mREIT book values, VinFast, WRB and Crown's Q4 guide.",
-      "lastRunAt": "2026-10-19T18:53:00-05:00",
+      "lastRun": "Oct 20 pre-market trending scan: 32 trending tickers checked; MU, SNDK, VRT and ET clear the 20% growth and valuation bar; CoreWeave, Nebius, Cerebras and SpaceX trend without the earnings support.",
+      "lastRunAt": "2026-10-20T08:06:00-05:00",
       "runTimes": [
         "2026-10-05T08:14:00-05:00",
         "2026-10-06T08:07:00-05:00",
@@ -252,17 +252,18 @@
         "2026-10-16T18:46:00-05:00",
         "2026-10-16T18:55:00-05:00",
         "2026-10-19T08:12:17-05:00",
-        "2026-10-19T18:53:00-05:00"
+        "2026-10-19T18:53:00-05:00",
+        "2026-10-20T08:06:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-20T08:01:00-05:00",
-      "latestFinding": "STLD Q3: revenue +34.8% to $6.51B and EPS $5.26 vs $2.74 (+92%) at ~11x forward P/E, but EPS missed the $5.42 consensus and shares fell ~5% after hours.",
+      "nextRunAt": "2026-10-20T18:40:00-05:00",
+      "latestFinding": "MU is the most-talked-about name that also passes: Yahoo shows revenue +379% YoY at about 4.4x forward earnings (PEG 0.16), after Monday's memory-chip rebound.",
       "waitingOnYou": [],
-      "runsCompleted": 12,
+      "runsCompleted": 13,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T08:14:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-19T18:53:00-05:00",
+      "updatedAt": "2026-10-20T08:06:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -312,7 +313,6 @@
       "lastRun": "Pre-market scan for Oct 19 session: 89 buy hits across 681 liquid tickers, 1 strong sell warning (HBAN).",
       "lastRunAt": "2026-10-20T07:46:44-05:00",
       "runTimes": [
-        "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
         "2026-10-05T15:42:00-05:00",
         "2026-10-05T15:45:00-05:00",
@@ -342,7 +342,7 @@
       "waitingOnYou": [],
       "runsCompleted": 20,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-04T15:35:00-05:00",
+      "firstSeenAt": "2026-10-05T07:46:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T07:46:44-05:00",
       "avatar": {
@@ -1231,6 +1231,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-20T08:06:00-05:00",
+      "text": "Oct 20 pre-market trending scan: 32 trending tickers checked; MU, SNDK, VRT and ET clear the 20% growth and valuation bar; CoreWeave, Nebius, Cerebras and SpaceX trend without the earnings support.",
+      "finding": "MU is the most-talked-about name that also passes: Yahoo shows revenue +379% YoY at about 4.4x forward earnings (PEG 0.16), after Monday's memory-chip rebound."
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-10-20T08:00:00-05:00",
       "text": "Added 4 new deals; 669 deals tracked across TX and OK",
@@ -1312,21 +1318,15 @@
       "at": "2026-10-19T12:39:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-10-19T12:00:00-05:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: VA Deal Scout: Added 4 new deals; 669 deals tracked across TX and OK"
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: Fundamentals Analyst: Oct 20 pre-market trending scan: 32 trending tickers checked; MU, SNDK, VRT and ET…"
     ],
-    "at": "2026-10-20T08:00:41-05:00"
+    "at": "2026-10-20T08:06:00-05:00"
   },
-  "generatedAt": "2026-10-20T08:00:41-05:00"
+  "generatedAt": "2026-10-20T08:06:00-05:00"
 }
