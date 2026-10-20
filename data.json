@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T07:46:19-05:00",
+  "updatedAt": "2026-10-20T07:46:44-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -156,7 +156,6 @@
       "lastRun": "Evening command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
       "lastRunAt": "2026-10-19T19:20:00-05:00",
       "runTimes": [
-        "2026-10-04T16:19:43-05:00",
         "2026-10-04T16:30:17-05:00",
         "2026-10-05T08:22:51-05:00",
         "2026-10-05T19:15:20-05:00",
@@ -187,7 +186,7 @@
       "waitingOnYou": [],
       "runsCompleted": 19,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-04T16:19:43-05:00",
+      "firstSeenAt": "2026-10-04T16:30:17-05:00",
       "notes": "",
       "updatedAt": "2026-10-19T19:20:00-05:00",
       "avatar": {
@@ -311,8 +310,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Oct 19: quiet session, no alert sent; 87 buy hits across 681 liquid tickers, 1 sell warning (HBAN, low volume).",
-      "lastRunAt": "2026-10-19T15:47:00-05:00",
+      "lastRun": "Pre-market scan for Oct 19 session: 89 buy hits across 681 liquid tickers, 1 strong sell warning (HBAN).",
+      "lastRunAt": "2026-10-20T07:46:44-05:00",
       "runTimes": [
         "2026-10-04T15:35:00-05:00",
         "2026-10-05T07:46:00-05:00",
@@ -335,17 +334,18 @@
         "2026-10-16T07:44:00-05:00",
         "2026-10-16T15:45:00-05:00",
         "2026-10-19T07:50:00-05:00",
-        "2026-10-19T15:47:00-05:00"
+        "2026-10-19T15:47:00-05:00",
+        "2026-10-20T07:46:44-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-20T07:38:00-05:00",
-      "latestFinding": "SPY 766.48 (+0.42%), QQQ 718.36 (+1.21%, testing 50-day 726.25 from below); FAST 51.02 still holding its 50-day (50.38); no 2x-volume breakouts.",
+      "nextRunAt": "2026-10-20T15:38:00-05:00",
+      "latestFinding": "Top setups: VRTX oversold bounce near 200-day on 2.1x volume (501.95); TWLO +5.3% to 257.29 holding its 50-day (254.28); IWM 271.28 below its 200-day (276.67), RSI 33.9.",
       "waitingOnYou": [],
-      "runsCompleted": 19,
+      "runsCompleted": 20,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-04T15:35:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-19T15:47:00-05:00",
+      "updatedAt": "2026-10-20T07:46:44-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1231,6 +1231,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-20T07:46:44-05:00",
+      "text": "Pre-market scan for Oct 19 session: 89 buy hits across 681 liquid tickers, 1 strong sell warning (HBAN).",
+      "finding": "Top setups: VRTX oversold bounce near 200-day on 2.1x volume (501.95); TWLO +5.3% to 257.29 holding its 50-day (254.28); IWM 271.28 below its 200-day (276.67), RSI 33.9."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-20T07:46:19-05:00",
       "text": "Sent 1 alert"
@@ -1312,21 +1318,15 @@
       "at": "2026-10-19T11:46:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-19T11:03:49-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Latest: Technical Analyst: Pre-market scan for Oct 19 session: 89 buy hits across 681 liquid tickers, 1 strong…"
     ],
-    "at": "2026-10-20T07:46:19-05:00"
+    "at": "2026-10-20T07:46:44-05:00"
   },
-  "generatedAt": "2026-10-20T07:46:19-05:00"
+  "generatedAt": "2026-10-20T07:46:44-05:00"
 }
