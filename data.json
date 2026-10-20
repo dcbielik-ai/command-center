@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T09:11:02-05:00",
+  "updatedAt": "2026-10-20T09:26:26-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -156,7 +156,6 @@
       "lastRun": "Morning command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
       "lastRunAt": "2026-10-20T08:15:00-05:00",
       "runTimes": [
-        "2026-10-04T16:30:17-05:00",
         "2026-10-05T08:22:51-05:00",
         "2026-10-05T19:15:20-05:00",
         "2026-10-06T08:20:56-05:00",
@@ -187,7 +186,7 @@
       "waitingOnYou": [],
       "runsCompleted": 20,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-04T16:30:17-05:00",
+      "firstSeenAt": "2026-10-05T08:22:51-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T08:15:00-05:00",
       "avatar": {
@@ -548,7 +547,7 @@
         }
       ],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-19T09:28:00-05:00",
+      "lastRunAt": "2026-10-20T09:27:00-05:00",
       "runTimes": [
         "2026-10-05T08:03:24-05:00",
         "2026-10-06T08:06:00-05:00",
@@ -571,20 +570,21 @@
         "2026-10-17T09:30:00-05:00",
         "2026-10-17T09:30:12.678173-05:00",
         "2026-10-18T09:27:00-05:00",
-        "2026-10-19T09:28:00-05:00"
+        "2026-10-19T09:28:00-05:00",
+        "2026-10-20T09:27:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-20T09:16:00-05:00",
+      "nextRunAt": "2026-10-21T09:16:00-05:00",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [
         "Needs a decision from you"
       ],
       "waitingSince": "2026-10-16T08:05:00-05:00",
-      "runsCompleted": 21,
+      "runsCompleted": 22,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T08:03:24-05:00",
       "notes": "",
-      "updatedAt": "2026-10-19T09:32:00-05:00",
+      "updatedAt": "2026-10-20T09:27:00-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1238,6 +1238,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-20T09:27:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-10-20T09:10:00-05:00",
       "text": "Working on brand designs",
@@ -1318,21 +1324,15 @@
       "at": "2026-10-19T15:40:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-19T14:40:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
-      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-20T09:11:02-05:00"
+    "at": "2026-10-20T09:26:26-05:00"
   },
-  "generatedAt": "2026-10-20T09:11:02-05:00"
+  "generatedAt": "2026-10-20T09:26:26-05:00"
 }
