@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:56:52-05:00",
+  "updatedAt": "2026-10-20T17:58:31-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -162,8 +162,8 @@
           ]
         }
       ],
-      "lastRun": "Recruited Deal Review & Outreach for the Deal Desk.",
-      "lastRunAt": "2026-10-20T17:49:21-05:00",
+      "lastRun": "Recruited Quality Desk and stationed it in Command HQ.",
+      "lastRunAt": "2026-10-20T17:57:03-05:00",
       "runTimes": [
         "2026-10-05T19:15:20-05:00",
         "2026-10-06T08:20:56-05:00",
@@ -188,17 +188,18 @@
         "2026-10-19T19:20:00-05:00",
         "2026-10-20T08:15:00-05:00",
         "2026-10-20T17:42:38-05:00",
-        "2026-10-20T17:49:21-05:00"
+        "2026-10-20T17:49:21-05:00",
+        "2026-10-20T17:57:03-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-20T19:10:00-05:00",
-      "latestFinding": "Team at 22 bots across 13 zones; 12 items are waiting on Dennis.",
+      "latestFinding": "Team at 23 bots across 13 zones; 13 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 20,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T19:15:20-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T17:49:21-05:00",
+      "updatedAt": "2026-10-20T17:57:03-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -451,7 +452,7 @@
       "waitingOnYou": [],
       "runsCompleted": 122,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-05T08:53:04-05:00",
+      "firstSeenAt": "2026-10-05T09:52:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T17:44:00-05:00",
       "avatar": {
@@ -1247,6 +1248,39 @@
         "trim": "#d4a537",
         "prop": "clipboard"
       }
+    },
+    {
+      "id": "quality-desk",
+      "name": "Quality Desk",
+      "zone": "hq",
+      "className": "QA Reviewer",
+      "role": "Reviews public posts, listings, books and money advice before they go out.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "None (works on request)",
+      "slots": [],
+      "lastRun": "Set up as the team's quality review desk.",
+      "lastRunAt": "2026-10-20T17:57:00-05:00",
+      "runTimes": [
+        "2026-10-20T17:57:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Ready to review submissions from teammates.",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-20",
+      "firstSeenAt": "2026-10-20T17:57:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-20T17:57:00-05:00",
+      "avatar": {
+        "hat": "antenna",
+        "head": "#fff4d6",
+        "body": "#f59e0b",
+        "accent": "#1a1406",
+        "eye": "#3dff8b",
+        "trim": "#3dff8b",
+        "prop": "clipboard"
+      }
     }
   ],
   "inbox": [
@@ -1317,6 +1351,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-20T17:57:03-05:00",
+      "text": "Recruited Quality Desk and stationed it in Command HQ.",
+      "finding": "Team at 23 bots across 13 zones; 13 items are waiting on Dennis."
+    },
+    {
+      "bot": "quality-desk",
+      "at": "2026-10-20T17:57:00-05:00",
+      "text": "Set up as the team's quality review desk.",
+      "finding": "Ready to review submissions from teammates."
+    },
     {
       "bot": "deal-review-outreach",
       "at": "2026-10-20T17:56:00-05:00",
@@ -1394,27 +1440,15 @@
       "at": "2026-10-20T13:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-20T12:57:05-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-20T12:43:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 6:17 PM CT",
-      "Latest: Deal Review & Outreach: Reviewing deals and drafting outreach"
+      "Latest: Chief of Staff: Recruited Quality Desk and stationed it in Command HQ."
     ],
-    "at": "2026-10-20T17:56:52-05:00"
+    "at": "2026-10-20T17:58:31-05:00"
   },
-  "generatedAt": "2026-10-20T17:56:52-05:00"
+  "generatedAt": "2026-10-20T17:58:31-05:00"
 }
