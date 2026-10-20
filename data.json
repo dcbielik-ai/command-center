@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T08:41:12-05:00",
+  "updatedAt": "2026-10-20T09:11:02-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -607,7 +607,6 @@
       "lastRun": "Coordinated the team",
       "lastRunAt": "2026-10-06T16:19:00-05:00",
       "runTimes": [
-        "2026-10-04T16:29:00-05:00",
         "2026-10-04T16:57:00-05:00",
         "2026-10-06T16:10:00-05:00",
         "2026-10-06T16:19:00-05:00"
@@ -620,7 +619,7 @@
       "waitingSince": "2026-10-04T16:58:00-05:00",
       "runsCompleted": 4,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-04T16:29:00-05:00",
+      "firstSeenAt": "2026-10-04T16:57:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-06T16:19:00-05:00",
       "avatar": {
@@ -903,12 +902,12 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Running routines",
+      "status": "Waiting on Dennis",
       "schedule": "Scheduled",
       "routines": "Set up",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-19T12:00:00-05:00",
+      "lastRunAt": "2026-10-20T09:10:00-05:00",
       "runTimes": [
         "2026-10-07T15:39:16-05:00",
         "2026-10-07T15:49:07-05:00",
@@ -918,17 +917,21 @@
         "2026-10-17T22:07:00-05:00",
         "2026-10-18T11:47:00-05:00",
         "2026-10-18T23:47:00-05:00",
-        "2026-10-19T12:00:00-05:00"
+        "2026-10-19T12:00:00-05:00",
+        "2026-10-20T09:10:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-20T09:00:00-05:00",
+      "nextRunAt": "2026-10-23T09:00:00-05:00",
       "latestFinding": "Details stay private until launch",
-      "waitingOnYou": [],
-      "runsCompleted": 8,
+      "waitingOnYou": [
+        "Needs your approval"
+      ],
+      "waitingSince": "2026-10-20T09:12:00-05:00",
+      "runsCompleted": 9,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T15:39:16-05:00",
       "notes": "",
-      "updatedAt": "2026-10-19T12:02:00-05:00",
+      "updatedAt": "2026-10-20T09:12:00-05:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1208,6 +1211,11 @@
       "since": "2026-10-06T20:25:49-05:00"
     },
     {
+      "bot": "fairway-daughters",
+      "text": "Needs your approval",
+      "since": "2026-10-20T09:12:00-05:00"
+    },
+    {
       "bot": "bielik-game-studio",
       "text": "Needs info from you",
       "since": "2026-10-07T17:17:02-05:00"
@@ -1229,6 +1237,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-20T09:10:00-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-20T08:42:00-05:00",
@@ -1310,21 +1324,15 @@
       "at": "2026-10-19T14:40:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-19T13:45:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 10 items need you · 2 setting up",
+      "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
       "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-10-20T08:41:12-05:00"
+    "at": "2026-10-20T09:11:02-05:00"
   },
-  "generatedAt": "2026-10-20T08:41:12-05:00"
+  "generatedAt": "2026-10-20T09:11:02-05:00"
 }
