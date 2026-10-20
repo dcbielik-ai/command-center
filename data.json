@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:51:25-05:00",
+  "updatedAt": "2026-10-20T17:51:30-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -664,7 +664,6 @@
       "runTimes": [
         "2026-10-05T08:41:31-05:00",
         "2026-10-05T08:49:00-05:00",
-        "2026-10-05T09:05:00-05:00",
         "2026-10-12T09:06:54-05:00",
         "2026-10-12T09:08:52-05:00",
         "2026-10-19T08:50:00-05:00"
@@ -1223,9 +1222,10 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Reviewing deals and drafting outreach",
-      "lastRunAt": "2026-10-20T17:56:00-05:00",
+      "lastRunAt": "2026-10-20T17:51:00-05:00",
       "runTimes": [
         "2026-10-20T17:49:00-05:00",
+        "2026-10-20T17:51:00-05:00",
         "2026-10-20T17:56:00-05:00"
       ],
       "nextRun": "On demand",
@@ -1238,7 +1238,7 @@
       "created": "2026-10-20",
       "firstSeenAt": "2026-10-20T17:49:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T17:56:00-05:00",
+      "updatedAt": "2026-10-20T17:51:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#e8efe6",
@@ -1325,6 +1325,12 @@
       "finding": "Details stay private"
     },
     {
+      "bot": "deal-review-outreach",
+      "at": "2026-10-20T17:51:00-05:00",
+      "text": "Reviewing deals and drafting outreach",
+      "finding": "Details stay private"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-10-20T17:49:21-05:00",
       "text": "Recruited Deal Review & Outreach for the Deal Desk.",
@@ -1401,12 +1407,6 @@
       "at": "2026-10-20T12:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-20T11:42:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1415,7 +1415,7 @@
       "Next run: Portfolio News · News check, today 6:17 PM CT",
       "Latest: Deal Review & Outreach: Reviewing deals and drafting outreach"
     ],
-    "at": "2026-10-20T17:51:25-05:00"
+    "at": "2026-10-20T17:51:30-05:00"
   },
-  "generatedAt": "2026-10-20T17:51:25-05:00"
+  "generatedAt": "2026-10-20T17:51:30-05:00"
 }
