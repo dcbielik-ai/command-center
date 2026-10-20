@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:58:31-05:00",
+  "updatedAt": "2026-10-20T17:59:55-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -493,7 +493,6 @@
       "lastRun": "Added 4 new deals; 669 deals tracked across TX and OK",
       "lastRunAt": "2026-10-20T08:00:00-05:00",
       "runTimes": [
-        "2026-10-05T09:05:00-05:00",
         "2026-10-06T08:02:00-05:00",
         "2026-10-07T08:27:36-05:00",
         "2026-10-09T16:11:00-05:00",
@@ -517,7 +516,7 @@
       "waitingOnYou": [],
       "runsCompleted": 17,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-05T09:05:00-05:00",
+      "firstSeenAt": "2026-10-06T08:02:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T08:01:00-05:00",
       "avatar": {
@@ -1259,19 +1258,20 @@
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Set up as the team's quality review desk.",
-      "lastRunAt": "2026-10-20T17:57:00-05:00",
+      "lastRun": "Reviewed outreach drafts and a media project for teammates.",
+      "lastRunAt": "2026-10-20T17:59:00-05:00",
       "runTimes": [
-        "2026-10-20T17:57:00-05:00"
+        "2026-10-20T17:57:00-05:00",
+        "2026-10-20T17:59:00-05:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "Ready to review submissions from teammates.",
+      "latestFinding": "One batch approved with conditions; one project returned with fixes needed.",
       "waitingOnYou": [],
-      "runsCompleted": 1,
+      "runsCompleted": 4,
       "created": "2026-10-20",
       "firstSeenAt": "2026-10-20T17:57:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T17:57:00-05:00",
+      "updatedAt": "2026-10-20T17:59:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1351,6 +1351,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "quality-desk",
+      "at": "2026-10-20T17:59:00-05:00",
+      "text": "Reviewed outreach drafts and a media project for teammates.",
+      "finding": "One batch approved with conditions; one project returned with fixes needed."
+    },
     {
       "bot": "chief-of-staff",
       "at": "2026-10-20T17:57:03-05:00",
@@ -1434,21 +1440,15 @@
       "at": "2026-10-20T14:37:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-20T13:43:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 6:17 PM CT",
-      "Latest: Chief of Staff: Recruited Quality Desk and stationed it in Command HQ."
+      "Latest: Quality Desk: Reviewed outreach drafts and a media project for teammates."
     ],
-    "at": "2026-10-20T17:58:31-05:00"
+    "at": "2026-10-20T17:59:55-05:00"
   },
-  "generatedAt": "2026-10-20T17:58:31-05:00"
+  "generatedAt": "2026-10-20T17:59:55-05:00"
 }
