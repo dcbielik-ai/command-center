@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:42:15-05:00",
+  "updatedAt": "2026-10-20T17:43:04-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -119,6 +119,15 @@
       "tagline": "New product inventions",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "dealdesk",
+      "name": "Deal Desk",
+      "theme": "dealdesk",
+      "icon": "briefcase",
+      "tagline": "Acquisition sourcing",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -153,8 +162,8 @@
           ]
         }
       ],
-      "lastRun": "Morning command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
-      "lastRunAt": "2026-10-20T08:15:00-05:00",
+      "lastRun": "Recruited M&A Deal Scout and opened the new Deal Desk zone.",
+      "lastRunAt": "2026-10-20T17:42:38-05:00",
       "runTimes": [
         "2026-10-05T08:22:51-05:00",
         "2026-10-05T19:15:20-05:00",
@@ -178,17 +187,18 @@
         "2026-10-16T19:16:20-05:00",
         "2026-10-19T08:15:00-05:00",
         "2026-10-19T19:20:00-05:00",
-        "2026-10-20T08:15:00-05:00"
+        "2026-10-20T08:15:00-05:00",
+        "2026-10-20T17:42:38-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-20T19:10:00-05:00",
-      "latestFinding": "Team at 20 bots across 12 zones; 10 items are waiting on Dennis.",
+      "latestFinding": "Team at 21 bots across 13 zones; 11 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 20,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-05T08:22:51-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T08:15:00-05:00",
+      "updatedAt": "2026-10-20T17:42:38-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -313,7 +323,6 @@
       "lastRun": "After-close scan for Oct 20: 164 buy hits across 681 liquid tickers, no strong sell warnings; alert sent for heavy-volume breakouts.",
       "lastRunAt": "2026-10-20T15:44:00-05:00",
       "runTimes": [
-        "2026-10-05T07:46:00-05:00",
         "2026-10-05T15:42:00-05:00",
         "2026-10-05T15:45:00-05:00",
         "2026-10-06T07:44:00-05:00",
@@ -343,7 +352,7 @@
       "waitingOnYou": [],
       "runsCompleted": 21,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-05T07:46:00-05:00",
+      "firstSeenAt": "2026-10-05T15:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T15:46:00-05:00",
       "avatar": {
@@ -802,7 +811,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-10-20T12:57:05-05:00",
       "runTimes": [
-        "2026-10-05T07:55:00-05:00",
         "2026-10-05T12:55:00-05:00",
         "2026-10-06T13:03:00-05:00",
         "2026-10-07T12:58:21-05:00",
@@ -830,7 +838,7 @@
       "waitingSince": "2026-10-05T07:55:00-05:00",
       "runsCompleted": 18,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-05T07:55:00-05:00",
+      "firstSeenAt": "2026-10-05T12:55:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-20T12:57:05-05:00",
       "avatar": {
@@ -1169,6 +1177,39 @@
         "trim": "#38bdf8",
         "prop": "techwrench"
       }
+    },
+    {
+      "id": "m-a-deal-scout",
+      "name": "M&A Deal Scout",
+      "zone": "dealdesk",
+      "className": "M&A Deal Scout",
+      "role": "Sources acquisition targets for Dennis's company. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "Researching acquisition targets",
+      "lastRunAt": "2026-10-20T17:42:38-05:00",
+      "runTimes": [
+        "2026-10-20T17:42:38-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-20",
+      "firstSeenAt": "2026-10-20T17:42:38-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-20T17:42:38-05:00",
+      "avatar": {
+        "hat": "bowler",
+        "head": "#f0e6d8",
+        "body": "#7a1f36",
+        "accent": "#1a1420",
+        "eye": "#ffd447",
+        "trim": "#d4a537",
+        "prop": "briefcase"
+      }
     }
   ],
   "inbox": [
@@ -1229,6 +1270,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-20T17:42:38-05:00",
+      "text": "Recruited M&A Deal Scout and opened the new Deal Desk zone.",
+      "finding": "Team at 21 bots across 13 zones; 11 items are waiting on Dennis."
+    },
+    {
+      "bot": "m-a-deal-scout",
+      "at": "2026-10-20T17:42:38-05:00",
+      "text": "Researching acquisition targets",
+      "finding": "Details stay private"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-20T17:41:00-05:00",
@@ -1306,26 +1359,15 @@
       "at": "2026-10-20T09:10:00-05:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-20T08:42:00-05:00",
-      "text": "Sent 1 alert"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-20T08:15:00-05:00",
-      "text": "Morning command center refresh: synced 20 bots across 12 zones from status files, built and published the dashboard.",
-      "finding": "Team at 20 bots across 12 zones; 10 items are waiting on Dennis."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 2 setting up",
       "Next run: Portfolio News · News check, today 6:17 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Chief of Staff: Recruited M&A Deal Scout and opened the new Deal Desk zone."
     ],
-    "at": "2026-10-20T17:42:15-05:00"
+    "at": "2026-10-20T17:43:04-05:00"
   },
-  "generatedAt": "2026-10-20T17:42:15-05:00"
+  "generatedAt": "2026-10-20T17:43:04-05:00"
 }
