@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T13:43:18-05:00",
+  "updatedAt": "2026-10-21T14:41:11-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -250,7 +250,6 @@
       "lastRun": "Oct 21 pre-market trending scan (Yahoo, StockTwits, Reddit via ApeWisdom): Micron, Super Micro and Amkor are trending and clear the 20% revenue and EPS growth bar; SpaceX, Netflix, Tesla, Intuitive, AT&T and CoreWeave do not.",
       "lastRunAt": "2026-10-21T08:05:14-05:00",
       "runTimes": [
-        "2026-10-06T08:07:00-05:00",
         "2026-10-07T08:16:00-05:00",
         "2026-10-12T08:29:00-05:00",
         "2026-10-13T08:14:10.457207-05:00",
@@ -274,7 +273,7 @@
       "waitingOnYou": [],
       "runsCompleted": 15,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T08:07:00-05:00",
+      "firstSeenAt": "2026-10-07T08:16:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-10-21T08:05:14-05:00",
       "avatar": {
@@ -413,10 +412,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 2 alerts",
-      "lastRunAt": "2026-10-21T13:42:00-05:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-10-21T14:40:00-05:00",
       "runTimes": [
-        "2026-10-19T08:39:00-05:00",
         "2026-10-19T09:39:42-05:00",
         "2026-10-19T11:03:49-05:00",
         "2026-10-19T11:46:00-05:00",
@@ -445,17 +443,18 @@
         "2026-10-21T10:40:00-05:00",
         "2026-10-21T11:44:00-05:00",
         "2026-10-21T12:38:00-05:00",
-        "2026-10-21T13:42:00-05:00"
+        "2026-10-21T13:42:00-05:00",
+        "2026-10-21T14:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-21T14:35:00-05:00",
-      "latestFinding": "Sent 2 alerts",
+      "nextRunAt": "2026-10-21T15:35:00-05:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 130,
+      "runsCompleted": 131,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-06T08:48:30-05:00",
       "notes": "",
-      "updatedAt": "2026-10-21T13:47:00-05:00",
+      "updatedAt": "2026-10-21T14:45:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1356,6 +1355,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-21T14:40:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-21T13:42:00-05:00",
       "text": "Sent 2 alerts"
     },
@@ -1434,21 +1439,15 @@
       "at": "2026-10-20T19:05:00-05:00",
       "text": "Oct 20 after-close brief: screened about 70 earnings reporters (Finviz) plus insider buys. Steel Dynamics and Vicor clear the 20% revenue and EPS growth bar; GE, Hasbro, Northrop and Capital One beat and raised; Netflix and Intuitive fell after hours.",
       "finding": "Steel Dynamics is the cheapest name clearing the growth bar: Q3 sales up 29% and EPS $5.26 vs $2.74 a year ago, at about 11.5x forward earnings per Yahoo."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-20T18:51:00-05:00",
-      "text": "Oct 20 after-close brief: screened about 70 earnings reporters (Finviz) plus insider buys. Steel Dynamics and Vicor clear the 20% revenue and EPS growth bar; GE, Hasbro, Northrop and Capital One beat and raised; Netflix and Intuitive fell after hours.",
-      "finding": "Steel Dynamics is the cheapest name clearing the growth bar: Q3 sales up 29% and EPS $5.26 vs $2.74 a year ago, at about 11.5x forward earnings per Yahoo."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Chief of Staff late) · 13 items need you · 2 setting up",
-      "Next run: Portfolio News · News check, today 2:35 PM CT",
-      "Latest: Portfolio News: Sent 2 alerts"
+      "Next run: Portfolio News · News check, today 3:35 PM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-21T13:43:18-05:00"
+    "at": "2026-10-21T14:41:11-05:00"
   },
-  "generatedAt": "2026-10-21T13:43:18-05:00"
+  "generatedAt": "2026-10-21T14:41:11-05:00"
 }
