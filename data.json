@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T07:46:10-05:00",
+  "updatedAt": "2026-10-21T08:04:05-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -327,7 +327,6 @@
       "lastRunAt": "2026-10-21T07:45:00-05:00",
       "runTimes": [
         "2026-10-05T15:42:00-05:00",
-        "2026-10-05T15:45:00-05:00",
         "2026-10-06T07:44:00-05:00",
         "2026-10-06T15:52:00-05:00",
         "2026-10-07T07:47:00-05:00",
@@ -494,8 +493,8 @@
           ]
         }
       ],
-      "lastRun": "Added 4 new deals; 669 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-20T08:00:00-05:00",
+      "lastRun": "Added 9 new deals; 678 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-21T08:04:05-05:00",
       "runTimes": [
         "2026-10-06T08:02:00-05:00",
         "2026-10-07T08:27:36-05:00",
@@ -512,17 +511,18 @@
         "2026-10-17T08:05:00-05:00",
         "2026-10-18T08:14:00-05:00",
         "2026-10-19T08:10:00-05:00",
-        "2026-10-20T08:00:00-05:00"
+        "2026-10-20T08:00:00-05:00",
+        "2026-10-21T08:04:05-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-21T07:42:00-05:00",
-      "latestFinding": "669 deals tracked",
+      "nextRunAt": "2026-10-22T07:42:00-05:00",
+      "latestFinding": "678 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 17,
+      "runsCompleted": 18,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-06T08:02:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T08:01:00-05:00",
+      "updatedAt": "2026-10-21T08:04:05-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1357,6 +1357,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-21T08:04:05-05:00",
+      "text": "Added 9 new deals; 678 deals tracked across TX and OK",
+      "finding": "678 deals tracked"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-10-21T07:45:00-05:00",
       "text": "Pre-market scan on Oct 20 close: 162 buy hits across 681 liquid tickers, no strong sell warnings (HBAN death-cross flag cleared).",
@@ -1439,21 +1445,15 @@
       "at": "2026-10-20T17:49:21-05:00",
       "text": "Recruited Deal Review & Outreach for the Deal Desk.",
       "finding": "Team at 22 bots across 13 zones; 12 items are waiting on Dennis."
-    },
-    {
-      "bot": "deal-review-outreach",
-      "at": "2026-10-20T17:49:00-05:00",
-      "text": "Reviewing deals and drafting outreach",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 2 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Technical Analyst: Pre-market scan on Oct 20 close: 162 buy hits across 681 liquid tickers, no strong…"
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: VA Deal Scout: Added 9 new deals; 678 deals tracked across TX and OK"
     ],
-    "at": "2026-10-21T07:46:10-05:00"
+    "at": "2026-10-21T08:04:05-05:00"
   },
-  "generatedAt": "2026-10-21T07:46:10-05:00"
+  "generatedAt": "2026-10-21T08:04:05-05:00"
 }
