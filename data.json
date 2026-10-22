@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T08:40:12-05:00",
+  "updatedAt": "2026-10-22T09:24:30-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -165,7 +165,6 @@
       "lastRun": "Morning command center refresh: synced 22 bots across 13 zones from status files, built and published the dashboard.",
       "lastRunAt": "2026-10-22T08:16:59-05:00",
       "runTimes": [
-        "2026-10-06T08:20:56-05:00",
         "2026-10-06T19:17:56-05:00",
         "2026-10-07T08:29:47-05:00",
         "2026-10-07T15:41:07-05:00",
@@ -199,7 +198,7 @@
       "waitingOnYou": [],
       "runsCompleted": 24,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T08:20:56-05:00",
+      "firstSeenAt": "2026-10-06T19:17:56-05:00",
       "notes": "",
       "updatedAt": "2026-10-22T08:16:59-05:00",
       "avatar": {
@@ -542,28 +541,12 @@
       "zone": "travel",
       "className": "Agent: Travel Deals",
       "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
-      "status": "Active",
+      "status": "idle",
       "schedule": "Scheduled",
       "routines": "Set up",
-      "slots": [
-        {
-          "label": "Deal check",
-          "days": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "times": [
-            "09:16"
-          ]
-        }
-      ],
+      "slots": [],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-21T09:24:00-05:00",
+      "lastRunAt": "2026-10-22T09:24:30-05:00",
       "runTimes": [
         "2026-10-07T08:10:00-05:00",
         "2026-10-09T16:12:54-05:00",
@@ -586,20 +569,17 @@
         "2026-10-18T09:27:00-05:00",
         "2026-10-19T09:28:00-05:00",
         "2026-10-20T09:27:00-05:00",
-        "2026-10-21T09:24:00-05:00"
+        "2026-10-21T09:24:00-05:00",
+        "2026-10-22T09:24:30-05:00"
       ],
-      "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-22T09:16:00-05:00",
+      "nextRun": "Not scheduled yet",
       "latestFinding": "Deals sent privately",
-      "waitingOnYou": [
-        "Needs a decision from you"
-      ],
-      "waitingSince": "2026-10-16T08:05:00-05:00",
-      "runsCompleted": 23,
+      "waitingOnYou": [],
+      "runsCompleted": 24,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T08:10:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-21T09:24:00-05:00",
+      "updatedAt": "2026-10-22T09:24:30-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1290,11 +1270,6 @@
   ],
   "inbox": [
     {
-      "bot": "travel-agent",
-      "text": "Needs a decision from you",
-      "since": "2026-10-16T08:05:00-05:00"
-    },
-    {
       "bot": "merch-lead",
       "text": "Needs your approval",
       "since": "2026-10-04T16:58:00-05:00"
@@ -1356,6 +1331,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "travel-agent",
+      "at": "2026-10-22T09:24:30-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
     {
       "bot": "portfolio-news",
       "at": "2026-10-22T08:39:00-05:00",
@@ -1437,21 +1418,15 @@
       "at": "2026-10-21T16:39:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-21T15:45:00-05:00",
-      "text": "After-close scan on Oct 21: 138 buy hits across 681 liquid tickers, 2 new strong sell warnings (GM, JD); SPY +0.5%, QQQ +1.1%.",
-      "finding": "HAS +4.1% to 114.00 on 2.9x volume at its 52-week high; CRL +9.3% to 344.87 on 2.9x volume above its 20-day high 333.30; GM 76.11 below its 200-day 80.37."
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 13 items need you · 2 setting up",
-      "Next run: Travel Agent · Deal check, today 9:16 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "7 of 7 scheduled bots healthy · 12 items need you · 2 setting up",
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-22T08:40:12-05:00"
+    "at": "2026-10-22T09:24:30-05:00"
   },
-  "generatedAt": "2026-10-22T08:40:12-05:00"
+  "generatedAt": "2026-10-22T09:24:30-05:00"
 }
