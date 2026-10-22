@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:43:54-05:00",
+  "updatedAt": "2026-10-22T17:44:00-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -454,7 +454,7 @@
         "2026-10-22T17:43:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-22T18:17:00-05:00",
+      "nextRunAt": "2026-10-22T18:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
       "runsCompleted": 146,
@@ -1417,7 +1417,7 @@
       "Next run: Portfolio News · News check, today 6:17 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-22T17:43:54-05:00"
+    "at": "2026-10-22T17:44:00-05:00"
   },
-  "generatedAt": "2026-10-22T17:43:54-05:00"
+  "generatedAt": "2026-10-22T17:44:00-05:00"
 }
