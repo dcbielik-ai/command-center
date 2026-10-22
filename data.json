@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:44:00-05:00",
+  "updatedAt": "2026-10-22T18:41:25-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -420,9 +420,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-22T17:43:00-05:00",
+      "lastRunAt": "2026-10-22T18:40:00-05:00",
       "runTimes": [
-        "2026-10-20T12:43:00-05:00",
         "2026-10-20T13:43:00-05:00",
         "2026-10-20T14:37:00-05:00",
         "2026-10-20T15:39:00-05:00",
@@ -451,17 +450,18 @@
         "2026-10-22T14:42:00-05:00",
         "2026-10-22T15:36:00-05:00",
         "2026-10-22T16:39:00-05:00",
-        "2026-10-22T17:43:00-05:00"
+        "2026-10-22T17:43:00-05:00",
+        "2026-10-22T18:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-22T18:35:00-05:00",
+      "nextRunAt": "2026-10-23T07:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 146,
+      "runsCompleted": 147,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-06T17:37:50-05:00",
       "notes": "",
-      "updatedAt": "2026-10-22T17:46:00-05:00",
+      "updatedAt": "2026-10-22T18:43:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -688,7 +688,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-10T13:09:09-05:00",
       "runTimes": [
-        "2026-10-06T16:44:09-05:00",
         "2026-10-10T13:07:22-05:00",
         "2026-10-10T13:09:09-05:00"
       ],
@@ -697,7 +696,7 @@
       "waitingOnYou": [],
       "runsCompleted": 8,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T16:44:09-05:00",
+      "firstSeenAt": "2026-10-10T13:07:22-05:00",
       "notes": "",
       "updatedAt": "2026-10-10T13:09:09-05:00",
       "avatar": {
@@ -1325,6 +1324,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-22T18:40:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-22T17:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1403,21 +1408,15 @@
       "at": "2026-10-22T08:20:00-05:00",
       "text": "Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and clear the growth bar; Meta passes only on a flattered EPS comparison; Tesla, IBM, Spotify, QuantumScape and Aevex trend without the fundamentals.",
       "finding": "TTM Technologies grew Q3 revenue 60% to $1.2B and guided 2027 sales to $6.5-6.75B, yet trades about 11% lower premarket on a Q4 guide in line with consensus."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-22T08:16:59-05:00",
-      "text": "Morning command center refresh: synced 22 bots across 13 zones from status files, built and published the dashboard.",
-      "finding": "Team at 23 bots across 13 zones; 13 items are waiting on Dennis."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 2 setting up",
-      "Next run: Portfolio News · News check, today 6:17 PM CT",
+      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-22T17:44:00-05:00"
+    "at": "2026-10-22T18:41:25-05:00"
   },
-  "generatedAt": "2026-10-22T17:44:00-05:00"
+  "generatedAt": "2026-10-22T18:41:25-05:00"
 }
