@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T08:10:20-05:00",
+  "updatedAt": "2026-10-22T08:10:28-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -249,7 +249,7 @@
         }
       ],
       "lastRun": "Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and clear the growth bar; Meta passes only on a flattered EPS comparison; Tesla, IBM, Spotify, QuantumScape and Aevex trend without the fundamentals.",
-      "lastRunAt": "2026-10-22T08:20:00-05:00",
+      "lastRunAt": "2026-10-22T08:11:00-05:00",
       "runTimes": [
         "2026-10-07T08:16:00-05:00",
         "2026-10-12T08:29:00-05:00",
@@ -269,6 +269,7 @@
         "2026-10-21T08:05:14-05:00",
         "2026-10-21T18:44:00-05:00",
         "2026-10-21T18:58:00-05:00",
+        "2026-10-22T08:11:00-05:00",
         "2026-10-22T08:20:00-05:00"
       ],
       "nextRun": "",
@@ -279,7 +280,7 @@
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T08:16:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-22T08:20:00-05:00",
+      "updatedAt": "2026-10-22T08:11:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -705,7 +706,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-10T13:09:09-05:00",
       "runTimes": [
-        "2026-10-06T16:10:02-05:00",
         "2026-10-06T16:19:18-05:00",
         "2026-10-06T16:23:39-05:00",
         "2026-10-06T16:24:04-05:00",
@@ -719,7 +719,7 @@
       "waitingOnYou": [],
       "runsCompleted": 8,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T16:10:02-05:00",
+      "firstSeenAt": "2026-10-06T16:19:18-05:00",
       "notes": "",
       "updatedAt": "2026-10-10T13:09:09-05:00",
       "avatar": {
@@ -1364,6 +1364,12 @@
       "finding": "TTM Technologies grew Q3 revenue 60% to $1.2B and guided 2027 sales to $6.5-6.75B, yet trades about 11% lower premarket on a Q4 guide in line with consensus."
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-22T08:11:00-05:00",
+      "text": "Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and clear the growth bar; Meta passes only on a flattered EPS comparison; Tesla, IBM, Spotify, QuantumScape and Aevex trend without the fundamentals.",
+      "finding": "TTM Technologies grew Q3 revenue 60% to $1.2B and guided 2027 sales to $6.5-6.75B, yet trades about 11% lower premarket on a Q4 guide in line with consensus."
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-10-22T07:58:44-05:00",
       "text": "Added 7 new deals; 685 deals tracked across TX and OK",
@@ -1438,11 +1444,6 @@
       "at": "2026-10-21T14:40:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-21T13:42:00-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
@@ -1451,7 +1452,7 @@
       "Next run: Portfolio News · News check, today 8:35 AM CT",
       "Latest: Fundamentals Analyst: Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and…"
     ],
-    "at": "2026-10-22T08:10:20-05:00"
+    "at": "2026-10-22T08:10:28-05:00"
   },
-  "generatedAt": "2026-10-22T08:10:20-05:00"
+  "generatedAt": "2026-10-22T08:10:28-05:00"
 }
