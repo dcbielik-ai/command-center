@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T15:37:18-05:00",
+  "updatedAt": "2026-10-22T15:48:25-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -327,8 +327,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market scan on Oct 21 close: 136 buy hits across 681 liquid tickers, 2 strong sell warnings (GM, JD); SPY +0.5%, QQQ +1.1%, VIX 16.68.",
-      "lastRunAt": "2026-10-22T07:47:00-05:00",
+      "lastRun": "After-close scan Oct 22: QQQ -2.9% on 1.8x volume (SPY -1.2%), tech led lower; 113 buy hits, 4 strong sell warnings incl. new PH breakdown.",
+      "lastRunAt": "2026-10-22T15:49:00-05:00",
       "runTimes": [
         "2026-10-07T07:47:00-05:00",
         "2026-10-07T07:50:00-05:00",
@@ -350,17 +350,18 @@
         "2026-10-20T15:44:00-05:00",
         "2026-10-21T07:45:00-05:00",
         "2026-10-21T15:45:00-05:00",
-        "2026-10-22T07:47:00-05:00"
+        "2026-10-22T07:47:00-05:00",
+        "2026-10-22T15:49:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-22T15:38:00-05:00",
-      "latestFinding": "TMO 694.02 in a tight base near 704.00 breakout with accumulation; WAB 288.96 on 3.1x volume under 294.72; ZBRA 391.00 broke out above 390.80.",
+      "nextRunAt": "2026-10-23T07:38:00-05:00",
+      "latestFinding": "QQQ 704.47 closed just above its 20-day low of 701.90; URI broke out to 1111.02 on 2.2x volume; PH broke its 200-day (947.08) at 893.21 on 2.2x volume.",
       "waitingOnYou": [],
-      "runsCompleted": 24,
+      "runsCompleted": 25,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T07:47:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-22T07:47:00-05:00",
+      "updatedAt": "2026-10-22T15:49:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -687,7 +688,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-10T13:09:09-05:00",
       "runTimes": [
-        "2026-10-06T16:33:26-05:00",
         "2026-10-06T16:44:09-05:00",
         "2026-10-10T13:07:22-05:00",
         "2026-10-10T13:09:09-05:00"
@@ -697,7 +697,7 @@
       "waitingOnYou": [],
       "runsCompleted": 8,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T16:33:26-05:00",
+      "firstSeenAt": "2026-10-06T16:44:09-05:00",
       "notes": "",
       "updatedAt": "2026-10-10T13:09:09-05:00",
       "avatar": {
@@ -1325,6 +1325,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-22T15:49:00-05:00",
+      "text": "After-close scan Oct 22: QQQ -2.9% on 1.8x volume (SPY -1.2%), tech led lower; 113 buy hits, 4 strong sell warnings incl. new PH breakdown.",
+      "finding": "QQQ 704.47 closed just above its 20-day low of 701.90; URI broke out to 1111.02 on 2.2x volume; PH broke its 200-day (947.08) at 893.21 on 2.2x volume."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-22T15:36:00-05:00",
       "text": "Completed a news check",
@@ -1404,21 +1410,15 @@
       "at": "2026-10-22T07:58:44-05:00",
       "text": "Added 7 new deals; 685 deals tracked across TX and OK",
       "finding": "685 deals tracked"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-22T07:53:00-05:00",
-      "text": "Sent an AI briefing",
-      "finding": "Briefing delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 2 setting up",
-      "Next run: Technical Analyst · After-close big-move alert, today 3:38 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Technical Analyst: After-close scan Oct 22: QQQ -2.9% on 1.8x volume (SPY -1.2%), tech led lower; 113 buy…"
     ],
-    "at": "2026-10-22T15:37:18-05:00"
+    "at": "2026-10-22T15:48:25-05:00"
   },
-  "generatedAt": "2026-10-22T15:37:18-05:00"
+  "generatedAt": "2026-10-22T15:48:25-05:00"
 }
