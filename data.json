@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T18:41:25-05:00",
+  "updatedAt": "2026-10-22T18:45:32-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -248,8 +248,8 @@
           ]
         }
       ],
-      "lastRun": "Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and clear the growth bar; Meta passes only on a flattered EPS comparison; Tesla, IBM, Spotify, QuantumScape and Aevex trend without the fundamentals.",
-      "lastRunAt": "2026-10-22T08:11:00-05:00",
+      "lastRun": "Oct 22 after-close brief: Western Digital, Comfort Systems, TTM Technologies and MaxLinear clear the 20% growth bar; Lockheed and Ryder beat and raised; Carpenter and FirstCash sold off hard; Deckers cut its revenue outlook.",
+      "lastRunAt": "2026-10-22T18:55:00-05:00",
       "runTimes": [
         "2026-10-07T08:16:00-05:00",
         "2026-10-12T08:29:00-05:00",
@@ -270,17 +270,18 @@
         "2026-10-21T18:44:00-05:00",
         "2026-10-21T18:58:00-05:00",
         "2026-10-22T08:11:00-05:00",
-        "2026-10-22T08:20:00-05:00"
+        "2026-10-22T08:20:00-05:00",
+        "2026-10-22T18:55:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-22T18:40:00-05:00",
-      "latestFinding": "TTM Technologies grew Q3 revenue 60% to $1.2B and guided 2027 sales to $6.5-6.75B, yet trades about 11% lower premarket on a Q4 guide in line with consensus.",
+      "nextRunAt": "2026-10-23T08:01:00-05:00",
+      "latestFinding": "Western Digital grew revenue 55.5% to $4.38B and guided next quarter to $5.1B (about 69% growth), yet slipped about 6.5% after hours.",
       "waitingOnYou": [],
-      "runsCompleted": 17,
+      "runsCompleted": 18,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T08:16:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-22T08:11:00-05:00",
+      "updatedAt": "2026-10-22T18:55:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -835,7 +836,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-06T20:25:49-05:00",
       "runTimes": [
-        "2026-10-06T16:45:08-05:00",
         "2026-10-06T17:07:38-05:00",
         "2026-10-06T19:33:17-05:00",
         "2026-10-06T19:48:02-05:00",
@@ -852,7 +852,7 @@
       "waitingSince": "2026-10-06T20:25:49-05:00",
       "runsCompleted": 10,
       "created": "2026-10-06",
-      "firstSeenAt": "2026-10-06T16:45:08-05:00",
+      "firstSeenAt": "2026-10-06T17:07:38-05:00",
       "notes": "",
       "updatedAt": "2026-10-06T20:25:49-05:00",
       "avatar": {
@@ -1323,6 +1323,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-22T18:55:00-05:00",
+      "text": "Oct 22 after-close brief: Western Digital, Comfort Systems, TTM Technologies and MaxLinear clear the 20% growth bar; Lockheed and Ryder beat and raised; Carpenter and FirstCash sold off hard; Deckers cut its revenue outlook.",
+      "finding": "Western Digital grew revenue 55.5% to $4.38B and guided next quarter to $5.1B (about 69% growth), yet slipped about 6.5% after hours."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-22T18:40:00-05:00",
       "text": "Completed a news check",
@@ -1402,21 +1408,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-22T08:39:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-22T08:20:00-05:00",
-      "text": "Oct 22 trending heads-up: Micron, Lam Research and TTM Technologies are trending and clear the growth bar; Meta passes only on a flattered EPS comparison; Tesla, IBM, Spotify, QuantumScape and Aevex trend without the fundamentals.",
-      "finding": "TTM Technologies grew Q3 revenue 60% to $1.2B and guided 2027 sales to $6.5-6.75B, yet trades about 11% lower premarket on a Q4 guide in line with consensus."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 2 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Oct 22 after-close brief: Western Digital, Comfort Systems, TTM Technologies and…"
     ],
-    "at": "2026-10-22T18:41:25-05:00"
+    "at": "2026-10-22T18:45:32-05:00"
   },
-  "generatedAt": "2026-10-22T18:41:25-05:00"
+  "generatedAt": "2026-10-22T18:45:32-05:00"
 }
