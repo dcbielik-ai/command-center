@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T08:16:35-05:00",
+  "updatedAt": "2026-10-23T08:16:41-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -249,7 +249,7 @@
         }
       ],
       "lastRun": "Oct 23 trending heads-up: Micron, SK hynix, Western Digital and Credo are hyped and clear the 20% growth bar; Moderna, American Tower and Verizon are trending without growth backing.",
-      "lastRunAt": "2026-10-23T08:25:00-05:00",
+      "lastRunAt": "2026-10-23T08:16:00-05:00",
       "runTimes": [
         "2026-10-07T08:16:00-05:00",
         "2026-10-12T08:29:00-05:00",
@@ -272,6 +272,7 @@
         "2026-10-22T08:11:00-05:00",
         "2026-10-22T08:20:00-05:00",
         "2026-10-22T18:55:00-05:00",
+        "2026-10-23T08:16:00-05:00",
         "2026-10-23T08:25:00-05:00"
       ],
       "nextRun": "",
@@ -282,7 +283,7 @@
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T08:16:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-10-23T08:25:00-05:00",
+      "updatedAt": "2026-10-23T08:16:00-05:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -839,7 +840,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-06T20:25:49-05:00",
       "runTimes": [
-        "2026-10-06T19:50:53-05:00",
         "2026-10-06T20:00:10-05:00",
         "2026-10-06T20:04:34-05:00",
         "2026-10-06T20:25:49-05:00"
@@ -852,7 +852,7 @@
       "waitingSince": "2026-10-06T20:25:49-05:00",
       "runsCompleted": 10,
       "created": "2026-10-06",
-      "firstSeenAt": "2026-10-06T19:50:53-05:00",
+      "firstSeenAt": "2026-10-06T20:00:10-05:00",
       "notes": "",
       "updatedAt": "2026-10-06T20:25:49-05:00",
       "avatar": {
@@ -1357,6 +1357,12 @@
       "finding": "Moderna fell 17.6% Thursday after leaked melanoma vaccine data showed a 42% cut in recurrence or death risk, a sell-the-news move after a 500%+ rally."
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-10-23T08:16:00-05:00",
+      "text": "Oct 23 trending heads-up: Micron, SK hynix, Western Digital and Credo are hyped and clear the 20% growth bar; Moderna, American Tower and Verizon are trending without growth backing.",
+      "finding": "Moderna fell 17.6% Thursday after leaked melanoma vaccine data showed a 42% cut in recurrence or death risk, a sell-the-news move after a 500%+ rally."
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-10-23T08:02:00-05:00",
       "text": "Added 6 new deals; 691 deals tracked across TX and OK",
@@ -1433,12 +1439,6 @@
       "at": "2026-10-22T13:42:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-22T12:58:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
@@ -1447,7 +1447,7 @@
       "Next run: Portfolio News · News check, today 8:35 AM CT",
       "Latest: Fundamentals Analyst: Oct 23 trending heads-up: Micron, SK hynix, Western Digital and Credo are hyped and…"
     ],
-    "at": "2026-10-23T08:16:35-05:00"
+    "at": "2026-10-23T08:16:41-05:00"
   },
-  "generatedAt": "2026-10-23T08:16:35-05:00"
+  "generatedAt": "2026-10-23T08:16:41-05:00"
 }
