@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T19:20:49-05:00",
+  "updatedAt": "2026-10-23T07:43:42-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -422,9 +422,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-22T18:40:00-05:00",
+      "lastRunAt": "2026-10-23T07:42:00-05:00",
       "runTimes": [
-        "2026-10-20T13:43:00-05:00",
         "2026-10-20T14:37:00-05:00",
         "2026-10-20T15:39:00-05:00",
         "2026-10-20T16:37:00-05:00",
@@ -453,17 +452,18 @@
         "2026-10-22T15:36:00-05:00",
         "2026-10-22T16:39:00-05:00",
         "2026-10-22T17:43:00-05:00",
-        "2026-10-22T18:40:00-05:00"
+        "2026-10-22T18:40:00-05:00",
+        "2026-10-23T07:42:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-23T07:35:00-05:00",
+      "nextRunAt": "2026-10-23T08:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 147,
+      "runsCompleted": 148,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T17:37:50-05:00",
+      "firstSeenAt": "2026-10-06T18:41:07-05:00",
       "notes": "",
-      "updatedAt": "2026-10-22T18:43:00-05:00",
+      "updatedAt": "2026-10-23T07:47:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1350,6 +1350,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-23T07:42:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-10-22T19:20:49-05:00",
       "text": "Evening command center refresh: synced 23 bots across 13 zones from status files, added new teammate Workout to Command HQ, built and published the dashboard.",
@@ -1430,21 +1436,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-22T09:41:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "travel-agent",
-      "at": "2026-10-22T09:24:30-05:00",
-      "text": "Completed a deal search",
-      "finding": "Deals sent privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 3 setting up",
-      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Chief of Staff: Evening command center refresh: synced 23 bots across 13 zones from status files,…"
+      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-22T19:20:49-05:00"
+    "at": "2026-10-23T07:43:42-05:00"
   },
-  "generatedAt": "2026-10-22T19:20:49-05:00"
+  "generatedAt": "2026-10-23T07:43:42-05:00"
 }
