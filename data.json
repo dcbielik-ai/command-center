@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:43:42-05:00",
+  "updatedAt": "2026-10-23T07:46:31-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -329,8 +329,8 @@
           ]
         }
       ],
-      "lastRun": "After-close scan Oct 22: QQQ -2.9% on 1.8x volume (SPY -1.2%), tech led lower; 113 buy hits, 4 strong sell warnings incl. new PH breakdown.",
-      "lastRunAt": "2026-10-22T15:49:00-05:00",
+      "lastRun": "Pre-market scan for Oct 22 close: 683 tickers, 114 buy hits, 4 strong sell warnings (PH, ITA, PCAR new; JD repeat).",
+      "lastRunAt": "2026-10-23T07:50:00-05:00",
       "runTimes": [
         "2026-10-07T07:47:00-05:00",
         "2026-10-07T07:50:00-05:00",
@@ -353,17 +353,18 @@
         "2026-10-21T07:45:00-05:00",
         "2026-10-21T15:45:00-05:00",
         "2026-10-22T07:47:00-05:00",
-        "2026-10-22T15:49:00-05:00"
+        "2026-10-22T15:49:00-05:00",
+        "2026-10-23T07:50:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-23T07:38:00-05:00",
-      "latestFinding": "QQQ 704.47 closed just above its 20-day low of 701.90; URI broke out to 1111.02 on 2.2x volume; PH broke its 200-day (947.08) at 893.21 on 2.2x volume.",
+      "nextRunAt": "2026-10-23T15:38:00-05:00",
+      "latestFinding": "URI broke out above 1101.41 to 1111.02 on 2.4x volume; QQQ fell 2.9% to 704.47 (RSI 36.6) while XLP rose 3.3% to a 52-week high.",
       "waitingOnYou": [],
-      "runsCompleted": 25,
+      "runsCompleted": 26,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T07:47:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-22T15:49:00-05:00",
+      "updatedAt": "2026-10-23T07:50:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -461,7 +462,7 @@
       "waitingOnYou": [],
       "runsCompleted": 148,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-06T18:41:07-05:00",
+      "firstSeenAt": "2026-10-07T07:45:19-05:00",
       "notes": "",
       "updatedAt": "2026-10-23T07:47:00-05:00",
       "avatar": {
@@ -1350,6 +1351,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-23T07:50:00-05:00",
+      "text": "Pre-market scan for Oct 22 close: 683 tickers, 114 buy hits, 4 strong sell warnings (PH, ITA, PCAR new; JD repeat).",
+      "finding": "URI broke out above 1101.41 to 1111.02 on 2.4x volume; QQQ fell 2.9% to 704.47 (RSI 36.6) while XLP rose 3.3% to a 52-week high."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-23T07:42:00-05:00",
       "text": "Completed a news check",
@@ -1431,20 +1438,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-22T10:44:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-22T09:41:00-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 3 setting up",
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Technical Analyst: Pre-market scan for Oct 22 close: 683 tickers, 114 buy hits, 4 strong sell warnings…"
     ],
-    "at": "2026-10-23T07:43:42-05:00"
+    "at": "2026-10-23T07:46:31-05:00"
   },
-  "generatedAt": "2026-10-23T07:43:42-05:00"
+  "generatedAt": "2026-10-23T07:46:31-05:00"
 }
