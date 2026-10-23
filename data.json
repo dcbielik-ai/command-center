@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:57:08-05:00",
+  "updatedAt": "2026-10-23T07:59:57-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -838,7 +838,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-06T20:25:49-05:00",
       "runTimes": [
-        "2026-10-06T19:33:17-05:00",
         "2026-10-06T19:48:02-05:00",
         "2026-10-06T19:50:53-05:00",
         "2026-10-06T20:00:10-05:00",
@@ -853,7 +852,7 @@
       "waitingSince": "2026-10-06T20:25:49-05:00",
       "runsCompleted": 10,
       "created": "2026-10-06",
-      "firstSeenAt": "2026-10-06T19:33:17-05:00",
+      "firstSeenAt": "2026-10-06T19:48:02-05:00",
       "notes": "",
       "updatedAt": "2026-10-06T20:25:49-05:00",
       "avatar": {
@@ -877,7 +876,7 @@
       "routines": "Set up",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-20T09:10:00-05:00",
+      "lastRunAt": "2026-10-23T07:59:00-05:00",
       "runTimes": [
         "2026-10-07T15:39:16-05:00",
         "2026-10-07T15:49:07-05:00",
@@ -888,20 +887,21 @@
         "2026-10-18T11:47:00-05:00",
         "2026-10-18T23:47:00-05:00",
         "2026-10-19T12:00:00-05:00",
-        "2026-10-20T09:10:00-05:00"
+        "2026-10-20T09:10:00-05:00",
+        "2026-10-23T07:59:00-05:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-10-23T09:00:00-05:00",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
-        "Needs your approval"
+        "Needs a decision from you"
       ],
       "waitingSince": "2026-10-20T09:12:00-05:00",
-      "runsCompleted": 9,
+      "runsCompleted": 10,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-07T15:39:16-05:00",
       "notes": "",
-      "updatedAt": "2026-10-20T09:12:00-05:00",
+      "updatedAt": "2026-10-23T07:59:00-05:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1315,7 +1315,7 @@
     },
     {
       "bot": "fairway-daughters",
-      "text": "Needs your approval",
+      "text": "Needs a decision from you",
       "since": "2026-10-20T09:12:00-05:00"
     },
     {
@@ -1355,6 +1355,12 @@
       "at": "2026-10-23T08:02:00-05:00",
       "text": "Added 6 new deals; 691 deals tracked across TX and OK",
       "finding": "691 deals tracked"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": "2026-10-23T07:59:00-05:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
     },
     {
       "bot": "technical-analyst",
@@ -1433,12 +1439,6 @@
       "at": "2026-10-22T12:37:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-22T11:42:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1447,7 +1447,7 @@
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
       "Latest: VA Deal Scout: Added 6 new deals; 691 deals tracked across TX and OK"
     ],
-    "at": "2026-10-23T07:57:08-05:00"
+    "at": "2026-10-23T07:59:57-05:00"
   },
-  "generatedAt": "2026-10-23T07:57:08-05:00"
+  "generatedAt": "2026-10-23T07:59:57-05:00"
 }
