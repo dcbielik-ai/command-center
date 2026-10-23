@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T18:45:32-05:00",
+  "updatedAt": "2026-10-22T19:20:49-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -162,8 +162,8 @@
           ]
         }
       ],
-      "lastRun": "Morning command center refresh: synced 22 bots across 13 zones from status files, built and published the dashboard.",
-      "lastRunAt": "2026-10-22T08:16:59-05:00",
+      "lastRun": "Evening command center refresh: synced 23 bots across 13 zones from status files, added new teammate Workout to Command HQ, built and published the dashboard.",
+      "lastRunAt": "2026-10-22T19:20:49-05:00",
       "runTimes": [
         "2026-10-06T19:17:56-05:00",
         "2026-10-07T08:29:47-05:00",
@@ -190,17 +190,18 @@
         "2026-10-20T17:57:03-05:00",
         "2026-10-20T19:16:34-05:00",
         "2026-10-21T19:14:50-05:00",
-        "2026-10-22T08:16:59-05:00"
+        "2026-10-22T08:16:59-05:00",
+        "2026-10-22T19:20:49-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-22T19:10:00-05:00",
-      "latestFinding": "Team at 23 bots across 13 zones; 13 items are waiting on Dennis.",
+      "nextRunAt": "2026-10-23T08:10:00-05:00",
+      "latestFinding": "Team at 24 bots across 13 zones; 12 items are waiting on Dennis.",
       "waitingOnYou": [],
-      "runsCompleted": 24,
+      "runsCompleted": 25,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-06T19:17:56-05:00",
       "notes": "",
-      "updatedAt": "2026-10-22T08:16:59-05:00",
+      "updatedAt": "2026-10-22T19:20:49-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -836,7 +837,6 @@
       "lastRun": "Completed a run",
       "lastRunAt": "2026-10-06T20:25:49-05:00",
       "runTimes": [
-        "2026-10-06T17:07:38-05:00",
         "2026-10-06T19:33:17-05:00",
         "2026-10-06T19:48:02-05:00",
         "2026-10-06T19:50:53-05:00",
@@ -852,7 +852,7 @@
       "waitingSince": "2026-10-06T20:25:49-05:00",
       "runsCompleted": 10,
       "created": "2026-10-06",
-      "firstSeenAt": "2026-10-06T17:07:38-05:00",
+      "firstSeenAt": "2026-10-06T19:33:17-05:00",
       "notes": "",
       "updatedAt": "2026-10-06T20:25:49-05:00",
       "avatar": {
@@ -1257,6 +1257,33 @@
         "trim": "#3dff8b",
         "prop": "clipboard"
       }
+    },
+    {
+      "id": "workout",
+      "name": "Workout",
+      "zone": "hq",
+      "className": "Fitness",
+      "role": "Workout teammate. No description set yet.",
+      "status": "Setting up",
+      "schedule": "Not scheduled yet",
+      "routines": "None (works on request)",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-10-22",
+      "notes": "New teammate found Oct 22; no description or status file yet.",
+      "avatar": {
+        "hat": "cap",
+        "head": "#ffe0d0",
+        "body": "#ef4444",
+        "accent": "#1f1f1f",
+        "eye": "#ffd447",
+        "trim": "#ffffff"
+      }
     }
   ],
   "inbox": [
@@ -1322,6 +1349,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-22T19:20:49-05:00",
+      "text": "Evening command center refresh: synced 23 bots across 13 zones from status files, added new teammate Workout to Command HQ, built and published the dashboard.",
+      "finding": "Team at 24 bots across 13 zones; 12 items are waiting on Dennis."
+    },
     {
       "bot": "fundamentals-analyst",
       "at": "2026-10-22T18:55:00-05:00",
@@ -1403,20 +1436,15 @@
       "at": "2026-10-22T09:24:30-05:00",
       "text": "Completed a deal search",
       "finding": "Deals sent privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-22T08:39:00-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 12 items need you · 2 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Fundamentals Analyst: Oct 22 after-close brief: Western Digital, Comfort Systems, TTM Technologies and…"
+      "7 of 7 scheduled bots healthy · 12 items need you · 3 setting up",
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: Chief of Staff: Evening command center refresh: synced 23 bots across 13 zones from status files,…"
     ],
-    "at": "2026-10-22T18:45:32-05:00"
+    "at": "2026-10-22T19:20:49-05:00"
   },
-  "generatedAt": "2026-10-22T18:45:32-05:00"
+  "generatedAt": "2026-10-22T19:20:49-05:00"
 }
