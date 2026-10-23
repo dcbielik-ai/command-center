@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T18:01:01-05:00",
+  "updatedAt": "2026-10-23T18:02:50-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -112,20 +112,20 @@
       "cols": 4
     },
     {
-      "id": "productlab",
-      "name": "Product Lab",
-      "theme": "productlab",
-      "icon": "bulb",
-      "tagline": "New product inventions",
-      "span": 1,
-      "cols": 4
-    },
-    {
       "id": "dealdesk",
       "name": "Deal Desk",
       "theme": "dealdesk",
       "icon": "briefcase",
       "tagline": "Acquisition sourcing",
+      "span": 2,
+      "cols": 8
+    },
+    {
+      "id": "productlab",
+      "name": "Product Lab",
+      "theme": "productlab",
+      "icon": "bulb",
+      "tagline": "New product inventions",
       "span": 1,
       "cols": 4
     }
@@ -1476,7 +1476,7 @@
       "Next run: Portfolio News · News check, today 6:17 PM CT",
       "Latest: Chief of Staff: Recruited LinkedIn & Visibility for the Deal Desk."
     ],
-    "at": "2026-10-23T18:01:01-05:00"
+    "at": "2026-10-23T18:02:50-05:00"
   },
-  "generatedAt": "2026-10-23T18:01:01-05:00"
+  "generatedAt": "2026-10-23T18:02:50-05:00"
 }
