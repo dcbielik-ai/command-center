@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:26:21-05:00",
+  "updatedAt": "2026-10-23T09:42:41-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -422,10 +422,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-23T08:44:00-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-23T09:41:00-05:00",
       "runTimes": [
-        "2026-10-20T15:39:00-05:00",
         "2026-10-20T16:37:00-05:00",
         "2026-10-20T17:41:00-05:00",
         "2026-10-20T18:41:00-05:00",
@@ -454,17 +453,18 @@
         "2026-10-22T17:43:00-05:00",
         "2026-10-22T18:40:00-05:00",
         "2026-10-23T07:42:00-05:00",
-        "2026-10-23T08:44:00-05:00"
+        "2026-10-23T08:44:00-05:00",
+        "2026-10-23T09:41:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-23T09:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-23T10:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 149,
+      "runsCompleted": 150,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T08:44:49-05:00",
       "notes": "",
-      "updatedAt": "2026-10-23T08:47:00-05:00",
+      "updatedAt": "2026-10-23T09:47:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -553,7 +553,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-23T09:27:00-05:00",
       "runTimes": [
-        "2026-10-07T08:10:00-05:00",
         "2026-10-09T16:12:54-05:00",
         "2026-10-10T08:01:30.278440-05:00",
         "2026-10-10T08:02:02-05:00",
@@ -583,7 +582,7 @@
       "waitingOnYou": [],
       "runsCompleted": 25,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-07T08:10:00-05:00",
+      "firstSeenAt": "2026-10-09T16:12:54-05:00",
       "notes": "",
       "updatedAt": "2026-10-23T09:27:00-05:00",
       "avatar": {
@@ -1351,6 +1350,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-23T09:41:00-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "travel-agent",
       "at": "2026-10-23T09:27:00-05:00",
       "text": "Completed a deal search",
@@ -1433,21 +1437,15 @@
       "at": "2026-10-22T18:40:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-22T17:43:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 12 items need you · 3 setting up",
-      "Next run: Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Next run: Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-23T09:26:21-05:00"
+    "at": "2026-10-23T09:42:41-05:00"
   },
-  "generatedAt": "2026-10-23T09:26:21-05:00"
+  "generatedAt": "2026-10-23T09:42:41-05:00"
 }
