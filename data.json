@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T11:17:46-05:00",
+  "updatedAt": "2026-10-24T11:18:45-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,10 +171,9 @@
           ]
         }
       ],
-      "lastRun": "Added Sports Picks and opened the new Sports Zone.",
-      "lastRunAt": "2026-10-24T10:47:26-05:00",
+      "lastRun": "Shipped four dashboard upgrades (drill-down, live action, roster, private view)",
+      "lastRunAt": "2026-10-24T11:18:45-05:00",
       "runTimes": [
-        "2026-10-07T16:48:49-05:00",
         "2026-10-09T19:16:45-05:00",
         "2026-10-10T13:11:48-05:00",
         "2026-10-12T08:40:46-05:00",
@@ -200,17 +199,18 @@
         "2026-10-22T19:20:49-05:00",
         "2026-10-23T08:24:00-05:00",
         "2026-10-23T18:00:55-05:00",
-        "2026-10-24T10:47:26-05:00"
+        "2026-10-24T10:47:26-05:00",
+        "2026-10-24T11:18:45-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-23T19:10:00-05:00",
-      "latestFinding": "Team at 26 bots across 14 zones; 12 items are waiting on Dennis.",
+      "latestFinding": "Command Center upgraded: zone drill-downs with bot activity logs, glowing zones and needs-you markers, a 26-bot roster, celebration effects, and a private full-detail view on Cloudflare. 26 bots in 14 zones; 12 items need Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 26,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-07T16:48:49-05:00",
+      "firstSeenAt": "2026-10-09T19:16:45-05:00",
       "notes": "",
-      "updatedAt": "2026-10-24T10:47:26-05:00",
+      "updatedAt": "2026-10-24T11:18:45-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1423,6 +1423,12 @@
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-10-24T11:18:45-05:00",
+      "text": "Shipped four dashboard upgrades (drill-down, live action, roster, private view)",
+      "finding": "Command Center upgraded: zone drill-downs with bot activity logs, glowing zones and needs-you markers, a 26-bot roster, celebration effects, and a private full-detail view on Cloudflare. 26 bots in 14 zones; 12 items need Dennis."
+    },
+    {
       "bot": "sports-picks",
       "at": "2026-10-24T10:50:00-05:00",
       "text": "Working on sports research",
@@ -1505,21 +1511,15 @@
       "at": "2026-10-23T13:42:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-23T13:02:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 7 scheduled bots healthy (VA Deal Scout late) · 12 items need you · 3 setting up",
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Sports Picks: Working on sports research"
+      "Latest: Chief of Staff: Shipped four dashboard upgrades (drill-down, live action, roster, private view)"
     ],
-    "at": "2026-10-24T11:17:46-05:00"
+    "at": "2026-10-24T11:18:45-05:00"
   },
-  "generatedAt": "2026-10-24T11:17:46-05:00"
+  "generatedAt": "2026-10-24T11:18:45-05:00"
 }
