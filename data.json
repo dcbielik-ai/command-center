@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T18:51:13-05:00",
+  "updatedAt": "2026-10-24T09:23:56-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -549,7 +549,7 @@
       "routines": "Set up",
       "slots": [],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-23T09:27:00-05:00",
+      "lastRunAt": "2026-10-24T09:25:00-05:00",
       "runTimes": [
         "2026-10-09T16:12:54-05:00",
         "2026-10-10T08:01:30.278440-05:00",
@@ -573,16 +573,17 @@
         "2026-10-20T09:27:00-05:00",
         "2026-10-21T09:24:00-05:00",
         "2026-10-22T09:24:30-05:00",
-        "2026-10-23T09:27:00-05:00"
+        "2026-10-23T09:27:00-05:00",
+        "2026-10-24T09:25:00-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 25,
+      "runsCompleted": 26,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-09T16:12:54-05:00",
       "notes": "",
-      "updatedAt": "2026-10-23T09:27:00-05:00",
+      "updatedAt": "2026-10-24T09:25:00-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -873,7 +874,6 @@
       "lastRun": "Working on brand designs",
       "lastRunAt": "2026-10-23T17:57:00-05:00",
       "runTimes": [
-        "2026-10-07T15:49:07-05:00",
         "2026-10-07T16:20:00-05:00",
         "2026-10-10T13:15:00-05:00",
         "2026-10-10T13:40:00-05:00",
@@ -896,7 +896,7 @@
       "waitingSince": "2026-10-20T09:12:00-05:00",
       "runsCompleted": 13,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-10-07T15:49:07-05:00",
+      "firstSeenAt": "2026-10-07T16:20:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-23T17:57:00-05:00",
       "avatar": {
@@ -1381,6 +1381,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-24T09:25:00-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-23T18:58:00-05:00",
       "text": "Oct 23 after-close brief: growth-bar picks Enova, Knowles and Comfort Systems (after a 2-day drop); quality beats at Gorman-Rupp, First Citizens, AmEx and SLB; red flags at Sallie Mae, Flagstar, Gentex and SS&C.",
@@ -1462,21 +1468,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-23T11:42:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-23T10:35:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 12 items need you · 3 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Fundamentals Analyst: Oct 23 after-close brief: growth-bar picks Enova, Knowles and Comfort Systems (after a…"
+      "5 of 7 scheduled bots healthy (Chief of Staff, VA Deal Scout late) · 12 items need you · 3 setting up",
+      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-23T18:51:13-05:00"
+    "at": "2026-10-24T09:23:56-05:00"
   },
-  "generatedAt": "2026-10-23T18:51:13-05:00"
+  "generatedAt": "2026-10-24T09:23:56-05:00"
 }
