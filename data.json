@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T10:44:44-05:00",
+  "updatedAt": "2026-10-24T10:47:46-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -128,6 +128,15 @@
       "tagline": "New product inventions",
       "span": 1,
       "cols": 4
+    },
+    {
+      "id": "sportszone",
+      "name": "Sports Zone",
+      "theme": "sportszone",
+      "icon": "football",
+      "tagline": "Weekend game research",
+      "span": 1,
+      "cols": 4
     }
   ],
   "lockedSlots": [
@@ -162,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Recruited LinkedIn & Visibility for the Deal Desk.",
-      "lastRunAt": "2026-10-23T18:00:55-05:00",
+      "lastRun": "Added Sports Picks and opened the new Sports Zone.",
+      "lastRunAt": "2026-10-24T10:47:26-05:00",
       "runTimes": [
         "2026-10-07T16:48:49-05:00",
         "2026-10-09T19:16:45-05:00",
@@ -190,17 +199,18 @@
         "2026-10-22T08:16:59-05:00",
         "2026-10-22T19:20:49-05:00",
         "2026-10-23T08:24:00-05:00",
-        "2026-10-23T18:00:55-05:00"
+        "2026-10-23T18:00:55-05:00",
+        "2026-10-24T10:47:26-05:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-10-23T19:10:00-05:00",
-      "latestFinding": "Team at 25 bots across 13 zones; 12 items are waiting on Dennis.",
+      "latestFinding": "Team at 26 bots across 14 zones; 12 items are waiting on Dennis.",
       "waitingOnYou": [],
       "runsCompleted": 26,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-07T16:48:49-05:00",
       "notes": "",
-      "updatedAt": "2026-10-23T18:00:55-05:00",
+      "updatedAt": "2026-10-24T10:47:26-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -461,7 +471,7 @@
       "waitingOnYou": [],
       "runsCompleted": 159,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-07T16:43:00-05:00",
+      "firstSeenAt": "2026-10-07T17:39:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-23T18:45:00-05:00",
       "avatar": {
@@ -1314,6 +1324,39 @@
         "trim": "#ffffff",
         "prop": "clipboard"
       }
+    },
+    {
+      "id": "sports-picks",
+      "name": "Sports Picks",
+      "zone": "sportszone",
+      "className": "Sports Researcher",
+      "role": "Researches upcoming games. Details stay private.",
+      "status": "Active",
+      "schedule": "On request",
+      "routines": "Set up",
+      "slots": [],
+      "lastRun": "Working on sports research",
+      "lastRunAt": "2026-10-24T10:50:00-05:00",
+      "runTimes": [
+        "2026-10-24T10:50:00-05:00"
+      ],
+      "nextRun": "On demand",
+      "latestFinding": "Details stay private",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-24",
+      "firstSeenAt": "2026-10-24T10:50:00-05:00",
+      "notes": "",
+      "updatedAt": "2026-10-24T10:50:00-05:00",
+      "avatar": {
+        "hat": "helmet",
+        "head": "#ffe2c8",
+        "body": "#c2410c",
+        "accent": "#1a1420",
+        "eye": "#ffd447",
+        "trim": "#ffffff",
+        "prop": "football"
+      }
     }
   ],
   "inbox": [
@@ -1379,6 +1422,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "sports-picks",
+      "at": "2026-10-24T10:50:00-05:00",
+      "text": "Working on sports research",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-10-24T10:47:26-05:00",
+      "text": "Added Sports Picks and opened the new Sports Zone.",
+      "finding": "Team at 26 bots across 14 zones; 12 items are waiting on Dennis."
+    },
     {
       "bot": "travel-agent",
       "at": "2026-10-24T09:25:00-05:00",
@@ -1456,26 +1511,15 @@
       "at": "2026-10-23T13:02:00-05:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-23T12:36:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-23T11:42:00-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
-      "5 of 7 scheduled bots healthy (Chief of Staff, VA Deal Scout late) · 12 items need you · 3 setting up",
+      "6 of 7 scheduled bots healthy (VA Deal Scout late) · 12 items need you · 3 setting up",
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Travel Agent: Completed a deal search"
+      "Latest: Sports Picks: Working on sports research"
     ],
-    "at": "2026-10-24T10:44:44-05:00"
+    "at": "2026-10-24T10:47:46-05:00"
   },
-  "generatedAt": "2026-10-24T10:44:44-05:00"
+  "generatedAt": "2026-10-24T10:47:46-05:00"
 }
