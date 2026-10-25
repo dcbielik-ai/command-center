@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:57:52-05:00",
+  "updatedAt": "2026-10-25T08:11:52-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -490,27 +490,11 @@
       "className": "Scout: Deal Hunter",
       "role": "Finds homes for sale in Texas and Oklahoma with an assumable VA loan and ranks them by the smallest equity gap (cash needed to assume), with the assumable rate alongside. Personal side project.",
       "status": "Active",
-      "schedule": "Every day at 7:42 AM CT",
-      "routines": "Daily assumable VA listings check (TX + OK) (Every day at 7:42 AM CT)",
-      "slots": [
-        {
-          "label": "Daily assumable VA listings check (TX + OK)",
-          "days": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "times": [
-            "07:42"
-          ]
-        }
-      ],
-      "lastRun": "Added 6 new deals; 691 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-23T08:02:00-05:00",
+      "schedule": "Every 3 days at 7:42 AM CT",
+      "routines": "Assumable VA listings check every 3 days (TX + OK) (Every 3 days at 7:42 AM CT)",
+      "slots": [],
+      "lastRun": "Added 9 new deals; 700 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-25T08:11:52-05:00",
       "runTimes": [
         "2026-10-09T16:11:00-05:00",
         "2026-10-09T16:25:00-05:00",
@@ -528,17 +512,18 @@
         "2026-10-20T08:00:00-05:00",
         "2026-10-21T08:04:05-05:00",
         "2026-10-22T07:58:44-05:00",
-        "2026-10-23T08:02:00-05:00"
+        "2026-10-23T08:02:00-05:00",
+        "2026-10-25T08:11:52-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-24T07:42:00-05:00",
-      "latestFinding": "691 deals tracked",
+      "nextRunAt": "2026-10-28T07:42:00-05:00",
+      "latestFinding": "700 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 20,
+      "runsCompleted": 21,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-09T16:11:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-23T08:02:00-05:00",
+      "updatedAt": "2026-10-25T08:11:52-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -932,7 +917,6 @@
       "lastRun": "Building a family video game project",
       "lastRunAt": "2026-10-09T19:01:37-05:00",
       "runTimes": [
-        "2026-10-07T17:17:02-05:00",
         "2026-10-07T17:26:36-05:00",
         "2026-10-07T17:32:19-05:00",
         "2026-10-09T16:08:17-05:00",
@@ -946,7 +930,7 @@
       "waitingSince": "2026-10-07T17:17:02-05:00",
       "runsCompleted": 5,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-10-07T17:17:02-05:00",
+      "firstSeenAt": "2026-10-07T17:26:36-05:00",
       "notes": "",
       "updatedAt": "2026-10-09T19:01:37-05:00",
       "avatar": {
@@ -1423,6 +1407,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-25T08:11:52-05:00",
+      "text": "Added 9 new deals; 700 deals tracked across TX and OK",
+      "finding": "700 deals tracked"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-10-24T13:00:00-05:00",
       "text": "Sent a safety alert",
@@ -1505,21 +1495,15 @@
       "at": "2026-10-23T15:36:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-23T14:42:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "6 of 7 scheduled bots healthy (VA Deal Scout late) · 12 items need you · 3 setting up",
-      "Next run: VA Deal Scout · Daily assumable VA listings check (TX + OK), tomorrow 7:42 AM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "6 of 6 scheduled bots healthy · 12 items need you · 3 setting up",
+      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
+      "Latest: VA Deal Scout: Added 9 new deals; 700 deals tracked across TX and OK"
     ],
-    "at": "2026-10-24T12:57:52-05:00"
+    "at": "2026-10-25T08:11:52-05:00"
   },
-  "generatedAt": "2026-10-24T12:57:52-05:00"
+  "generatedAt": "2026-10-25T08:11:52-05:00"
 }
