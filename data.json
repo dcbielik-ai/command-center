@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T09:14:38-05:00",
+  "updatedAt": "2026-10-26T09:29:31-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -474,7 +474,7 @@
       "waitingOnYou": [],
       "runsCompleted": 161,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-09T18:38:00-05:00",
+      "firstSeenAt": "2026-10-12T07:57:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-26T08:47:00-05:00",
       "avatar": {
@@ -545,7 +545,7 @@
       "routines": "Set up",
       "slots": [],
       "lastRun": "Completed a deal search",
-      "lastRunAt": "2026-10-25T09:27:00-05:00",
+      "lastRunAt": "2026-10-26T09:29:30-05:00",
       "runTimes": [
         "2026-10-10T08:01:30.278440-05:00",
         "2026-10-10T08:02:02-05:00",
@@ -570,16 +570,17 @@
         "2026-10-22T09:24:30-05:00",
         "2026-10-23T09:27:00-05:00",
         "2026-10-24T09:25:00-05:00",
-        "2026-10-25T09:27:00-05:00"
+        "2026-10-25T09:27:00-05:00",
+        "2026-10-26T09:29:30-05:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Deals sent privately",
       "waitingOnYou": [],
-      "runsCompleted": 27,
+      "runsCompleted": 28,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-10T08:01:30.278440-05:00",
       "notes": "",
-      "updatedAt": "2026-10-25T09:27:00-05:00",
+      "updatedAt": "2026-10-26T09:29:30-05:00",
       "avatar": {
         "hat": "pilot",
         "head": "#d6f3ff",
@@ -1409,6 +1410,12 @@
   ],
   "feed": [
     {
+      "bot": "travel-agent",
+      "at": "2026-10-26T09:29:30-05:00",
+      "text": "Completed a deal search",
+      "finding": "Deals sent privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-10-26T09:14:00-05:00",
       "text": "Working on brand designs",
@@ -1489,21 +1496,15 @@
       "at": "2026-10-24T10:50:00-05:00",
       "text": "Working on sports research",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-24T10:47:26-05:00",
-      "text": "Added Sports Picks and opened the new Sports Zone.",
-      "finding": "Team at 26 bots across 14 zones; 12 items are waiting on Dennis."
     }
   ],
   "briefing": {
     "lines": [
       "6 of 6 scheduled bots healthy · 12 items need you · 3 setting up",
       "Next run: Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Latest: Travel Agent: Completed a deal search"
     ],
-    "at": "2026-10-26T09:14:38-05:00"
+    "at": "2026-10-26T09:29:31-05:00"
   },
-  "generatedAt": "2026-10-26T09:14:38-05:00"
+  "generatedAt": "2026-10-26T09:29:31-05:00"
 }
