@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T16:37:30-05:00",
+  "updatedAt": "2026-10-26T17:41:14-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -433,10 +433,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-10-26T16:36:00-05:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-10-26T17:40:00-05:00",
       "runTimes": [
-        "2026-10-22T11:42:00-05:00",
         "2026-10-22T12:37:00-05:00",
         "2026-10-22T13:42:00-05:00",
         "2026-10-22T14:42:00-05:00",
@@ -465,17 +464,18 @@
         "2026-10-26T13:41:00-05:00",
         "2026-10-26T14:43:00-05:00",
         "2026-10-26T15:35:00-05:00",
-        "2026-10-26T16:36:00-05:00"
+        "2026-10-26T16:36:00-05:00",
+        "2026-10-26T17:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-26T17:35:00-05:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-10-26T18:35:00-05:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 169,
+      "runsCompleted": 170,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-12T07:57:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-26T16:40:00-05:00",
+      "updatedAt": "2026-10-26T17:45:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -498,7 +498,6 @@
       "lastRun": "Added 9 new deals; 700 deals tracked across TX and OK",
       "lastRunAt": "2026-10-25T08:11:52-05:00",
       "runTimes": [
-        "2026-10-11T07:52:00-05:00",
         "2026-10-12T08:10:00-05:00",
         "2026-10-13T08:05:00-05:00",
         "2026-10-14T08:05:00-05:00",
@@ -520,7 +519,7 @@
       "waitingOnYou": [],
       "runsCompleted": 21,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-11T07:52:00-05:00",
+      "firstSeenAt": "2026-10-12T08:10:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-25T08:11:52-05:00",
       "avatar": {
@@ -1404,6 +1403,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-26T17:40:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-26T16:36:00-05:00",
       "text": "Sent 1 alert"
     },
@@ -1478,21 +1483,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-26T08:42:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-10-26T08:35:00-05:00",
-      "text": "Oct 26 trending heads-up: Brazil ADR crash after Lula's win and a neocloud selloff dominate chatter; Micron, Sterling, Meta, Fair Isaac and Nu pass the growth bar.",
-      "finding": "Sterling Infrastructure trades near 13.9x forward earnings after falling about 60% from its 52-week high, despite 90% Q2 revenue growth and a $4.33B backlog, with Q3 results due Oct 28."
     }
   ],
   "briefing": {
     "lines": [
       "6 of 6 scheduled bots healthy · 12 items need you · 3 setting up",
-      "Next run: Portfolio News · News check, today 5:35 PM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Next run: Portfolio News · News check, today 6:17 PM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-26T16:37:30-05:00"
+    "at": "2026-10-26T17:41:14-05:00"
   },
-  "generatedAt": "2026-10-26T16:37:30-05:00"
+  "generatedAt": "2026-10-26T17:41:14-05:00"
 }
