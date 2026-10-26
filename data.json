@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T15:37:01-05:00",
+  "updatedAt": "2026-10-26T15:43:44-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 26 bots across 14 zones from status files, built and published the dashboard.",
       "lastRunAt": "2026-10-26T08:20:00-05:00",
       "runTimes": [
-        "2026-10-10T13:11:48-05:00",
         "2026-10-12T08:40:46-05:00",
         "2026-10-12T14:28:17-05:00",
         "2026-10-13T08:27:25-05:00",
@@ -208,7 +207,7 @@
       "waitingOnYou": [],
       "runsCompleted": 28,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-10T13:11:48-05:00",
+      "firstSeenAt": "2026-10-12T08:40:46-05:00",
       "notes": "",
       "updatedAt": "2026-10-26T08:20:00-05:00",
       "avatar": {
@@ -341,8 +340,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market scan on the Oct 23 session: 683 tickers, 108 buy hits, 6 strong sell warnings (BKNG, TTWO new; GL carried from Friday's close).",
-      "lastRunAt": "2026-10-26T07:45:00-05:00",
+      "lastRun": "After-close scan on Oct 26: 683 tickers, 143 buy hits, 6 sell warnings (PCAR, T, GE new); Brazil names collapsed on heavy volume.",
+      "lastRunAt": "2026-10-26T15:45:00-05:00",
       "runTimes": [
         "2026-10-12T07:58:17-05:00",
         "2026-10-12T15:53:21-05:00",
@@ -365,17 +364,18 @@
         "2026-10-22T15:49:00-05:00",
         "2026-10-23T07:50:00-05:00",
         "2026-10-23T15:50:00-05:00",
-        "2026-10-26T07:45:00-05:00"
+        "2026-10-26T07:45:00-05:00",
+        "2026-10-26T15:45:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-26T15:38:00-05:00",
-      "latestFinding": "TMO held its 20-day (672.10) at 673.82 with 3-day accumulation; S&P 500 closed 7623.68 (-0.5%), VIX 19.45; energy (XLE +2.6%) led, communications and industrials lagged.",
+      "nextRunAt": "2026-10-27T07:38:00-05:00",
+      "latestFinding": "EWZ fell 19.8% to 34.15 on 8.2x average volume (ITUB -20.4%, NU -17.0%, PBR -14.0%); SPY +0.7% to 765.37, QQQ +1.1%, SMH +2.7%.",
       "waitingOnYou": [],
-      "runsCompleted": 28,
+      "runsCompleted": 29,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-12T07:58:17-05:00",
       "notes": "",
-      "updatedAt": "2026-10-26T07:45:00-05:00",
+      "updatedAt": "2026-10-26T15:45:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1405,6 +1405,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-26T15:45:00-05:00",
+      "text": "After-close scan on Oct 26: 683 tickers, 143 buy hits, 6 sell warnings (PCAR, T, GE new); Brazil names collapsed on heavy volume.",
+      "finding": "EWZ fell 19.8% to 34.15 on 8.2x average volume (ITUB -20.4%, NU -17.0%, PBR -14.0%); SPY +0.7% to 765.37, QQQ +1.1%, SMH +2.7%."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-10-26T15:35:00-05:00",
       "text": "Sent 1 alert"
@@ -1481,21 +1487,15 @@
       "at": "2026-10-26T08:20:00-05:00",
       "text": "Morning command center refresh: synced 26 bots across 14 zones from status files, built and published the dashboard.",
       "finding": "Weekend and Monday-morning updates from 7 bots synced; 12 items wait on Dennis."
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-26T07:58:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 6 scheduled bots healthy · 12 items need you · 3 setting up",
-      "Next run: Technical Analyst · After-close big-move alert, today 3:38 PM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Technical Analyst: After-close scan on Oct 26: 683 tickers, 143 buy hits, 6 sell warnings (PCAR, T, GE…"
     ],
-    "at": "2026-10-26T15:37:01-05:00"
+    "at": "2026-10-26T15:43:44-05:00"
   },
-  "generatedAt": "2026-10-26T15:37:01-05:00"
+  "generatedAt": "2026-10-26T15:43:44-05:00"
 }
