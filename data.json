@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T08:20:38-05:00",
+  "updatedAt": "2026-10-27T08:29:24-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -861,7 +861,7 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "active",
+      "status": "idle",
       "schedule": "Scheduled",
       "routines": "Set up",
       "slots": [],
@@ -1520,7 +1520,7 @@
       "Next run: Portfolio News · News check, today 8:35 AM CT",
       "Latest: Fundamentals Analyst: Oct 27 trending heads-up: Celestica, Broadcom, Micron and Reddit pass the growth bar…"
     ],
-    "at": "2026-10-27T08:20:38-05:00"
+    "at": "2026-10-27T08:29:24-05:00"
   },
-  "generatedAt": "2026-10-27T08:20:38-05:00"
+  "generatedAt": "2026-10-27T08:29:24-05:00"
 }
