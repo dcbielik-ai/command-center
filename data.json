@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T07:44:26-05:00",
+  "updatedAt": "2026-10-28T08:08:38-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -346,7 +346,6 @@
       "lastRun": "Pre-market scan on Oct 27 session: 683 tickers, 183 buy hits, 7 sell warnings (ARE, MGM new vs prior morning; GE dropped off).",
       "lastRunAt": "2026-10-28T07:45:00-05:00",
       "runTimes": [
-        "2026-10-12T15:53:21-05:00",
         "2026-10-13T07:57:52-05:00",
         "2026-10-13T15:49:00-05:00",
         "2026-10-13T15:52:00-05:00",
@@ -378,7 +377,7 @@
       "waitingOnYou": [],
       "runsCompleted": 32,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-12T15:53:21-05:00",
+      "firstSeenAt": "2026-10-13T07:57:52-05:00",
       "notes": "",
       "updatedAt": "2026-10-28T07:45:00-05:00",
       "avatar": {
@@ -478,7 +477,7 @@
       "waitingOnYou": [],
       "runsCompleted": 184,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-12T15:47:16-05:00",
+      "firstSeenAt": "2026-10-12T16:45:11-05:00",
       "notes": "",
       "updatedAt": "2026-10-28T07:46:00-05:00",
       "avatar": {
@@ -500,8 +499,8 @@
       "schedule": "Every 3 days at 7:42 AM CT",
       "routines": "Assumable VA listings check every 3 days (TX + OK) (Every 3 days at 7:42 AM CT)",
       "slots": [],
-      "lastRun": "Added 9 new deals; 700 deals tracked across TX and OK",
-      "lastRunAt": "2026-10-25T08:11:52-05:00",
+      "lastRun": "Added 13 new deals; 713 deals tracked across TX and OK",
+      "lastRunAt": "2026-10-28T08:12:00-05:00",
       "runTimes": [
         "2026-10-13T08:05:00-05:00",
         "2026-10-14T08:05:00-05:00",
@@ -515,17 +514,18 @@
         "2026-10-21T08:04:05-05:00",
         "2026-10-22T07:58:44-05:00",
         "2026-10-23T08:02:00-05:00",
-        "2026-10-25T08:11:52-05:00"
+        "2026-10-25T08:11:52-05:00",
+        "2026-10-28T08:12:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-28T07:42:00-05:00",
-      "latestFinding": "700 deals tracked",
+      "nextRunAt": "2026-10-31T07:42:00-05:00",
+      "latestFinding": "713 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 21,
+      "runsCompleted": 22,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-13T08:05:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-25T08:11:52-05:00",
+      "updatedAt": "2026-10-28T08:12:00-05:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1424,6 +1424,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-10-28T08:12:00-05:00",
+      "text": "Added 13 new deals; 713 deals tracked across TX and OK",
+      "finding": "713 deals tracked"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-10-28T07:45:00-05:00",
       "text": "Pre-market scan on Oct 27 session: 683 tickers, 183 buy hits, 7 sell warnings (ARE, MGM new vs prior morning; GE dropped off).",
@@ -1502,21 +1508,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-27T11:38:00-05:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-27T10:41:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 6 scheduled bots healthy · 12 items need you · 4 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Technical Analyst: Pre-market scan on Oct 27 session: 683 tickers, 183 buy hits, 7 sell warnings (ARE,…"
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: VA Deal Scout: Added 13 new deals; 713 deals tracked across TX and OK"
     ],
-    "at": "2026-10-28T07:44:26-05:00"
+    "at": "2026-10-28T08:08:38-05:00"
   },
-  "generatedAt": "2026-10-28T07:44:26-05:00"
+  "generatedAt": "2026-10-28T08:08:38-05:00"
 }
