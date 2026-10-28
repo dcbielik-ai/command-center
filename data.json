@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T08:22:22-05:00",
+  "updatedAt": "2026-10-28T08:41:34-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -440,10 +440,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 2 alerts",
-      "lastRunAt": "2026-10-28T07:42:00-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-28T08:40:00-05:00",
       "runTimes": [
-        "2026-10-23T14:42:00-05:00",
         "2026-10-23T15:36:00-05:00",
         "2026-10-23T16:40:00-05:00",
         "2026-10-23T17:43:00-05:00",
@@ -472,17 +471,18 @@
         "2026-10-27T16:39:00-05:00",
         "2026-10-27T17:39:00-05:00",
         "2026-10-27T18:44:00-05:00",
-        "2026-10-28T07:42:00-05:00"
+        "2026-10-28T07:42:00-05:00",
+        "2026-10-28T08:40:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-28T08:35:00-05:00",
-      "latestFinding": "Sent 2 alerts",
+      "nextRunAt": "2026-10-28T09:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 184,
+      "runsCompleted": 185,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-13T07:44:25-05:00",
+      "firstSeenAt": "2026-10-13T08:49:49-05:00",
       "notes": "",
-      "updatedAt": "2026-10-28T07:46:00-05:00",
+      "updatedAt": "2026-10-28T08:44:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1427,6 +1427,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-28T08:40:00-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-28T08:30:00-05:00",
       "text": "Oct 28 trending heads-up: Micron is a Buy; Vertiv, Seagate and SoFi pass the growth bar but are Holds; Robinhood and Nebius are trending without the fundamentals.",
@@ -1507,20 +1512,15 @@
       "at": "2026-10-27T14:44:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-27T13:39:00-05:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "6 of 6 scheduled bots healthy · 12 items need you · 4 setting up",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Fundamentals Analyst: Oct 28 trending heads-up: Micron is a Buy; Vertiv, Seagate and SoFi pass the growth…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-28T08:22:22-05:00"
+    "at": "2026-10-28T08:41:34-05:00"
   },
-  "generatedAt": "2026-10-28T08:22:22-05:00"
+  "generatedAt": "2026-10-28T08:41:34-05:00"
 }
