@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:43:16-05:00",
+  "updatedAt": "2026-10-29T12:36:18-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 27 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-10-29T08:20:00-05:00",
       "runTimes": [
-        "2026-10-14T08:17:22-05:00",
         "2026-10-14T16:35:58-05:00",
         "2026-10-14T19:18:47-05:00",
         "2026-10-15T08:18:18-05:00",
@@ -208,7 +207,7 @@
       "waitingOnYou": [],
       "runsCompleted": 34,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-14T08:17:22-05:00",
+      "firstSeenAt": "2026-10-14T16:35:58-05:00",
       "notes": "",
       "updatedAt": "2026-10-29T08:20:00-05:00",
       "avatar": {
@@ -437,9 +436,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-29T11:42:00-05:00",
+      "lastRunAt": "2026-10-29T12:35:00-05:00",
       "runTimes": [
-        "2026-10-26T17:40:00-05:00",
         "2026-10-26T18:41:00-05:00",
         "2026-10-27T07:39:00-05:00",
         "2026-10-27T08:41:57-05:00",
@@ -468,17 +466,18 @@
         "2026-10-29T08:43:00-05:00",
         "2026-10-29T09:38:00-05:00",
         "2026-10-29T10:43:00-05:00",
-        "2026-10-29T11:42:00-05:00"
+        "2026-10-29T11:42:00-05:00",
+        "2026-10-29T12:35:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-29T12:35:00-05:00",
+      "nextRunAt": "2026-10-29T13:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 199,
+      "runsCompleted": 200,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-14T08:36:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T11:47:00-05:00",
+      "updatedAt": "2026-10-29T12:42:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1438,6 +1437,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-29T12:35:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-29T11:42:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1518,20 +1523,15 @@
       "at": "2026-10-29T07:50:00-05:00",
       "text": "Pre-market scan on Oct 28 session: 683 tickers, 190 buy hits, 5 sell warnings (none new); brief sent.",
       "finding": "STX 697.97 (+4.5%, 2.5x vol) bouncing off its 200-day; IEX 238.54 (2.6x vol) near 241.30 breakout; VRT +16.5% on 3.6x vol; SPY 772.31, VIX 16.91."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-29T07:43:00-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 11 items need you · 4 setting up",
-      "Next run: Portfolio News · News check, today 12:35 PM CT",
+      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-29T11:43:16-05:00"
+    "at": "2026-10-29T12:36:18-05:00"
   },
-  "generatedAt": "2026-10-29T11:43:16-05:00"
+  "generatedAt": "2026-10-29T12:36:18-05:00"
 }
