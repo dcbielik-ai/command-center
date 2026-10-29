@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:16:35-05:00",
+  "updatedAt": "2026-10-29T08:44:27-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -349,7 +349,6 @@
       "lastRun": "Pre-market scan on Oct 28 session: 683 tickers, 190 buy hits, 5 sell warnings (none new); brief sent.",
       "lastRunAt": "2026-10-29T07:50:00-05:00",
       "runTimes": [
-        "2026-10-13T15:49:00-05:00",
         "2026-10-14T07:48:00-05:00",
         "2026-10-14T15:46:00-05:00",
         "2026-10-15T07:46:00-05:00",
@@ -380,7 +379,7 @@
       "waitingOnYou": [],
       "runsCompleted": 34,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-13T15:49:00-05:00",
+      "firstSeenAt": "2026-10-14T07:48:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-29T07:50:00-05:00",
       "avatar": {
@@ -440,10 +439,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 2 alerts",
-      "lastRunAt": "2026-10-29T07:43:00-05:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-10-29T08:43:00-05:00",
       "runTimes": [
-        "2026-10-26T13:41:00-05:00",
         "2026-10-26T14:43:00-05:00",
         "2026-10-26T15:35:00-05:00",
         "2026-10-26T16:36:00-05:00",
@@ -472,17 +470,18 @@
         "2026-10-28T15:38:00-05:00",
         "2026-10-28T17:42:00-05:00",
         "2026-10-28T18:41:00-05:00",
-        "2026-10-29T07:43:00-05:00"
+        "2026-10-29T07:43:00-05:00",
+        "2026-10-29T08:43:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-29T08:35:00-05:00",
-      "latestFinding": "Sent 2 alerts",
+      "nextRunAt": "2026-10-29T09:35:00-05:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 195,
+      "runsCompleted": 196,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-13T16:37:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T07:46:00-05:00",
+      "updatedAt": "2026-10-29T08:47:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1426,6 +1425,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-29T08:43:00-05:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-29T08:25:00-05:00",
       "text": "Oct 29 pre-market heads-up: Sterling, Micron and Microsoft are Buys and Marvell and Eli Lilly are Holds, while Alphabet, ServiceNow, Fortinet, Caterpillar and Iovance trend on selloffs without passing the growth bar.",
@@ -1505,21 +1509,15 @@
       "at": "2026-10-28T12:44:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-28T11:43:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "5 of 6 scheduled bots healthy (Chief of Staff late) · 12 items need you · 4 setting up",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Fundamentals Analyst: Oct 29 pre-market heads-up: Sterling, Micron and Microsoft are Buys and Marvell and…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-10-29T08:16:35-05:00"
+    "at": "2026-10-29T08:44:27-05:00"
   },
-  "generatedAt": "2026-10-29T08:16:35-05:00"
+  "generatedAt": "2026-10-29T08:44:27-05:00"
 }
