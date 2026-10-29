@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T12:57:55-05:00",
+  "updatedAt": "2026-10-29T13:42:07-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -435,10 +435,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-29T12:35:00-05:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-10-29T13:45:00-05:00",
       "runTimes": [
-        "2026-10-26T18:41:00-05:00",
         "2026-10-27T07:39:00-05:00",
         "2026-10-27T08:41:57-05:00",
         "2026-10-27T09:47:17-05:00",
@@ -467,17 +466,18 @@
         "2026-10-29T09:38:00-05:00",
         "2026-10-29T10:43:00-05:00",
         "2026-10-29T11:42:00-05:00",
-        "2026-10-29T12:35:00-05:00"
+        "2026-10-29T12:35:00-05:00",
+        "2026-10-29T13:45:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-29T13:35:00-05:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-10-29T14:35:00-05:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 200,
+      "runsCompleted": 201,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-14T09:43:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T12:42:00-05:00",
+      "updatedAt": "2026-10-29T13:47:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -544,7 +544,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-29T09:35:00-05:00",
       "runTimes": [
-        "2026-10-14T09:20:26-05:00",
         "2026-10-15T07:56:00-05:00",
         "2026-10-15T09:26:00-05:00",
         "2026-10-16T08:05:00-05:00",
@@ -570,7 +569,7 @@
       "waitingOnYou": [],
       "runsCompleted": 32,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-14T09:20:26-05:00",
+      "firstSeenAt": "2026-10-15T07:56:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-29T09:35:00-05:00",
       "avatar": {
@@ -1437,6 +1436,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-29T13:45:00-05:00",
+      "text": "Sent 2 alerts"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-10-29T12:58:00-05:00",
       "text": "Sent a safety alert",
@@ -1518,21 +1522,15 @@
       "at": "2026-10-29T08:20:00-05:00",
       "text": "Morning command center refresh: synced 27 bots across 14 zones, built and published the dashboard.",
       "finding": "Overnight and morning updates from 3 bots (stocks and AI Lab); Sports Picks still quiet since Oct 24."
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-29T07:55:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 7 scheduled bots healthy · 11 items need you · 4 setting up",
-      "Next run: Portfolio News · News check, today 1:35 PM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Next run: Portfolio News · News check, today 2:35 PM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-10-29T12:57:55-05:00"
+    "at": "2026-10-29T13:42:07-05:00"
   },
-  "generatedAt": "2026-10-29T12:57:55-05:00"
+  "generatedAt": "2026-10-29T13:42:07-05:00"
 }
