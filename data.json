@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T07:38:08-05:00",
+  "updatedAt": "2026-10-30T07:44:25-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Evening command center refresh: synced 29 bots across 14 zones, added Sewing Bot, built and published the dashboard.",
       "lastRunAt": "2026-10-29T19:20:00-05:00",
       "runTimes": [
-        "2026-10-14T19:18:47-05:00",
         "2026-10-15T08:18:18-05:00",
         "2026-10-15T19:16:41-05:00",
         "2026-10-16T08:18:53-05:00",
@@ -207,7 +206,7 @@
       "waitingOnYou": [],
       "runsCompleted": 35,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-14T19:18:47-05:00",
+      "firstSeenAt": "2026-10-15T08:18:18-05:00",
       "notes": "",
       "updatedAt": "2026-10-29T19:20:00-05:00",
       "avatar": {
@@ -344,8 +343,8 @@
           ]
         }
       ],
-      "lastRun": "After-close scan on Oct 29 session: 683 tickers, 166 buy hits, 4 sell warnings; alert sent on GOOGL failing support.",
-      "lastRunAt": "2026-10-29T15:50:00-05:00",
+      "lastRun": "Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new).",
+      "lastRunAt": "2026-10-30T07:46:00-05:00",
       "runTimes": [
         "2026-10-15T07:46:00-05:00",
         "2026-10-15T15:46:00-05:00",
@@ -368,17 +367,18 @@
         "2026-10-28T07:45:00-05:00",
         "2026-10-28T15:46:00-05:00",
         "2026-10-29T07:50:00-05:00",
-        "2026-10-29T15:50:00-05:00"
+        "2026-10-29T15:50:00-05:00",
+        "2026-10-30T07:46:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-30T07:38:00-05:00",
-      "latestFinding": "GOOGL 283.82 (-12.6%, 5.3x vol) broke 316.60 support from this morning's list; QQQ -1.4% to 715.34; XLV +2.4%; SPY 769.36 (-0.4%).",
+      "nextRunAt": "2026-10-30T15:38:00-05:00",
+      "latestFinding": "Top setup CNC 68.62 held its 20-day (67.80) on 2.7x volume spike; QQQ -1.4% to 715.34 while XLV +2.4%; MGM new death-cross sell warning at 28.83.",
       "waitingOnYou": [],
-      "runsCompleted": 35,
+      "runsCompleted": 36,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-15T07:46:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T15:50:00-05:00",
+      "updatedAt": "2026-10-30T07:46:00-05:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1510,6 +1510,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-10-30T07:46:00-05:00",
+      "text": "Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new).",
+      "finding": "Top setup CNC 68.62 held its 20-day (67.80) on 2.7x volume spike; QQQ -1.4% to 715.34 while XLV +2.4%; MGM new death-cross sell warning at 28.83."
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-10-30T07:45:00-05:00",
       "text": "Morning brief Oct 30: AI-capex selloff dominates. INTC (-23-25% premarket), AMZN (-6-7%), RDDT (-21-23%) mention spikes on WSB; GOOGL record drop still top 30-day story; Binance hack hit crypto stocks; memory chips (MU/SNDK) and hawkish Fed are the month's background themes.",
@@ -1588,21 +1594,15 @@
       "bot": "portfolio-news",
       "at": "2026-10-29T13:45:00-05:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-29T12:58:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Investing Buzz: Morning brief Oct 30: AI-capex selloff dominates. INTC (-23-25% premarket), AMZN…"
+      "Latest: Technical Analyst: Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new)."
     ],
-    "at": "2026-10-30T07:38:08-05:00"
+    "at": "2026-10-30T07:44:25-05:00"
   },
-  "generatedAt": "2026-10-30T07:38:08-05:00"
+  "generatedAt": "2026-10-30T07:44:25-05:00"
 }
