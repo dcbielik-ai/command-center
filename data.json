@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:16:57-05:00",
+  "updatedAt": "2026-10-30T08:37:22-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -437,10 +437,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 3 alerts",
-      "lastRunAt": "2026-10-30T07:35:00-05:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-10-30T08:36:00-05:00",
       "runTimes": [
-        "2026-10-27T13:39:00-05:00",
         "2026-10-27T14:44:00-05:00",
         "2026-10-27T15:42:00-05:00",
         "2026-10-27T16:39:00-05:00",
@@ -469,17 +468,18 @@
         "2026-10-29T16:43:00-05:00",
         "2026-10-29T17:39:00-05:00",
         "2026-10-29T18:38:00-05:00",
-        "2026-10-30T07:35:00-05:00"
+        "2026-10-30T07:35:00-05:00",
+        "2026-10-30T08:36:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-30T08:35:00-05:00",
-      "latestFinding": "Sent 3 alerts",
+      "nextRunAt": "2026-10-30T09:35:00-05:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 207,
+      "runsCompleted": 208,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-15T08:47:17-05:00",
       "notes": "",
-      "updatedAt": "2026-10-30T07:40:00-05:00",
+      "updatedAt": "2026-10-30T08:39:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -773,7 +773,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-10-29T12:58:00-05:00",
       "runTimes": [
-        "2026-10-15T07:58:00-05:00",
         "2026-10-15T13:02:00-05:00",
         "2026-10-16T12:56:00-05:00",
         "2026-10-17T12:58:00-05:00",
@@ -801,7 +800,7 @@
       "waitingOnYou": [],
       "runsCompleted": 30,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-15T07:58:00-05:00",
+      "firstSeenAt": "2026-10-15T13:02:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-29T12:58:00-05:00",
       "avatar": {
@@ -1511,6 +1510,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-10-30T08:36:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-10-30T08:20:00-05:00",
       "text": "Oct 30 pre-market heads-up: Sandisk, Micron and Reddit are Buys on trending lists; Dell and AMD are Holds; Intel, Amazon, Roblox, Rivian, Coinbase and Twilio are trending without meeting the growth bar.",
@@ -1591,20 +1596,15 @@
       "at": "2026-10-29T15:50:00-05:00",
       "text": "After-close scan on Oct 29 session: 683 tickers, 166 buy hits, 4 sell warnings; alert sent on GOOGL failing support.",
       "finding": "GOOGL 283.82 (-12.6%, 5.3x vol) broke 316.60 support from this morning's list; QQQ -1.4% to 715.34; XLV +2.4%; SPY 769.36 (-0.4%)."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-29T15:37:00-05:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Fundamentals Analyst: Oct 30 pre-market heads-up: Sandisk, Micron and Reddit are Buys on trending lists;…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-30T08:16:57-05:00"
+    "at": "2026-10-30T08:37:22-05:00"
   },
-  "generatedAt": "2026-10-30T08:16:57-05:00"
+  "generatedAt": "2026-10-30T08:37:22-05:00"
 }
