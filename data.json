@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T16:42:53-05:00",
+  "updatedAt": "2026-10-30T17:42:20-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -437,9 +437,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-30T16:42:00-05:00",
+      "lastRunAt": "2026-10-30T17:41:00-05:00",
       "runTimes": [
-        "2026-10-28T10:39:00-05:00",
         "2026-10-28T11:43:00-05:00",
         "2026-10-28T12:44:00-05:00",
         "2026-10-28T13:39:00-05:00",
@@ -468,17 +467,18 @@
         "2026-10-30T13:39:00-05:00",
         "2026-10-30T14:36:00-05:00",
         "2026-10-30T15:43:00-05:00",
-        "2026-10-30T16:42:00-05:00"
+        "2026-10-30T16:42:00-05:00",
+        "2026-10-30T17:41:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-30T17:35:00-05:00",
+      "nextRunAt": "2026-10-30T18:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 216,
+      "runsCompleted": 217,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-15T13:44:00-05:00",
+      "firstSeenAt": "2026-10-15T14:41:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-30T16:45:00-05:00",
+      "updatedAt": "2026-10-30T17:45:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1516,6 +1516,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-30T17:41:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-30T16:42:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1597,21 +1603,15 @@
       "at": "2026-10-30T08:20:00-05:00",
       "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "finding": "Overnight and morning updates from 4 stock bots; Intel, Reddit and Amazon drops and a big crypto exchange hack lead the news."
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-30T07:46:00-05:00",
-      "text": "Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new).",
-      "finding": "Top setup CNC 68.62 held its 20-day (67.80) on 2.7x volume spike; QQQ -1.4% to 715.34 while XLV +2.4%; MGM new death-cross sell warning at 28.83."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 5:35 PM CT",
+      "Next run: Portfolio News · News check, today 6:17 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-30T16:42:53-05:00"
+    "at": "2026-10-30T17:42:20-05:00"
   },
-  "generatedAt": "2026-10-30T16:42:53-05:00"
+  "generatedAt": "2026-10-30T17:42:20-05:00"
 }
