@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:06:21-05:00",
+  "updatedAt": "2026-10-29T19:06:31-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -1375,6 +1375,51 @@
         "eye": "#ffd447",
         "trim": "#3de0ff"
       }
+    },
+    {
+      "id": "investing-buzz",
+      "name": "Investing Buzz",
+      "zone": "stocks",
+      "className": "Scout: Market Buzz",
+      "role": "Scans Reddit investing communities and major finance headlines to rank the most-talked-about tickers, themes, and subjects over a rolling last-30-days window. Buzz brief Sun–Fri around 7:30 AM CT (skip Saturday); alerts only on unusual spikes. Research and conversation ranking only — no trades or personalized advice.",
+      "status": "Active",
+      "schedule": "Sun-Fri at 7:30 AM CT",
+      "routines": "Morning buzz brief (Sun-Fri at 7:30 AM CT)",
+      "slots": [
+        {
+          "label": "Morning buzz brief",
+          "days": [
+            4,
+            6
+          ],
+          "times": [
+            "07:30"
+          ]
+        }
+      ],
+      "lastRun": "Evening starter scan Oct 29: GOOGL led retail and news chatter after a ~13% record drop; software (NOW/FTNT) and after-hours AMZN/INTC also spiked. Brief delivered in chat.",
+      "lastRunAt": "2026-10-29T19:05:50-05:00",
+      "runTimes": [
+        "2026-10-29T19:05:45-05:00",
+        "2026-10-29T19:05:50-05:00"
+      ],
+      "nextRun": "",
+      "nextRunAt": "2026-10-30T07:30:00-05:00",
+      "latestFinding": "GOOGL dominated Oct 29 buzz (~13% record drop, wipeout) with heavy WSB/news volume; AMZN and INTC spiked after hours on earnings misses/weak guidance.",
+      "waitingOnYou": [],
+      "runsCompleted": 1,
+      "created": "2026-10-29",
+      "firstSeenAt": "2026-10-29T19:05:45-05:00",
+      "notes": "Rolling 30-day lookback. Skip Saturday.",
+      "updatedAt": "2026-10-29T19:06:21-05:00",
+      "avatar": {
+        "hat": "fedora",
+        "head": "#d4f5e8",
+        "body": "#0d9488",
+        "accent": "#134e4a",
+        "eye": "#5eead4",
+        "trim": "#fbbf24"
+      }
     }
   ],
   "inbox": [
@@ -1435,6 +1480,18 @@
     }
   ],
   "feed": [
+    {
+      "bot": "investing-buzz",
+      "at": "2026-10-29T19:05:50-05:00",
+      "text": "Evening starter scan Oct 29: GOOGL led retail and news chatter after a ~13% record drop; software (NOW/FTNT) and after-hours AMZN/INTC also spiked. Brief delivered in chat.",
+      "finding": "GOOGL dominated Oct 29 buzz (~13% record drop, wipeout) with heavy WSB/news volume; AMZN and INTC spiked after hours on earnings misses/weak guidance."
+    },
+    {
+      "bot": "investing-buzz",
+      "at": "2026-10-29T19:05:45-05:00",
+      "text": "Evening starter scan Oct 29: GOOGL led retail and news chatter after a ~13% record drop; software (NOW/FTNT) and after-hours AMZN/INTC also spiked. Brief delivered in chat.",
+      "finding": "GOOGL dominated Oct 29 buzz (~13% record drop, wipeout) with heavy WSB/news volume; AMZN and INTC spiked after hours on earnings misses/weak guidance."
+    },
     {
       "bot": "m-a-deal-scout",
       "at": "2026-10-29T18:57:53-05:00",
@@ -1509,27 +1566,15 @@
       "at": "2026-10-29T10:43:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "sports-picks",
-      "at": "2026-10-29T10:15:00-05:00",
-      "text": "Working on sports research",
-      "finding": "Details stay private"
-    },
-    {
-      "bot": "sports-picks",
-      "at": "2026-10-29T10:14:55-05:00",
-      "text": "Working on sports research",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 11 items need you · 4 setting up",
+      "8 of 8 scheduled bots healthy · 11 items need you · 4 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: M&A Deal Scout: Researching acquisition targets"
+      "Latest: Investing Buzz: Evening starter scan Oct 29: GOOGL led retail and news chatter after a ~13% record…"
     ],
-    "at": "2026-10-29T19:06:21-05:00"
+    "at": "2026-10-29T19:06:31-05:00"
   },
-  "generatedAt": "2026-10-29T19:06:21-05:00"
+  "generatedAt": "2026-10-29T19:06:31-05:00"
 }
