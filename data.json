@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:16:17-05:00",
+  "updatedAt": "2026-10-30T08:16:57-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 29 bots across 14 zones, added Sewing Bot, built and published the dashboard.",
-      "lastRunAt": "2026-10-29T19:20:00-05:00",
+      "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-10-30T08:20:00-05:00",
       "runTimes": [
         "2026-10-15T08:18:18-05:00",
         "2026-10-15T19:16:41-05:00",
@@ -198,17 +198,18 @@
         "2026-10-27T19:20:00-05:00",
         "2026-10-28T08:22:00-05:00",
         "2026-10-29T08:20:00-05:00",
-        "2026-10-29T19:20:00-05:00"
+        "2026-10-29T19:20:00-05:00",
+        "2026-10-30T08:20:00-05:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-10-30T08:10:00-05:00",
-      "latestFinding": "Updates from 9 bots today; Sports Picks is back with its Thursday card and last week's grades.",
+      "nextRunAt": "2026-10-30T19:10:00-05:00",
+      "latestFinding": "Overnight and morning updates from 4 stock bots; Intel, Reddit and Amazon drops and a big crypto exchange hack lead the news.",
       "waitingOnYou": [],
-      "runsCompleted": 35,
+      "runsCompleted": 36,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-15T08:18:18-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T19:20:00-05:00",
+      "updatedAt": "2026-10-30T08:20:00-05:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -347,7 +348,6 @@
       "lastRun": "Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new).",
       "lastRunAt": "2026-10-30T07:46:00-05:00",
       "runTimes": [
-        "2026-10-15T07:46:00-05:00",
         "2026-10-15T15:46:00-05:00",
         "2026-10-16T07:44:00-05:00",
         "2026-10-16T15:45:00-05:00",
@@ -377,7 +377,7 @@
       "waitingOnYou": [],
       "runsCompleted": 36,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-15T07:46:00-05:00",
+      "firstSeenAt": "2026-10-15T15:46:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T07:46:00-05:00",
       "avatar": {
@@ -1517,6 +1517,12 @@
       "finding": "Reddit fell about 24% premarket on weak Q4 guidance even though trailing revenue is up 62% and it trades about 14x forward earnings."
     },
     {
+      "bot": "chief-of-staff",
+      "at": "2026-10-30T08:20:00-05:00",
+      "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "finding": "Overnight and morning updates from 4 stock bots; Intel, Reddit and Amazon drops and a big crypto exchange hack lead the news."
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-10-30T07:46:00-05:00",
       "text": "Pre-market scan on Oct 29 session: 683 tickers, 168 buy hits, 4 sell warnings (MGM new).",
@@ -1590,12 +1596,6 @@
       "bot": "portfolio-news",
       "at": "2026-10-29T15:37:00-05:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-29T14:41:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1604,7 +1604,7 @@
       "Next run: Portfolio News · News check, today 8:35 AM CT",
       "Latest: Fundamentals Analyst: Oct 30 pre-market heads-up: Sandisk, Micron and Reddit are Buys on trending lists;…"
     ],
-    "at": "2026-10-30T08:16:17-05:00"
+    "at": "2026-10-30T08:16:57-05:00"
   },
-  "generatedAt": "2026-10-30T08:16:17-05:00"
+  "generatedAt": "2026-10-30T08:16:57-05:00"
 }
