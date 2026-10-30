@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T10:39:25-05:00",
+  "updatedAt": "2026-10-30T11:44:55-05:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-10-30T08:20:00-05:00",
       "runTimes": [
-        "2026-10-15T08:18:18-05:00",
         "2026-10-15T19:16:41-05:00",
         "2026-10-16T08:18:53-05:00",
         "2026-10-16T19:16:20-05:00",
@@ -207,7 +206,7 @@
       "waitingOnYou": [],
       "runsCompleted": 36,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-15T08:18:18-05:00",
+      "firstSeenAt": "2026-10-15T19:16:41-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T08:20:00-05:00",
       "avatar": {
@@ -437,9 +436,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-10-30T10:38:00-05:00",
+      "lastRunAt": "2026-10-30T11:43:00-05:00",
       "runTimes": [
-        "2026-10-27T16:39:00-05:00",
         "2026-10-27T17:39:00-05:00",
         "2026-10-27T18:44:00-05:00",
         "2026-10-28T07:42:00-05:00",
@@ -468,17 +466,18 @@
         "2026-10-30T07:35:00-05:00",
         "2026-10-30T08:36:00-05:00",
         "2026-10-30T09:43:00-05:00",
-        "2026-10-30T10:38:00-05:00"
+        "2026-10-30T10:38:00-05:00",
+        "2026-10-30T11:43:00-05:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-10-30T11:35:00-05:00",
+      "nextRunAt": "2026-10-30T12:35:00-05:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 210,
+      "runsCompleted": 211,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-15T08:47:17-05:00",
       "notes": "",
-      "updatedAt": "2026-10-30T10:42:00-05:00",
+      "updatedAt": "2026-10-30T11:47:00-05:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1517,6 +1516,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-10-30T11:43:00-05:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-10-30T10:38:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1597,21 +1602,15 @@
       "at": "2026-10-29T18:55:00-05:00",
       "text": "Oct 29 after-close brief: Sandisk and FTAI Aviation are Buys; Quanta, Howmet, Eli Lilly, Amazon and Caterpillar are Holds; Alnylam is flagged after a tax-driven EPS beat masked slowing sales.",
       "finding": "Sandisk grew revenue 378% to $11.03B with 85% gross margins and trades about 5x forward earnings, though sequential growth is slowing to roughly 13%."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-29T18:38:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 11:35 AM CT",
+      "Next run: Portfolio News · News check, today 12:35 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-10-30T10:39:25-05:00"
+    "at": "2026-10-30T11:44:55-05:00"
   },
-  "generatedAt": "2026-10-30T10:39:25-05:00"
+  "generatedAt": "2026-10-30T11:44:55-05:00"
 }
