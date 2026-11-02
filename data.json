@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:43:40-06:00",
+  "updatedAt": "2026-11-02T09:13:58-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -477,7 +477,7 @@
       "waitingOnYou": [],
       "runsCompleted": 220,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T10:36:00-05:00",
+      "firstSeenAt": "2026-10-16T11:48:30-05:00",
       "notes": "",
       "updatedAt": "2026-11-02T08:46:00-06:00",
       "avatar": {
@@ -863,7 +863,7 @@
       "routines": "Set up",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-10-29T09:16:41-05:00",
+      "lastRunAt": "2026-11-02T09:13:58-06:00",
       "runTimes": [
         "2026-10-17T22:07:00-05:00",
         "2026-10-18T11:47:00-05:00",
@@ -875,20 +875,21 @@
         "2026-10-23T09:05:00-05:00",
         "2026-10-23T17:57:00-05:00",
         "2026-10-26T09:14:00-05:00",
-        "2026-10-29T09:16:41-05:00"
+        "2026-10-29T09:16:41-05:00",
+        "2026-11-02T09:13:58-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-01T08:00:00-06:00",
+      "nextRunAt": "2026-11-05T09:00:00-06:00",
       "latestFinding": "Details stay private until launch",
       "waitingOnYou": [
         "Needs your approval"
       ],
       "waitingSince": "2026-10-20T09:12:00-05:00",
-      "runsCompleted": 15,
+      "runsCompleted": 16,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-17T22:07:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-29T09:16:41-05:00",
+      "updatedAt": "2026-11-02T09:13:58-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1521,6 +1522,12 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": "2026-11-02T09:13:58-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "trend-scout",
       "at": "2026-11-02T08:55:00-06:00",
       "text": "Completed a run",
@@ -1601,21 +1608,15 @@
       "at": "2026-10-31T08:26:00-05:00",
       "text": "Added 24 new deals; 737 deals tracked across TX and OK",
       "finding": "737 deals tracked"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-10-30T19:20:00-05:00",
-      "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "finding": "Stock bots tracked a sharp Friday selloff (QQQ -3.5%, Intel -28.6%); Travel Agent sent lodging picks for your choice."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Trend Scout: Completed a run"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-02T08:43:40-06:00"
+    "at": "2026-11-02T09:13:58-06:00"
   },
-  "generatedAt": "2026-11-02T08:43:40-06:00"
+  "generatedAt": "2026-11-02T09:13:58-06:00"
 }
