@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T07:49:36-06:00",
+  "updatedAt": "2026-11-02T08:00:40-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -500,7 +500,6 @@
       "lastRun": "Added 3 new deals; 740 deals tracked across TX and OK",
       "lastRunAt": "2026-11-01T08:07:04-06:00",
       "runTimes": [
-        "2026-10-16T08:10:00-05:00",
         "2026-10-17T08:01:00-05:00",
         "2026-10-17T08:05:00-05:00",
         "2026-10-18T08:14:00-05:00",
@@ -520,7 +519,7 @@
       "waitingOnYou": [],
       "runsCompleted": 24,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T08:10:00-05:00",
+      "firstSeenAt": "2026-10-17T08:01:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-01T08:07:04-06:00",
       "avatar": {
@@ -771,7 +770,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-11-01T12:55:00-06:00",
+      "lastRunAt": "2026-11-02T08:05:00-06:00",
       "runTimes": [
         "2026-10-16T12:56:00-05:00",
         "2026-10-17T12:58:00-05:00",
@@ -794,17 +793,18 @@
         "2026-10-29T12:58:00-05:00",
         "2026-10-30T12:56:00-05:00",
         "2026-10-31T12:55:00-05:00",
-        "2026-11-01T12:55:00-06:00"
+        "2026-11-01T12:55:00-06:00",
+        "2026-11-02T08:05:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-02T07:50:00-06:00",
+      "nextRunAt": "2026-11-02T12:50:00-06:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [],
-      "runsCompleted": 33,
+      "runsCompleted": 34,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-16T12:56:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-01T12:55:00-06:00",
+      "updatedAt": "2026-11-02T08:05:00-06:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1519,6 +1519,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-11-02T08:05:00-06:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-02T07:50:00-06:00",
       "text": "Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new: INTC, TRX, TTWO).",
@@ -1600,21 +1606,15 @@
       "at": "2026-10-30T16:42:00-05:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-10-30T15:43:00-05:00",
-      "text": "After-close check on Oct 30 session: 683 tickers, 132 buy hits, 5 sell warnings; alert sent (QQQ -3.5%, INTC breakdown).",
-      "finding": "QQQ -3.5% to 690.49 on 2.3x volume, below its 20/50-day; SMH -7.0%; INTC -28.6% to 65.76 on 4.5x volume, below its 200-day (86.86); REGN +13.3% breakout on 4.1x."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Technical Analyst: Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new:…"
+      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-11-02T07:49:36-06:00"
+    "at": "2026-11-02T08:00:40-06:00"
   },
-  "generatedAt": "2026-11-02T07:49:36-06:00"
+  "generatedAt": "2026-11-02T08:00:40-06:00"
 }
