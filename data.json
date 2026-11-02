@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T07:41:09-06:00",
+  "updatedAt": "2026-11-02T07:49:36-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -259,7 +259,6 @@
       "lastRun": "Oct 30 after-close brief: nVent, MasTec, Monolithic Power and Sandisk are Buys; Regeneron, BrightSpring and Reddit are Holds; Intel is a Sell after a weak Q4 guide.",
       "lastRunAt": "2026-10-30T18:45:00-05:00",
       "runTimes": [
-        "2026-10-16T08:04:30-05:00",
         "2026-10-16T18:46:00-05:00",
         "2026-10-16T18:55:00-05:00",
         "2026-10-19T08:12:17-05:00",
@@ -295,7 +294,7 @@
       "waitingOnYou": [],
       "runsCompleted": 30,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T08:04:30-05:00",
+      "firstSeenAt": "2026-10-16T18:46:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-10-30T18:45:00-05:00",
       "avatar": {
@@ -344,8 +343,8 @@
           ]
         }
       ],
-      "lastRun": "After-close check on Oct 30 session: 683 tickers, 132 buy hits, 5 sell warnings; alert sent (QQQ -3.5%, INTC breakdown).",
-      "lastRunAt": "2026-10-30T15:43:00-05:00",
+      "lastRun": "Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new: INTC, TRX, TTWO).",
+      "lastRunAt": "2026-11-02T07:50:00-06:00",
       "runTimes": [
         "2026-10-16T15:45:00-05:00",
         "2026-10-19T07:50:00-05:00",
@@ -367,17 +366,18 @@
         "2026-10-29T07:50:00-05:00",
         "2026-10-29T15:50:00-05:00",
         "2026-10-30T07:46:00-05:00",
-        "2026-10-30T15:43:00-05:00"
+        "2026-10-30T15:43:00-05:00",
+        "2026-11-02T07:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-02T07:38:00-06:00",
-      "latestFinding": "QQQ -3.5% to 690.49 on 2.3x volume, below its 20/50-day; SMH -7.0%; INTC -28.6% to 65.76 on 4.5x volume, below its 200-day (86.86); REGN +13.3% breakout on 4.1x.",
+      "nextRunAt": "2026-11-02T15:38:00-06:00",
+      "latestFinding": "QQQ 690.49 (-3.5%), 4.7% below its 50-day, RSI 35; top setup IEX 233.84 testing 50-day 229.71 after 2.6x volume; INTC 200-day breakdown on 4.5x volume.",
       "waitingOnYou": [],
-      "runsCompleted": 37,
+      "runsCompleted": 38,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-16T15:45:00-05:00",
       "notes": "",
-      "updatedAt": "2026-10-30T15:43:00-05:00",
+      "updatedAt": "2026-11-02T07:50:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1519,6 +1519,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-02T07:50:00-06:00",
+      "text": "Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new: INTC, TRX, TTWO).",
+      "finding": "QQQ 690.49 (-3.5%), 4.7% below its 50-day, RSI 35; top setup IEX 233.84 testing 50-day 229.71 after 2.6x volume; INTC 200-day breakdown on 4.5x volume."
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-02T07:45:00-06:00",
       "text": "Morning brief Nov 2: Monday news spike from Marvell's all-stock deal for Lumentum (MRVL rank 197 to 16 on WSB, LITE 257 to 27). SPY and RDDT tie at #1 on Reddit; AAPL mentions doubled into tonight's earnings (with PLTR), framed as an AI-selloff hedge. AMD reports Tue, midterms Tue, payrolls Fri.",
@@ -1600,21 +1606,15 @@
       "at": "2026-10-30T15:43:00-05:00",
       "text": "After-close check on Oct 30 session: 683 tickers, 132 buy hits, 5 sell warnings; alert sent (QQQ -3.5%, INTC breakdown).",
       "finding": "QQQ -3.5% to 690.49 on 2.3x volume, below its 20/50-day; SMH -7.0%; INTC -28.6% to 65.76 on 4.5x volume, below its 200-day (86.86); REGN +13.3% breakout on 4.1x."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-10-30T15:43:00-05:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Investing Buzz: Morning brief Nov 2: Monday news spike from Marvell's all-stock deal for Lumentum…"
+      "Latest: Technical Analyst: Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new:…"
     ],
-    "at": "2026-11-02T07:41:09-06:00"
+    "at": "2026-11-02T07:49:36-06:00"
   },
-  "generatedAt": "2026-11-02T07:41:09-06:00"
+  "generatedAt": "2026-11-02T07:49:36-06:00"
 }
