@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T09:36:10-06:00",
+  "updatedAt": "2026-11-02T10:43:32-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -437,10 +437,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-02T09:35:00-06:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-11-02T10:42:00-06:00",
       "runTimes": [
-        "2026-10-28T15:38:00-05:00",
         "2026-10-28T17:42:00-05:00",
         "2026-10-28T18:41:00-05:00",
         "2026-10-29T07:43:00-05:00",
@@ -469,17 +468,18 @@
         "2026-10-30T18:38:00-05:00",
         "2026-11-02T07:40:00-06:00",
         "2026-11-02T08:42:00-06:00",
-        "2026-11-02T09:35:00-06:00"
+        "2026-11-02T09:35:00-06:00",
+        "2026-11-02T10:42:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-02T10:35:00-06:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-11-02T11:35:00-06:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 221,
+      "runsCompleted": 222,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T12:47:00-05:00",
+      "firstSeenAt": "2026-10-16T13:45:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-02T09:39:00-06:00",
+      "updatedAt": "2026-11-02T10:47:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1523,6 +1523,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-02T10:42:00-06:00",
+      "text": "Sent 2 alerts"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-02T09:35:00-06:00",
       "text": "Sent 1 alert"
     },
@@ -1601,21 +1606,15 @@
       "at": "2026-11-01T07:45:00-06:00",
       "text": "Morning brief Nov 1: weekend cooldown after the AI-capex selloff. RDDT still #1 on Reddit (-36% week), GOOG/GOOGL (-13% week), INTC (-24% week) and AMD stay top-10; week ahead is AAPL/PLTR Mon, midterms + AMD Tue, payrolls Fri. Binance hack and cannabis rescheduling pause (MSOS) are side stories.",
       "finding": "No unusual spike: weekend Reddit mentions down ~60-80% vs a day earlier; small weekend pops in AGI (gold miner earnings), TTWO (GTA VI Nov 19) and MSOS (DEA judge pause) are low-volume."
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-10-31T12:55:00-05:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 10:35 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Next run: Portfolio News · News check, today 11:35 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-11-02T09:36:10-06:00"
+    "at": "2026-11-02T10:43:32-06:00"
   },
-  "generatedAt": "2026-11-02T09:36:10-06:00"
+  "generatedAt": "2026-11-02T10:43:32-06:00"
 }
