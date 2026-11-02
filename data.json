@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T13:45:09-06:00",
+  "updatedAt": "2026-11-02T14:38:40-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -348,7 +348,6 @@
       "lastRun": "Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new: INTC, TRX, TTWO).",
       "lastRunAt": "2026-11-02T07:50:00-06:00",
       "runTimes": [
-        "2026-10-16T15:45:00-05:00",
         "2026-10-19T07:50:00-05:00",
         "2026-10-19T15:47:00-05:00",
         "2026-10-20T07:46:44-05:00",
@@ -377,7 +376,7 @@
       "waitingOnYou": [],
       "runsCompleted": 38,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T15:45:00-05:00",
+      "firstSeenAt": "2026-10-19T07:50:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-02T07:50:00-06:00",
       "avatar": {
@@ -438,9 +437,8 @@
         }
       ],
       "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-02T13:43:00-06:00",
+      "lastRunAt": "2026-11-02T14:38:00-06:00",
       "runTimes": [
-        "2026-10-29T08:43:00-05:00",
         "2026-10-29T09:38:00-05:00",
         "2026-10-29T10:43:00-05:00",
         "2026-10-29T11:42:00-05:00",
@@ -469,17 +467,18 @@
         "2026-11-02T10:42:00-06:00",
         "2026-11-02T11:39:00-06:00",
         "2026-11-02T12:44:00-06:00",
-        "2026-11-02T13:43:00-06:00"
+        "2026-11-02T13:43:00-06:00",
+        "2026-11-02T14:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-02T14:35:00-06:00",
+      "nextRunAt": "2026-11-02T15:35:00-06:00",
       "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 225,
+      "runsCompleted": 226,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-16T16:44:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-02T13:47:00-06:00",
+      "updatedAt": "2026-11-02T14:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1523,6 +1522,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-02T14:38:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-02T13:43:00-06:00",
       "text": "Sent 1 alert"
     },
@@ -1599,21 +1603,15 @@
       "at": "2026-11-02T07:50:00-06:00",
       "text": "Pre-market scan on Oct 30 session: 683 tickers, 136 buy hits, 5 sell warnings (3 new: INTC, TRX, TTWO).",
       "finding": "QQQ 690.49 (-3.5%), 4.7% below its 50-day, RSI 35; top setup IEX 233.84 testing 50-day 229.71 after 2.6x volume; INTC 200-day breakdown on 4.5x volume."
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-02T07:45:00-06:00",
-      "text": "Morning brief Nov 2: Monday news spike from Marvell's all-stock deal for Lumentum (MRVL rank 197 to 16 on WSB, LITE 257 to 27). SPY and RDDT tie at #1 on Reddit; AAPL mentions doubled into tonight's earnings (with PLTR), framed as an AI-selloff hedge. AMD reports Tue, midterms Tue, payrolls Fri.",
-      "finding": "Unusual spike: MRVL/LITE mentions jumped ~10x overnight on the Marvell-Lumentum merger, news-driven. Also SOXL mentions 2 to 14 as retail eyes a chip bounce."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 2:35 PM CT",
+      "Next run: Portfolio News · News check, today 3:35 PM CT",
       "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-02T13:45:09-06:00"
+    "at": "2026-11-02T14:38:40-06:00"
   },
-  "generatedAt": "2026-11-02T13:45:09-06:00"
+  "generatedAt": "2026-11-02T14:38:40-06:00"
 }
