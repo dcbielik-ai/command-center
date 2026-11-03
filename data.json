@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T08:22:15-06:00",
+  "updatedAt": "2026-11-03T08:39:25-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -439,10 +439,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 3 alerts",
-      "lastRunAt": "2026-11-03T07:36:00-06:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-11-03T08:38:00-06:00",
       "runTimes": [
-        "2026-10-29T14:41:00-05:00",
         "2026-10-29T15:37:00-05:00",
         "2026-10-29T16:43:00-05:00",
         "2026-10-29T17:39:00-05:00",
@@ -471,17 +470,18 @@
         "2026-11-02T16:38:00-06:00",
         "2026-11-02T17:42:00-06:00",
         "2026-11-02T18:43:00-06:00",
-        "2026-11-03T07:36:00-06:00"
+        "2026-11-03T07:36:00-06:00",
+        "2026-11-03T08:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-03T08:35:00-06:00",
-      "latestFinding": "Sent 3 alerts",
+      "nextRunAt": "2026-11-03T09:35:00-06:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 231,
+      "runsCompleted": 232,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T07:37:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-03T07:40:00-06:00",
+      "updatedAt": "2026-11-03T08:41:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -504,7 +504,6 @@
       "lastRun": "Added 3 new deals; 740 deals tracked across TX and OK",
       "lastRunAt": "2026-11-01T08:07:04-06:00",
       "runTimes": [
-        "2026-10-18T08:14:00-05:00",
         "2026-10-19T08:10:00-05:00",
         "2026-10-20T08:00:00-05:00",
         "2026-10-21T08:04:05-05:00",
@@ -521,7 +520,7 @@
       "waitingOnYou": [],
       "runsCompleted": 24,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-18T08:14:00-05:00",
+      "firstSeenAt": "2026-10-19T08:10:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-01T08:07:04-06:00",
       "avatar": {
@@ -1519,6 +1518,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-03T08:38:00-06:00",
+      "text": "Sent 2 alerts"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-03T08:22:00-06:00",
       "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
@@ -1595,21 +1599,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-02T13:43:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-02T12:52:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Chief of Staff: Morning command center refresh: synced 29 bots across 14 zones, built and published…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-11-03T08:22:15-06:00"
+    "at": "2026-11-03T08:39:25-06:00"
   },
-  "generatedAt": "2026-11-03T08:22:15-06:00"
+  "generatedAt": "2026-11-03T08:39:25-06:00"
 }
