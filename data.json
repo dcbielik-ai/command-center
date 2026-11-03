@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T07:36:34-06:00",
+  "updatedAt": "2026-11-03T07:36:46-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -436,10 +436,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-02T18:43:00-06:00",
+      "lastRun": "Sent 3 alerts",
+      "lastRunAt": "2026-11-03T07:36:00-06:00",
       "runTimes": [
-        "2026-10-29T13:45:00-05:00",
         "2026-10-29T14:41:00-05:00",
         "2026-10-29T15:37:00-05:00",
         "2026-10-29T16:43:00-05:00",
@@ -468,17 +467,18 @@
         "2026-11-02T15:42:00-06:00",
         "2026-11-02T16:38:00-06:00",
         "2026-11-02T17:42:00-06:00",
-        "2026-11-02T18:43:00-06:00"
+        "2026-11-02T18:43:00-06:00",
+        "2026-11-03T07:36:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-03T07:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-03T08:35:00-06:00",
+      "latestFinding": "Sent 3 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 230,
+      "runsCompleted": 231,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T07:37:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-02T18:45:00-06:00",
+      "updatedAt": "2026-11-03T07:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -544,7 +544,6 @@
       "lastRunAt": "2026-10-30T09:10:00-05:00",
       "runTimes": [
         "2026-10-17T09:30:00-05:00",
-        "2026-10-17T09:30:12.678173-05:00",
         "2026-10-18T09:27:00-05:00",
         "2026-10-19T09:28:00-05:00",
         "2026-10-20T09:27:00-05:00",
@@ -1526,6 +1525,11 @@
       "finding": "Unusual spikes: MU mentions ~10x (15 to 156) and PLTR ~8x (18 to 140), plus MRVL/LITE still ~8x on the Lumentum deal. Mostly news/earnings-driven, concentrated in WSB."
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-03T07:36:00-06:00",
+      "text": "Sent 3 alerts"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-02T19:15:00-06:00",
       "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
@@ -1595,11 +1599,6 @@
       "bot": "portfolio-news",
       "at": "2026-11-02T10:42:00-06:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-02T09:35:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
@@ -1608,7 +1607,7 @@
       "Next run: Technical Analyst · Pre-market technical scan, today 7:38 AM CT",
       "Latest: Investing Buzz: Morning brief Nov 3: post-earnings pile-on. AAPL #1 on Reddit (239 mentions vs 43 a…"
     ],
-    "at": "2026-11-03T07:36:34-06:00"
+    "at": "2026-11-03T07:36:46-06:00"
   },
-  "generatedAt": "2026-11-03T07:36:34-06:00"
+  "generatedAt": "2026-11-03T07:36:46-06:00"
 }
