@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:43:47-06:00",
+  "updatedAt": "2026-11-02T18:45:06-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-02T08:20:00-06:00",
       "runTimes": [
-        "2026-10-16T19:16:20-05:00",
         "2026-10-19T08:15:00-05:00",
         "2026-10-19T19:20:00-05:00",
         "2026-10-20T08:15:00-05:00",
@@ -206,7 +205,7 @@
       "waitingOnYou": [],
       "runsCompleted": 38,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-16T19:16:20-05:00",
+      "firstSeenAt": "2026-10-19T08:15:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-02T08:20:00-06:00",
       "avatar": {
@@ -256,8 +255,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 2 pre-market heads-up: Nvidia and Micron are Buys; Sandisk, AMD, Marvell, Lumentum and Reddit are Holds; Palantir, Intel and SpaceX are hype without the valuation or fundamentals.",
-      "lastRunAt": "2026-11-02T08:03:00-06:00",
+      "lastRun": "Nov 2 after-close brief: Advanced Energy, Allison Transmission and Lattice are Buys; Palantir is a Sell on valuation despite 96% revenue growth; Apple, IDEXX, Marriott, Vertex, Hinge Health and Tempus are Holds.",
+      "lastRunAt": "2026-11-02T18:50:00-06:00",
       "runTimes": [
         "2026-10-19T08:12:17-05:00",
         "2026-10-19T18:53:00-05:00",
@@ -286,17 +285,18 @@
         "2026-10-30T18:45:00-05:00",
         "2026-10-30T18:55:00-05:00",
         "2026-11-02T08:03:00-06:00",
-        "2026-11-02T08:20:00-06:00"
+        "2026-11-02T08:20:00-06:00",
+        "2026-11-02T18:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-02T18:40:00-06:00",
-      "latestFinding": "Marvell agreed to buy Lumentum in an all-stock deal (4.5 Marvell shares per Lumentum share, about $115B enterprise value), expected to close in the first half of 2028.",
+      "nextRunAt": "2026-11-03T08:01:00-06:00",
+      "latestFinding": "Advanced Energy posted 50% revenue growth and its fourth guidance raise of 2026, trading near 14x next year's earnings after a 34% slide.",
       "waitingOnYou": [],
-      "runsCompleted": 31,
+      "runsCompleted": 32,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T08:12:17-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-02T08:03:00-06:00",
+      "updatedAt": "2026-11-02T18:50:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1520,6 +1520,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-02T18:50:00-06:00",
+      "text": "Nov 2 after-close brief: Advanced Energy, Allison Transmission and Lattice are Buys; Palantir is a Sell on valuation despite 96% revenue growth; Apple, IDEXX, Marriott, Vertex, Hinge Health and Tempus are Holds.",
+      "finding": "Advanced Energy posted 50% revenue growth and its fourth guidance raise of 2026, trading near 14x next year's earnings after a 34% slide."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-02T18:43:00-06:00",
       "text": "Completed a news check",
@@ -1594,20 +1600,15 @@
       "at": "2026-11-02T08:55:00-06:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-02T08:42:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Nov 2 after-close brief: Advanced Energy, Allison Transmission and Lattice are Buys;…"
     ],
-    "at": "2026-11-02T18:43:47-06:00"
+    "at": "2026-11-02T18:45:06-06:00"
   },
-  "generatedAt": "2026-11-02T18:43:47-06:00"
+  "generatedAt": "2026-11-02T18:45:06-06:00"
 }
