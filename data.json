@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T14:38:34-06:00",
+  "updatedAt": "2026-11-03T15:43:13-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -346,8 +346,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market scan on Nov 2 session: 682 tickers, 180 buy hits, 6 sell warnings (LITE, SOXX, PCAR new).",
-      "lastRunAt": "2026-11-03T07:48:00-06:00",
+      "lastRun": "After-close scan on Nov 3 session: 682 tickers, 194 buy hits, 6 sell warnings (APO, MRVL new); alert sent.",
+      "lastRunAt": "2026-11-03T15:44:00-06:00",
       "runTimes": [
         "2026-10-19T15:47:00-05:00",
         "2026-10-20T07:46:44-05:00",
@@ -370,17 +370,18 @@
         "2026-10-30T15:43:00-05:00",
         "2026-11-02T07:50:00-06:00",
         "2026-11-02T15:45:00-06:00",
-        "2026-11-03T07:48:00-06:00"
+        "2026-11-03T07:48:00-06:00",
+        "2026-11-03T15:44:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-03T15:38:00-06:00",
-      "latestFinding": "Top setup IEX 236.52, tight base under 241.30 with 2.1x volume; QQQ 681.09 sits just above its 200-day 678.68 with RSI 32.",
+      "nextRunAt": "2026-11-04T07:38:00-06:00",
+      "latestFinding": "VRSN broke out to 313.88 over 312.78 on 3.2x volume and RACE to 414.77 over 404.25 on 2.9x; morning pick HSIC fell 4.8% to 82.50 on 3.8x volume.",
       "waitingOnYou": [],
-      "runsCompleted": 40,
+      "runsCompleted": 41,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T15:47:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-03T07:48:00-06:00",
+      "updatedAt": "2026-11-03T15:44:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -503,7 +504,6 @@
       "lastRun": "Added 3 new deals; 740 deals tracked across TX and OK",
       "lastRunAt": "2026-11-01T08:07:04-06:00",
       "runTimes": [
-        "2026-10-19T08:10:00-05:00",
         "2026-10-20T08:00:00-05:00",
         "2026-10-21T08:04:05-05:00",
         "2026-10-22T07:58:44-05:00",
@@ -519,7 +519,7 @@
       "waitingOnYou": [],
       "runsCompleted": 24,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T08:10:00-05:00",
+      "firstSeenAt": "2026-10-20T08:00:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-01T08:07:04-06:00",
       "avatar": {
@@ -1513,6 +1513,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-03T15:44:00-06:00",
+      "text": "After-close scan on Nov 3 session: 682 tickers, 194 buy hits, 6 sell warnings (APO, MRVL new); alert sent.",
+      "finding": "VRSN broke out to 313.88 over 312.78 on 3.2x volume and RACE to 414.77 over 404.25 on 2.9x; morning pick HSIC fell 4.8% to 82.50 on 3.8x volume."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-03T14:38:00-06:00",
       "text": "Completed a news check",
@@ -1590,21 +1596,15 @@
       "at": "2026-11-02T19:15:00-06:00",
       "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "finding": "Fairway Daughters drafted Post I and it passed Quality Desk; Trend Scout's weekly report flagged gold initial charm bracelets; QQQ is testing its 200-day."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-02T18:50:00-06:00",
-      "text": "Nov 2 after-close brief: Advanced Energy, Allison Transmission and Lattice are Buys; Palantir is a Sell on valuation despite 96% revenue growth; Apple, IDEXX, Marriott, Vertex, Hinge Health and Tempus are Holds.",
-      "finding": "Advanced Energy posted 50% revenue growth and its fourth guidance raise of 2026, trading near 14x next year's earnings after a 34% slide."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Technical Analyst: After-close scan on Nov 3 session: 682 tickers, 194 buy hits, 6 sell warnings (APO,…"
     ],
-    "at": "2026-11-03T14:38:34-06:00"
+    "at": "2026-11-03T15:43:13-06:00"
   },
-  "generatedAt": "2026-11-03T14:38:34-06:00"
+  "generatedAt": "2026-11-03T15:43:13-06:00"
 }
