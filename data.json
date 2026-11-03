@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:12:14-06:00",
+  "updatedAt": "2026-11-03T07:36:34-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -501,7 +501,6 @@
       "lastRun": "Added 3 new deals; 740 deals tracked across TX and OK",
       "lastRunAt": "2026-11-01T08:07:04-06:00",
       "runTimes": [
-        "2026-10-17T08:01:00-05:00",
         "2026-10-18T08:14:00-05:00",
         "2026-10-19T08:10:00-05:00",
         "2026-10-20T08:00:00-05:00",
@@ -519,7 +518,7 @@
       "waitingOnYou": [],
       "runsCompleted": 24,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-17T08:01:00-05:00",
+      "firstSeenAt": "2026-10-18T08:14:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-01T08:07:04-06:00",
       "avatar": {
@@ -1401,24 +1400,25 @@
           ]
         }
       ],
-      "lastRun": "Morning brief Nov 2: Monday news spike from Marvell's all-stock deal for Lumentum (MRVL rank 197 to 16 on WSB, LITE 257 to 27). SPY and RDDT tie at #1 on Reddit; AAPL mentions doubled into tonight's earnings (with PLTR), framed as an AI-selloff hedge. AMD reports Tue, midterms Tue, payrolls Fri.",
-      "lastRunAt": "2026-11-02T07:45:00-06:00",
+      "lastRun": "Morning brief Nov 3: post-earnings pile-on. AAPL #1 on Reddit (239 mentions vs 43 a day ago) after beating Q4 but slipping on China and margin guidance; PLTR mentions ~8x after a beat-and-raise that still slid premarket. AMD (159, ~5x) ahead of tonight's report; MU (156, ~10x) on memory-price chatter; INTC rout (-33% week) keeps chip chatter loud. Midterms today, payrolls Fri.",
+      "lastRunAt": "2026-11-03T07:40:00-06:00",
       "runTimes": [
         "2026-10-29T19:05:45-05:00",
         "2026-10-29T19:05:50-05:00",
         "2026-10-30T07:45:00-05:00",
         "2026-11-01T07:45:00-06:00",
-        "2026-11-02T07:45:00-06:00"
+        "2026-11-02T07:45:00-06:00",
+        "2026-11-03T07:40:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-03T07:30:00-06:00",
-      "latestFinding": "Unusual spike: MRVL/LITE mentions jumped ~10x overnight on the Marvell-Lumentum merger, news-driven. Also SOXL mentions 2 to 14 as retail eyes a chip bounce.",
+      "nextRunAt": "2026-11-04T07:30:00-06:00",
+      "latestFinding": "Unusual spikes: MU mentions ~10x (15 to 156) and PLTR ~8x (18 to 140), plus MRVL/LITE still ~8x on the Lumentum deal. Mostly news/earnings-driven, concentrated in WSB.",
       "waitingOnYou": [],
-      "runsCompleted": 4,
+      "runsCompleted": 5,
       "created": "2026-10-29",
       "firstSeenAt": "2026-10-29T19:05:45-05:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-02T07:45:00-06:00",
+      "updatedAt": "2026-11-03T07:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1520,6 +1520,12 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-03T07:40:00-06:00",
+      "text": "Morning brief Nov 3: post-earnings pile-on. AAPL #1 on Reddit (239 mentions vs 43 a day ago) after beating Q4 but slipping on China and margin guidance; PLTR mentions ~8x after a beat-and-raise that still slid premarket. AMD (159, ~5x) ahead of tonight's report; MU (156, ~10x) on memory-price chatter; INTC rout (-33% week) keeps chip chatter loud. Midterms today, payrolls Fri.",
+      "finding": "Unusual spikes: MU mentions ~10x (15 to 156) and PLTR ~8x (18 to 140), plus MRVL/LITE still ~8x on the Lumentum deal. Mostly news/earnings-driven, concentrated in WSB."
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-02T19:15:00-06:00",
       "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
@@ -1594,21 +1600,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-02T09:35:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-02T09:13:58-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Chief of Staff: Evening command center refresh: synced 29 bots across 14 zones, built and published…"
+      "Next run: Technical Analyst · Pre-market technical scan, today 7:38 AM CT",
+      "Latest: Investing Buzz: Morning brief Nov 3: post-earnings pile-on. AAPL #1 on Reddit (239 mentions vs 43 a…"
     ],
-    "at": "2026-11-02T19:12:14-06:00"
+    "at": "2026-11-03T07:36:34-06:00"
   },
-  "generatedAt": "2026-11-02T19:12:14-06:00"
+  "generatedAt": "2026-11-03T07:36:34-06:00"
 }
