@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T10:38:08-06:00",
+  "updatedAt": "2026-11-03T11:41:55-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -440,9 +440,8 @@
         }
       ],
       "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-03T10:37:00-06:00",
+      "lastRunAt": "2026-11-03T11:41:00-06:00",
       "runTimes": [
-        "2026-10-29T17:39:00-05:00",
         "2026-10-29T18:38:00-05:00",
         "2026-10-30T07:35:00-05:00",
         "2026-10-30T08:36:00-05:00",
@@ -471,17 +470,18 @@
         "2026-11-03T07:36:00-06:00",
         "2026-11-03T08:38:00-06:00",
         "2026-11-03T09:41:00-06:00",
-        "2026-11-03T10:37:00-06:00"
+        "2026-11-03T10:37:00-06:00",
+        "2026-11-03T11:41:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-03T11:35:00-06:00",
+      "nextRunAt": "2026-11-03T12:35:00-06:00",
       "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 234,
+      "runsCompleted": 235,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T07:37:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-03T10:45:00-06:00",
+      "updatedAt": "2026-11-03T11:47:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -770,7 +770,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-02T12:52:00-06:00",
       "runTimes": [
-        "2026-10-18T12:55:00-05:00",
         "2026-10-19T07:58:00-05:00",
         "2026-10-19T12:59:00-05:00",
         "2026-10-20T12:57:05-05:00",
@@ -799,7 +798,7 @@
       "waitingOnYou": [],
       "runsCompleted": 35,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-18T12:55:00-05:00",
+      "firstSeenAt": "2026-10-19T07:58:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-02T12:52:00-06:00",
       "avatar": {
@@ -1517,6 +1516,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-03T11:41:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-03T10:37:00-06:00",
       "text": "Sent 1 alert"
     },
@@ -1592,20 +1596,15 @@
       "at": "2026-11-02T15:45:00-06:00",
       "text": "After-close scan on Nov 2 session: 683 tickers, 179 buy hits, 6 sell warnings; alert sent on semis breakdown and QQQ testing its 200-day.",
       "finding": "QQQ 681.09 (-1.4%) broke its 20-day low 683.45 and sits just above its 200-day 678.68; LITE -18.6% on 3.2x volume through its 200-day; IDXX +21.9% on 3.8x volume above 576."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-02T15:42:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 11:35 AM CT",
+      "Next run: Portfolio News · News check, today 12:35 PM CT",
       "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-03T10:38:08-06:00"
+    "at": "2026-11-03T11:41:55-06:00"
   },
-  "generatedAt": "2026-11-03T10:38:08-06:00"
+  "generatedAt": "2026-11-03T11:41:55-06:00"
 }
