@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T14:38:16-06:00",
+  "updatedAt": "2026-11-04T15:37:49-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -349,7 +349,6 @@
       "lastRun": "Pre-market scan on Nov 3 session: 682 tickers, 190 buy hits, 6 sell warnings (APO, MRVL new); brief sent.",
       "lastRunAt": "2026-11-04T07:48:00-06:00",
       "runTimes": [
-        "2026-10-20T07:46:44-05:00",
         "2026-10-20T15:44:00-05:00",
         "2026-10-21T07:45:00-05:00",
         "2026-10-21T15:45:00-05:00",
@@ -379,7 +378,7 @@
       "waitingOnYou": [],
       "runsCompleted": 42,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T07:46:44-05:00",
+      "firstSeenAt": "2026-10-20T15:44:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-04T07:50:00-06:00",
       "avatar": {
@@ -439,10 +438,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-04T14:37:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-04T15:37:00-06:00",
       "runTimes": [
-        "2026-11-02T09:35:00-06:00",
         "2026-11-02T10:42:00-06:00",
         "2026-11-02T11:39:00-06:00",
         "2026-11-02T12:44:00-06:00",
@@ -471,17 +469,18 @@
         "2026-11-04T11:43:00-06:00",
         "2026-11-04T12:39:00-06:00",
         "2026-11-04T13:40:00-06:00",
-        "2026-11-04T14:37:00-06:00"
+        "2026-11-04T14:37:00-06:00",
+        "2026-11-04T15:37:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-04T15:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-04T16:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 250,
+      "runsCompleted": 251,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T08:42:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T14:42:00-06:00",
+      "updatedAt": "2026-11-04T15:44:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1513,6 +1512,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-04T15:37:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-04T14:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1590,21 +1594,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-04T07:43:00-06:00",
       "text": "Sent 3 alerts"
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-04T07:36:00-06:00",
-      "text": "Morning brief Nov 4: midterm blue wave plus earnings. AMD #1 on Reddit (339 mentions vs 152 a day ago) after a Q3 beat and strong guide; SMCI ~5x (9 to 48) on a 298% revenue jump. Democrats won both chambers: DJT, TSLA, SpaceX and neoclouds (CRWV, IREN, NBIS) down premarket on data-center scrutiny worries; solar up. NVO +6% on raised outlook. ARM, QCOM, UBER, CRCL report today.",
-      "finding": "Unusual spike: SMCI mentions ~5x (9 to 48), almost all WSB. AMD more than doubled again. Earnings and election news-driven; MU and INTC chatter cooling."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Technical Analyst · After-close big-move alert, today 3:38 PM CT",
+      "Latest: Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-04T14:38:16-06:00"
+    "at": "2026-11-04T15:37:49-06:00"
   },
-  "generatedAt": "2026-11-04T14:38:16-06:00"
+  "generatedAt": "2026-11-04T15:37:49-06:00"
 }
