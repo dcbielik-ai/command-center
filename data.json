@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:41:46-06:00",
+  "updatedAt": "2026-11-04T10:40:17-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -440,10 +440,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 4 alerts",
-      "lastRunAt": "2026-11-04T09:41:00-06:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-11-04T10:39:00-06:00",
       "runTimes": [
-        "2026-10-30T16:42:00-05:00",
         "2026-10-30T17:41:00-05:00",
         "2026-10-30T18:38:00-05:00",
         "2026-11-02T07:40:00-06:00",
@@ -472,17 +471,18 @@
         "2026-11-03T18:44:00-06:00",
         "2026-11-04T07:43:00-06:00",
         "2026-11-04T08:41:00-06:00",
-        "2026-11-04T09:41:00-06:00"
+        "2026-11-04T09:41:00-06:00",
+        "2026-11-04T10:39:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-04T10:35:00-06:00",
-      "latestFinding": "Sent 4 alerts",
+      "nextRunAt": "2026-11-04T11:35:00-06:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 245,
+      "runsCompleted": 246,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T16:45:00-05:00",
+      "firstSeenAt": "2026-10-19T17:41:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T09:45:00-06:00",
+      "updatedAt": "2026-11-04T10:42:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1513,6 +1513,11 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-04T10:39:00-06:00",
+      "text": "Sent 2 alerts"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-04T09:41:00-06:00",
       "text": "Sent 4 alerts"
     },
@@ -1591,21 +1596,15 @@
       "at": "2026-11-03T16:36:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-11-03T15:44:00-06:00",
-      "text": "After-close scan on Nov 3 session: 682 tickers, 194 buy hits, 6 sell warnings (APO, MRVL new); alert sent.",
-      "finding": "VRSN broke out to 313.88 over 312.78 on 3.2x volume and RACE to 414.77 over 404.25 on 2.9x; morning pick HSIC fell 4.8% to 82.50 on 3.8x volume."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 10:35 AM CT",
-      "Latest: Portfolio News: Sent 4 alerts"
+      "Next run: Portfolio News · News check, today 11:35 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-11-04T09:41:46-06:00"
+    "at": "2026-11-04T10:40:17-06:00"
   },
-  "generatedAt": "2026-11-04T09:41:46-06:00"
+  "generatedAt": "2026-11-04T10:40:17-06:00"
 }
