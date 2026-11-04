@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T18:45:01-06:00",
+  "updatedAt": "2026-11-03T18:48:51-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -256,8 +256,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 3 pre-market heads-up: Micron and Sandisk are Buys; AMD, Marvell, Bloom Energy and Upstart are Holds; Palantir, Shopify, Intel, Apple and Lumentum are hype without the fundamentals.",
-      "lastRunAt": "2026-11-03T08:15:00-06:00",
+      "lastRun": "Nov 3 after-close brief: Everus, Astera Labs and Super Micro are Buys; AMD, Arista, Modine, Corcept and Booking are Holds; Duolingo and Xometry are Sells on valuation.",
+      "lastRunAt": "2026-11-03T18:55:00-06:00",
       "runTimes": [
         "2026-10-19T18:53:00-05:00",
         "2026-10-20T08:06:00-05:00",
@@ -287,17 +287,18 @@
         "2026-11-02T08:03:00-06:00",
         "2026-11-02T08:20:00-06:00",
         "2026-11-02T18:50:00-06:00",
-        "2026-11-03T08:15:00-06:00"
+        "2026-11-03T08:15:00-06:00",
+        "2026-11-03T18:55:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-03T18:40:00-06:00",
-      "latestFinding": "Micron trends on Reddit with TTM revenue up 256% and about 4x forward earnings, while Shopify sits about 16% lower premarket after a Q3 revenue and GMV miss.",
+      "nextRunAt": "2026-11-04T08:01:00-06:00",
+      "latestFinding": "Super Micro's quarterly revenue rose 298% to $19.9B and it guided FY27 to $72-82B, leaving it near 5x annualized earnings after hours, though it burned $434M of operating cash.",
       "waitingOnYou": [],
-      "runsCompleted": 33,
+      "runsCompleted": 34,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T18:53:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-03T08:15:00-06:00",
+      "updatedAt": "2026-11-03T18:55:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -542,7 +543,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-30T09:10:00-05:00",
       "runTimes": [
-        "2026-10-19T09:28:00-05:00",
         "2026-10-20T09:27:00-05:00",
         "2026-10-21T09:24:00-05:00",
         "2026-10-22T09:24:30-05:00",
@@ -564,7 +564,7 @@
       "waitingSince": "2026-10-30T09:10:00-05:00",
       "runsCompleted": 33,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T09:28:00-05:00",
+      "firstSeenAt": "2026-10-20T09:27:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T09:10:00-05:00",
       "avatar": {
@@ -1510,6 +1510,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-03T18:55:00-06:00",
+      "text": "Nov 3 after-close brief: Everus, Astera Labs and Super Micro are Buys; AMD, Arista, Modine, Corcept and Booking are Holds; Duolingo and Xometry are Sells on valuation.",
+      "finding": "Super Micro's quarterly revenue rose 298% to $19.9B and it guided FY27 to $72-82B, leaving it near 5x annualized earnings after hours, though it burned $434M of operating cash."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-03T18:44:00-06:00",
       "text": "Completed a news check",
@@ -1587,21 +1593,15 @@
       "at": "2026-11-03T08:22:00-06:00",
       "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "finding": "Stock bots flagged Micron as a fundamentals Buy amid a ~10x Reddit buzz spike, Shopify down ~16% premarket on a miss, and QQQ holding just above its 200-day."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-03T08:15:00-06:00",
-      "text": "Nov 3 pre-market heads-up: Micron and Sandisk are Buys; AMD, Marvell, Bloom Energy and Upstart are Holds; Palantir, Shopify, Intel, Apple and Lumentum are hype without the fundamentals.",
-      "finding": "Micron trends on Reddit with TTM revenue up 256% and about 4x forward earnings, while Shopify sits about 16% lower premarket after a Q3 revenue and GMV miss."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Nov 3 after-close brief: Everus, Astera Labs and Super Micro are Buys; AMD, Arista,…"
     ],
-    "at": "2026-11-03T18:45:01-06:00"
+    "at": "2026-11-03T18:48:51-06:00"
   },
-  "generatedAt": "2026-11-03T18:45:01-06:00"
+  "generatedAt": "2026-11-03T18:48:51-06:00"
 }
