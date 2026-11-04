@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T12:58:58-06:00",
+  "updatedAt": "2026-11-04T13:40:57-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-04T08:20:00-06:00",
       "runTimes": [
-        "2026-10-19T19:20:00-05:00",
         "2026-10-20T08:15:00-05:00",
         "2026-10-20T17:42:38-05:00",
         "2026-10-20T17:49:21-05:00",
@@ -208,7 +207,7 @@
       "waitingOnYou": [],
       "runsCompleted": 42,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T19:20:00-05:00",
+      "firstSeenAt": "2026-10-20T08:15:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-04T08:20:00-06:00",
       "avatar": {
@@ -441,9 +440,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-04T12:39:00-06:00",
+      "lastRunAt": "2026-11-04T13:40:00-06:00",
       "runTimes": [
-        "2026-11-02T07:40:00-06:00",
         "2026-11-02T08:42:00-06:00",
         "2026-11-02T09:35:00-06:00",
         "2026-11-02T10:42:00-06:00",
@@ -472,17 +470,18 @@
         "2026-11-04T09:41:00-06:00",
         "2026-11-04T10:39:00-06:00",
         "2026-11-04T11:43:00-06:00",
-        "2026-11-04T12:39:00-06:00"
+        "2026-11-04T12:39:00-06:00",
+        "2026-11-04T13:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-04T13:35:00-06:00",
+      "nextRunAt": "2026-11-04T14:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 248,
+      "runsCompleted": 249,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T07:46:19-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T12:44:00-06:00",
+      "updatedAt": "2026-11-04T13:44:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1513,6 +1512,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-04T13:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-04T12:59:00-06:00",
       "text": "Sent a safety alert",
@@ -1591,21 +1596,15 @@
       "at": "2026-11-03T19:19:32-06:00",
       "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "finding": "Stock bots flagged Super Micro as an after-hours Buy on 298% revenue growth, VeriSign and Ferrari breaking out, and a held chipmaker up about 7% after a beat."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-03T18:55:00-06:00",
-      "text": "Nov 3 after-close brief: Everus, Astera Labs and Super Micro are Buys; AMD, Arista, Modine, Corcept and Booking are Holds; Duolingo and Xometry are Sells on valuation.",
-      "finding": "Super Micro's quarterly revenue rose 298% to $19.9B and it guided FY27 to $72-82B, leaving it near 5x annualized earnings after hours, though it burned $434M of operating cash."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 1:35 PM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Next run: Portfolio News · News check, today 2:35 PM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-04T12:58:58-06:00"
+    "at": "2026-11-04T13:40:57-06:00"
   },
-  "generatedAt": "2026-11-04T12:58:58-06:00"
+  "generatedAt": "2026-11-04T13:40:57-06:00"
 }
