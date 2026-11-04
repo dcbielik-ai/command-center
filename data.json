@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:13:39-06:00",
+  "updatedAt": "2026-11-04T08:19:30-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-03T19:19:32-06:00",
+      "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-04T08:20:00-06:00",
       "runTimes": [
         "2026-10-19T19:20:00-05:00",
         "2026-10-20T08:15:00-05:00",
@@ -199,17 +199,18 @@
         "2026-11-02T08:20:00-06:00",
         "2026-11-02T19:15:00-06:00",
         "2026-11-03T08:22:00-06:00",
-        "2026-11-03T19:19:32-06:00"
+        "2026-11-03T19:19:32-06:00",
+        "2026-11-04T08:20:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-04T08:10:00-06:00",
-      "latestFinding": "Stock bots flagged Super Micro as an after-hours Buy on 298% revenue growth, VeriSign and Ferrari breaking out, and a held chipmaker up about 7% after a beat.",
+      "nextRunAt": "2026-11-04T19:10:00-06:00",
+      "latestFinding": "Stock bots flagged AMD and Super Micro as the most-talked-about names after earnings, an election-driven dip in AI infrastructure stocks, and VA Deal Scout found two new low-rate Texas VA assumables.",
       "waitingOnYou": [],
-      "runsCompleted": 41,
+      "runsCompleted": 42,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-19T19:20:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-03T19:19:32-06:00",
+      "updatedAt": "2026-11-04T08:20:00-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -480,7 +481,7 @@
       "waitingOnYou": [],
       "runsCompleted": 243,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T14:40:00-05:00",
+      "firstSeenAt": "2026-10-19T15:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-04T07:47:00-06:00",
       "avatar": {
@@ -1518,6 +1519,12 @@
       "finding": "AMD beat Q3 with $13.38B revenue (+45%) and $2.09 EPS (+74%) and guided 2027 revenue growth above 80%, but its early 7% premarket jump had faded to near flat by 8:46 AM ET."
     },
     {
+      "bot": "chief-of-staff",
+      "at": "2026-11-04T08:20:00-06:00",
+      "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "finding": "Stock bots flagged AMD and Super Micro as the most-talked-about names after earnings, an election-driven dip in AI infrastructure stocks, and VA Deal Scout found two new low-rate Texas VA assumables."
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-11-04T08:13:39-06:00",
       "text": "Added 17 new deals; 757 deals tracked across TX and OK",
@@ -1592,12 +1599,6 @@
       "at": "2026-11-03T14:38:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-03T13:41:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1606,7 +1607,7 @@
       "Next run: Portfolio News · News check, today 8:35 AM CT",
       "Latest: Fundamentals Analyst: Nov 4 trending heads-up: Super Micro, Micron and Astera Labs are Buys; AMD and Reddit…"
     ],
-    "at": "2026-11-04T08:13:39-06:00"
+    "at": "2026-11-04T08:19:30-06:00"
   },
-  "generatedAt": "2026-11-04T08:13:39-06:00"
+  "generatedAt": "2026-11-04T08:19:30-06:00"
 }
