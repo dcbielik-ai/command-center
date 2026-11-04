@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T07:34:23-06:00",
+  "updatedAt": "2026-11-04T07:44:21-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -439,10 +439,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-03T18:44:00-06:00",
+      "lastRun": "Sent 3 alerts",
+      "lastRunAt": "2026-11-04T07:43:00-06:00",
       "runTimes": [
-        "2026-10-30T13:39:00-05:00",
         "2026-10-30T14:36:00-05:00",
         "2026-10-30T15:43:00-05:00",
         "2026-10-30T16:42:00-05:00",
@@ -471,17 +470,18 @@
         "2026-11-03T15:44:00-06:00",
         "2026-11-03T16:36:00-06:00",
         "2026-11-03T17:39:00-06:00",
-        "2026-11-03T18:44:00-06:00"
+        "2026-11-03T18:44:00-06:00",
+        "2026-11-04T07:43:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-04T07:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-04T08:35:00-06:00",
+      "latestFinding": "Sent 3 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 242,
+      "runsCompleted": 243,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-19T11:46:00-05:00",
+      "firstSeenAt": "2026-10-19T12:39:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-03T18:46:00-06:00",
+      "updatedAt": "2026-11-04T07:47:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1512,6 +1512,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-04T07:43:00-06:00",
+      "text": "Sent 3 alerts"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-04T07:36:00-06:00",
       "text": "Morning brief Nov 4: midterm blue wave plus earnings. AMD #1 on Reddit (339 mentions vs 152 a day ago) after a Q3 beat and strong guide; SMCI ~5x (9 to 48) on a 298% revenue jump. Democrats won both chambers: DJT, TSLA, SpaceX and neoclouds (CRWV, IREN, NBIS) down premarket on data-center scrutiny worries; solar up. NVO +6% on raised outlook. ARM, QCOM, UBER, CRCL report today.",
@@ -1591,20 +1596,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-03T10:37:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-03T09:41:00-06:00",
-      "text": "Sent 2 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 7:35 AM CT",
-      "Latest: Investing Buzz: Morning brief Nov 4: midterm blue wave plus earnings. AMD #1 on Reddit (339 mentions…"
+      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "Latest: Portfolio News: Sent 3 alerts"
     ],
-    "at": "2026-11-04T07:34:23-06:00"
+    "at": "2026-11-04T07:44:21-06:00"
   },
-  "generatedAt": "2026-11-04T07:34:23-06:00"
+  "generatedAt": "2026-11-04T07:44:21-06:00"
 }
