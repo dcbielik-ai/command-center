@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:08:05-06:00",
+  "updatedAt": "2026-11-05T08:18:14-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-04T19:20:00-06:00",
+      "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-05T08:20:00-06:00",
       "runTimes": [
         "2026-10-20T17:42:38-05:00",
         "2026-10-20T17:49:21-05:00",
@@ -199,17 +199,18 @@
         "2026-11-03T08:22:00-06:00",
         "2026-11-03T19:19:32-06:00",
         "2026-11-04T08:20:00-06:00",
-        "2026-11-04T19:20:00-06:00"
+        "2026-11-04T19:20:00-06:00",
+        "2026-11-05T08:20:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-05T08:10:00-06:00",
-      "latestFinding": "AppLovin jumped about 23% after hours on a big Q3 beat, Technical Analyst flagged CVS breaking below its 200-day average, and AI Guide is tracking fake airline support numbers seeded into AI answers.",
+      "nextRunAt": "2026-11-05T19:10:00-06:00",
+      "latestFinding": "Investing Buzz saw Micron top Reddit chatter as chip stocks sold off, Fundamentals Analyst still rates AppLovin and Micron as Buys, and AI Guide flagged a ChatGPT look-alike download scam.",
       "waitingOnYou": [],
-      "runsCompleted": 43,
+      "runsCompleted": 44,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T17:42:38-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T19:20:00-06:00",
+      "updatedAt": "2026-11-05T08:20:00-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -480,7 +481,7 @@
       "waitingOnYou": [],
       "runsCompleted": 255,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T15:39:00-05:00",
+      "firstSeenAt": "2026-10-20T16:37:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T07:42:00-06:00",
       "avatar": {
@@ -1512,6 +1513,12 @@
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-11-05T08:20:00-06:00",
+      "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
+      "finding": "Investing Buzz saw Micron top Reddit chatter as chip stocks sold off, Fundamentals Analyst still rates AppLovin and Micron as Buys, and AI Guide flagged a ChatGPT look-alike download scam."
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-05T08:07:48-06:00",
       "text": "Sent a safety alert",
@@ -1593,21 +1600,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-04T15:37:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-04T14:37:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Next run: Portfolio News · News check, today 8:35 AM CT",
+      "Latest: Chief of Staff: Morning command center refresh: synced 29 bots across 14 zones, built and published…"
     ],
-    "at": "2026-11-05T08:08:05-06:00"
+    "at": "2026-11-05T08:18:14-06:00"
   },
-  "generatedAt": "2026-11-05T08:08:05-06:00"
+  "generatedAt": "2026-11-05T08:18:14-06:00"
 }
