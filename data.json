@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T10:56:06-06:00",
+  "updatedAt": "2026-11-05T11:37:14-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-05T08:20:00-06:00",
       "runTimes": [
-        "2026-10-20T17:57:03-05:00",
         "2026-10-20T19:16:34-05:00",
         "2026-10-21T19:14:50-05:00",
         "2026-10-22T08:16:59-05:00",
@@ -206,7 +205,7 @@
       "waitingOnYou": [],
       "runsCompleted": 44,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T17:57:03-05:00",
+      "firstSeenAt": "2026-10-20T19:16:34-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T08:20:00-06:00",
       "avatar": {
@@ -439,9 +438,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-05T10:41:50-06:00",
+      "lastRunAt": "2026-11-05T11:38:00-06:00",
       "runTimes": [
-        "2026-11-02T17:42:00-06:00",
         "2026-11-02T18:43:00-06:00",
         "2026-11-03T07:36:00-06:00",
         "2026-11-03T08:38:00-06:00",
@@ -470,17 +468,18 @@
         "2026-11-05T07:42:00-06:00",
         "2026-11-05T08:42:00-06:00",
         "2026-11-05T09:45:00-06:00",
-        "2026-11-05T10:41:50-06:00"
+        "2026-11-05T10:41:50-06:00",
+        "2026-11-05T11:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-05T11:35:00-06:00",
+      "nextRunAt": "2026-11-05T12:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 258,
+      "runsCompleted": 259,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T18:41:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-05T10:41:50-06:00",
+      "updatedAt": "2026-11-05T11:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1520,6 +1519,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-05T11:38:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "quality-desk",
       "at": "2026-11-05T10:56:06-06:00",
       "text": "Reviewed a 4-slide apparel carousel draft; passed with two soft polish notes.",
@@ -1600,21 +1605,15 @@
       "at": "2026-11-05T08:04:00-06:00",
       "text": "Pre-market Thu Nov 5 CT trending heads-up: Group A = APP, MU, NVDA, SNDK, AMD (SEZL pass bar but Hold after gap); Group B = QCOM, SNAP, U, JOBY, CELH, ARM.",
       "finding": "APP +20% pre on Q3 beat; QCOM -12% on soft guide. Cheapest growers in buzz: MU/SNDK (fwd PE ~4-5, PEG <0.2) and APP (fwd PE ~14, PEG ~0.5)."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-05T08:04:00-06:00",
-      "text": "Nov 5 pre-open heads-up: APP, MU, NVDA, SNDK, AMD clear growth bar as Buys; SEZL Hold after gap; QCOM/SNAP/JOBY/ARM Avoid.",
-      "finding": "AppLovin premarket ~$337 (+24%) after Q3 beat; Micron ~$755 (−5%) still screens as Buy on memory/AI growth with Street PT ~$1,562."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 11:35 AM CT",
-      "Latest: Quality Desk: Reviewed a 4-slide apparel carousel draft; passed with two soft polish notes."
+      "Next run: Portfolio News · News check, today 12:35 PM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-05T10:56:06-06:00"
+    "at": "2026-11-05T11:37:14-06:00"
   },
-  "generatedAt": "2026-11-05T10:56:06-06:00"
+  "generatedAt": "2026-11-05T11:37:14-06:00"
 }
