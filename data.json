@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:18:14-06:00",
+  "updatedAt": "2026-11-05T08:39:09-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -350,7 +350,6 @@
       "lastRun": "Pre-market scan as-of Nov 4: 683 tickers, 213 buy hits, 3 sell warnings (AVGO new vs prior AM).",
       "lastRunAt": "2026-11-05T07:42:00-06:00",
       "runTimes": [
-        "2026-10-20T15:44:00-05:00",
         "2026-10-21T07:45:00-05:00",
         "2026-10-21T15:45:00-05:00",
         "2026-10-22T07:47:00-05:00",
@@ -381,7 +380,7 @@
       "waitingOnYou": [],
       "runsCompleted": 44,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T15:44:00-05:00",
+      "firstSeenAt": "2026-10-21T07:45:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T07:42:00-06:00",
       "avatar": {
@@ -441,10 +440,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-05T07:42:00-06:00",
+      "lastRun": "Sent 2 alerts",
+      "lastRunAt": "2026-11-05T08:42:00-06:00",
       "runTimes": [
-        "2026-11-02T14:38:00-06:00",
         "2026-11-02T15:42:00-06:00",
         "2026-11-02T16:38:00-06:00",
         "2026-11-02T17:42:00-06:00",
@@ -473,17 +471,18 @@
         "2026-11-04T16:44:00-06:00",
         "2026-11-04T17:39:36-06:00",
         "2026-11-04T18:44:29-06:00",
-        "2026-11-05T07:42:00-06:00"
+        "2026-11-05T07:42:00-06:00",
+        "2026-11-05T08:42:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-05T08:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-05T09:35:00-06:00",
+      "latestFinding": "Sent 2 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 255,
+      "runsCompleted": 256,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T16:37:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-05T07:42:00-06:00",
+      "updatedAt": "2026-11-05T08:42:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1513,6 +1512,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-05T08:42:00-06:00",
+      "text": "Sent 2 alerts"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-05T08:20:00-06:00",
       "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
@@ -1595,20 +1599,15 @@
       "at": "2026-11-04T15:45:00-06:00",
       "text": "After-close scan on Nov 4 session: 683 tickers, 211 buy hits, 3 sell warnings (AVGO new); alert sent.",
       "finding": "Morning pick CVS failed, -12.5% to 79.96 on 4.2x volume (below 200-day 87.74); RACE confirmed, +4.3% to 432.45 on 2.4x; SOXX -3.1% on 2.0x."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-04T15:37:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Chief of Staff: Morning command center refresh: synced 29 bots across 14 zones, built and published…"
+      "Next run: Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Portfolio News: Sent 2 alerts"
     ],
-    "at": "2026-11-05T08:18:14-06:00"
+    "at": "2026-11-05T08:39:09-06:00"
   },
-  "generatedAt": "2026-11-05T08:18:14-06:00"
+  "generatedAt": "2026-11-05T08:39:09-06:00"
 }
