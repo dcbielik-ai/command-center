@@ -14,7 +14,7 @@
    ===================================================================== */
 /* TEAM_DATA:BEGIN */
 const TEAM_DATA = {
-  "updatedAt": "2026-11-05T08:06:25-06:00",
+  "updatedAt": "2026-11-05T08:07:53-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -241,11 +241,38 @@ const TEAM_DATA = {
       "zone": "stocks",
       "className": "Analyst: Fundamentals",
       "role": "Screens US large, mid, and small caps (about the Russell 3000) on fundamentals: earnings beats and misses, guidance, revenue and margin trends, free cash flow, valuation vs. peers, insider buying, major 8-K events, and red flags. Picks the top 5 to 10 names each day with sources.",
-      "status": "ok",
+      "status": "Active",
       "schedule": "Weekdays at 8:01 AM CT; Weekdays at 6:40 PM CT",
-      "routines": "weekday 8:01 AM CT trending stocks heads-up",
-      "slots": [],
-      "lastRun": "Pre-market Thu Nov 5 CT trending heads-up: Group A = APP, MU, NVDA, SNDK, AMD (SEZL pass bar but Hold after gap); Group B = QCOM, SNAP, U, JOBY, CELH, ARM.",
+      "routines": "Daily trending stocks heads-up (Weekdays at 8:01 AM CT); After-close fundamentals brief (Weekdays at 6:40 PM CT)",
+      "slots": [
+        {
+          "label": "Daily trending stocks heads-up",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "08:01"
+          ]
+        },
+        {
+          "label": "After-close fundamentals brief",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "times": [
+            "18:40"
+          ]
+        }
+      ],
+      "lastRun": "Nov 5 pre-open heads-up: APP, MU, NVDA, SNDK, AMD clear growth bar as Buys; SEZL Hold after gap; QCOM/SNAP/JOBY/ARM Avoid.",
       "lastRunAt": "2026-11-05T08:04:00-06:00",
       "runTimes": [
         "2026-10-21T08:05:14-05:00",
@@ -280,14 +307,14 @@ const TEAM_DATA = {
         "2026-11-05T08:04:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-06T08:01:00-06:00",
-      "latestFinding": "APP +20% pre on Q3 beat; QCOM -12% on soft guide. Cheapest growers in buzz: MU/SNDK (fwd PE ~4-5, PEG <0.2) and APP (fwd PE ~14, PEG ~0.5).",
+      "nextRunAt": "2026-11-05T18:40:00-06:00",
+      "latestFinding": "AppLovin premarket ~$337 (+24%) after Q3 beat; Micron ~$755 (−5%) still screens as Buy on memory/AI growth with Street PT ~$1,562.",
       "waitingOnYou": [],
-      "runsCompleted": 1,
+      "runsCompleted": 37,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T18:51:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-05T08:15:00-06:00",
+      "updatedAt": "2026-11-05T08:10:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -468,7 +495,7 @@ const TEAM_DATA = {
       "waitingOnYou": [],
       "runsCompleted": 255,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T13:43:00-05:00",
+      "firstSeenAt": "2026-10-20T14:37:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T07:42:00-06:00",
       "avatar": {
@@ -1505,6 +1532,12 @@ const TEAM_DATA = {
       "finding": "APP +20% pre on Q3 beat; QCOM -12% on soft guide. Cheapest growers in buzz: MU/SNDK (fwd PE ~4-5, PEG <0.2) and APP (fwd PE ~14, PEG ~0.5)."
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-05T08:04:00-06:00",
+      "text": "Nov 5 pre-open heads-up: APP, MU, NVDA, SNDK, AMD clear growth bar as Buys; SEZL Hold after gap; QCOM/SNAP/JOBY/ARM Avoid.",
+      "finding": "AppLovin premarket ~$337 (+24%) after Q3 beat; Micron ~$755 (−5%) still screens as Buy on memory/AI growth with Street PT ~$1,562."
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-05T08:00:00-06:00",
       "text": "Sent a safety alert",
@@ -1580,23 +1613,17 @@ const TEAM_DATA = {
       "at": "2026-11-04T13:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-04T12:59:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 7 scheduled bots healthy · 12 items need you · 5 setting up",
+      "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
       "Latest: Fundamentals Analyst: Pre-market Thu Nov 5 CT trending heads-up: Group A = APP, MU, NVDA, SNDK, AMD (SEZL…"
     ],
-    "at": "2026-11-05T08:06:25-06:00"
+    "at": "2026-11-05T08:07:53-06:00"
   },
-  "generatedAt": "2026-11-05T08:06:25-06:00"
+  "generatedAt": "2026-11-05T08:07:53-06:00"
 };
 /* TEAM_DATA:END */
 </script>
