@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T07:33:59-06:00",
+  "updatedAt": "2026-11-05T07:40:40-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -440,9 +440,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-04T18:44:29-06:00",
+      "lastRunAt": "2026-11-05T07:42:00-06:00",
       "runTimes": [
-        "2026-11-02T13:43:00-06:00",
         "2026-11-02T14:38:00-06:00",
         "2026-11-02T15:42:00-06:00",
         "2026-11-02T16:38:00-06:00",
@@ -471,17 +470,18 @@
         "2026-11-04T15:37:00-06:00",
         "2026-11-04T16:44:00-06:00",
         "2026-11-04T17:39:36-06:00",
-        "2026-11-04T18:44:29-06:00"
+        "2026-11-04T18:44:29-06:00",
+        "2026-11-05T07:42:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-05T07:35:00-06:00",
+      "nextRunAt": "2026-11-05T08:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 254,
+      "runsCompleted": 255,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T10:46:00-05:00",
+      "firstSeenAt": "2026-10-20T11:42:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T18:44:29-06:00",
+      "updatedAt": "2026-11-05T07:42:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1510,6 +1510,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-05T07:42:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-05T07:36:00-06:00",
       "text": "Morning brief Nov 5: post-election AI rotation. MU #1 on Reddit (392-632 mentions, +161%) as memory/chips sold off (MU -7%, SNDK -8%, SOX -3.1%, down 25% in a month) on data-center scrutiny fears. QCOM mentions up ~11-15x after earnings, stock ~-10% premarket. APP mentions ~6-10x, +23% after hours on Q3 beat and buyback. Dow futures +0.5%, Nasdaq -0.7%; oil Brent, gold >. Jobs report Friday.",
@@ -1590,20 +1596,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-04T10:39:00-06:00",
       "text": "Sent 2 alerts"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-04T09:41:00-06:00",
-      "text": "Sent 4 alerts"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 7:35 AM CT",
-      "Latest: Investing Buzz: Morning brief Nov 5: post-election AI rotation. MU #1 on Reddit (392-632 mentions,…"
+      "Next run: AI Guide · AI briefing, today 7:50 AM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-05T07:33:59-06:00"
+    "at": "2026-11-05T07:40:40-06:00"
   },
-  "generatedAt": "2026-11-05T07:33:59-06:00"
+  "generatedAt": "2026-11-05T07:40:40-06:00"
 }
