@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T10:08:53-06:00",
+  "updatedAt": "2026-11-05T10:12:22-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-05T08:20:00-06:00",
       "runTimes": [
-        "2026-10-20T17:49:21-05:00",
         "2026-10-20T17:57:03-05:00",
         "2026-10-20T19:16:34-05:00",
         "2026-10-21T19:14:50-05:00",
@@ -207,7 +206,7 @@
       "waitingOnYou": [],
       "runsCompleted": 44,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-20T17:49:21-05:00",
+      "firstSeenAt": "2026-10-20T17:57:03-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T08:20:00-06:00",
       "avatar": {
@@ -1321,21 +1320,22 @@
         }
       ],
       "lastRun": "Working on sports research",
-      "lastRunAt": "2026-11-05T10:08:53-06:00",
+      "lastRunAt": "2026-11-05T10:30:00-06:00",
       "runTimes": [
         "2026-10-24T10:50:00-05:00",
         "2026-10-29T10:14:55-05:00",
         "2026-10-29T10:15:00-05:00",
-        "2026-11-05T10:08:53-06:00"
+        "2026-11-05T10:08:53-06:00",
+        "2026-11-05T10:30:00-06:00"
       ],
       "nextRun": "On demand",
       "latestFinding": "Details stay private",
       "waitingOnYou": [],
-      "runsCompleted": 4,
+      "runsCompleted": 5,
       "created": "2026-10-24",
       "firstSeenAt": "2026-10-24T10:50:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-05T10:08:53-06:00",
+      "updatedAt": "2026-11-05T10:30:00-06:00",
       "avatar": {
         "hat": "helmet",
         "head": "#ffe2c8",
@@ -1522,6 +1522,12 @@
   "feed": [
     {
       "bot": "sports-picks",
+      "at": "2026-11-05T10:30:00-06:00",
+      "text": "Working on sports research",
+      "finding": "Details stay private"
+    },
+    {
+      "bot": "sports-picks",
       "at": "2026-11-05T10:08:53-06:00",
       "text": "Working on sports research",
       "finding": "Details stay private"
@@ -1601,12 +1607,6 @@
       "at": "2026-11-05T07:36:00-06:00",
       "text": "Morning brief Nov 5: post-election AI rotation. MU #1 on Reddit (392-632 mentions, +161%) as memory/chips sold off (MU -7%, SNDK -8%, SOX -3.1%, down 25% in a month) on data-center scrutiny fears. QCOM mentions up ~11-15x after earnings, stock ~-10% premarket. APP mentions ~6-10x, +23% after hours on Q3 beat and buyback. Dow futures +0.5%, Nasdaq -0.7%; oil Brent, gold >. Jobs report Friday.",
       "finding": "Unusual spikes: QCOM ~11-15x and APP ~6-10x mentions, both earnings/news-driven. SNDK ~4x and HTZ ~3x look more retail-driven (HTZ penny-stock chatter, no clear catalyst). AMD cooling after Tuesday's peak."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-04T19:20:00-06:00",
-      "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "finding": "AppLovin jumped about 23% after hours on a big Q3 beat, Technical Analyst flagged CVS breaking below its 200-day average, and AI Guide is tracking fake airline support numbers seeded into AI answers."
     }
   ],
   "briefing": {
@@ -1615,7 +1615,7 @@
       "Next run: Portfolio News · News check, today 10:35 AM CT",
       "Latest: Sports Picks: Working on sports research"
     ],
-    "at": "2026-11-05T10:08:53-06:00"
+    "at": "2026-11-05T10:12:22-06:00"
   },
-  "generatedAt": "2026-11-05T10:08:53-06:00"
+  "generatedAt": "2026-11-05T10:12:22-06:00"
 }
