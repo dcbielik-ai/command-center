@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:44:29-06:00",
+  "updatedAt": "2026-11-04T18:50:48-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -256,10 +256,9 @@
           ]
         }
       ],
-      "lastRun": "Nov 4 trending heads-up: Super Micro, Micron and Astera Labs are Buys; AMD and Reddit are Holds; Datadog, Uber, Vistra, Nebius, TeraWulf and Trump Media lack the fundamentals.",
-      "lastRunAt": "2026-11-04T08:03:00-06:00",
+      "lastRun": "Nov 4 after-close brief: AppLovin, SiTime and Coherent are Buys; Sezzle, Dave and Arm are Holds; red flags on FIS, Veracyte, Dutch Bros and MercadoLibre.",
+      "lastRunAt": "2026-11-04T18:55:00-06:00",
       "runTimes": [
-        "2026-10-20T18:51:00-05:00",
         "2026-10-20T19:05:00-05:00",
         "2026-10-21T08:05:14-05:00",
         "2026-10-21T18:44:00-05:00",
@@ -288,17 +287,18 @@
         "2026-11-03T08:15:00-06:00",
         "2026-11-03T18:55:00-06:00",
         "2026-11-04T08:03:00-06:00",
-        "2026-11-04T08:20:00-06:00"
+        "2026-11-04T08:20:00-06:00",
+        "2026-11-04T18:55:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-04T18:40:00-06:00",
-      "latestFinding": "AMD beat Q3 with $13.38B revenue (+45%) and $2.09 EPS (+74%) and guided 2027 revenue growth above 80%, but its early 7% premarket jump had faded to near flat by 8:46 AM ET.",
+      "nextRunAt": "2026-11-05T08:01:00-06:00",
+      "latestFinding": "AppLovin jumped about 23% after hours on Q3 revenue of $2.18B (+55%) and EPS of $4.30 vs $4.04 expected, with Q4 revenue guided to $2.365-2.395B vs $2.25B consensus.",
       "waitingOnYou": [],
-      "runsCompleted": 35,
+      "runsCompleted": 36,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-20T18:51:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-04T08:03:00-06:00",
+      "updatedAt": "2026-11-04T18:55:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -855,7 +855,6 @@
       "lastRun": "Working on brand designs",
       "lastRunAt": "2026-11-02T09:13:58-06:00",
       "runTimes": [
-        "2026-10-20T09:10:00-05:00",
         "2026-10-23T07:59:00-05:00",
         "2026-10-23T08:29:00-05:00",
         "2026-10-23T09:05:00-05:00",
@@ -873,7 +872,7 @@
       "waitingSince": "2026-10-20T09:12:00-05:00",
       "runsCompleted": 16,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-10-20T09:10:00-05:00",
+      "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-02T09:13:58-06:00",
       "avatar": {
@@ -1510,6 +1509,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-04T18:55:00-06:00",
+      "text": "Nov 4 after-close brief: AppLovin, SiTime and Coherent are Buys; Sezzle, Dave and Arm are Holds; red flags on FIS, Veracyte, Dutch Bros and MercadoLibre.",
+      "finding": "AppLovin jumped about 23% after hours on Q3 revenue of $2.18B (+55%) and EPS of $4.30 vs $4.04 expected, with Q4 revenue guided to $2.365-2.395B vs $2.25B consensus."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-04T18:44:29-06:00",
       "text": "Completed a news check",
@@ -1588,21 +1593,15 @@
       "at": "2026-11-04T08:20:00-06:00",
       "text": "Nov 4 trending heads-up: Super Micro, Micron and Astera Labs are Buys; AMD and Reddit are Holds; Datadog, Uber, Vistra, Nebius, TeraWulf and Trump Media lack the fundamentals.",
       "finding": "AMD beat Q3 with $13.38B revenue (+45%) and $2.09 EPS (+74%) and guided 2027 revenue growth above 80%, but its early 7% premarket jump had faded to near flat by 8:46 AM ET."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-04T08:20:00-06:00",
-      "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "finding": "Stock bots flagged AMD and Super Micro as the most-talked-about names after earnings, an election-driven dip in AI infrastructure stocks, and VA Deal Scout found two new low-rate Texas VA assumables."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Nov 4 after-close brief: AppLovin, SiTime and Coherent are Buys; Sezzle, Dave and Arm…"
     ],
-    "at": "2026-11-04T18:44:29-06:00"
+    "at": "2026-11-04T18:50:48-06:00"
   },
-  "generatedAt": "2026-11-04T18:44:29-06:00"
+  "generatedAt": "2026-11-04T18:50:48-06:00"
 }
