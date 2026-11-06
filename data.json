@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T14:14:54-06:00",
+  "updatedAt": "2026-11-06T14:20:26-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -847,7 +847,7 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Reel update underway; no publication authorized.",
+      "status": "Revised reel rendered; video review underway. Nothing posted.",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -870,7 +870,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-06T14:14:54.655393-06:00",
+      "updatedAt": "2026-11-06T14:20:26.219651-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1605,7 +1605,7 @@
       "Next run: Portfolio News · News check, today 2:35 PM CT",
       "Latest: Quality Desk: Post K slide4 v3 candidate PASS for concept embroidery redo; live slide untouched."
     ],
-    "at": "2026-11-06T14:14:54-06:00"
+    "at": "2026-11-06T14:20:26-06:00"
   },
-  "generatedAt": "2026-11-06T14:14:54-06:00"
+  "generatedAt": "2026-11-06T14:20:26-06:00"
 }
