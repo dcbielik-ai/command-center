@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T15:47:43-06:00",
+  "updatedAt": "2026-11-06T15:58:38-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -436,10 +436,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-06T14:40:00-06:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-11-06T15:58:29-06:00",
       "runTimes": [
-        "2026-11-04T09:41:00-06:00",
         "2026-11-04T10:39:00-06:00",
         "2026-11-04T11:43:00-06:00",
         "2026-11-04T12:39:00-06:00",
@@ -468,17 +467,18 @@
         "2026-11-06T11:39:10-06:00",
         "2026-11-06T12:46:35-06:00",
         "2026-11-06T13:38:00-06:00",
-        "2026-11-06T14:40:00-06:00"
+        "2026-11-06T14:40:00-06:00",
+        "2026-11-06T15:58:29-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-06T15:35:00-06:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-11-06T16:35:00-06:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 274,
+      "runsCompleted": 275,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-22T08:39:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-06T14:40:00-06:00",
+      "updatedAt": "2026-11-06T15:58:29-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -501,7 +501,6 @@
       "lastRun": "Added 17 new deals; 757 deals tracked across TX and OK",
       "lastRunAt": "2026-11-04T08:13:39-06:00",
       "runTimes": [
-        "2026-10-22T07:58:44-05:00",
         "2026-10-23T08:02:00-05:00",
         "2026-10-25T08:11:52-05:00",
         "2026-10-28T08:12:00-05:00",
@@ -515,7 +514,7 @@
       "waitingOnYou": [],
       "runsCompleted": 25,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T07:58:44-05:00",
+      "firstSeenAt": "2026-10-23T08:02:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-04T08:13:39-06:00",
       "avatar": {
@@ -1510,6 +1509,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-06T15:58:29-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-06T15:47:38-06:00",
       "text": "After-close Nov 6: 235 buys / 13 sells; SPY +0.3% held 200d, QQQ +1.4% still under 200d; APP morning pick +9.9% 2.2x confirm; AXON −18% 4.9x.",
@@ -1591,21 +1596,15 @@
       "at": "2026-11-06T08:29:08-06:00",
       "text": "Morning command center refresh: synced roster from status files, built and published the dashboard.",
       "finding": "Morning refresh Nov 6: Stocks — Investing Buzz (AI rout + hot jobs bounce), Technical pre-market (164 buys / 17 sells; QQQ 200d break), Fundamentals Buys on NVDA/TSM/AVGO/LRCX, Portfolio News (VST beat + chip rebound). Fairway Daughters still waiting on Dennis for Posts H/I/J."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-06T08:23:12-06:00",
-      "text": "Nov 6 pre-market: NVDA/TSM/AVGO/LRCX pass growth bar as Buys after AI selloff bounce; NET/FROG/ABNB hype without full bar.",
-      "finding": "Chip rebound leads: NVDA/TSM/AVGO/LRCX clear 20%+ rev&EPS with fwd P/E 15-18; NET +20% on beat but GAAP loss & ~156x fwd P/E."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Technical Analyst: After-close Nov 6: 235 buys / 13 sells; SPY +0.3% held 200d, QQQ +1.4% still under…"
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-06T15:47:43-06:00"
+    "at": "2026-11-06T15:58:38-06:00"
   },
-  "generatedAt": "2026-11-06T15:47:43-06:00"
+  "generatedAt": "2026-11-06T15:58:38-06:00"
 }
