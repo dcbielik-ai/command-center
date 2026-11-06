@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:50:21-06:00",
+  "updatedAt": "2026-11-05T19:12:34-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-05T08:20:00-06:00",
+      "lastRun": "Evening command center refresh: synced roster from status files, built and published the dashboard.",
+      "lastRunAt": "2026-11-05T19:12:25-06:00",
       "runTimes": [
         "2026-10-21T19:14:50-05:00",
         "2026-10-22T08:16:59-05:00",
@@ -196,17 +196,18 @@
         "2026-11-03T19:19:32-06:00",
         "2026-11-04T08:20:00-06:00",
         "2026-11-04T19:20:00-06:00",
-        "2026-11-05T08:20:00-06:00"
+        "2026-11-05T08:20:00-06:00",
+        "2026-11-05T19:12:25-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-05T19:10:00-06:00",
-      "latestFinding": "Investing Buzz saw Micron top Reddit chatter as chip stocks sold off, Fundamentals Analyst still rates AppLovin and Micron as Buys, and AI Guide flagged a ChatGPT look-alike download scam.",
+      "nextRunAt": "2026-11-06T08:10:00-06:00",
+      "latestFinding": "Stocks: after-close Fundamentals Buys on MCHP/MU/SNDK/APP/LRCX/AMD/SMCI; Technical flagged SPY −4.4% and QQQ 200-day break. Sports Picks posted the Nov 7–9 CFB/NFL card. Fairway Daughters has Post J ready after Quality Desk, still waiting on Dennis for H/I/J.",
       "waitingOnYou": [],
-      "runsCompleted": 44,
+      "runsCompleted": 45,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-21T19:14:50-05:00",
       "notes": "",
-      "updatedAt": "2026-11-05T08:20:00-06:00",
+      "updatedAt": "2026-11-05T19:12:25-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -540,7 +541,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-30T09:10:00-05:00",
       "runTimes": [
-        "2026-10-21T09:24:00-05:00",
         "2026-10-22T09:24:30-05:00",
         "2026-10-23T09:27:00-05:00",
         "2026-10-24T09:25:00-05:00",
@@ -560,7 +560,7 @@
       "waitingSince": "2026-10-30T09:10:00-05:00",
       "runsCompleted": 33,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-21T09:24:00-05:00",
+      "firstSeenAt": "2026-10-22T09:24:30-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T09:10:00-05:00",
       "avatar": {
@@ -1292,7 +1292,7 @@
       "zone": "sportszone",
       "className": "Sports Researcher",
       "role": "Researches upcoming games. Details stay private.",
-      "status": "Active",
+      "status": "Idle",
       "schedule": "Scheduled",
       "routines": "Set up",
       "slots": [
@@ -1517,6 +1517,12 @@
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-11-05T19:12:25-06:00",
+      "text": "Evening command center refresh: synced roster from status files, built and published the dashboard.",
+      "finding": "Stocks: after-close Fundamentals Buys on MCHP/MU/SNDK/APP/LRCX/AMD/SMCI; Technical flagged SPY −4.4% and QQQ 200-day break. Sports Picks posted the Nov 7–9 CFB/NFL card. Fairway Daughters has Post J ready after Quality Desk, still waiting on Dennis for H/I/J."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-05T18:50:21-06:00",
       "text": "Nov 5 after-close: MCHP/MU/SNDK/APP/LRCX/AMD/SMCI Buys; FROG Hold; NET/DKNG/AXON Sells.",
@@ -1597,21 +1603,15 @@
       "at": "2026-11-05T10:41:50-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "quality-desk",
-      "at": "2026-11-05T10:38:27-06:00",
-      "text": "Re-checked a teammate Instagram draft after a second sleeve-logo angle tweak; passed.",
-      "finding": "Sleeve mark now upright along the seam; draft ready pending user post OK."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 5 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Fundamentals Analyst: Nov 5 after-close: MCHP/MU/SNDK/APP/LRCX/AMD/SMCI Buys; FROG Hold; NET/DKNG/AXON Sells."
+      "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
+      "Latest: Chief of Staff: Evening command center refresh: synced roster from status files, built and published…"
     ],
-    "at": "2026-11-05T18:50:21-06:00"
+    "at": "2026-11-05T19:12:34-06:00"
   },
-  "generatedAt": "2026-11-05T18:50:21-06:00"
+  "generatedAt": "2026-11-05T19:12:34-06:00"
 }
