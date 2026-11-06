@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T12:47:03-06:00",
+  "updatedAt": "2026-11-06T12:49:00-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -870,7 +870,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-06T12:47:03-06:00",
+      "updatedAt": "2026-11-06T12:49:00-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1603,7 +1603,7 @@
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-06T12:47:03-06:00"
+    "at": "2026-11-06T12:49:00-06:00"
   },
-  "generatedAt": "2026-11-06T12:47:03-06:00"
+  "generatedAt": "2026-11-06T12:49:00-06:00"
 }
