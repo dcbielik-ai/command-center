@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:40:13-06:00",
+  "updatedAt": "2026-11-05T18:50:21-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -254,8 +254,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 5 pre-open heads-up: APP, MU, NVDA, SNDK, AMD clear growth bar as Buys; SEZL Hold after gap; QCOM/SNAP/JOBY/ARM Avoid.",
-      "lastRunAt": "2026-11-05T08:04:00-06:00",
+      "lastRun": "Nov 5 after-close: MCHP/MU/SNDK/APP/LRCX/AMD/SMCI Buys; FROG Hold; NET/DKNG/AXON Sells.",
+      "lastRunAt": "2026-11-05T18:50:21-06:00",
       "runTimes": [
         "2026-10-21T18:44:00-05:00",
         "2026-10-21T18:58:00-05:00",
@@ -285,17 +285,18 @@
         "2026-11-04T08:03:00-06:00",
         "2026-11-04T08:20:00-06:00",
         "2026-11-04T18:55:00-06:00",
-        "2026-11-05T08:04:00-06:00"
+        "2026-11-05T08:04:00-06:00",
+        "2026-11-05T18:50:21-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-05T18:40:00-06:00",
-      "latestFinding": "AppLovin premarket ~$337 (+24%) after Q3 beat; Micron ~$755 (−5%) still screens as Buy on memory/AI growth with Street PT ~$1,562.",
+      "nextRunAt": "2026-11-06T08:01:00-06:00",
+      "latestFinding": "Microchip beat (+42% rev) screens Buy at ~14x fwd EPS after the selloff; Cloudflare beat-and-raise but Sell on ~146x forward P/E; DraftKings miss-and-cut.",
       "waitingOnYou": [],
-      "runsCompleted": 37,
+      "runsCompleted": 38,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-21T18:44:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-05T08:10:00-06:00",
+      "updatedAt": "2026-11-05T18:50:21-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -475,7 +476,7 @@
       "waitingOnYou": [],
       "runsCompleted": 266,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-21T08:41:00-05:00",
+      "firstSeenAt": "2026-10-21T09:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T18:40:00-06:00",
       "avatar": {
@@ -1516,6 +1517,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-05T18:50:21-06:00",
+      "text": "Nov 5 after-close: MCHP/MU/SNDK/APP/LRCX/AMD/SMCI Buys; FROG Hold; NET/DKNG/AXON Sells.",
+      "finding": "Microchip beat (+42% rev) screens Buy at ~14x fwd EPS after the selloff; Cloudflare beat-and-raise but Sell on ~146x forward P/E; DraftKings miss-and-cut."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-05T18:40:00-06:00",
       "text": "Completed a news check",
@@ -1596,21 +1603,15 @@
       "at": "2026-11-05T10:38:27-06:00",
       "text": "Re-checked a teammate Instagram draft after a second sleeve-logo angle tweak; passed.",
       "finding": "Sleeve mark now upright along the seam; draft ready pending user post OK."
-    },
-    {
-      "bot": "quality-desk",
-      "at": "2026-11-05T10:33:38-06:00",
-      "text": "Re-checked a teammate Instagram draft after a sleeve-logo placement tweak; passed.",
-      "finding": "Sleeve mark now tracks the arm seam and still reads clean; draft ready pending user post OK."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Latest: Fundamentals Analyst: Nov 5 after-close: MCHP/MU/SNDK/APP/LRCX/AMD/SMCI Buys; FROG Hold; NET/DKNG/AXON Sells."
     ],
-    "at": "2026-11-05T18:40:13-06:00"
+    "at": "2026-11-05T18:50:21-06:00"
   },
-  "generatedAt": "2026-11-05T18:40:13-06:00"
+  "generatedAt": "2026-11-05T18:50:21-06:00"
 }
