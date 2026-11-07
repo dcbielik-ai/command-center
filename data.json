@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:13:43-06:00",
+  "updatedAt": "2026-11-07T08:19:55-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -475,7 +475,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T09:41:00-05:00",
+      "firstSeenAt": "2026-10-22T10:44:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -497,25 +497,26 @@
       "schedule": "Every 3 days at 7:42 AM CT",
       "routines": "Assumable VA listings check every 3 days (TX + OK) (Every 3 days at 7:42 AM CT)",
       "slots": [],
-      "lastRun": "Added 17 new deals; 757 deals tracked across TX and OK",
-      "lastRunAt": "2026-11-04T08:13:39-06:00",
+      "lastRun": "Added 21 new deals; 778 deals tracked across TX and OK",
+      "lastRunAt": "2026-11-07T08:19:55-06:00",
       "runTimes": [
         "2026-10-23T08:02:00-05:00",
         "2026-10-25T08:11:52-05:00",
         "2026-10-28T08:12:00-05:00",
         "2026-10-31T08:26:00-05:00",
         "2026-11-01T08:07:04-06:00",
-        "2026-11-04T08:13:39-06:00"
+        "2026-11-04T08:13:39-06:00",
+        "2026-11-07T08:19:55-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-07T07:42:00-06:00",
-      "latestFinding": "757 deals tracked",
+      "nextRunAt": "2026-11-10T07:42:00-06:00",
+      "latestFinding": "778 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 25,
+      "runsCompleted": 26,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-23T08:02:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-04T08:13:39-06:00",
+      "updatedAt": "2026-11-07T08:19:55-06:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1507,6 +1508,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-11-07T08:19:55-06:00",
+      "text": "Added 21 new deals; 778 deals tracked across TX and OK",
+      "finding": "778 deals tracked"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-06T19:13:35-06:00",
       "text": "Evening command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
@@ -1588,21 +1595,15 @@
       "at": "2026-11-06T12:51:18-06:00",
       "text": "Fresh visual QA on a heritage apparel flat-lay draft; passed with soft placement/legibility notes.",
       "finding": "Brand marks composite cleanly; sleeve gap vs cuff is approximate only; post OK still separate."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-06T12:46:35-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: AI Guide · Scam watch, tomorrow 12:50 PM CT",
-      "Latest: Chief of Staff: Evening command center refresh: synced 29 bots across 14 zones, built and published…"
+      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
+      "Latest: VA Deal Scout: Added 21 new deals; 778 deals tracked across TX and OK"
     ],
-    "at": "2026-11-06T19:13:43-06:00"
+    "at": "2026-11-07T08:19:55-06:00"
   },
-  "generatedAt": "2026-11-06T19:13:43-06:00"
+  "generatedAt": "2026-11-07T08:19:55-06:00"
 }
