@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:14:53-06:00",
+  "updatedAt": "2026-11-07T10:16:45-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -475,7 +475,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T10:44:00-05:00",
+      "firstSeenAt": "2026-10-22T11:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -866,7 +866,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T10:14:53.548832-06:00",
+      "updatedAt": "2026-11-07T10:16:45.901472-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1184,12 +1184,12 @@
       "zone": "hq",
       "className": "QA Reviewer",
       "role": "Reviews public posts, listings, books and money advice before they go out.",
-      "status": "Active",
+      "status": "idle",
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Reel v12 STILL-only: PASS (v11 fringe cleared; visor-only diff; locked layout frozen).",
-      "lastRunAt": "2026-11-06T15:30:38-06:00",
+      "lastRun": "Reviewed revised concept layout; returned visual proportion and artifact fixes.",
+      "lastRunAt": "2026-11-07T10:16:19-06:00",
       "runTimes": [
         "2026-11-05T09:11:00-06:00",
         "2026-11-05T10:33:38-06:00",
@@ -1198,19 +1198,17 @@
         "2026-11-06T12:51:18-06:00",
         "2026-11-06T13:59:59-06:00",
         "2026-11-06T14:57:20-06:00",
-        "2026-11-06T15:30:38-06:00"
+        "2026-11-06T15:30:38-06:00",
+        "2026-11-07T10:16:19-06:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "v12 still: #000 fringe 2165→0; FD+gold intact; soft micro-alias residual only. No motion PASS.",
-      "waitingOnYou": [
-        "Waiting on Dennis"
-      ],
-      "waitingSince": "2026-11-05T09:11:00-06:00",
-      "runsCompleted": 17,
+      "latestFinding": "Revised draft needs proportion and edge-cleanup corrections before preview.",
+      "waitingOnYou": [],
+      "runsCompleted": 18,
       "created": "2026-10-20",
       "firstSeenAt": "2026-11-05T09:11:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-06T15:30:38-06:00",
+      "updatedAt": "2026-11-07T10:16:19-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1499,14 +1497,15 @@
       "bot": "deal-review-outreach",
       "text": "Needs your approval",
       "since": "2026-10-20T17:56:00-05:00"
-    },
-    {
-      "bot": "quality-desk",
-      "text": "Waiting on Dennis",
-      "since": "2026-11-05T09:11:00-06:00"
     }
   ],
   "feed": [
+    {
+      "bot": "quality-desk",
+      "at": "2026-11-07T10:16:19-06:00",
+      "text": "Reviewed revised concept layout; returned visual proportion and artifact fixes.",
+      "finding": "Revised draft needs proportion and edge-cleanup corrections before preview."
+    },
     {
       "bot": "va-deal-scout",
       "at": "2026-11-07T08:19:55-06:00",
@@ -1589,21 +1588,15 @@
       "at": "2026-11-06T12:54:24-06:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "quality-desk",
-      "at": "2026-11-06T12:51:18-06:00",
-      "text": "Fresh visual QA on a heritage apparel flat-lay draft; passed with soft placement/legibility notes.",
-      "finding": "Brand marks composite cleanly; sleeve gap vs cuff is approximate only; post OK still separate."
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
+      "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: VA Deal Scout: Added 21 new deals; 778 deals tracked across TX and OK"
+      "Latest: Quality Desk: Reviewed revised concept layout; returned visual proportion and artifact fixes."
     ],
-    "at": "2026-11-07T10:14:53-06:00"
+    "at": "2026-11-07T10:16:45-06:00"
   },
-  "generatedAt": "2026-11-07T10:14:53-06:00"
+  "generatedAt": "2026-11-07T10:16:45-06:00"
 }
