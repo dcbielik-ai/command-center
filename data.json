@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T17:12:14-06:00",
+  "updatedAt": "2026-11-07T17:20:58-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -475,7 +475,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T12:37:00-05:00",
+      "firstSeenAt": "2026-10-22T13:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -844,11 +844,11 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "working",
+      "status": "Needs you",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
-      "lastRun": "No runs yet",
+      "lastRun": "Working on brand designs",
       "runTimes": [
         "2026-10-23T07:59:00-05:00",
         "2026-10-23T08:29:00-05:00",
@@ -861,13 +861,16 @@
         "2026-11-05T09:10:00-06:00"
       ],
       "nextRun": "Not scheduled yet",
-      "latestFinding": "No findings yet",
-      "waitingOnYou": [],
-      "runsCompleted": 17,
+      "latestFinding": "Details stay private until launch",
+      "waitingOnYou": [
+        "Waiting on Dennis"
+      ],
+      "waitingSince": "2026-11-07T17:20:58-06:00",
+      "runsCompleted": 18,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T17:12:14.610106-06:00",
+      "updatedAt": "2026-11-07T17:20:58-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1470,6 +1473,11 @@
       "since": "2026-10-06T20:25:49-05:00"
     },
     {
+      "bot": "fairway-daughters",
+      "text": "Waiting on Dennis",
+      "since": "2026-11-07T17:20:58-06:00"
+    },
+    {
       "bot": "bielik-game-studio",
       "text": "Needs info from you",
       "since": "2026-10-07T17:17:02-05:00"
@@ -1501,6 +1509,12 @@
     }
   ],
   "feed": [
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
     {
       "bot": "ai-guide",
       "at": "2026-11-07T13:00:00-06:00",
@@ -1583,21 +1597,15 @@
       "at": "2026-11-06T13:59:59-06:00",
       "text": "Post K slide4 v3 candidate PASS for concept embroidery redo; live slide untouched.",
       "finding": "Flat back-neck FD concern addressed in candidate hash f378dcbc…; not publish auth."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-06T13:38:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
+      "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
-      "Latest: AI Guide: Sent a safety alert"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-07T17:12:14-06:00"
+    "at": "2026-11-07T17:20:58-06:00"
   },
-  "generatedAt": "2026-11-07T17:12:14-06:00"
+  "generatedAt": "2026-11-07T17:20:58-06:00"
 }
