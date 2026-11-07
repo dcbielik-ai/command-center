@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:21:43-06:00",
+  "updatedAt": "2026-11-07T13:00:36-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -475,7 +475,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T11:42:00-05:00",
+      "firstSeenAt": "2026-10-22T12:37:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -757,7 +757,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-11-06T12:54:24-06:00",
+      "lastRunAt": "2026-11-07T13:00:00-06:00",
       "runTimes": [
         "2026-10-22T12:58:00-05:00",
         "2026-10-23T13:02:00-05:00",
@@ -781,17 +781,18 @@
         "2026-11-05T08:07:48-06:00",
         "2026-11-05T12:57:06-06:00",
         "2026-11-05T12:58:00-06:00",
-        "2026-11-06T12:54:24-06:00"
+        "2026-11-06T12:54:24-06:00",
+        "2026-11-07T13:00:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-07T12:50:00-06:00",
+      "nextRunAt": "2026-11-08T12:50:00-06:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [],
-      "runsCompleted": 40,
+      "runsCompleted": 41,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-22T12:58:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-06T12:54:24-06:00",
+      "updatedAt": "2026-11-07T13:00:00-06:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1501,6 +1502,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-11-07T13:00:00-06:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "quality-desk",
       "at": "2026-11-07T10:16:19-06:00",
       "text": "Reviewed revised concept layout; returned visual proportion and artifact fixes.",
@@ -1582,21 +1589,15 @@
       "at": "2026-11-06T13:38:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-06T12:54:24-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Quality Desk: Reviewed revised concept layout; returned visual proportion and artifact fixes."
+      "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
+      "Latest: AI Guide: Sent a safety alert"
     ],
-    "at": "2026-11-07T10:21:43-06:00"
+    "at": "2026-11-07T13:00:36-06:00"
   },
-  "generatedAt": "2026-11-07T10:21:43-06:00"
+  "generatedAt": "2026-11-07T13:00:36-06:00"
 }
