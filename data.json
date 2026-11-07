@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T17:22:11-06:00",
+  "updatedAt": "2026-11-07T17:22:51-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -475,7 +475,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T13:42:00-05:00",
+      "firstSeenAt": "2026-10-22T14:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -759,7 +759,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-07T13:00:00-06:00",
       "runTimes": [
-        "2026-10-22T12:58:00-05:00",
         "2026-10-23T13:02:00-05:00",
         "2026-10-24T13:00:00-05:00",
         "2026-10-25T12:55:00-05:00",
@@ -790,7 +789,7 @@
       "waitingOnYou": [],
       "runsCompleted": 41,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-22T12:58:00-05:00",
+      "firstSeenAt": "2026-10-23T13:02:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-07T13:00:00-06:00",
       "avatar": {
@@ -870,7 +869,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T07:59:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T17:22:11-06:00",
+      "updatedAt": "2026-11-07T17:22:51-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1522,6 +1521,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-07T13:00:00-06:00",
       "text": "Sent a safety alert",
@@ -1592,11 +1597,6 @@
       "at": "2026-11-06T14:57:20-06:00",
       "text": "Reel v7 STILL-only: FIX NEEDED (AI label missing on layout still); v6 still blockers look fixed.",
       "finding": "v7 stills: club join/FD legibility OK; unlabeled still vs labeled frames. No motion PASS."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-06T14:40:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
@@ -1605,7 +1605,7 @@
       "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
       "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-07T17:22:11-06:00"
+    "at": "2026-11-07T17:22:51-06:00"
   },
-  "generatedAt": "2026-11-07T17:22:11-06:00"
+  "generatedAt": "2026-11-07T17:22:51-06:00"
 }
