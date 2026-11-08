@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T18:38:19-06:00",
+  "updatedAt": "2026-11-07T18:39:01-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -468,7 +468,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-23T13:42:00-05:00",
+      "firstSeenAt": "2026-10-23T14:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -833,7 +833,7 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Working",
+      "status": "Idle",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -853,7 +853,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T17:57:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T18:38:19.340689-06:00",
+      "updatedAt": "2026-11-07T18:39:01.860316-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1492,37 +1492,43 @@
   "feed": [
     {
       "bot": "fairway-daughters",
+      "at": "2026-11-07T18:39:01.860316-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
       "at": "2026-11-07T18:38:19.340689-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
     },
@@ -1573,12 +1579,6 @@
       "at": "2026-11-07T17:47:19-06:00",
       "text": "Reviewed v26f concept still; returned page-fill and logo fixes.",
       "finding": "v26f proportions improved but outfit no longer fills page; glove and chest logo cleanup needed."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-07T17:45:43-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
@@ -1587,7 +1587,7 @@
       "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
       "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-07T18:38:19-06:00"
+    "at": "2026-11-07T18:39:01-06:00"
   },
-  "generatedAt": "2026-11-07T18:38:19-06:00"
+  "generatedAt": "2026-11-07T18:39:01-06:00"
 }
