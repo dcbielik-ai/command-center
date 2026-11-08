@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T07:46:55-06:00",
+  "updatedAt": "2026-11-08T09:09:16-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -468,7 +468,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-23T15:36:00-05:00",
+      "firstSeenAt": "2026-10-23T16:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -833,7 +833,7 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Idle",
+      "status": "Working",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -853,7 +853,7 @@
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T17:57:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T18:39:01.860316-06:00",
+      "updatedAt": "2026-11-08T09:06:00-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1522,6 +1522,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fairway-daughters",
+      "at": "2026-11-08T09:06:00-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-08T07:46:00-06:00",
       "text": "Morning brief Nov 8: weekend fade after Friday’s mixed bounce. Fri: Nasdaq +1.09% to 24,579, S&P +0.31% to 7,377, Dow −0.46% to 51,286; week Nasdaq −3.4%, S&P −2.7% (worst since June). Chips: AMD +11% to MU +5% to NVDA +2.8% to SOX ~+4% after Thu −12%. NFP +165k, UE 4.1%, 10Y 4.86%, Dec hike ~80%. Brent but ~−17% on the week. Reddit mentions collapsed vs Fri AM (SPY −74%, MU −78%); NVDA held #1 on leftover volume.",
@@ -1574,12 +1580,6 @@
       "at": "2026-11-07T17:58:05-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-07T17:55:36-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
@@ -1588,7 +1588,7 @@
       "Next run: AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-08T07:46:55-06:00"
+    "at": "2026-11-08T09:09:16-06:00"
   },
-  "generatedAt": "2026-11-08T07:46:55-06:00"
+  "generatedAt": "2026-11-08T09:09:16-06:00"
 }
