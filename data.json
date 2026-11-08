@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T18:04:26-06:00",
+  "updatedAt": "2026-11-07T18:11:59-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -468,7 +468,7 @@
       "waitingOnYou": [],
       "runsCompleted": 278,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-23T09:41:00-05:00",
+      "firstSeenAt": "2026-10-23T11:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-06T18:44:38-06:00",
       "avatar": {
@@ -531,7 +531,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-30T09:10:00-05:00",
       "runTimes": [
-        "2026-10-23T09:27:00-05:00",
         "2026-10-24T09:25:00-05:00",
         "2026-10-25T09:27:00-05:00",
         "2026-10-26T09:29:30-05:00",
@@ -549,7 +548,7 @@
       "waitingSince": "2026-10-30T09:10:00-05:00",
       "runsCompleted": 33,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-23T09:27:00-05:00",
+      "firstSeenAt": "2026-10-24T09:25:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T09:10:00-05:00",
       "avatar": {
@@ -854,11 +853,11 @@
         "Waiting on Dennis"
       ],
       "waitingSince": "2026-11-07T17:20:58-06:00",
-      "runsCompleted": 34,
+      "runsCompleted": 35,
       "created": "2026-10-07",
       "firstSeenAt": "2026-10-23T17:57:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-07T18:04:26-06:00",
+      "updatedAt": "2026-11-07T18:11:59-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1180,8 +1179,8 @@
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Reviewed v26f concept still; returned page-fill and logo fixes.",
-      "lastRunAt": "2026-11-07T17:47:19-06:00",
+      "lastRun": "Reviewed v26i concept still; composition resolved, shareable labeled still needed.",
+      "lastRunAt": "2026-11-07T18:06:03-06:00",
       "runTimes": [
         "2026-11-05T09:11:00-06:00",
         "2026-11-05T10:33:38-06:00",
@@ -1192,16 +1191,17 @@
         "2026-11-06T14:57:20-06:00",
         "2026-11-06T15:30:38-06:00",
         "2026-11-07T10:16:19-06:00",
-        "2026-11-07T17:47:19-06:00"
+        "2026-11-07T17:47:19-06:00",
+        "2026-11-07T18:06:03-06:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "v26f proportions improved but outfit no longer fills page; glove and chest logo cleanup needed.",
+      "latestFinding": "v26i page fill and chest ghost resolved; needs clean AI-labeled preview without QA boxes; visor/glove logo provenance unverified.",
       "waitingOnYou": [],
-      "runsCompleted": 19,
+      "runsCompleted": 20,
       "created": "2026-10-20",
       "firstSeenAt": "2026-11-05T09:11:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-07T17:47:19-06:00",
+      "updatedAt": "2026-11-07T18:06:03-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1530,6 +1530,18 @@
     },
     {
       "bot": "fairway-daughters",
+      "at": "2026-11-07T18:11:59-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "quality-desk",
+      "at": "2026-11-07T18:06:03-06:00",
+      "text": "Reviewed v26i concept still; composition resolved, shareable labeled still needed.",
+      "finding": "v26i page fill and chest ghost resolved; needs clean AI-labeled preview without QA boxes; visor/glove logo provenance unverified."
+    },
+    {
+      "bot": "fairway-daughters",
       "at": "2026-11-07T18:04:26-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
@@ -1575,18 +1587,6 @@
       "at": "2026-11-07T17:36:25-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-07T17:35:45-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-07T17:35:10-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
@@ -1595,7 +1595,7 @@
       "Next run: Investing Buzz · Morning buzz brief, tomorrow 7:30 AM CT",
       "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-07T18:04:26-06:00"
+    "at": "2026-11-07T18:11:59-06:00"
   },
-  "generatedAt": "2026-11-07T18:04:26-06:00"
+  "generatedAt": "2026-11-07T18:11:59-06:00"
 }
