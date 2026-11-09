@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T07:43:26-06:00",
+  "updatedAt": "2026-11-09T07:48:03-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -335,8 +335,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Nov 6: 235 buys / 13 sells; SPY +0.3% held 200d, QQQ +1.4% still under 200d; APP morning pick +9.9% 2.2x confirm; AXON −18% 4.9x.",
-      "lastRunAt": "2026-11-06T15:47:38-06:00",
+      "lastRun": "Pre-market Nov 9 (data as of Nov 6 close): 237 buys / 13 sells; top picks VRSN, IDEX, MOS, TTWO; new sells ROK, EWJ, NWS.",
+      "lastRunAt": "2026-11-09T07:47:00-06:00",
       "runTimes": [
         "2026-10-26T07:45:00-05:00",
         "2026-10-26T15:45:00-05:00",
@@ -357,17 +357,18 @@
         "2026-11-05T07:42:00-06:00",
         "2026-11-05T15:45:00-06:00",
         "2026-11-06T08:02:06-06:00",
-        "2026-11-06T15:47:38-06:00"
+        "2026-11-06T15:47:38-06:00",
+        "2026-11-09T07:47:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-09T07:38:00-06:00",
-      "latestFinding": "APP 391 (+9.9% 2.2x) cleared 365 breakout; AXON 313 (−18% 4.9x); ABNB 190 (+11.7% 2.7x); SPY 735 / QQQ 656; VIX 25.6 (−9%).",
+      "nextRunAt": "2026-11-10T07:38:00-06:00",
+      "latestFinding": "VRSN 308.67 held 20d (306.57); IEX 226.99 testing 50d (229.58); QQQ 656.10 still 3.5% under 200d; 13 sell warnings.",
       "waitingOnYou": [],
-      "runsCompleted": 47,
+      "runsCompleted": 48,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-26T07:45:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-06T15:47:38-06:00",
+      "updatedAt": "2026-11-09T07:49:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1302,7 +1303,6 @@
       "lastRun": "Working on sports research",
       "lastRunAt": "2026-11-05T10:30:00-06:00",
       "runTimes": [
-        "2026-10-24T10:50:00-05:00",
         "2026-10-29T10:14:55-05:00",
         "2026-10-29T10:15:00-05:00",
         "2026-11-05T10:08:53-06:00",
@@ -1313,7 +1313,7 @@
       "waitingOnYou": [],
       "runsCompleted": 5,
       "created": "2026-10-24",
-      "firstSeenAt": "2026-10-24T10:50:00-05:00",
+      "firstSeenAt": "2026-10-29T10:14:55-05:00",
       "notes": "",
       "updatedAt": "2026-11-05T10:30:00-06:00",
       "avatar": {
@@ -1499,40 +1499,46 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "technical-analyst",
+      "at": "2026-11-09T07:47:00-06:00",
+      "text": "Pre-market Nov 9 (data as of Nov 6 close): 237 buys / 13 sells; top picks VRSN, IDEX, MOS, TTWO; new sells ROK, EWJ, NWS.",
+      "finding": "VRSN 308.67 held 20d (306.57); IEX 226.99 testing 50d (229.58); QQQ 656.10 still 3.5% under 200d; 13 sell warnings."
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-09T07:45:00-06:00",
       "text": "Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025 (Bloomberg), but NVDA -4.5-6% premarket after board opened independent probe into Jensen Huang/Chinese-intelligence affair reports. Taiex +4.9%, TSMC +6.5%; Brent (-3.6%) on easing Iran signals; 10Y ~4.85%, Dec hike odds ~77%. CPI Tue, CoreWeave Tue PM, NBIS Thu AM.",
       "finding": "UNUSUAL SPIKE: NVDA mentions 923 (+926% vs Sun), WSB 858 (+1,126%), 14% of all tracked chatter; X posts overnight already beat all of Sun. Rising names 113 vs 15 falling (Sun: 20 vs 85). Spillover: AMD +918% (bullish, Oppenheimer upgrade), SMCI 2->32, GOOGL +550%. NBIS/RKLB up on r/stocks drawdown thread; ASTS on Rakuten JV. News-driven with heavy retail layer; no meme takeover. Cooling: IREN, VOO, RAM flat."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1580,21 +1586,15 @@
       "at": "2026-11-08T09:06:00-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-08T07:46:00-06:00",
-      "text": "Morning brief Nov 8: weekend fade after Friday’s mixed bounce. Fri: Nasdaq +1.09% to 24,579, S&P +0.31% to 7,377, Dow −0.46% to 51,286; week Nasdaq −3.4%, S&P −2.7% (worst since June). Chips: AMD +11% to MU +5% to NVDA +2.8% to SOX ~+4% after Thu −12%. NFP +165k, UE 4.1%, 10Y 4.86%, Dec hike ~80%. Brent but ~−17% on the week. Reddit mentions collapsed vs Fri AM (SPY −74%, MU −78%); NVDA held #1 on leftover volume.",
-      "finding": "No unusual volume explosion this morning — 85 names falling vs 20 rising. Genuine heater: RAM (2x DRAM ETF) mentions +171% on ChartExchange. IREN cooled least (WSB mentions +36% there) after Thu earnings and a Microsoft-related ARR delay; NBIS call chatter into its Thursday print. Cooling vs Friday: SPY, MU, QQQ, AMD, SNDK, SOXL collapsed; QCOM/APP off the top 100. Tape still news/political-AI driven, not meme leadership. WSB: SPY bearish (34% positive), SNDK most bearish on AltIndex, NVDA mixed, NBIS/ASTS bullish on thin samples."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Investing Buzz: Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025…"
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-09T07:43:26-06:00"
+    "at": "2026-11-09T07:48:03-06:00"
   },
-  "generatedAt": "2026-11-09T07:43:26-06:00"
+  "generatedAt": "2026-11-09T07:48:03-06:00"
 }
