@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:40:31-06:00",
+  "updatedAt": "2026-11-09T12:36:52-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -426,9 +426,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-09T11:45:00-06:00",
+      "lastRunAt": "2026-11-09T12:40:00-06:00",
       "runTimes": [
-        "2026-11-04T18:44:29-06:00",
         "2026-11-05T07:42:00-06:00",
         "2026-11-05T08:42:00-06:00",
         "2026-11-05T09:45:00-06:00",
@@ -457,17 +456,18 @@
         "2026-11-09T08:38:00-06:00",
         "2026-11-09T09:45:00-06:00",
         "2026-11-09T10:45:00-06:00",
-        "2026-11-09T11:45:00-06:00"
+        "2026-11-09T11:45:00-06:00",
+        "2026-11-09T12:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-09T12:35:00-06:00",
+      "nextRunAt": "2026-11-09T13:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 283,
+      "runsCompleted": 284,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-26T08:42:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-09T11:45:00-06:00",
+      "updatedAt": "2026-11-09T12:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -745,7 +745,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-09T07:58:00-06:00",
       "runTimes": [
-        "2026-10-26T07:58:00-05:00",
         "2026-10-26T12:51:34-05:00",
         "2026-10-27T12:56:00-05:00",
         "2026-10-28T13:01:00-05:00",
@@ -774,7 +773,7 @@
       "waitingOnYou": [],
       "runsCompleted": 43,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-26T07:58:00-05:00",
+      "firstSeenAt": "2026-10-26T12:51:34-05:00",
       "notes": "",
       "updatedAt": "2026-11-09T07:58:00-06:00",
       "avatar": {
@@ -1497,7 +1496,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-09T11:45:00-06:00",
+      "at": "2026-11-09T12:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1530,6 +1529,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-09T11:45:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "portfolio-news",
@@ -1576,21 +1581,15 @@
       "at": "2026-11-09T07:47:00-06:00",
       "text": "Pre-market Nov 9 (data as of Nov 6 close): 237 buys / 13 sells; top picks VRSN, IDEX, MOS, TTWO; new sells ROK, EWJ, NWS.",
       "finding": "VRSN 308.67 held 20d (306.57); IEX 226.99 testing 50d (229.58); QQQ 656.10 still 3.5% under 200d; 13 sell warnings."
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-09T07:45:00-06:00",
-      "text": "Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025 (Bloomberg), but NVDA -4.5-6% premarket after board opened independent probe into Jensen Huang/Chinese-intelligence affair reports. Taiex +4.9%, TSMC +6.5%; Brent (-3.6%) on easing Iran signals; 10Y ~4.85%, Dec hike odds ~77%. CPI Tue, CoreWeave Tue PM, NBIS Thu AM.",
-      "finding": "UNUSUAL SPIKE: NVDA mentions 923 (+926% vs Sun), WSB 858 (+1,126%), 14% of all tracked chatter; X posts overnight already beat all of Sun. Rising names 113 vs 15 falling (Sun: 20 vs 85). Spillover: AMD +918% (bullish, Oppenheimer upgrade), SMCI 2->32, GOOGL +550%. NBIS/RKLB up on r/stocks drawdown thread; ASTS on Rakuten JV. News-driven with heavy retail layer; no meme takeover. Cooling: IREN, VOO, RAM flat."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 12:35 PM CT",
+      "Next run: AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-09T11:40:31-06:00"
+    "at": "2026-11-09T12:36:52-06:00"
   },
-  "generatedAt": "2026-11-09T11:40:31-06:00"
+  "generatedAt": "2026-11-09T12:36:52-06:00"
 }
