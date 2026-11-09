@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T07:40:31-06:00",
+  "updatedAt": "2026-11-09T07:43:26-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -528,7 +528,6 @@
       "lastRun": "Completed a deal search",
       "lastRunAt": "2026-10-30T09:10:00-05:00",
       "runTimes": [
-        "2026-10-24T09:25:00-05:00",
         "2026-10-25T09:27:00-05:00",
         "2026-10-26T09:29:30-05:00",
         "2026-10-27T09:35:00-05:00",
@@ -545,7 +544,7 @@
       "waitingSince": "2026-10-30T09:10:00-05:00",
       "runsCompleted": 33,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-24T09:25:00-05:00",
+      "firstSeenAt": "2026-10-25T09:27:00-05:00",
       "notes": "",
       "updatedAt": "2026-10-30T09:10:00-05:00",
       "avatar": {
@@ -1375,8 +1374,8 @@
           ]
         }
       ],
-      "lastRun": "Morning brief Nov 8: weekend fade after Friday’s mixed bounce. Fri: Nasdaq +1.09% to 24,579, S&P +0.31% to 7,377, Dow −0.46% to 51,286; week Nasdaq −3.4%, S&P −2.7% (worst since June). Chips: AMD +11% to MU +5% to NVDA +2.8% to SOX ~+4% after Thu −12%. NFP +165k, UE 4.1%, 10Y 4.86%, Dec hike ~80%. Brent but ~−17% on the week. Reddit mentions collapsed vs Fri AM (SPY −74%, MU −78%); NVDA held #1 on leftover volume.",
-      "lastRunAt": "2026-11-08T07:46:00-06:00",
+      "lastRun": "Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025 (Bloomberg), but NVDA -4.5-6% premarket after board opened independent probe into Jensen Huang/Chinese-intelligence affair reports. Taiex +4.9%, TSMC +6.5%; Brent (-3.6%) on easing Iran signals; 10Y ~4.85%, Dec hike odds ~77%. CPI Tue, CoreWeave Tue PM, NBIS Thu AM.",
+      "lastRunAt": "2026-11-09T07:45:00-06:00",
       "runTimes": [
         "2026-10-29T19:05:45-05:00",
         "2026-10-29T19:05:50-05:00",
@@ -1387,17 +1386,18 @@
         "2026-11-04T07:36:00-06:00",
         "2026-11-05T07:36:00-06:00",
         "2026-11-06T07:45:00-06:00",
-        "2026-11-08T07:46:00-06:00"
+        "2026-11-08T07:46:00-06:00",
+        "2026-11-09T07:45:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-09T07:30:00-06:00",
-      "latestFinding": "No unusual volume explosion this morning — 85 names falling vs 20 rising. Genuine heater: RAM (2x DRAM ETF) mentions +171% on ChartExchange. IREN cooled least (WSB mentions +36% there) after Thu earnings and a Microsoft-related ARR delay; NBIS call chatter into its Thursday print. Cooling vs Friday: SPY, MU, QQQ, AMD, SNDK, SOXL collapsed; QCOM/APP off the top 100. Tape still news/political-AI driven, not meme leadership. WSB: SPY bearish (34% positive), SNDK most bearish on AltIndex, NVDA mixed, NBIS/ASTS bullish on thin samples.",
+      "nextRunAt": "2026-11-10T07:30:00-06:00",
+      "latestFinding": "UNUSUAL SPIKE: NVDA mentions 923 (+926% vs Sun), WSB 858 (+1,126%), 14% of all tracked chatter; X posts overnight already beat all of Sun. Rising names 113 vs 15 falling (Sun: 20 vs 85). Spillover: AMD +918% (bullish, Oppenheimer upgrade), SMCI 2->32, GOOGL +550%. NBIS/RKLB up on r/stocks drawdown thread; ASTS on Rakuten JV. News-driven with heavy retail layer; no meme takeover. Cooling: IREN, VOO, RAM flat.",
       "waitingOnYou": [],
-      "runsCompleted": 9,
+      "runsCompleted": 10,
       "created": "2026-10-29",
       "firstSeenAt": "2026-10-29T19:05:45-05:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-08T07:46:00-06:00",
+      "updatedAt": "2026-11-09T07:45:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1499,39 +1499,45 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-09T07:45:00-06:00",
+      "text": "Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025 (Bloomberg), but NVDA -4.5-6% premarket after board opened independent probe into Jensen Huang/Chinese-intelligence affair reports. Taiex +4.9%, TSMC +6.5%; Brent (-3.6%) on easing Iran signals; 10Y ~4.85%, Dec hike odds ~77%. CPI Tue, CoreWeave Tue PM, NBIS Thu AM.",
+      "finding": "UNUSUAL SPIKE: NVDA mentions 923 (+926% vs Sun), WSB 858 (+1,126%), 14% of all tracked chatter; X posts overnight already beat all of Sun. Rising names 113 vs 15 falling (Sun: 20 vs 85). Spillover: AMD +918% (bullish, Oppenheimer upgrade), SMCI 2->32, GOOGL +550%. NBIS/RKLB up on r/stocks drawdown thread; ASTS on Rakuten JV. News-driven with heavy retail layer; no meme takeover. Cooling: IREN, VOO, RAM flat."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-09T07:42:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "ai-guide",
@@ -1580,21 +1586,15 @@
       "at": "2026-11-08T07:46:00-06:00",
       "text": "Morning brief Nov 8: weekend fade after Friday’s mixed bounce. Fri: Nasdaq +1.09% to 24,579, S&P +0.31% to 7,377, Dow −0.46% to 51,286; week Nasdaq −3.4%, S&P −2.7% (worst since June). Chips: AMD +11% to MU +5% to NVDA +2.8% to SOX ~+4% after Thu −12%. NFP +165k, UE 4.1%, 10Y 4.86%, Dec hike ~80%. Brent but ~−17% on the week. Reddit mentions collapsed vs Fri AM (SPY −74%, MU −78%); NVDA held #1 on leftover volume.",
       "finding": "No unusual volume explosion this morning — 85 names falling vs 20 rising. Genuine heater: RAM (2x DRAM ETF) mentions +171% on ChartExchange. IREN cooled least (WSB mentions +36% there) after Thu earnings and a Microsoft-related ARR delay; NBIS call chatter into its Thursday print. Cooling vs Friday: SPY, MU, QQQ, AMD, SNDK, SOXL collapsed; QCOM/APP off the top 100. Tape still news/political-AI driven, not meme leadership. WSB: SPY bearish (34% positive), SNDK most bearish on AltIndex, NVDA mixed, NBIS/ASTS bullish on thin samples."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-07T18:39:01.860316-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 5 setting up",
       "Next run: AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Latest: Investing Buzz: Morning brief Nov 9: futures up ~0.5-1% after S&P's worst week since Apr 2025…"
     ],
-    "at": "2026-11-09T07:40:31-06:00"
+    "at": "2026-11-09T07:43:26-06:00"
   },
-  "generatedAt": "2026-11-09T07:40:31-06:00"
+  "generatedAt": "2026-11-09T07:43:26-06:00"
 }
