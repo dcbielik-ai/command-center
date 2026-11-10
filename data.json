@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T07:45:28-06:00",
+  "updatedAt": "2026-11-10T08:03:05-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -466,7 +466,7 @@
       "waitingOnYou": [],
       "runsCompleted": 291,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-26T17:40:00-05:00",
+      "firstSeenAt": "2026-10-26T18:41:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T07:40:00-06:00",
       "avatar": {
@@ -1487,40 +1487,40 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-10T07:46:00-06:00",
       "text": "Pre-market Nov 10 (as-of Nov 9 close): 234 buys / 5 sells (none new); top setups VRSN, AMD, BBVA, GL, IEX, TMO.",
       "finding": "Top-ranked: VRSN 305.84 testing 20d (306.73), RSI 51.7; sells ROK, AVGO, NWS, MU, CSCO unchanged from Nov 6."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1579,10 +1579,10 @@
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Technical Analyst: Pre-market Nov 10 (as-of Nov 9 close): 234 buys / 5 sells (none new); top setups VRSN,…"
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-10T07:45:28-06:00"
+    "at": "2026-11-10T08:03:05-06:00"
   },
-  "generatedAt": "2026-11-10T07:45:28-06:00"
+  "generatedAt": "2026-11-10T08:03:05-06:00"
 }
