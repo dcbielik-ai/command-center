@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T08:03:05-06:00",
+  "updatedAt": "2026-11-10T08:05:04-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -251,8 +251,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 9 after-close brief: Buy SANM, ONTO, COHR; Hold AAON (restatement + material weakness), ZETA, CHRD; red flags HIMS, APPS, AAON.",
-      "lastRunAt": "2026-11-09T18:55:00-06:00",
+      "lastRun": "Nov 10 trending heads-up: SANM, MU, SNDK pass the growth/valuation bar (Buy); NVDA passes but Hold on CEO probe; RKLB, ASTS, TTD, HIMS, AAON, AMD hype-only.",
+      "lastRunAt": "2026-11-10T08:15:00-06:00",
       "runTimes": [
         "2026-10-26T18:55:00-05:00",
         "2026-10-27T08:20:00-05:00",
@@ -278,17 +278,18 @@
         "2026-11-06T08:23:12-06:00",
         "2026-11-06T18:50:00-06:00",
         "2026-11-09T08:20:00-06:00",
-        "2026-11-09T18:55:00-06:00"
+        "2026-11-09T18:55:00-06:00",
+        "2026-11-10T08:15:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-10T08:01:00-06:00",
-      "latestFinding": "SANM +20% after hours on FY27 EPS guide $15.50-17.50 (~9-11x); ONTO record $410M rev (+88%) and Q4 guide above consensus; AAON rev +84% but restated Q1-Q2.",
+      "nextRunAt": "2026-11-10T18:40:00-06:00",
+      "latestFinding": "SANM ~+8.6% premarket on FY27 EPS guide $15.50-17.50 vs $14.07 consensus; Q4 rev +84% YoY, EPS +144%.",
       "waitingOnYou": [],
-      "runsCompleted": 42,
+      "runsCompleted": 43,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-26T18:55:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-09T18:55:00-06:00",
+      "updatedAt": "2026-11-10T08:15:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -466,7 +467,7 @@
       "waitingOnYou": [],
       "runsCompleted": 291,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-26T18:41:00-05:00",
+      "firstSeenAt": "2026-10-27T07:39:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T07:40:00-06:00",
       "avatar": {
@@ -1487,6 +1488,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-10T08:15:00-06:00",
+      "text": "Nov 10 trending heads-up: SANM, MU, SNDK pass the growth/valuation bar (Buy); NVDA passes but Hold on CEO probe; RKLB, ASTS, TTD, HIMS, AAON, AMD hype-only.",
+      "finding": "SANM ~+8.6% premarket on FY27 EPS guide $15.50-17.50 vs $14.07 consensus; Q4 rev +84% YoY, EPS +144%."
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1568,21 +1575,15 @@
       "at": "2026-11-09T18:55:00-06:00",
       "text": "Nov 9 after-close brief: Buy SANM, ONTO, COHR; Hold AAON (restatement + material weakness), ZETA, CHRD; red flags HIMS, APPS, AAON.",
       "finding": "SANM +20% after hours on FY27 EPS guide $15.50-17.50 (~9-11x); ONTO record $410M rev (+88%) and Q4 guide above consensus; AAON rev +84% but restated Q1-Q2."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-09T18:40:37-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
       "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Latest: Fundamentals Analyst: Nov 10 trending heads-up: SANM, MU, SNDK pass the growth/valuation bar (Buy); NVDA…"
     ],
-    "at": "2026-11-10T08:03:05-06:00"
+    "at": "2026-11-10T08:05:04-06:00"
   },
-  "generatedAt": "2026-11-10T08:03:05-06:00"
+  "generatedAt": "2026-11-10T08:05:04-06:00"
 }
