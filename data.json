@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:37:50-06:00",
+  "updatedAt": "2026-11-10T15:37:52-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -425,9 +425,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-10T14:40:00-06:00",
+      "lastRunAt": "2026-11-10T15:40:00-06:00",
       "runTimes": [
-        "2026-11-06T09:48:28-06:00",
         "2026-11-06T10:38:39-06:00",
         "2026-11-06T11:39:10-06:00",
         "2026-11-06T12:46:35-06:00",
@@ -456,17 +455,18 @@
         "2026-11-10T11:40:00-06:00",
         "2026-11-10T12:40:00-06:00",
         "2026-11-10T13:45:00-06:00",
-        "2026-11-10T14:40:00-06:00"
+        "2026-11-10T14:40:00-06:00",
+        "2026-11-10T15:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-10T15:35:00-06:00",
+      "nextRunAt": "2026-11-10T16:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 298,
+      "runsCompleted": 299,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-27T13:39:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-10T14:40:00-06:00",
+      "updatedAt": "2026-11-10T15:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -742,7 +742,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-10T13:02:00-06:00",
       "runTimes": [
-        "2026-10-27T12:56:00-05:00",
         "2026-10-28T13:01:00-05:00",
         "2026-10-29T07:55:00-05:00",
         "2026-10-29T09:36:35-05:00",
@@ -771,7 +770,7 @@
       "waitingOnYou": [],
       "runsCompleted": 45,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-27T12:56:00-05:00",
+      "firstSeenAt": "2026-10-28T13:01:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T13:02:00-06:00",
       "avatar": {
@@ -1491,7 +1490,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-10T14:40:00-06:00",
+      "at": "2026-11-10T15:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1524,6 +1523,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-10T14:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "portfolio-news",
@@ -1570,21 +1575,15 @@
       "at": "2026-11-10T08:18:22-06:00",
       "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
       "finding": "Morning refresh Nov 10: Stocks — Fundamentals trending heads-up (Buy SANM, MU, SNDK; Hold NVDA on CEO probe; RKLB, ASTS, TTD, HIMS, AAON, AMD hype-only); Technical pre-market (234 buys / 5 sells, none new; top setups VRSN, AMD, BBVA, GL, IEX, TMO); Portfolio News sent 1 alert (Anthropic IPO filing up to .4T and widening NVDA/Huang FBI probe); Investing Buzz morning brief (futures mixed ahead of Oct CPI; TTD chatter spike on earnings; Anthropic IPO roadshow; NVDA still #1). Real Estate — VA Deal Scout 3-day check (322 cards, 12 new VA assumable rows, 2 price cuts; new 2.75% listings in Red Oak and Corpus Christi). Fairway Daughters posted Post L v4 live and reposted the Quiet Luxury reel with a full-outfit cover; Quality Desk passed Post L v4 last night for private concept preview only (not publication approval)."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-10T08:15:00-06:00",
-      "text": "Nov 10 trending heads-up: SANM, MU, SNDK pass the growth/valuation bar (Buy); NVDA passes but Hold on CEO probe; RKLB, ASTS, TTD, HIMS, AAON, AMD hype-only.",
-      "finding": "SANM ~+8.6% premarket on FY27 EPS guide $15.50-17.50 vs $14.07 consensus; Q4 rev +84% YoY, EPS +144%."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 3:35 PM CT",
+      "Next run: Technical Analyst · After-close big-move alert, today 3:38 PM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-10T14:37:50-06:00"
+    "at": "2026-11-10T15:37:52-06:00"
   },
-  "generatedAt": "2026-11-10T14:37:50-06:00"
+  "generatedAt": "2026-11-10T15:37:52-06:00"
 }
