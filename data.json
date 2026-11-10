@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T15:37:52-06:00",
+  "updatedAt": "2026-11-10T15:45:20-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -334,8 +334,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market Nov 10 (as-of Nov 9 close): 234 buys / 5 sells (none new); top setups VRSN, AMD, BBVA, GL, IEX, TMO.",
-      "lastRunAt": "2026-11-10T07:46:00-06:00",
+      "lastRun": "After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet.",
+      "lastRunAt": "2026-11-10T15:46:00-06:00",
       "runTimes": [
         "2026-10-27T15:49:00-05:00",
         "2026-10-28T07:45:00-05:00",
@@ -356,17 +356,18 @@
         "2026-11-06T15:47:38-06:00",
         "2026-11-09T07:47:00-06:00",
         "2026-11-09T15:45:00-06:00",
-        "2026-11-10T07:46:00-06:00"
+        "2026-11-10T07:46:00-06:00",
+        "2026-11-10T15:46:00-06:00"
       ],
       "nextRun": "",
       "nextRunAt": "2026-11-11T07:38:00-06:00",
-      "latestFinding": "Top-ranked: VRSN 305.84 testing 20d (306.73), RSI 51.7; sells ROK, AVGO, NWS, MU, CSCO unchanged from Nov 6.",
+      "latestFinding": "SPY -0.37%, QQQ -0.68%, IWM -0.68% after Monday's rally; VRSN held its 20d (311.12, +1.7%); AKAM +4.3% on 4.2x volume, TTWO +8.3% on 3.0x.",
       "waitingOnYou": [],
-      "runsCompleted": 50,
+      "runsCompleted": 51,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-27T15:49:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-10T07:47:00-06:00",
+      "updatedAt": "2026-11-10T15:47:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -464,7 +465,7 @@
       "waitingOnYou": [],
       "runsCompleted": 299,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-27T13:39:00-05:00",
+      "firstSeenAt": "2026-10-27T14:44:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T15:40:00-06:00",
       "avatar": {
@@ -1489,40 +1490,46 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-10T15:46:00-06:00",
+      "text": "After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet.",
+      "finding": "SPY -0.37%, QQQ -0.68%, IWM -0.68% after Monday's rally; VRSN held its 20d (311.12, +1.7%); AKAM +4.3% on 4.2x volume, TTWO +8.3% on 3.0x."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-10T15:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1569,21 +1576,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-10T08:46:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-10T08:18:22-06:00",
-      "text": "Morning command center refresh: synced 29 bots across 14 zones, built and published the dashboard.",
-      "finding": "Morning refresh Nov 10: Stocks — Fundamentals trending heads-up (Buy SANM, MU, SNDK; Hold NVDA on CEO probe; RKLB, ASTS, TTD, HIMS, AAON, AMD hype-only); Technical pre-market (234 buys / 5 sells, none new; top setups VRSN, AMD, BBVA, GL, IEX, TMO); Portfolio News sent 1 alert (Anthropic IPO filing up to .4T and widening NVDA/Huang FBI probe); Investing Buzz morning brief (futures mixed ahead of Oct CPI; TTD chatter spike on earnings; Anthropic IPO roadshow; NVDA still #1). Real Estate — VA Deal Scout 3-day check (322 cards, 12 new VA assumable rows, 2 price cuts; new 2.75% listings in Red Oak and Corpus Christi). Fairway Daughters posted Post L v4 live and reposted the Quiet Luxury reel with a full-outfit cover; Quality Desk passed Post L v4 last night for private concept preview only (not publication approval)."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: Technical Analyst · After-close big-move alert, today 3:38 PM CT",
-      "Latest: Portfolio News: Completed a news check"
+      "Next run: Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Technical Analyst: After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet."
     ],
-    "at": "2026-11-10T15:37:52-06:00"
+    "at": "2026-11-10T15:45:20-06:00"
   },
-  "generatedAt": "2026-11-10T15:37:52-06:00"
+  "generatedAt": "2026-11-10T15:45:20-06:00"
 }
