@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:43:09-06:00",
+  "updatedAt": "2026-11-10T10:35:59-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -425,9 +425,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-10T09:46:00-06:00",
+      "lastRunAt": "2026-11-10T10:40:00-06:00",
       "runTimes": [
-        "2026-11-05T16:36:00-06:00",
         "2026-11-05T17:41:00-06:00",
         "2026-11-05T18:40:00-06:00",
         "2026-11-06T08:08:58-06:00",
@@ -456,17 +455,18 @@
         "2026-11-09T18:40:37-06:00",
         "2026-11-10T07:40:00-06:00",
         "2026-11-10T08:46:00-06:00",
-        "2026-11-10T09:46:00-06:00"
+        "2026-11-10T09:46:00-06:00",
+        "2026-11-10T10:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-10T10:35:00-06:00",
+      "nextRunAt": "2026-11-10T11:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 293,
+      "runsCompleted": 294,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-27T08:41:57-05:00",
+      "firstSeenAt": "2026-10-27T09:47:17-05:00",
       "notes": "",
-      "updatedAt": "2026-11-10T09:46:00-06:00",
+      "updatedAt": "2026-11-10T10:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1491,7 +1491,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-10T09:46:00-06:00",
+      "at": "2026-11-10T10:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1524,6 +1524,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-10T09:46:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "portfolio-news",
@@ -1570,21 +1576,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-10T07:40:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-10T07:30:00-06:00",
-      "text": "Morning brief Nov 10: futures mixed ahead of Oct CPI at 7:30 AM CT (consensus +0.3% headline, +0.2% core) after S&P's best day since April (+2.35%). NVDA bouncing slightly premarket after -4.3% Mon on Huang probe. Anthropic launched IPO roadshow: 825M shares at -78, ticker ANT, trading targeted Nov 19. Rocket Lab -5% premarket on EPS miss despite record revenue; Trade Desk +15% on Q3 beat. CoreWeave reports tonight.",
-      "finding": "UNUSUAL SPIKE: TTD mentions 1 to 45 (rank 239 to 12) on earnings beat. RKLB 39 to 113 on earnings. NVDA still #1 at 958 (+7% vs yesterday's record day). SPY 221 to 393 and QQQ 72 to 197 ahead of CPI. AMD nearly doubled to 200 after its 13% day. Anthropic IPO is the new headline theme on r/stocks. Mostly news-driven, with WSB memeing the Huang story."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 5 setting up",
-      "Next run: Portfolio News · News check, today 10:35 AM CT",
+      "Next run: Portfolio News · News check, today 11:35 AM CT",
       "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-10T09:43:09-06:00"
+    "at": "2026-11-10T10:35:59-06:00"
   },
-  "generatedAt": "2026-11-10T09:43:09-06:00"
+  "generatedAt": "2026-11-10T10:35:59-06:00"
 }
