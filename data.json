@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T07:45:03-06:00",
+  "updatedAt": "2026-11-11T08:05:31-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -250,8 +250,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 10 after-close brief: Buy SANM, GCT, INGM; Hold AAON (restatement), ZETA, ATRO, ONON, BTSG; Sell HIMS.",
-      "lastRunAt": "2026-11-10T18:58:00-06:00",
+      "lastRun": "Nov 11 premarket heads-up: AI/chip rally on CoreWeave beat; Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL.",
+      "lastRunAt": "2026-11-11T08:10:00-06:00",
       "runTimes": [
         "2026-10-28T08:18:00-05:00",
         "2026-10-28T08:30:00-05:00",
@@ -277,17 +277,18 @@
         "2026-11-09T18:55:00-06:00",
         "2026-11-10T08:05:00-06:00",
         "2026-11-10T08:15:00-06:00",
-        "2026-11-10T18:58:00-06:00"
+        "2026-11-10T18:58:00-06:00",
+        "2026-11-11T08:10:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-11T08:01:00-06:00",
-      "latestFinding": "AAON Q3 sales +84% with data-center sales +218% and FY growth guide raised to 72-75%, but it restated Q1-Q2 2026 and disclosed a material weakness.",
+      "nextRunAt": "2026-11-11T18:40:00-06:00",
+      "latestFinding": "CoreWeave beat on revenue and lifted guidance; CRWV +13.8% premarket and its Reddit mentions jumped from 12 to 415 in a day.",
       "waitingOnYou": [],
-      "runsCompleted": 44,
+      "runsCompleted": 45,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-28T08:18:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-10T18:58:00-06:00",
+      "updatedAt": "2026-11-11T08:10:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -465,7 +466,7 @@
       "waitingOnYou": [],
       "runsCompleted": 303,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-28T07:42:00-05:00",
+      "firstSeenAt": "2026-10-28T08:40:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-11T07:41:00-06:00",
       "avatar": {
@@ -1518,40 +1519,46 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-11T08:10:00-06:00",
+      "text": "Nov 11 premarket heads-up: AI/chip rally on CoreWeave beat; Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL.",
+      "finding": "CoreWeave beat on revenue and lifted guidance; CRWV +13.8% premarket and its Reddit mentions jumped from 12 to 415 in a day."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-11T07:46:00-06:00",
       "text": "Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent.",
       "finding": "SPY -0.37%, QQQ -0.68%, IWM -0.68%, VIX 19.46; top setups CVS (pullback to 20d, RSI 50.9), AMD (20d test 518.50), VRSN (held 20d 307.20)."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1599,21 +1606,15 @@
       "at": "2026-11-10T15:46:00-06:00",
       "text": "After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet.",
       "finding": "SPY -0.37%, QQQ -0.68%, IWM -0.68% after Monday's rally; VRSN held its 20d (311.12, +1.7%); AKAM +4.3% on 4.2x volume, TTWO +8.3% on 3.0x."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-10T15:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Technical Analyst: Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent."
+      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: Fundamentals Analyst: Nov 11 premarket heads-up: AI/chip rally on CoreWeave beat; Buy MU, SNDK, AVGO, WDC;…"
     ],
-    "at": "2026-11-11T07:45:03-06:00"
+    "at": "2026-11-11T08:05:31-06:00"
   },
-  "generatedAt": "2026-11-11T07:45:03-06:00"
+  "generatedAt": "2026-11-11T08:05:31-06:00"
 }
