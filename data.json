@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:17:29-06:00",
+  "updatedAt": "2026-11-11T07:27:52-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -466,7 +466,7 @@
       "waitingOnYou": [],
       "runsCompleted": 302,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-27T18:44:00-05:00",
+      "firstSeenAt": "2026-10-28T07:42:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T18:41:00-06:00",
       "avatar": {
@@ -1370,8 +1370,8 @@
           ]
         }
       ],
-      "lastRun": "Morning brief Nov 10: futures mixed ahead of Oct CPI at 7:30 AM CT (consensus +0.3% headline, +0.2% core) after S&P's best day since April (+2.35%). NVDA bouncing slightly premarket after -4.3% Mon on Huang probe. Anthropic launched IPO roadshow: 825M shares at -78, ticker ANT, trading targeted Nov 19. Rocket Lab -5% premarket on EPS miss despite record revenue; Trade Desk +15% on Q3 beat. CoreWeave reports tonight.",
-      "lastRunAt": "2026-11-10T07:30:00-06:00",
+      "lastRun": "Morning brief Nov 11: futures up as CoreWeave beat and raised guidance (CRWV ~+15-17% premarket, backlog), lifting NVDA, NBIS and chips after Tuesday's hotter-than-expected Oct CPI (+0.4%) revived Fed hike talk. MSFT fell on Anthropic's Excel/Office competitor launch. Anthropic IPO (-78) still a top r/stocks thread.",
+      "lastRunAt": "2026-11-11T07:30:00-06:00",
       "runTimes": [
         "2026-10-29T19:05:45-05:00",
         "2026-10-29T19:05:50-05:00",
@@ -1384,17 +1384,18 @@
         "2026-11-06T07:45:00-06:00",
         "2026-11-08T07:46:00-06:00",
         "2026-11-09T07:45:00-06:00",
-        "2026-11-10T07:30:00-06:00"
+        "2026-11-10T07:30:00-06:00",
+        "2026-11-11T07:30:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-11T07:30:00-06:00",
-      "latestFinding": "UNUSUAL SPIKE: TTD mentions 1 to 45 (rank 239 to 12) on earnings beat. RKLB 39 to 113 on earnings. NVDA still #1 at 958 (+7% vs yesterday's record day). SPY 221 to 393 and QQQ 72 to 197 ahead of CPI. AMD nearly doubled to 200 after its 13% day. Anthropic IPO is the new headline theme on r/stocks. Mostly news-driven, with WSB memeing the Huang story.",
+      "nextRunAt": "2026-11-12T07:30:00-06:00",
+      "latestFinding": "UNUSUAL SPIKE: CRWV mentions 12 to 415 (rank 45 to 2) on earnings. NBIS 30 to 113 into its own Q3 report, MSFT 28 to 104 on Anthropic Office threat, IREN 3 to 25, SpaceX 27 to 82 ahead of Starship Flight 15 (Nov 13). NVDA #1 at 1,406 (up from 971). Mostly news-driven; WSB carrying most of the volume.",
       "waitingOnYou": [],
-      "runsCompleted": 11,
+      "runsCompleted": 12,
       "created": "2026-10-29",
       "firstSeenAt": "2026-10-29T19:05:45-05:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-10T07:30:00-06:00",
+      "updatedAt": "2026-11-11T07:30:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1518,6 +1519,12 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-11T07:30:00-06:00",
+      "text": "Morning brief Nov 11: futures up as CoreWeave beat and raised guidance (CRWV ~+15-17% premarket, backlog), lifting NVDA, NBIS and chips after Tuesday's hotter-than-expected Oct CPI (+0.4%) revived Fed hike talk. MSFT fell on Anthropic's Excel/Office competitor launch. Anthropic IPO (-78) still a top r/stocks thread.",
+      "finding": "UNUSUAL SPIKE: CRWV mentions 12 to 415 (rank 45 to 2) on earnings. NBIS 30 to 113 into its own Q3 report, MSFT 28 to 104 on Anthropic Office threat, IREN 3 to 25, SpaceX 27 to 82 ahead of Starship Flight 15 (Nov 13). NVDA #1 at 1,406 (up from 971). Mostly news-driven; WSB carrying most of the volume."
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1599,21 +1606,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-10T13:45:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-10T13:02:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Next run: Portfolio News · News check, today 7:35 AM CT",
+      "Latest: Investing Buzz: Morning brief Nov 11: futures up as CoreWeave beat and raised guidance (CRWV ~+15-17%…"
     ],
-    "at": "2026-11-10T19:17:29-06:00"
+    "at": "2026-11-11T07:27:52-06:00"
   },
-  "generatedAt": "2026-11-10T19:17:29-06:00"
+  "generatedAt": "2026-11-11T07:27:52-06:00"
 }
