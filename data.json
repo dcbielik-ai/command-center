@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:05:31-06:00",
+  "updatedAt": "2026-11-11T08:13:43-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -171,8 +171,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-10T19:17:27-06:00",
+      "lastRun": "Morning command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-11T08:13:40-06:00",
       "runTimes": [
         "2026-10-28T08:22:00-05:00",
         "2026-10-29T08:20:00-05:00",
@@ -192,17 +192,18 @@
         "2026-11-09T08:23:34-06:00",
         "2026-11-09T19:21:21-06:00",
         "2026-11-10T08:18:22-06:00",
-        "2026-11-10T19:17:27-06:00"
+        "2026-11-10T19:17:27-06:00",
+        "2026-11-11T08:13:40-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-11T08:10:00-06:00",
-      "latestFinding": "Evening refresh Nov 10: Stocks — Fundamentals after-close (Buy SANM, GCT, INGM; Hold AAON on restatement, ZETA, ATRO, ONON, BTSG; Sell HIMS); Technical after-close (137 buys / 0 sells, no alert-worthy moves; VRSN held 20d, AKAM +4.3%, TTWO +8.3%); IREN ~-10% on Microsoft capacity delay, CIFR ~-6%); Investing Buzz unchanged since this morning's brief (next Wed 7:30 AM). AI Lab — midday safety check, nothing met the alert bar (notes queued for Thursday). no status file yet). Fairway Daughters unchanged since this morning's Post L v4 live post.",
+      "nextRunAt": "2026-11-11T19:10:00-06:00",
+      "latestFinding": "Morning refresh Nov 11: Stocks — Investing Buzz morning brief (futures up on CoreWeave beat and raised guidance, CRWV ~+15-17% premarket; CRWV mentions 12 to 415, rank 45 to 2; NVDA still #1 at 1,406; MSFT chatter up on Anthropic's Excel/Office competitor; Anthropic IPO still a top thread); Fundamentals premarket heads-up (Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL); Technical pre-market (135 buy hits / 0 sell warnings; top setups CVS pullback to 20d, AMD 20d test 518.50, VRSN held 20d 307.20); Portfolio News sent 1 alert (Baird downgraded NVDA to neutral; chips MU, AMD, NVDA up 5-6% premarket after CoreWeave raised guidance). Other zones unchanged since last night. Fairway Daughters next post-draft at 9:00 AM CT.",
       "waitingOnYou": [],
-      "runsCompleted": 51,
+      "runsCompleted": 52,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-28T08:22:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-10T19:17:27-06:00",
+      "updatedAt": "2026-11-11T08:13:40-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -338,7 +339,6 @@
       "lastRun": "Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent.",
       "lastRunAt": "2026-11-11T07:46:00-06:00",
       "runTimes": [
-        "2026-10-28T07:45:00-05:00",
         "2026-10-28T15:46:00-05:00",
         "2026-10-29T07:50:00-05:00",
         "2026-10-29T15:50:00-05:00",
@@ -366,7 +366,7 @@
       "waitingOnYou": [],
       "runsCompleted": 52,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-28T07:45:00-05:00",
+      "firstSeenAt": "2026-10-28T15:46:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-11T07:46:00-06:00",
       "avatar": {
@@ -1519,40 +1519,46 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-11-11T08:13:40-06:00",
+      "text": "Morning command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
+      "finding": "Morning refresh Nov 11: Stocks — Investing Buzz morning brief (futures up on CoreWeave beat and raised guidance, CRWV ~+15-17% premarket; CRWV mentions 12 to 415, rank 45 to 2; NVDA still #1 at 1,406; MSFT chatter up on Anthropic's Excel/Office competitor; Anthropic IPO still a top thread); Fundamentals premarket heads-up (Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL); Technical pre-market (135 buy hits / 0 sell warnings; top setups CVS pullback to 20d, AMD 20d test 518.50, VRSN held 20d 307.20); Portfolio News sent 1 alert (Baird downgraded NVDA to neutral; chips MU, AMD, NVDA up 5-6% premarket after CoreWeave raised guidance). Other zones unchanged since last night. Fairway Daughters next post-draft at 9:00 AM CT."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-11T08:10:00-06:00",
       "text": "Nov 11 premarket heads-up: AI/chip rally on CoreWeave beat; Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL.",
       "finding": "CoreWeave beat on revenue and lifted guidance; CRWV +13.8% premarket and its Reddit mentions jumped from 12 to 415 in a day."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "technical-analyst",
@@ -1600,21 +1606,15 @@
       "at": "2026-11-10T16:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-11-10T15:46:00-06:00",
-      "text": "After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet.",
-      "finding": "SPY -0.37%, QQQ -0.68%, IWM -0.68% after Monday's rally; VRSN held its 20d (311.12, +1.7%); AKAM +4.3% on 4.2x volume, TTWO +8.3% on 3.0x."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: Fundamentals Analyst: Nov 11 premarket heads-up: AI/chip rally on CoreWeave beat; Buy MU, SNDK, AVGO, WDC;…"
+      "Next run: Portfolio News · News check, today 8:35 AM CT",
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-11T08:05:31-06:00"
+    "at": "2026-11-11T08:13:43-06:00"
   },
-  "generatedAt": "2026-11-11T08:05:31-06:00"
+  "generatedAt": "2026-11-11T08:13:43-06:00"
 }
