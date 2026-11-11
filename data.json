@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T15:47:50-06:00",
+  "updatedAt": "2026-11-11T16:37:43-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -425,9 +425,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-11T15:40:00-06:00",
+      "lastRunAt": "2026-11-11T16:40:00-06:00",
       "runTimes": [
-        "2026-11-09T10:45:00-06:00",
         "2026-11-09T11:45:00-06:00",
         "2026-11-09T12:40:00-06:00",
         "2026-11-09T13:46:00-06:00",
@@ -456,17 +455,18 @@
         "2026-11-11T12:45:00-06:00",
         "2026-11-11T13:46:00-06:00",
         "2026-11-11T14:37:00-06:00",
-        "2026-11-11T15:40:00-06:00"
+        "2026-11-11T15:40:00-06:00",
+        "2026-11-11T16:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-11T16:35:00-06:00",
+      "nextRunAt": "2026-11-11T17:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 311,
+      "runsCompleted": 312,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-28T14:36:00-05:00",
+      "firstSeenAt": "2026-10-28T15:38:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-11T15:40:00-06:00",
+      "updatedAt": "2026-11-11T16:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1514,40 +1514,46 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-11T16:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-11T15:50:00-06:00",
       "text": "After-close Nov 11: 225 buy hits, 2 sell warnings; QQQ +2.31% triggered alert.",
       "finding": "SPY +1.32% (759.81), QQQ +2.31% (690.38), IWM +0.89%; AMD +7.3% to 552.90 above 20d 517.60 on 1.7x vol."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1596,21 +1602,15 @@
       "at": "2026-11-11T09:41:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "quality-desk",
-      "at": "2026-11-11T09:10:40-06:00",
-      "text": "Reviewed Post M draft; FIX NEEDED (caption launch/sizing and seasonal clash).",
-      "finding": "Post M visuals OK for private concept preview; caption asserts coming soon and sizes 8–14 without evidence, and mixes winter with sunny-rounds copy."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Technical Analyst: After-close Nov 11: 225 buy hits, 2 sell warnings; QQQ +2.31% triggered alert."
+      "Next run: Portfolio News · News check, today 5:35 PM CT",
+      "Latest: Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-11T15:47:50-06:00"
+    "at": "2026-11-11T16:37:43-06:00"
   },
-  "generatedAt": "2026-11-11T15:47:50-06:00"
+  "generatedAt": "2026-11-11T16:37:43-06:00"
 }
