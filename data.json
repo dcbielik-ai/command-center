@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T07:38:56-06:00",
+  "updatedAt": "2026-11-11T07:45:03-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -174,7 +174,6 @@
       "lastRun": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-10T19:17:27-06:00",
       "runTimes": [
-        "2026-10-27T19:20:00-05:00",
         "2026-10-28T08:22:00-05:00",
         "2026-10-29T08:20:00-05:00",
         "2026-10-29T19:20:00-05:00",
@@ -201,7 +200,7 @@
       "waitingOnYou": [],
       "runsCompleted": 51,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-27T19:20:00-05:00",
+      "firstSeenAt": "2026-10-28T08:22:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-10T19:17:27-06:00",
       "avatar": {
@@ -335,8 +334,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Nov 10: 137 buy hits, 0 sell warnings; no alert-worthy moves, stayed quiet.",
-      "lastRunAt": "2026-11-10T15:46:00-06:00",
+      "lastRun": "Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent.",
+      "lastRunAt": "2026-11-11T07:46:00-06:00",
       "runTimes": [
         "2026-10-28T07:45:00-05:00",
         "2026-10-28T15:46:00-05:00",
@@ -357,17 +356,18 @@
         "2026-11-09T07:47:00-06:00",
         "2026-11-09T15:45:00-06:00",
         "2026-11-10T07:46:00-06:00",
-        "2026-11-10T15:46:00-06:00"
+        "2026-11-10T15:46:00-06:00",
+        "2026-11-11T07:46:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-11T07:38:00-06:00",
-      "latestFinding": "SPY -0.37%, QQQ -0.68%, IWM -0.68% after Monday's rally; VRSN held its 20d (311.12, +1.7%); AKAM +4.3% on 4.2x volume, TTWO +8.3% on 3.0x.",
+      "nextRunAt": "2026-11-12T07:38:00-06:00",
+      "latestFinding": "SPY -0.37%, QQQ -0.68%, IWM -0.68%, VIX 19.46; top setups CVS (pullback to 20d, RSI 50.9), AMD (20d test 518.50), VRSN (held 20d 307.20).",
       "waitingOnYou": [],
-      "runsCompleted": 51,
+      "runsCompleted": 52,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-28T07:45:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-10T15:47:00-06:00",
+      "updatedAt": "2026-11-11T07:46:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1518,39 +1518,45 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-11T07:46:00-06:00",
+      "text": "Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent.",
+      "finding": "SPY -0.37%, QQQ -0.68%, IWM -0.68%, VIX 19.46; top setups CVS (pullback to 20d, RSI 50.9), AMD (20d test 518.50), VRSN (held 20d 307.20)."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-11T07:41:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "investing-buzz",
@@ -1599,21 +1605,15 @@
       "at": "2026-11-10T15:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-10T14:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
       "Next run: Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Portfolio News: Sent 1 alert"
+      "Latest: Technical Analyst: Pre-market Nov 11 (as of Nov 10 close): 135 buy hits, 0 sell warnings; brief sent."
     ],
-    "at": "2026-11-11T07:38:56-06:00"
+    "at": "2026-11-11T07:45:03-06:00"
   },
-  "generatedAt": "2026-11-11T07:38:56-06:00"
+  "generatedAt": "2026-11-11T07:45:03-06:00"
 }
