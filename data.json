@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T08:04:09-06:00",
+  "updatedAt": "2026-11-12T08:20:38-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -228,8 +228,8 @@
       "className": "Chief of Staff",
       "role": "Dennis's chief of staff: builds and coordinates the bot team, recruits new bots as the team grows, and runs this Command Center.",
       "status": "Active",
-      "schedule": "Weekdays at 8:10 AM and 7:10 PM CT; Every day around 6:00 PM CT",
-      "routines": "Command center refresh (Weekdays at 8:10 AM and 7:10 PM CT); Fairway Daughters daily check (Every day around 6:00 PM CT)",
+      "schedule": "Weekdays at 8:10 AM and 7:10 PM CT; Every day around 6:00 PM CT; Every day around 7:00 AM CT; Every Monday around 9:00 AM CT",
+      "routines": "Command center refresh (Weekdays at 8:10 AM and 7:10 PM CT); Fairway Daughters daily check (Every day around 6:00 PM CT); Japan trip bots quality check (Every day around 7:00 AM CT); Fairway Pinterest readiness check-in (Every Monday around 9:00 AM CT)",
       "slots": [
         {
           "label": "Command center refresh",
@@ -259,10 +259,34 @@
           "times": [
             "18:00"
           ]
+        },
+        {
+          "label": "Japan trip bots quality check",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "07:00"
+          ]
+        },
+        {
+          "label": "Fairway Pinterest readiness check-in",
+          "days": [
+            0
+          ],
+          "times": [
+            "09:00"
+          ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-11T19:15:52-06:00",
+      "lastRun": "",
+      "lastRunAt": "2026-11-12T08:20:23-06:00",
       "runTimes": [
         "2026-10-29T19:20:00-05:00",
         "2026-10-30T08:20:00-05:00",
@@ -282,17 +306,18 @@
         "2026-11-10T08:18:22-06:00",
         "2026-11-10T19:17:27-06:00",
         "2026-11-11T08:13:40-06:00",
-        "2026-11-11T19:15:52-06:00"
+        "2026-11-11T19:15:52-06:00",
+        "2026-11-12T08:20:23-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-12T08:10:00-06:00",
-      "latestFinding": "Evening refresh Nov 11: Stocks — Technical after-close (225 buy hits, 2 sell warnings; QQQ +2.31% alert; SPY +1.32%, AMD +7.3% to 552.90); Fundamentals after-close (Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV; Nvidia ~-8% AH on WSJ report the board may oust CEO Huang; AMD and Broadcom +3-4% AH; EZCORP revenue +33%); AI Lab — midday safety check, nothing new met the alert bar. Fairway Daughters — Post M v3 passed Quality Desk, awaiting Dennis's post OK (nothing posted); Quality Desk blocked the girls yellow polo preview for public use. Other zones unchanged since this morning.",
+      "nextRunAt": "2026-11-12T19:10:00-06:00",
+      "latestFinding": "Morning refresh Nov 12: Stocks — Investing Buzz (Nasdaq futures ~-0.9%; NVDA mentions spiked 1,391 to 2,239 on CEO-ouster reports; NBIS/CRWV also in focus); Technical pre-market (224 buy hits, 2 sell warnings on SE and AXON; S&P 500 7,619.38, Nasdaq 25,466.19; AMD 552.90 holding its 50-day); Portfolio News sent 1 alert (NVDA CEO turmoil update, AMD upgrade by William Blair); Fundamentals trending heads-up (Buy MU, AVGO; Hold NVDA, AMD; it reported Jensen Huang resigned and CFO Colette Kress is interim, with NVDA ~-10% premarket and CRWV/NBIS down 14-20%). AI Lab — Thursday briefing (Gemini 4 Carbon, Claude Meetings, Businesses in ChatGPT, plus safety items). Fairway Daughters — overnight: v2 collection fixes and golf-bag concepts with Quality Desk; still waiting on factory outreach, the yellow look, and an OK to post M v3 (nothing posted). Quality Desk reviewed short brand videos this morning and said they need fixes before preview sign-off. The 7 AM Japan trip quality check could not read either trip bot's chat, so no fact-check ran. Other zones unchanged overnight.",
       "waitingOnYou": [],
-      "runsCompleted": 53,
+      "runsCompleted": 54,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-29T19:20:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-11T19:15:52-06:00",
+      "updatedAt": "2026-11-12T08:20:23-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -556,7 +581,7 @@
       "waitingOnYou": [],
       "runsCompleted": 315,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T09:38:00-05:00",
+      "firstSeenAt": "2026-10-29T10:43:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-12T07:45:00-06:00",
       "avatar": {
@@ -1576,6 +1601,34 @@
         "trim": "#fb7185"
       },
       "minionName": "Stuart"
+    },
+    {
+      "id": "universal-studios-japan-day",
+      "name": "Universal Studios Japan Day",
+      "zone": "travel",
+      "className": "Park Planner",
+      "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
+      "status": "Setting up",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-11-11",
+      "notes": "",
+      "avatar": {
+        "hat": "goggles",
+        "head": "#f5e642",
+        "body": "#1d4ed8",
+        "accent": "#111827",
+        "eye": "#3de0ff",
+        "trim": "#f97316"
+      },
+      "minionName": "Bob"
     }
   ],
   "inbox": [
@@ -1637,40 +1690,45 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-11-12T08:20:23-06:00",
+      "text": "Morning refresh Nov 12: Stocks — Investing Buzz (Nasdaq futures ~-0.9%; NVDA mentions spiked 1,391 to 2,239 on CEO-ouster reports; NBIS/CRWV also in focus); Technical pre-market (224 buy hits, 2 sell warnings on SE and AXON; S&P 500 7,619.38, Nasdaq 25,466.19; AMD 552.90 holding its 50-day); Portfolio News sent 1 alert (NVDA CEO turmoil update, AMD upgrade by William Blair); Fundamentals trending heads-up (Buy MU, AVGO; Hold NVDA, AMD; it reported Jensen Huang resigned and CFO Colette Kress is interim, with NVDA ~-10% premarket and CRWV/NBIS down 14-20%). AI Lab — Thursday briefing (Gemini 4 Carbon, Claude Meetings, Businesses in ChatGPT, plus safety items). Fairway Daughters — overnight: v2 collection fixes and golf-bag concepts with Quality Desk; still waiting on factory outreach, the yellow look, and an OK to post M v3 (nothing posted). Quality Desk reviewed short brand videos this morning and said they need fixes before preview sign-off. The 7 AM Japan trip quality check could not read either trip bot's chat, so no fact-check ran. Other zones unchanged overnight."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-12T08:10:00-06:00",
       "text": "Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold NVDA, AMD); NBIS, CRWV, ONDS, LUNR, FIGR, CTVA, YETI are hype only.",
       "finding": "Jensen Huang resigned as Nvidia CEO (CFO Colette Kress is interim CEO); NVDA was down ~10% premarket and neoclouds CRWV/NBIS fell 14-20%."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "ai-guide",
@@ -1718,21 +1776,15 @@
       "at": "2026-11-11T20:31:39-06:00",
       "text": "Reviewed yellow polo v3 placement; FIX NEEDED. Public use still blocked.",
       "finding": "v3 visor F-hook crosses the opening lip; chest logo still sits low. Public use remains blocked as a derived photo."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-11T19:15:52-06:00",
-      "text": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
-      "finding": "Evening refresh Nov 11: Stocks — Technical after-close (225 buy hits, 2 sell warnings; QQQ +2.31% alert; SPY +1.32%, AMD +7.3% to 552.90); Fundamentals after-close (Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV; Nvidia ~-8% AH on WSJ report the board may oust CEO Huang; AMD and Broadcom +3-4% AH; EZCORP revenue +33%); AI Lab — midday safety check, nothing new met the alert bar. Fairway Daughters — Post M v3 passed Quality Desk, awaiting Dennis's post OK (nothing posted); Quality Desk blocked the girls yellow polo preview for public use. Other zones unchanged since this morning."
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: Tim · Fundamentals Analyst: Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold…"
+      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 11 items need you · 7 setting up",
+      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-12T08:04:09-06:00"
+    "at": "2026-11-12T08:20:38-06:00"
   },
-  "generatedAt": "2026-11-12T08:04:09-06:00"
+  "generatedAt": "2026-11-12T08:20:38-06:00"
 }
