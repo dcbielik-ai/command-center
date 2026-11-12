@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:49:22-06:00",
+  "updatedAt": "2026-11-12T11:17:12-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -453,7 +453,6 @@
       "lastRun": "Pre-market Nov 12 (as of Nov 11 close): 224 buy hits, 2 sell warnings (SE, AXON).",
       "lastRunAt": "2026-11-12T07:50:00-06:00",
       "runTimes": [
-        "2026-10-29T15:50:00-05:00",
         "2026-10-30T07:46:00-05:00",
         "2026-10-30T15:43:00-05:00",
         "2026-11-02T07:50:00-06:00",
@@ -480,7 +479,7 @@
       "waitingOnYou": [],
       "runsCompleted": 54,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T15:50:00-05:00",
+      "firstSeenAt": "2026-10-30T07:46:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-12T07:50:00-06:00",
       "avatar": {
@@ -1295,8 +1294,8 @@
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Completed review of brand videos and collection files; verdicts returned to the requesting teammate.",
-      "lastRunAt": "2026-11-12T10:31:16-06:00",
+      "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
+      "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
         "2026-11-05T09:11:00-06:00",
         "2026-11-05T10:33:38-06:00",
@@ -1322,16 +1321,17 @@
         "2026-11-12T01:34:36-06:00",
         "2026-11-12T06:25:20-06:00",
         "2026-11-12T08:36:00-06:00",
-        "2026-11-12T10:31:16-06:00"
+        "2026-11-12T10:31:16-06:00",
+        "2026-11-12T11:17:09-06:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "A few fixes remain before preview sign-off, including a brand-font consistency question.",
+      "latestFinding": "Both sets cleared for private preview with notes; a pre-public checklist remains.",
       "waitingOnYou": [],
-      "runsCompleted": 46,
+      "runsCompleted": 47,
       "created": "2026-10-20",
       "firstSeenAt": "2026-11-05T09:11:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-12T10:31:16-06:00",
+      "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1723,6 +1723,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "quality-desk",
+      "at": "2026-11-12T11:17:09-06:00",
+      "text": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
+      "finding": "Both sets cleared for private preview with notes; a pre-public checklist remains."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-12T10:46:00-06:00",
       "text": "Completed a news check",
@@ -1774,11 +1780,6 @@
       "at": "2026-11-12T08:36:00-06:00",
       "text": "Completed another frame-by-frame review of short brand videos; verdict returned to the requesting teammate.",
       "finding": "Most earlier video issues resolved; a few remain before preview sign-off."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-12T08:20:23-06:00",
-      "text": "Morning refresh Nov 12: Stocks — Investing Buzz (Nasdaq futures ~-0.9%; NVDA mentions spiked 1,391 to 2,239 on CEO-ouster reports; NBIS/CRWV also in focus); Technical pre-market (224 buy hits, 2 sell warnings on SE and AXON; S&P 500 7,619.38, Nasdaq 25,466.19; AMD 552.90 holding its 50-day); Portfolio News sent 1 alert (NVDA CEO turmoil update, AMD upgrade by William Blair); Fundamentals trending heads-up (Buy MU, AVGO; Hold NVDA, AMD; it reported Jensen Huang resigned and CFO Colette Kress is interim, with NVDA ~-10% premarket and CRWV/NBIS down 14-20%). AI Lab — Thursday briefing (Gemini 4 Carbon, Claude Meetings, Businesses in ChatGPT, plus safety items). Fairway Daughters — overnight: v2 collection fixes and golf-bag concepts with Quality Desk; still waiting on factory outreach, the yellow look, and an OK to post M v3 (nothing posted). Quality Desk reviewed short brand videos this morning and said they need fixes before preview sign-off. The 7 AM Japan trip quality check could not read either trip bot's chat, so no fact-check ran. Other zones unchanged overnight."
     }
   ],
   "briefing": {
@@ -1787,7 +1788,7 @@
       "Next run: Phil · Portfolio News · News check, today 11:35 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-12T10:49:22-06:00"
+    "at": "2026-11-12T11:17:12-06:00"
   },
-  "generatedAt": "2026-11-12T10:49:22-06:00"
+  "generatedAt": "2026-11-12T11:17:12-06:00"
 }
