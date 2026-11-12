@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T01:12:15-06:00",
+  "updatedAt": "2026-11-12T01:35:11-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -264,7 +264,6 @@
       "lastRun": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-11T19:15:52-06:00",
       "runTimes": [
-        "2026-10-29T08:20:00-05:00",
         "2026-10-29T19:20:00-05:00",
         "2026-10-30T08:20:00-05:00",
         "2026-10-30T19:20:00-05:00",
@@ -291,7 +290,7 @@
       "waitingOnYou": [],
       "runsCompleted": 53,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T08:20:00-05:00",
+      "firstSeenAt": "2026-10-29T19:20:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-11T19:15:52-06:00",
       "avatar": {
@@ -1274,8 +1273,8 @@
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Reviewed yellow polo v4 placement; PASS. Public use still blocked.",
-      "lastRunAt": "2026-11-11T20:42:17-06:00",
+      "lastRun": "Completed a collection review for a teammate.",
+      "lastRunAt": "2026-11-12T01:34:36-06:00",
       "runTimes": [
         "2026-11-05T09:11:00-06:00",
         "2026-11-05T10:33:38-06:00",
@@ -1297,16 +1296,17 @@
         "2026-11-11T17:59:09-06:00",
         "2026-11-11T18:49:00-06:00",
         "2026-11-11T20:31:39-06:00",
-        "2026-11-11T20:42:17-06:00"
+        "2026-11-11T20:42:17-06:00",
+        "2026-11-12T01:34:36-06:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "v4 visor and chest placement pass; waist exception still unverified. Public use remains blocked as a derived photo.",
+      "latestFinding": "Collection review: most items passed, a few need fixes.",
       "waitingOnYou": [],
-      "runsCompleted": 32,
+      "runsCompleted": 33,
       "created": "2026-10-20",
       "firstSeenAt": "2026-11-05T09:11:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-11T20:42:17-06:00",
+      "updatedAt": "2026-11-12T01:34:39-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1668,6 +1668,12 @@
     },
     {
       "bot": "quality-desk",
+      "at": "2026-11-12T01:34:36-06:00",
+      "text": "Completed a collection review for a teammate.",
+      "finding": "Collection review: most items passed, a few need fixes."
+    },
+    {
+      "bot": "quality-desk",
       "at": "2026-11-11T20:42:17-06:00",
       "text": "Reviewed yellow polo v4 placement; PASS. Public use still blocked.",
       "finding": "v4 visor and chest placement pass; waist exception still unverified. Public use remains blocked as a derived photo."
@@ -1718,12 +1724,6 @@
       "at": "2026-11-11T16:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-11-11T15:50:00-06:00",
-      "text": "After-close Nov 11: 225 buy hits, 2 sell warnings; QQQ +2.31% triggered alert.",
-      "finding": "SPY +1.32% (759.81), QQQ +2.31% (690.38), IWM +0.89%; AMD +7.3% to 552.90 above 20d 517.60 on 1.7x vol."
     }
   ],
   "briefing": {
@@ -1732,7 +1732,7 @@
       "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-12T01:12:15-06:00"
+    "at": "2026-11-12T01:35:11-06:00"
   },
-  "generatedAt": "2026-11-12T01:12:15-06:00"
+  "generatedAt": "2026-11-12T01:35:11-06:00"
 }
