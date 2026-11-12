@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T08:20:38-06:00",
+  "updatedAt": "2026-11-12T08:35:59-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -542,9 +542,8 @@
         }
       ],
       "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-12T07:45:00-06:00",
+      "lastRunAt": "2026-11-12T08:40:00-06:00",
       "runTimes": [
-        "2026-11-09T14:41:00-06:00",
         "2026-11-09T15:43:00-06:00",
         "2026-11-09T16:35:00-06:00",
         "2026-11-09T17:42:00-06:00",
@@ -573,17 +572,18 @@
         "2026-11-11T16:40:00-06:00",
         "2026-11-11T17:45:00-06:00",
         "2026-11-11T18:39:00-06:00",
-        "2026-11-12T07:45:00-06:00"
+        "2026-11-12T07:45:00-06:00",
+        "2026-11-12T08:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-12T08:35:00-06:00",
+      "nextRunAt": "2026-11-12T09:35:00-06:00",
       "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 315,
+      "runsCompleted": 316,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-29T10:43:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-12T07:45:00-06:00",
+      "updatedAt": "2026-11-12T08:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1437,7 +1437,6 @@
       "lastRunAt": "2026-11-05T10:30:00-06:00",
       "runTimes": [
         "2026-10-29T10:14:55-05:00",
-        "2026-10-29T10:15:00-05:00",
         "2026-11-05T10:08:53-06:00",
         "2026-11-05T10:30:00-06:00"
       ],
@@ -1690,6 +1689,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-12T08:40:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1770,21 +1774,15 @@
       "at": "2026-11-11T20:42:17-06:00",
       "text": "Reviewed yellow polo v4 placement; PASS. Public use still blocked.",
       "finding": "v4 visor and chest placement pass; waist exception still unverified. Public use remains blocked as a derived photo."
-    },
-    {
-      "bot": "quality-desk",
-      "at": "2026-11-11T20:31:39-06:00",
-      "text": "Reviewed yellow polo v3 placement; FIX NEEDED. Public use still blocked.",
-      "finding": "v3 visor F-hook crosses the opening lip; chest logo still sits low. Public use remains blocked as a derived photo."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 11 items need you · 7 setting up",
-      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Phil · Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-12T08:20:38-06:00"
+    "at": "2026-11-12T08:35:59-06:00"
   },
-  "generatedAt": "2026-11-12T08:20:38-06:00"
+  "generatedAt": "2026-11-12T08:35:59-06:00"
 }
