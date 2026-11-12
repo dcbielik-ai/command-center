@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T07:50:42-06:00",
+  "updatedAt": "2026-11-12T08:04:09-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -341,8 +341,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 11 after-close brief: Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV.",
-      "lastRunAt": "2026-11-11T18:55:00-06:00",
+      "lastRun": "Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold NVDA, AMD); NBIS, CRWV, ONDS, LUNR, FIGR, CTVA, YETI are hype only.",
+      "lastRunAt": "2026-11-12T08:10:00-06:00",
       "runTimes": [
         "2026-10-29T18:55:00-05:00",
         "2026-10-30T08:20:00-05:00",
@@ -366,17 +366,18 @@
         "2026-11-10T08:15:00-06:00",
         "2026-11-10T18:58:00-06:00",
         "2026-11-11T08:10:00-06:00",
-        "2026-11-11T18:55:00-06:00"
+        "2026-11-11T18:55:00-06:00",
+        "2026-11-12T08:10:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-12T08:01:00-06:00",
-      "latestFinding": "Nvidia fell ~8% after hours on a WSJ report the board may oust CEO Huang; AMD and Broadcom rose 3-4% AH. EZCORP beat with revenue +33%.",
+      "nextRunAt": "2026-11-12T18:40:00-06:00",
+      "latestFinding": "Jensen Huang resigned as Nvidia CEO (CFO Colette Kress is interim CEO); NVDA was down ~10% premarket and neoclouds CRWV/NBIS fell 14-20%.",
       "waitingOnYou": [],
-      "runsCompleted": 46,
+      "runsCompleted": 47,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-29T18:55:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-11T18:55:00-06:00",
+      "updatedAt": "2026-11-12T08:10:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -836,7 +837,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-12T07:55:00-06:00",
       "runTimes": [
-        "2026-10-29T09:36:35-05:00",
         "2026-10-29T12:58:00-05:00",
         "2026-10-30T12:56:00-05:00",
         "2026-10-31T12:55:00-05:00",
@@ -864,7 +864,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T09:36:35-05:00",
+      "firstSeenAt": "2026-10-29T12:58:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-12T07:55:00-06:00",
       "avatar": {
@@ -1637,40 +1637,46 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-12T08:10:00-06:00",
+      "text": "Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold NVDA, AMD); NBIS, CRWV, ONDS, LUNR, FIGR, CTVA, YETI are hype only.",
+      "finding": "Jensen Huang resigned as Nvidia CEO (CFO Colette Kress is interim CEO); NVDA was down ~10% premarket and neoclouds CRWV/NBIS fell 14-20%."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-12T07:55:00-06:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "technical-analyst",
@@ -1718,21 +1724,15 @@
       "at": "2026-11-11T19:15:52-06:00",
       "text": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
       "finding": "Evening refresh Nov 11: Stocks — Technical after-close (225 buy hits, 2 sell warnings; QQQ +2.31% alert; SPY +1.32%, AMD +7.3% to 552.90); Fundamentals after-close (Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV; Nvidia ~-8% AH on WSJ report the board may oust CEO Huang; AMD and Broadcom +3-4% AH; EZCORP revenue +33%); AI Lab — midday safety check, nothing new met the alert bar. Fairway Daughters — Post M v3 passed Quality Desk, awaiting Dennis's post OK (nothing posted); Quality Desk blocked the girls yellow polo preview for public use. Other zones unchanged since this morning."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-11T18:55:00-06:00",
-      "text": "Nov 11 after-close brief: Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV.",
-      "finding": "Nvidia fell ~8% after hours on a WSJ report the board may oust CEO Huang; AMD and Broadcom rose 3-4% AH. EZCORP beat with revenue +33%."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: John · AI Guide: Sent a safety alert"
+      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Latest: Tim · Fundamentals Analyst: Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold…"
     ],
-    "at": "2026-11-12T07:50:42-06:00"
+    "at": "2026-11-12T08:04:09-06:00"
   },
-  "generatedAt": "2026-11-12T07:50:42-06:00"
+  "generatedAt": "2026-11-12T08:04:09-06:00"
 }
