@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T18:42:41-06:00",
+  "updatedAt": "2026-11-11T19:15:54-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -153,8 +153,8 @@
       "className": "Chief of Staff",
       "role": "Dennis's chief of staff: builds and coordinates the bot team, recruits new bots as the team grows, and runs this Command Center.",
       "status": "Active",
-      "schedule": "Weekdays at 8:10 AM and 7:10 PM CT",
-      "routines": "Command center refresh (Weekdays at 8:10 AM and 7:10 PM CT)",
+      "schedule": "Weekdays at 8:10 AM and 7:10 PM CT; Every day around 6:00 PM CT",
+      "routines": "Command center refresh (Weekdays at 8:10 AM and 7:10 PM CT); Fairway Daughters daily check (Every day around 6:00 PM CT)",
       "slots": [
         {
           "label": "Command center refresh",
@@ -169,10 +169,25 @@
             "08:10",
             "19:10"
           ]
+        },
+        {
+          "label": "Fairway Daughters daily check",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "times": [
+            "18:00"
+          ]
         }
       ],
-      "lastRun": "Morning command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-11T08:13:40-06:00",
+      "lastRun": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-11T19:15:52-06:00",
       "runTimes": [
         "2026-10-29T08:20:00-05:00",
         "2026-10-29T19:20:00-05:00",
@@ -192,17 +207,18 @@
         "2026-11-09T19:21:21-06:00",
         "2026-11-10T08:18:22-06:00",
         "2026-11-10T19:17:27-06:00",
-        "2026-11-11T08:13:40-06:00"
+        "2026-11-11T08:13:40-06:00",
+        "2026-11-11T19:15:52-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-11T19:10:00-06:00",
-      "latestFinding": "Morning refresh Nov 11: Stocks — Investing Buzz morning brief (futures up on CoreWeave beat and raised guidance, CRWV ~+15-17% premarket; CRWV mentions 12 to 415, rank 45 to 2; NVDA still #1 at 1,406; MSFT chatter up on Anthropic's Excel/Office competitor; Anthropic IPO still a top thread); Fundamentals premarket heads-up (Buy MU, SNDK, AVGO, WDC; Hold NVDA, MRVL, DELL, AMD; hype-only CRWV, NBIS, APLD, IREN, ORCL); Technical pre-market (135 buy hits / 0 sell warnings; top setups CVS pullback to 20d, AMD 20d test 518.50, VRSN held 20d 307.20); Portfolio News sent 1 alert (Baird downgraded NVDA to neutral; chips MU, AMD, NVDA up 5-6% premarket after CoreWeave raised guidance). Other zones unchanged since last night. Fairway Daughters next post-draft at 9:00 AM CT.",
+      "nextRunAt": "2026-11-12T08:10:00-06:00",
+      "latestFinding": "Evening refresh Nov 11: Stocks — Technical after-close (225 buy hits, 2 sell warnings; QQQ +2.31% alert; SPY +1.32%, AMD +7.3% to 552.90); Fundamentals after-close (Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV; Nvidia ~-8% AH on WSJ report the board may oust CEO Huang; AMD and Broadcom +3-4% AH; EZCORP revenue +33%); AI Lab — midday safety check, nothing new met the alert bar. Fairway Daughters — Post M v3 passed Quality Desk, awaiting Dennis's post OK (nothing posted); Quality Desk blocked the girls yellow polo preview for public use. Other zones unchanged since this morning.",
       "waitingOnYou": [],
-      "runsCompleted": 52,
+      "runsCompleted": 53,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-29T08:20:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-11T08:13:40-06:00",
+      "updatedAt": "2026-11-11T19:15:52-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -253,7 +269,6 @@
       "lastRun": "Nov 11 after-close brief: Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV.",
       "lastRunAt": "2026-11-11T18:55:00-06:00",
       "runTimes": [
-        "2026-10-28T18:55:00-05:00",
         "2026-10-29T08:25:00-05:00",
         "2026-10-29T18:55:00-05:00",
         "2026-10-30T08:20:00-05:00",
@@ -285,7 +300,7 @@
       "waitingOnYou": [],
       "runsCompleted": 46,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-28T18:55:00-05:00",
+      "firstSeenAt": "2026-10-29T08:25:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-11-11T18:55:00-06:00",
       "avatar": {
@@ -464,7 +479,7 @@
       "waitingOnYou": [],
       "runsCompleted": 314,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T07:43:00-05:00",
+      "firstSeenAt": "2026-10-29T08:43:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-11T18:39:00-06:00",
       "avatar": {
@@ -822,7 +837,7 @@
       "zone": "fairway",
       "className": "Brand Lead",
       "role": "Brand lead for a side venture: runs design direction, the product line, social, and launch planning. Details stay private until launch.",
-      "status": "Idle",
+      "status": "Needs you",
       "schedule": "Not scheduled yet",
       "routines": "Not confirmed yet",
       "slots": [],
@@ -1163,8 +1178,8 @@
       "schedule": "On request",
       "routines": "None (works on request)",
       "slots": [],
-      "lastRun": "Reviewed Post M v3; PASS for private concept preview only.",
-      "lastRunAt": "2026-11-11T17:59:09-06:00",
+      "lastRun": "Reviewed girls yellow polo concept; BLOCK for public use (derivative photo, plus logo/inpaint fixes).",
+      "lastRunAt": "2026-11-11T18:49:00-06:00",
       "runTimes": [
         "2026-11-05T09:11:00-06:00",
         "2026-11-05T10:33:38-06:00",
@@ -1183,16 +1198,17 @@
         "2026-11-09T18:57:55-06:00",
         "2026-11-09T19:28:30-06:00",
         "2026-11-11T09:10:40-06:00",
-        "2026-11-11T17:59:09-06:00"
+        "2026-11-11T17:59:09-06:00",
+        "2026-11-11T18:49:00-06:00"
       ],
       "nextRun": "On demand",
-      "latestFinding": "Post M v3 chest FD shifted +31px toward the armhole; no ghost; other pixels and caption unchanged; not publication approval.",
+      "latestFinding": "Yellow polo concept is an edit of a third-party reference photo; skirt logo conflicts with the written rule; visor/waist marks need scale and contrast, and inpaint leftovers remain.",
       "waitingOnYou": [],
-      "runsCompleted": 29,
+      "runsCompleted": 30,
       "created": "2026-10-20",
       "firstSeenAt": "2026-11-05T09:11:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-11T17:59:09-06:00",
+      "updatedAt": "2026-11-11T18:49:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#fff4d6",
@@ -1515,40 +1531,52 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-11-11T19:15:52-06:00",
+      "text": "Evening command center refresh: synced 30 bots across 14 zones, built and published the dashboard.",
+      "finding": "Evening refresh Nov 11: Stocks — Technical after-close (225 buy hits, 2 sell warnings; QQQ +2.31% alert; SPY +1.32%, AMD +7.3% to 552.90); Fundamentals after-close (Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV; Nvidia ~-8% AH on WSJ report the board may oust CEO Huang; AMD and Broadcom +3-4% AH; EZCORP revenue +33%); AI Lab — midday safety check, nothing new met the alert bar. Fairway Daughters — Post M v3 passed Quality Desk, awaiting Dennis's post OK (nothing posted); Quality Desk blocked the girls yellow polo preview for public use. Other zones unchanged since this morning."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-11T18:55:00-06:00",
       "text": "Nov 11 after-close brief: Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK, DGII, RSKD, FNV.",
       "finding": "Nvidia fell ~8% after hours on a WSJ report the board may oust CEO Huang; AMD and Broadcom rose 3-4% AH. EZCORP beat with revenue +33%."
     },
     {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
+      "bot": "quality-desk",
+      "at": "2026-11-11T18:49:00-06:00",
+      "text": "Reviewed girls yellow polo concept; BLOCK for public use (derivative photo, plus logo/inpaint fixes).",
+      "finding": "Yellow polo concept is an edit of a third-party reference photo; skirt logo conflicts with the written rule; visor/waist marks need scale and contrast, and inpaint leftovers remain."
     },
     {
       "bot": "portfolio-news",
@@ -1590,27 +1618,15 @@
       "at": "2026-11-11T14:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-11T13:46:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-11T13:02:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Fundamentals Analyst: Nov 11 after-close brief: Buy EZPW, AVGO; Hold AMD, NVDA (governance red flag), TTEK,…"
+      "7 of 8 scheduled bots healthy (Chief of Staff late) · 11 items need you · 6 setting up",
+      "Next run: Portfolio News · News check, tomorrow 7:35 AM CT",
+      "Latest: Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-11T18:42:41-06:00"
+    "at": "2026-11-11T19:15:54-06:00"
   },
-  "generatedAt": "2026-11-11T18:42:41-06:00"
+  "generatedAt": "2026-11-11T19:15:54-06:00"
 }
