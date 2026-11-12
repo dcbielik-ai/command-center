@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:06:52-06:00",
+  "updatedAt": "2026-11-12T10:09:45-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -862,7 +862,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-12T07:55:00-06:00",
       "runTimes": [
-        "2026-10-29T12:58:00-05:00",
         "2026-10-30T12:56:00-05:00",
         "2026-10-31T12:55:00-05:00",
         "2026-11-01T12:55:00-06:00",
@@ -889,7 +888,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-29T12:58:00-05:00",
+      "firstSeenAt": "2026-10-30T12:56:00-05:00",
       "notes": "",
       "updatedAt": "2026-11-12T07:55:00-06:00",
       "avatar": {
@@ -1435,21 +1434,22 @@
         }
       ],
       "lastRun": "Working on sports research",
-      "lastRunAt": "2026-11-12T09:57:00-06:00",
+      "lastRunAt": "2026-11-12T10:16:00-06:00",
       "runTimes": [
         "2026-11-05T10:08:53-06:00",
         "2026-11-05T10:30:00-06:00",
         "2026-11-12T09:57:00-06:00",
+        "2026-11-12T10:16:00-06:00",
         "2026-11-12T10:30:00-06:00"
       ],
       "nextRun": "On demand",
       "latestFinding": "Details stay private",
       "waitingOnYou": [],
-      "runsCompleted": 6,
+      "runsCompleted": 7,
       "created": "2026-10-24",
       "firstSeenAt": "2026-11-05T10:08:53-06:00",
       "notes": "",
-      "updatedAt": "2026-11-12T09:57:00-06:00",
+      "updatedAt": "2026-11-12T10:16:00-06:00",
       "avatar": {
         "hat": "helmet",
         "head": "#ffe2c8",
@@ -1697,6 +1697,12 @@
       "finding": "Details stay private"
     },
     {
+      "bot": "sports-picks",
+      "at": "2026-11-12T10:16:00-06:00",
+      "text": "Working on sports research",
+      "finding": "Details stay private"
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1771,11 +1777,6 @@
       "at": "2026-11-12T07:50:00-06:00",
       "text": "Pre-market Nov 12 (as of Nov 11 close): 224 buy hits, 2 sell warnings (SE, AXON).",
       "finding": "S&P 500 7,619.38 (+1.31%), Nasdaq 25,466.19 (+1.60%); top setup AMD 552.90 holding 50d 550.43."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-12T07:45:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
@@ -1784,7 +1785,7 @@
       "Next run: Phil · Portfolio News · News check, today 10:35 AM CT",
       "Latest: Tom · Sports Picks: Working on sports research"
     ],
-    "at": "2026-11-12T10:06:52-06:00"
+    "at": "2026-11-12T10:09:45-06:00"
   },
-  "generatedAt": "2026-11-12T10:06:52-06:00"
+  "generatedAt": "2026-11-12T10:09:45-06:00"
 }
