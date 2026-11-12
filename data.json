@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:40:46-06:00",
+  "updatedAt": "2026-11-12T17:35:15-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -540,9 +540,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-12T16:43:00-06:00",
+      "lastRunAt": "2026-11-12T17:37:00-06:00",
       "runTimes": [
-        "2026-11-10T11:40:00-06:00",
         "2026-11-10T12:40:00-06:00",
         "2026-11-10T13:45:00-06:00",
         "2026-11-10T14:40:00-06:00",
@@ -571,17 +570,18 @@
         "2026-11-12T13:44:00-06:00",
         "2026-11-12T14:46:00-06:00",
         "2026-11-12T15:46:00-06:00",
-        "2026-11-12T16:43:00-06:00"
+        "2026-11-12T16:43:00-06:00",
+        "2026-11-12T17:37:00-06:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-11-13T07:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 324,
+      "runsCompleted": 325,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-30T08:36:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-12T16:43:00-06:00",
+      "updatedAt": "2026-11-12T17:37:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1515,7 +1515,6 @@
       "lastRun": "Morning brief Nov 12: Nasdaq futures ~-0.9% as NVDA falls ~6-8% premarket on WSJ/NYT reports the board is weighing ousting Jensen Huang (second affair; Bloomberg says outside search for successor). Nebius beat Q3 (rev ) but slid ~10% on soft FY26 guide and /-45B capex; CRWV ~-7%. AMD chatter doubled after +7% Wednesday. LLY up on China approval of orforglipron.",
       "lastRunAt": "2026-11-12T07:30:00-06:00",
       "runTimes": [
-        "2026-10-30T07:45:00-05:00",
         "2026-11-01T07:45:00-06:00",
         "2026-11-02T07:45:00-06:00",
         "2026-11-03T07:40:00-06:00",
@@ -1534,7 +1533,7 @@
       "waitingOnYou": [],
       "runsCompleted": 13,
       "created": "2026-10-29",
-      "firstSeenAt": "2026-10-30T07:45:00-05:00",
+      "firstSeenAt": "2026-11-01T07:45:00-06:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
       "updatedAt": "2026-11-12T07:35:00-06:00",
       "avatar": {
@@ -1692,7 +1691,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-12T16:43:00-06:00",
+      "at": "2026-11-12T17:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1725,6 +1724,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-12T16:43:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "technical-analyst",
@@ -1772,21 +1777,15 @@
       "at": "2026-11-12T11:17:09-06:00",
       "text": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "finding": "Both sets cleared for private preview with notes; a pre-public checklist remains."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-12T10:46:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 7 setting up",
-      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
       "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-12T16:40:46-06:00"
+    "at": "2026-11-12T17:35:15-06:00"
   },
-  "generatedAt": "2026-11-12T16:40:46-06:00"
+  "generatedAt": "2026-11-12T17:35:15-06:00"
 }
