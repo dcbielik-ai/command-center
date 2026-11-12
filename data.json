@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:27:52-06:00",
+  "updatedAt": "2026-11-12T01:12:15-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -10,6 +10,81 @@
   "xpRule": {
     "xpPerRun": 1,
     "runsPerLevel": 5
+  },
+  "theme": {
+    "title": "The Minions",
+    "labName": "Gru's Lab",
+    "ownerAlias": "Gru",
+    "spouseAlias": "Mrs. Lucy Gru"
+  },
+  "minionMap": {
+    "title": "The Minions",
+    "labName": "Gru's Lab",
+    "ownerAlias": "Gru",
+    "spouseAlias": "Mrs. Lucy Gru",
+    "byJob": {
+      "Chief of Staff": "Kevin",
+      "Japan & Hawaii Trip": "Stuart",
+      "Universal Studios Japan Day": "Bob",
+      "Travel Agent": "Carl",
+      "Fairway Daughters": "Margo",
+      "Quality Desk": "Dave",
+      "Portfolio News": "Phil",
+      "Fundamentals Analyst": "Tim",
+      "Technical Analyst": "Mark",
+      "Investing Buzz": "Norbert",
+      "Rental Books": "Jorge",
+      "Credit Coach": "Ken",
+      "Home Tech": "Mike",
+      "Sports Picks": "Tom",
+      "Workout": "Otto",
+      "Bielik Game Studio": "Larry",
+      "Dance Bot": "Donny",
+      "VA Deal Scout": "Jerry",
+      "Merch Lead": "Steve",
+      "Trend Scout": "Lance",
+      "Design Studio": "Paul",
+      "Listings & Marketing": "Chris",
+      "AI Guide": "John",
+      "Puppy Media": "Mel",
+      "Tax Strategist": "Bill",
+      "Bookkeeper": "Tony",
+      "Product Lab": "Eric",
+      "M&A Deal Scout": "Henry",
+      "Deal Review & Outreach": "Josh",
+      "LinkedIn & Visibility": "Walter",
+      "Investing for Beginners": "Jack",
+      "Sewing Bot": "Gus"
+    },
+    "looks": {
+      "Margo": "girl"
+    },
+    "pool": [
+      "Nathan",
+      "Peter",
+      "Frank",
+      "Dan",
+      "Sam",
+      "Alex",
+      "Ryan",
+      "Matt",
+      "Nick",
+      "Ben",
+      "Adam",
+      "Luke",
+      "Max",
+      "Owen",
+      "Leo",
+      "Ian",
+      "Sean",
+      "Will",
+      "Kyle",
+      "Brad",
+      "Todd",
+      "Jeff",
+      "Craig",
+      "Greg"
+    ]
   },
   "zones": [
     {
@@ -227,7 +302,8 @@
         "eye": "#3de0ff",
         "trim": "#ff4d6d"
       },
-      "boss": true
+      "boss": true,
+      "minionName": "Kevin"
     },
     {
       "id": "fundamentals-analyst",
@@ -310,7 +386,8 @@
         "accent": "#1b2440",
         "eye": "#3dff8b",
         "trim": "#ffd447"
-      }
+      },
+      "minionName": "Tim"
     },
     {
       "id": "technical-analyst",
@@ -388,7 +465,8 @@
         "accent": "#0a0f1f",
         "eye": "#3de0ff",
         "trim": "#ff4d6d"
-      }
+      },
+      "minionName": "Mark"
     },
     {
       "id": "portfolio-news",
@@ -488,7 +566,8 @@
         "accent": "#5b4636",
         "eye": "#ffb627",
         "trim": "#f4f1e8"
-      }
+      },
+      "minionName": "Phil"
     },
     {
       "id": "va-deal-scout",
@@ -525,7 +604,8 @@
         "accent": "#ffb627",
         "eye": "#ffe066",
         "trim": "#f4f1e8"
-      }
+      },
+      "minionName": "Jerry"
     },
     {
       "id": "travel-agent",
@@ -562,7 +642,8 @@
         "accent": "#0b2f4a",
         "eye": "#7dfcff",
         "trim": "#ffd447"
-      }
+      },
+      "minionName": "Carl"
     },
     {
       "id": "merch-lead",
@@ -599,7 +680,8 @@
         "trim": "#ffd447",
         "prop": "clipboard"
       },
-      "lead": true
+      "lead": true,
+      "minionName": "Steve"
     },
     {
       "id": "trend-scout",
@@ -646,7 +728,8 @@
         "accent": "#2a0f3a",
         "eye": "#ff9be9",
         "trim": "#3de0ff"
-      }
+      },
+      "minionName": "Lance"
     },
     {
       "id": "design-studio",
@@ -678,7 +761,8 @@
         "accent": "#ff4d6d",
         "eye": "#ffd447",
         "trim": "#f4f1e8"
-      }
+      },
+      "minionName": "Paul"
     },
     {
       "id": "listings-marketing",
@@ -713,7 +797,8 @@
         "accent": "#0b2f2a",
         "eye": "#7dffcf",
         "trim": "#ffd447"
-      }
+      },
+      "minionName": "Chris"
     },
     {
       "id": "ai-guide",
@@ -791,7 +876,8 @@
         "accent": "#0a0f2a",
         "eye": "#7af7ff",
         "trim": "#3dff8b"
-      }
+      },
+      "minionName": "John"
     },
     {
       "id": "puppy-media",
@@ -827,7 +913,8 @@
         "eye": "#ffd447",
         "trim": "#ff5fd2",
         "prop": "clapper"
-      }
+      },
+      "minionName": "Mel"
     },
     {
       "id": "fairway-daughters",
@@ -863,7 +950,9 @@
         "eye": "#ff9be9",
         "trim": "#ffffff",
         "prop": "golfclub"
-      }
+      },
+      "minionName": "Margo",
+      "charLook": "girl"
     },
     {
       "id": "bielik-game-studio",
@@ -896,7 +985,8 @@
         "catAccent": "#b05cff",
         "pupAccent": "#19e3c8",
         "eye": "#3dfff0"
-      }
+      },
+      "minionName": "Larry"
     },
     {
       "id": "dance-bot",
@@ -923,7 +1013,8 @@
         "accent": "#1a0a2a",
         "eye": "#ffd447",
         "trim": "#3de0ff"
-      }
+      },
+      "minionName": "Donny"
     },
     {
       "id": "tax-strategist",
@@ -959,7 +1050,8 @@
         "eye": "#ffd447",
         "trim": "#d4a537",
         "prop": "calculator"
-      }
+      },
+      "minionName": "Bill"
     },
     {
       "id": "credit-coach",
@@ -995,7 +1087,8 @@
         "eye": "#7dfcf0",
         "trim": "#e8eef5",
         "prop": "shield"
-      }
+      },
+      "minionName": "Ken"
     },
     {
       "id": "bookkeeper",
@@ -1023,7 +1116,8 @@
         "eye": "#ffd447",
         "trim": "#f4f1e8",
         "prop": "calculator"
-      }
+      },
+      "minionName": "Tony"
     },
     {
       "id": "product-lab",
@@ -1059,7 +1153,8 @@
         "eye": "#d9ff6b",
         "trim": "#a3e635",
         "prop": "wrench"
-      }
+      },
+      "minionName": "Eric"
     },
     {
       "id": "home-tech",
@@ -1092,7 +1187,8 @@
         "eye": "#7dd3fc",
         "trim": "#38bdf8",
         "prop": "techwrench"
-      }
+      },
+      "minionName": "Mike"
     },
     {
       "id": "m-a-deal-scout",
@@ -1128,7 +1224,8 @@
         "eye": "#ffd447",
         "trim": "#d4a537",
         "prop": "briefcase"
-      }
+      },
+      "minionName": "Henry"
     },
     {
       "id": "deal-review-outreach",
@@ -1164,7 +1261,8 @@
         "eye": "#ffd447",
         "trim": "#d4a537",
         "prop": "clipboard"
-      }
+      },
+      "minionName": "Josh"
     },
     {
       "id": "quality-desk",
@@ -1217,7 +1315,8 @@
         "eye": "#3dff8b",
         "trim": "#3dff8b",
         "prop": "clipboard"
-      }
+      },
+      "minionName": "Dave"
     },
     {
       "id": "workout",
@@ -1244,7 +1343,8 @@
         "accent": "#1f1f1f",
         "eye": "#ffd447",
         "trim": "#ffffff"
-      }
+      },
+      "minionName": "Otto"
     },
     {
       "id": "linkedin-visibility",
@@ -1277,7 +1377,8 @@
         "eye": "#7dd3fc",
         "trim": "#ffffff",
         "prop": "clipboard"
-      }
+      },
+      "minionName": "Walter"
     },
     {
       "id": "sports-picks",
@@ -1332,7 +1433,8 @@
         "eye": "#ffd447",
         "trim": "#ffffff",
         "prop": "football"
-      }
+      },
+      "minionName": "Tom"
     },
     {
       "id": "investing-for-beginners",
@@ -1359,7 +1461,8 @@
         "accent": "#1b2440",
         "eye": "#ffd447",
         "trim": "#3de0ff"
-      }
+      },
+      "minionName": "Jack"
     },
     {
       "id": "investing-buzz",
@@ -1415,7 +1518,8 @@
         "accent": "#134e4a",
         "eye": "#5eead4",
         "trim": "#fbbf24"
-      }
+      },
+      "minionName": "Norbert"
     },
     {
       "id": "sewing-bot",
@@ -1442,7 +1546,8 @@
         "accent": "#1f1f1f",
         "eye": "#ffd447",
         "trim": "#ffffff"
-      }
+      },
+      "minionName": "Gus"
     },
     {
       "id": "japan-hawaii-trip",
@@ -1469,7 +1574,8 @@
         "accent": "#0c4a6e",
         "eye": "#7dd3fc",
         "trim": "#fb7185"
-      }
+      },
+      "minionName": "Stuart"
     }
   ],
   "inbox": [
@@ -1623,10 +1729,10 @@
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 6 setting up",
-      "Next run: Portfolio News · News check, today 7:35 AM CT",
-      "Latest: Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-12T00:27:52-06:00"
+    "at": "2026-11-12T01:12:15-06:00"
   },
-  "generatedAt": "2026-11-12T00:27:52-06:00"
+  "generatedAt": "2026-11-12T01:12:15-06:00"
 }
