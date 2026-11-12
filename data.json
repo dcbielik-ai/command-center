@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T14:44:22-06:00",
+  "updatedAt": "2026-11-12T15:42:04-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -449,8 +449,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market Nov 12 (as of Nov 11 close): 224 buy hits, 2 sell warnings (SE, AXON).",
-      "lastRunAt": "2026-11-12T07:50:00-06:00",
+      "lastRun": "After-close Nov 12: 149 buy hits, 2 sell warnings (SE, AXON, both carried over). AMD morning pick confirmed.",
+      "lastRunAt": "2026-11-12T15:50:00-06:00",
       "runTimes": [
         "2026-10-30T07:46:00-05:00",
         "2026-10-30T15:43:00-05:00",
@@ -470,17 +470,18 @@
         "2026-11-10T15:46:00-06:00",
         "2026-11-11T07:46:00-06:00",
         "2026-11-11T15:50:00-06:00",
-        "2026-11-12T07:50:00-06:00"
+        "2026-11-12T07:50:00-06:00",
+        "2026-11-12T15:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-12T15:38:00-06:00",
-      "latestFinding": "S&P 500 7,619.38 (+1.31%), Nasdaq 25,466.19 (+1.60%); top setup AMD 552.90 holding 50d 550.43.",
+      "nextRunAt": "2026-11-13T07:38:00-06:00",
+      "latestFinding": "AMD 585.30 (+5.86%) on 2.2x volume, reclaimed 20d and cleared 50d 552.99; SPY 757.12 (-0.35%), QQQ 688.17 (-0.32%), VIX 18.70.",
       "waitingOnYou": [],
-      "runsCompleted": 54,
+      "runsCompleted": 55,
       "created": "2026-10-04",
       "firstSeenAt": "2026-10-30T07:46:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-12T07:50:00-06:00",
+      "updatedAt": "2026-11-12T15:50:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1692,40 +1693,46 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-12T15:50:00-06:00",
+      "text": "After-close Nov 12: 149 buy hits, 2 sell warnings (SE, AXON, both carried over). AMD morning pick confirmed.",
+      "finding": "AMD 585.30 (+5.86%) on 2.2x volume, reclaimed 20d and cleared 50d 552.99; SPY 757.12 (-0.35%), QQQ 688.17 (-0.32%), VIX 18.70."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-12T14:46:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1774,21 +1781,15 @@
       "at": "2026-11-12T10:30:00-06:00",
       "text": "Working on sports research",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "sports-picks",
-      "at": "2026-11-12T10:16:00-06:00",
-      "text": "Working on sports research",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 7 setting up",
-      "Next run: Phil · Portfolio News · News check, today 3:35 PM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Mark · Technical Analyst: After-close Nov 12: 149 buy hits, 2 sell warnings (SE, AXON, both carried over). AMD…"
     ],
-    "at": "2026-11-12T14:44:22-06:00"
+    "at": "2026-11-12T15:42:04-06:00"
   },
-  "generatedAt": "2026-11-12T14:44:22-06:00"
+  "generatedAt": "2026-11-12T15:42:04-06:00"
 }
