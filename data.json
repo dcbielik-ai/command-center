@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:46:35-06:00",
+  "updatedAt": "2026-11-12T19:15:41-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -54,13 +54,13 @@
       "Deal Review & Outreach": "Josh",
       "LinkedIn & Visibility": "Walter",
       "Investing for Beginners": "Jack",
-      "Sewing Bot": "Gus"
+      "Sewing Bot": "Gus",
+      "Travel Reels": "Nathan"
     },
     "looks": {
       "Margo": "girl"
     },
     "pool": [
-      "Nathan",
       "Peter",
       "Frank",
       "Dan",
@@ -286,9 +286,8 @@
         }
       ],
       "lastRun": "",
-      "lastRunAt": "2026-11-12T08:20:23-06:00",
+      "lastRunAt": "2026-11-12T19:15:38.938470-06:00",
       "runTimes": [
-        "2026-10-30T08:20:00-05:00",
         "2026-10-30T19:20:00-05:00",
         "2026-11-02T08:20:00-06:00",
         "2026-11-02T19:15:00-06:00",
@@ -306,17 +305,18 @@
         "2026-11-10T19:17:27-06:00",
         "2026-11-11T08:13:40-06:00",
         "2026-11-11T19:15:52-06:00",
-        "2026-11-12T08:20:23-06:00"
+        "2026-11-12T08:20:23-06:00",
+        "2026-11-12T19:15:38.938470-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-12T19:10:00-06:00",
-      "latestFinding": "Morning refresh Nov 12: Stocks — Investing Buzz (Nasdaq futures ~-0.9%; NVDA mentions spiked 1,391 to 2,239 on CEO-ouster reports; NBIS/CRWV also in focus); Technical pre-market (224 buy hits, 2 sell warnings on SE and AXON; S&P 500 7,619.38, Nasdaq 25,466.19; AMD 552.90 holding its 50-day); Portfolio News sent 1 alert (NVDA CEO turmoil update, AMD upgrade by William Blair); Fundamentals trending heads-up (Buy MU, AVGO; Hold NVDA, AMD; it reported Jensen Huang resigned and CFO Colette Kress is interim, with NVDA ~-10% premarket and CRWV/NBIS down 14-20%). AI Lab — Thursday briefing (Gemini 4 Carbon, Claude Meetings, Businesses in ChatGPT, plus safety items). Fairway Daughters — overnight: v2 collection fixes and golf-bag concepts with Quality Desk; still waiting on factory outreach, the yellow look, and an OK to post M v3 (nothing posted). Quality Desk reviewed short brand videos this morning and said they need fixes before preview sign-off. The 7 AM Japan trip quality check could not read either trip bot's chat, so no fact-check ran. Other zones unchanged overnight.",
+      "nextRunAt": "2026-11-13T08:10:00-06:00",
+      "latestFinding": "Evening refresh Nov 12: Stocks — Technical after-close (149 buy hits, 2 sell warnings on SE and AXON, both carried over; AMD 585.30 +5.86% confirmed the morning pick; SPY 757.12, QQQ 688.17, VIX 18.70); Fundamentals after-close brief (Buy NU, AMAT, COHR, LFTO, DLO, INTR; Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO; NU is the top GARP name, target ); last check said nothing new and big). no alert sent. Fairway Daughters — Clubhouse Green & Blush v2 (13 stills, R2, R3 fast-cut) and golf bags cleared by Quality Desk for private preview; still waiting on wordmark font, bag picks, Post M v3 OK, factory picks, and the Quiet Luxury / yellow sleeveless polo looks; Nov 12 daily post draft held; nothing posted. Quality Desk reviewed two brand image and video sets and cleared both for private preview with notes (a pre-public checklist remains). Sports Zone — UFC 334 (Gane vs Hokit, Nov 14) card posted. works on request). The 6 PM Fairway Daughters daily check could not read the bot's transcript, so that quality check was incomplete. Other zones unchanged since this morning.",
       "waitingOnYou": [],
-      "runsCompleted": 54,
+      "runsCompleted": 56,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-30T08:20:00-05:00",
+      "firstSeenAt": "2026-10-30T19:20:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-12T08:20:23-06:00",
+      "updatedAt": "2026-11-12T19:15:38.938470-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -1628,6 +1628,34 @@
         "trim": "#f97316"
       },
       "minionName": "Bob"
+    },
+    {
+      "id": "travel-reels",
+      "name": "Travel Reels",
+      "zone": "travel",
+      "className": "Reels Creator",
+      "role": "Family travel agent: finds the best prices on flights, hotels, and events for family trips, and watches for great travel deals. Trip details stay private.",
+      "status": "Setting up",
+      "schedule": "On request",
+      "routines": "Not confirmed yet",
+      "slots": [],
+      "lastRun": "No runs yet",
+      "runTimes": [],
+      "nextRun": "On demand",
+      "latestFinding": "No findings yet",
+      "waitingOnYou": [],
+      "runsCompleted": 0,
+      "created": "2026-11-12",
+      "notes": "",
+      "avatar": {
+        "hat": "headset",
+        "head": "#ffe4f3",
+        "body": "#db2777",
+        "accent": "#111827",
+        "eye": "#67e8f9",
+        "trim": "#f59e0b"
+      },
+      "minionName": "Nathan"
     }
   ],
   "inbox": [
@@ -1689,40 +1717,45 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "chief-of-staff",
+      "at": "2026-11-12T19:15:38.938470-06:00",
+      "text": "Evening refresh Nov 12: Stocks — Technical after-close (149 buy hits, 2 sell warnings on SE and AXON, both carried over; AMD 585.30 +5.86% confirmed the morning pick; SPY 757.12, QQQ 688.17, VIX 18.70); Fundamentals after-close brief (Buy NU, AMAT, COHR, LFTO, DLO, INTR; Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO; NU is the top GARP name, target ); last check said nothing new and big). no alert sent. Fairway Daughters — Clubhouse Green & Blush v2 (13 stills, R2, R3 fast-cut) and golf bags cleared by Quality Desk for private preview; still waiting on wordmark font, bag picks, Post M v3 OK, factory picks, and the Quiet Luxury / yellow sleeveless polo looks; Nov 12 daily post draft held; nothing posted. Quality Desk reviewed two brand image and video sets and cleared both for private preview with notes (a pre-public checklist remains). Sports Zone — UFC 334 (Gane vs Hokit, Nov 14) card posted. works on request). The 6 PM Fairway Daughters daily check could not read the bot's transcript, so that quality check was incomplete. Other zones unchanged since this morning."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-12T18:47:00-06:00",
       "text": "Nov 12 after-close brief: Buy NU, AMAT, COHR, LFTO, DLO, INTR (high risk); Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO.",
       "finding": "my target $16 (+35%)."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1770,21 +1803,15 @@
       "at": "2026-11-12T12:55:00-06:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-12T12:37:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 11 items need you · 7 setting up",
-      "Next run: Kevin · Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Tim · Fundamentals Analyst: Nov 12 after-close brief: Buy NU, AMAT, COHR, LFTO, DLO, INTR (high risk); Hold NVDA,…"
+      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 11 items need you · 8 setting up",
+      "Next run: Kevin · Chief of Staff · Japan trip bots quality check, tomorrow 7:00 AM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-12T18:46:35-06:00"
+    "at": "2026-11-12T19:15:41-06:00"
   },
-  "generatedAt": "2026-11-12T18:46:35-06:00"
+  "generatedAt": "2026-11-12T19:15:41-06:00"
 }
