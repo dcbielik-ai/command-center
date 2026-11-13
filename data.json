@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:42:15-06:00",
+  "updatedAt": "2026-11-12T18:46:35-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -365,10 +365,9 @@
           ]
         }
       ],
-      "lastRun": "Nov 12 trending heads-up: NVDA, AMD, MU, AVGO pass the growth bar (Buy MU, AVGO; Hold NVDA, AMD); NBIS, CRWV, ONDS, LUNR, FIGR, CTVA, YETI are hype only.",
-      "lastRunAt": "2026-11-12T08:10:00-06:00",
+      "lastRun": "Nov 12 after-close brief: Buy NU, AMAT, COHR, LFTO, DLO, INTR (high risk); Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO.",
+      "lastRunAt": "2026-11-12T18:47:00-06:00",
       "runTimes": [
-        "2026-10-30T08:20:00-05:00",
         "2026-10-30T18:45:00-05:00",
         "2026-10-30T18:55:00-05:00",
         "2026-11-02T08:03:00-06:00",
@@ -390,17 +389,18 @@
         "2026-11-10T18:58:00-06:00",
         "2026-11-11T08:10:00-06:00",
         "2026-11-11T18:55:00-06:00",
-        "2026-11-12T08:10:00-06:00"
+        "2026-11-12T08:10:00-06:00",
+        "2026-11-12T18:47:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-12T18:40:00-06:00",
-      "latestFinding": "Jensen Huang resigned as Nvidia CEO (CFO Colette Kress is interim CEO); NVDA was down ~10% premarket and neoclouds CRWV/NBIS fell 14-20%.",
+      "nextRunAt": "2026-11-13T08:01:00-06:00",
+      "latestFinding": "my target $16 (+35%).",
       "waitingOnYou": [],
-      "runsCompleted": 47,
+      "runsCompleted": 48,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-30T08:20:00-05:00",
+      "firstSeenAt": "2026-10-30T18:45:00-05:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-12T08:10:00-06:00",
+      "updatedAt": "2026-11-12T18:47:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1689,40 +1689,46 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-12T18:47:00-06:00",
+      "text": "Nov 12 after-close brief: Buy NU, AMAT, COHR, LFTO, DLO, INTR (high risk); Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO.",
+      "finding": "my target $16 (+35%)."
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-12T18:43:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1770,21 +1776,15 @@
       "at": "2026-11-12T12:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-12T11:42:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 11 items need you · 7 setting up",
       "Next run: Kevin · Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "Latest: Tim · Fundamentals Analyst: Nov 12 after-close brief: Buy NU, AMAT, COHR, LFTO, DLO, INTR (high risk); Hold NVDA,…"
     ],
-    "at": "2026-11-12T18:42:15-06:00"
+    "at": "2026-11-12T18:46:35-06:00"
   },
-  "generatedAt": "2026-11-12T18:42:15-06:00"
+  "generatedAt": "2026-11-12T18:46:35-06:00"
 }
