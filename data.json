@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:21:12-06:00",
+  "updatedAt": "2026-11-13T09:40:07-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -540,10 +540,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-13T08:45:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-13T09:45:00-06:00",
       "runTimes": [
-        "2026-11-10T15:40:00-06:00",
         "2026-11-10T16:37:00-06:00",
         "2026-11-10T17:46:00-06:00",
         "2026-11-10T18:41:00-06:00",
@@ -572,17 +571,18 @@
         "2026-11-12T17:37:00-06:00",
         "2026-11-12T18:43:00-06:00",
         "2026-11-13T07:50:00-06:00",
-        "2026-11-13T08:45:00-06:00"
+        "2026-11-13T08:45:00-06:00",
+        "2026-11-13T09:45:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-13T09:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-13T10:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 328,
+      "runsCompleted": 329,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-10-30T15:43:00-05:00",
+      "firstSeenAt": "2026-10-30T16:42:00-05:00",
       "notes": "",
-      "updatedAt": "2026-11-13T08:45:00-06:00",
+      "updatedAt": "2026-11-13T09:45:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1732,38 +1732,43 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-13T09:45:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-11-13T09:21:12.675085-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
     },
@@ -1814,20 +1819,15 @@
       "at": "2026-11-12T20:08:31.768959-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-12T19:15:38.938470-06:00",
-      "text": "Evening refresh Nov 12: Stocks — Technical after-close (149 buy hits, 2 sell warnings on SE and AXON, both carried over; AMD 585.30 +5.86% confirmed the morning pick; SPY 757.12, QQQ 688.17, VIX 18.70); Fundamentals after-close brief (Buy NU, AMAT, COHR, LFTO, DLO, INTR; Hold NVDA, CSCO, CBRS, FIGR, NBIS, YETI; Sell QXO; NU is the top GARP name, target ); last check said nothing new and big). no alert sent. Fairway Daughters — Clubhouse Green & Blush v2 (13 stills, R2, R3 fast-cut) and golf bags cleared by Quality Desk for private preview; still waiting on wordmark font, bag picks, Post M v3 OK, factory picks, and the Quiet Luxury / yellow sleeveless polo looks; Nov 12 daily post draft held; nothing posted. Quality Desk reviewed two brand image and video sets and cleared both for private preview with notes (a pre-public checklist remains). Sports Zone — UFC 334 (Gane vs Hokit, Nov 14) card posted. works on request). The 6 PM Fairway Daughters daily check could not read the bot's transcript, so that quality check was incomplete. Other zones unchanged since this morning."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Phil · Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-13T09:21:12-06:00"
+    "at": "2026-11-13T09:40:07-06:00"
   },
-  "generatedAt": "2026-11-13T09:21:12-06:00"
+  "generatedAt": "2026-11-13T09:40:07-06:00"
 }
