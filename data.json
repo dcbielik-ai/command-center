@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T07:33:29-06:00",
+  "updatedAt": "2026-11-15T09:24:57-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -369,7 +369,6 @@
       "lastRun": "Nov 13 after-close brief: Buy NU, LFTO, AMAT; Hold STN, MOD (Samsung talks), CSCO, UPST & AKAM (CEO buys); red flags HTFL, AMD.",
       "lastRunAt": "2026-11-13T18:55:00-06:00",
       "runTimes": [
-        "2026-11-02T08:03:00-06:00",
         "2026-11-02T18:50:00-06:00",
         "2026-11-03T08:15:00-06:00",
         "2026-11-03T18:55:00-06:00",
@@ -398,7 +397,7 @@
       "waitingOnYou": [],
       "runsCompleted": 50,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-02T08:03:00-06:00",
+      "firstSeenAt": "2026-11-02T18:50:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-11-13T18:55:00-06:00",
       "avatar": {
@@ -944,7 +943,7 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-11-14T09:18:16.235497-06:00",
+      "lastRunAt": "2026-11-15T09:24:56.960219-06:00",
       "runTimes": [
         "2026-11-02T09:13:58-06:00",
         "2026-11-05T09:02:00-06:00",
@@ -953,7 +952,8 @@
         "2026-11-11T09:07:00-06:00",
         "2026-11-12T20:08:31.768959-06:00",
         "2026-11-13T09:21:12.675085-06:00",
-        "2026-11-14T09:18:16.235497-06:00"
+        "2026-11-14T09:18:16.235497-06:00",
+        "2026-11-15T09:24:56.960219-06:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -961,11 +961,11 @@
         "Needs a decision from you"
       ],
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
-      "runsCompleted": 40,
+      "runsCompleted": 41,
       "created": "2026-10-07",
       "firstSeenAt": "2026-11-02T09:13:58-06:00",
       "notes": "",
-      "updatedAt": "2026-11-14T09:18:16.235497-06:00",
+      "updatedAt": "2026-11-15T09:24:56.960219-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1757,6 +1757,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fairway-daughters",
+      "at": "2026-11-15T09:24:56.960219-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-15T07:32:00-06:00",
       "text": "Sunday brief Nov 15: NVDA still #1 on Reddit (mostly WSB). The fallout from Huang's exit continues (some investors are pushing the board to consider bringing him back, Megaspeed probe, Bessent/Lutnick split on China curbs), and earnings are Tue Nov 17. Anthropic IPO is the big weekend headline. SpaceX (SPCX) is hot after the Starship catch and Musk's Tesla-merger pitch. Crypto selloff is pulling in MSTR. L3Harris (LHX) is trending after the FAA ground-stop link. Big week: NVDA, WMT, TGT, HD, BABA, BIDU earnings.",
@@ -1809,12 +1815,6 @@
       "at": "2026-11-13T15:48:00-06:00",
       "text": "After-close Nov 13: 149 buy hits, 2 sell warnings (COPX, SE); AMD morning pick failed (-8.75%), QQQ closed below 200d.",
       "finding": "AMD 534.06 (-8.75%, 1.85x vol, below 50d 554.55); QQQ 679.89 (-1.20%) under 200d 681.20; SPY 754.37 (-0.36%); IWM 277.54 (-0.32%)."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-13T15:45:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1823,7 +1823,7 @@
       "Next run: John · AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-15T07:33:29-06:00"
+    "at": "2026-11-15T09:24:57-06:00"
   },
-  "generatedAt": "2026-11-15T07:33:29-06:00"
+  "generatedAt": "2026-11-15T09:24:57-06:00"
 }
