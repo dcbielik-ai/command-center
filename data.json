@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T12:55:49-06:00",
+  "updatedAt": "2026-11-16T13:36:35-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -288,7 +288,6 @@
       "lastRun": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-16T08:15:49-06:00",
       "runTimes": [
-        "2026-11-02T19:15:00-06:00",
         "2026-11-03T08:22:00-06:00",
         "2026-11-03T19:19:32-06:00",
         "2026-11-04T08:20:00-06:00",
@@ -315,7 +314,7 @@
       "waitingOnYou": [],
       "runsCompleted": 59,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-02T19:15:00-06:00",
+      "firstSeenAt": "2026-11-03T08:22:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-16T08:15:49-06:00",
       "avatar": {
@@ -538,9 +537,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-16T12:40:00-06:00",
+      "lastRunAt": "2026-11-16T13:36:00-06:00",
       "runTimes": [
-        "2026-11-12T07:45:00-06:00",
         "2026-11-12T08:40:00-06:00",
         "2026-11-12T09:45:00-06:00",
         "2026-11-12T10:46:00-06:00",
@@ -569,17 +567,18 @@
         "2026-11-16T09:37:00-06:00",
         "2026-11-16T10:40:00-06:00",
         "2026-11-16T11:42:00-06:00",
-        "2026-11-16T12:40:00-06:00"
+        "2026-11-16T12:40:00-06:00",
+        "2026-11-16T13:36:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-16T13:35:00-06:00",
+      "nextRunAt": "2026-11-16T14:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 344,
+      "runsCompleted": 345,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-03T07:36:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-16T12:42:00-06:00",
+      "updatedAt": "2026-11-16T13:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1732,40 +1731,46 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-16T13:36:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-16T12:56:00-06:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1813,21 +1818,15 @@
       "at": "2026-11-16T08:31:00-06:00",
       "text": "Completed a run",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-16T08:15:49-06:00",
-      "text": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
-      "finding": "Morning refresh Nov 16: Stocks — Fundamentals trending heads-up (AI chips sold off premarket; NVDA, MU, SNDK, TSM pass growth bar (Buy), AMD Hold; NBIS, CRWV, INTC, HOOD, LHX, SMMT hype-only; Summit Therapeutics (SMMT) -13% premarket after FDA declined to approve ivonescimab; NVDA reports Tue after close at ~10x forward EPS); Technical pre-market Nov 16 as-of Nov 13 close (147 buy hits, 2 sell warnings: COPX new, SE continuing; SPY 754.37 (-0.36%), QQQ 679.89 (-1.20%, below 200d 681.20); top buy KDP 36.34 held SMA20 on 4.2x volume); Portfolio News sent 1 alert (chip selloff/NVDA regulatory worries and bitcoin slide; NVDA fell ~3.5% premarket after Bessent questioned export compliance; BTC , IREN -5%); Investing Buzz Monday brief (NVDA still #1 on Reddit with mentions about double the prior 24 hours; futures lower ahead of Tue earnings; unusual spikes: NBIS #30 to #4, TTWO #205 to #25 on GTA VI launch, INTC #69 to #16 on a 29% plunge plus lawsuit, CRWV #40 to #17, GOOGL #587 to #23; SMMT and POET leading Stocktwits). Real Estate — VA Deal Scout 3-day check (8 Zillow searches loaded: 300 cards, 41 new; added 12 VA assumable rows and logged 1 price cut, 812 rows tracked; new VA assumables at 4.25% in Houston (gap ), 2.875% in San Antonio (gap ), 2.25% in Boyd, 3.5% and 3.75% in San Antonio; Ingleside 3.875% listing cut ). Fairway Daughters — Nov 15 daily post draft run: Post M v3 still waiting on Dennis's OK (reminded once Nov 13), so no new draft and no repeat reminder; nothing posted, spent; still waiting on photo-finish alternatives, wordmark font, bag picks, Post M v3 OK, and factory picks. latest finding: Jensen Huang resigned as Nvidia CEO; CFO Colette Kress named interim CEO (Nov 12). The 7 AM Japan trip quality check could not read or message those bots' chats this morning. The 6 PM Fairway Daughters daily check on Sunday could only use the status note (no transcript). No new teammate bots since the last refresh. Other zones unchanged."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 1:35 PM CT",
-      "Latest: John · AI Guide: Sent a safety alert"
+      "Next run: Phil · Portfolio News · News check, today 2:35 PM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-16T12:55:49-06:00"
+    "at": "2026-11-16T13:36:35-06:00"
   },
-  "generatedAt": "2026-11-16T12:55:49-06:00"
+  "generatedAt": "2026-11-16T13:36:35-06:00"
 }
