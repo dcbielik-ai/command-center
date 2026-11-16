@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T15:43:41-06:00",
+  "updatedAt": "2026-11-16T16:42:27-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -368,7 +368,6 @@
       "lastRun": "Nov 16 trending heads-up: AI chips sold off premarket; NVDA, MU, SNDK, TSM pass growth bar (Buy), AMD Hold; NBIS, CRWV, INTC, HOOD, LHX, SMMT hype-only.",
       "lastRunAt": "2026-11-16T08:15:00-06:00",
       "runTimes": [
-        "2026-11-03T08:15:00-06:00",
         "2026-11-03T18:55:00-06:00",
         "2026-11-04T08:03:00-06:00",
         "2026-11-04T08:20:00-06:00",
@@ -396,7 +395,7 @@
       "waitingOnYou": [],
       "runsCompleted": 51,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-03T08:15:00-06:00",
+      "firstSeenAt": "2026-11-03T18:55:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-11-16T08:15:00-06:00",
       "avatar": {
@@ -537,9 +536,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-16T15:38:00-06:00",
+      "lastRunAt": "2026-11-16T16:42:00-06:00",
       "runTimes": [
-        "2026-11-12T10:46:00-06:00",
         "2026-11-12T11:42:00-06:00",
         "2026-11-12T12:37:00-06:00",
         "2026-11-12T13:44:00-06:00",
@@ -568,17 +566,18 @@
         "2026-11-16T12:40:00-06:00",
         "2026-11-16T13:36:00-06:00",
         "2026-11-16T14:41:00-06:00",
-        "2026-11-16T15:38:00-06:00"
+        "2026-11-16T15:38:00-06:00",
+        "2026-11-16T16:42:00-06:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-11-17T07:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 347,
+      "runsCompleted": 348,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-03T08:38:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-16T15:40:00-06:00",
+      "updatedAt": "2026-11-16T16:44:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1760,6 +1759,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-16T16:42:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-16T15:42:00-06:00",
       "text": "After-close Nov 16: 126 buy hits, 6 sell warnings (GS, GOOGL, GOOG, LYG, new; COPX, SE continuing); QQQ -2.67% alert sent.",
@@ -1812,21 +1817,15 @@
       "at": "2026-11-16T10:13:15.735537-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-16T09:37:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
+      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-16T15:43:41-06:00"
+    "at": "2026-11-16T16:42:27-06:00"
   },
-  "generatedAt": "2026-11-16T15:43:41-06:00"
+  "generatedAt": "2026-11-16T16:42:27-06:00"
 }
