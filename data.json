@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:33:25-06:00",
+  "updatedAt": "2026-11-16T07:39:45-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -536,10 +536,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-13T18:43:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-16T07:39:00-06:00",
       "runTimes": [
-        "2026-11-11T13:46:00-06:00",
         "2026-11-11T14:37:00-06:00",
         "2026-11-11T15:40:00-06:00",
         "2026-11-11T16:40:00-06:00",
@@ -568,17 +567,18 @@
         "2026-11-13T15:45:00-06:00",
         "2026-11-13T16:45:00-06:00",
         "2026-11-13T17:45:00-06:00",
-        "2026-11-13T18:43:00-06:00"
+        "2026-11-13T18:43:00-06:00",
+        "2026-11-16T07:39:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-16T07:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-16T08:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 338,
+      "runsCompleted": 339,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-02T08:42:00-06:00",
+      "firstSeenAt": "2026-11-02T09:35:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-13T18:43:00-06:00",
+      "updatedAt": "2026-11-16T07:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1757,6 +1757,11 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-16T07:39:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-16T07:32:00-06:00",
       "text": "Monday brief Nov 16: NVDA is still #1 on Reddit, with mentions about double the prior 24 hours. Futures are lower ahead of Tue earnings. Bessent is urging an outside CEO, there are reports Huang is weighing a comeback, and Sen. Cantwell is pushing Lutnick on China chip sales. The Anthropic IPO is the other headline theme, alongside AI-bubble and crash-call pieces. Also trending: SMMT is plunging after the FDA rejected ivonescimab, TTWO is up into the GTA VI launch, INTC is facing a shareholder lawsuit after a 29% plunge, and NBIS/CRWV chatter is rising.",
@@ -1809,21 +1814,15 @@
       "at": "2026-11-13T18:43:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-13T17:45:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Next run: John · AI Guide · AI briefing, today 7:50 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-16T07:33:25-06:00"
+    "at": "2026-11-16T07:39:45-06:00"
   },
-  "generatedAt": "2026-11-16T07:33:25-06:00"
+  "generatedAt": "2026-11-16T07:39:45-06:00"
 }
