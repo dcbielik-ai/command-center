@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:40:44-06:00",
+  "updatedAt": "2026-11-16T07:49:11-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -577,7 +577,7 @@
       "waitingOnYou": [],
       "runsCompleted": 339,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-02T09:35:00-06:00",
+      "firstSeenAt": "2026-11-02T10:42:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-16T07:40:00-06:00",
       "avatar": {
@@ -600,23 +600,24 @@
       "schedule": "Every 3 days at 7:42 AM CT",
       "routines": "Assumable VA listings check every 3 days (TX + OK) (Every 3 days at 7:42 AM CT)",
       "slots": [],
-      "lastRun": "Added 10 new deals; 800 deals tracked across TX and OK",
-      "lastRunAt": "2026-11-13T08:12:00-06:00",
+      "lastRun": "Added 12 new deals; 812 deals tracked across TX and OK",
+      "lastRunAt": "2026-11-16T07:52:00-06:00",
       "runTimes": [
         "2026-11-04T08:13:39-06:00",
         "2026-11-07T08:19:55-06:00",
         "2026-11-10T08:07:19-06:00",
-        "2026-11-13T08:12:00-06:00"
+        "2026-11-13T08:12:00-06:00",
+        "2026-11-16T07:52:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-16T07:42:00-06:00",
-      "latestFinding": "800 deals tracked",
+      "nextRunAt": "2026-11-19T07:42:00-06:00",
+      "latestFinding": "812 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 28,
+      "runsCompleted": 29,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-04T08:13:39-06:00",
       "notes": "",
-      "updatedAt": "2026-11-13T08:12:00-06:00",
+      "updatedAt": "2026-11-16T07:52:00-06:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -1727,6 +1728,12 @@
   ],
   "feed": [
     {
+      "bot": "va-deal-scout",
+      "at": "2026-11-16T07:52:00-06:00",
+      "text": "Added 12 new deals; 812 deals tracked across TX and OK",
+      "finding": "812 deals tracked"
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1808,21 +1815,15 @@
       "at": "2026-11-13T19:14:27-06:00",
       "text": "Evening command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
       "finding": "Evening refresh Nov 13: Stocks — Fundamentals after-close (Buy NU, LFTO, AMAT; Hold STN, MOD (Samsung talks), CSCO, UPST & AKAM (CEO buys); red flags HTFL, AMD; Liftoff (LFTO) +31% on Q3 beat-and-raise, target ); Technical after-close (149 buy hits, 2 sell warnings on COPX and SE; AMD morning pick failed (-8.75%), QQQ closed below 200d; AMD 534.06, QQQ 679.89, SPY 754.37, IWM 277.54); Portfolio News (IREN fell 8%+ after a report Microsoft is reviewing neocloud contracts; earlier chip-selloff alert: AMD ~9%, AVGO ~5% Rothschild downgrade, bitcoin below ; after-close check found nothing new and big). Fairway Daughters — daily post draft run sent a reminder and did not build a new draft (Post M v3 still waiting); 07 crest moved ~1/2 in toward the chest centre on the photo-finish version; still waiting on photo-finish alternatives, the 07 crest move, wordmark font, bag picks, Post M v3 OK, factory picks, and the Quiet Luxury / yellow sleeveless polo looks; nothing posted. AI Lab — midday urgent AI safety check found nothing needing immediate action (no alert sent); Notion/Fireworks AI transcript exposure noted for Monday's briefing. The 6 PM Fairway Daughters daily check could not read the bot's transcript, so that review was limited. Other zones unchanged since this morning."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-13T18:55:00-06:00",
-      "text": "Nov 13 after-close brief: Buy NU, LFTO, AMAT; Hold STN, MOD (Samsung talks), CSCO, UPST & AKAM (CEO buys); red flags HTFL, AMD.",
-      "finding": "Liftoff (LFTO) +31% on Q3 beat-and-raise: revenue +32%, adj. EBITDA margin 61%, FCF $93M; my target $32 (+31%)."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
       "Next run: John · AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Latest: Jerry · VA Deal Scout: Added 12 new deals; 812 deals tracked across TX and OK"
     ],
-    "at": "2026-11-16T07:40:44-06:00"
+    "at": "2026-11-16T07:49:11-06:00"
   },
-  "generatedAt": "2026-11-16T07:40:44-06:00"
+  "generatedAt": "2026-11-16T07:49:11-06:00"
 }
