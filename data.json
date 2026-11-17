@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T16:45:00-06:00",
+  "updatedAt": "2026-11-17T17:38:41-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -368,7 +368,6 @@
       "lastRun": "Nov 17 pre-market trending heads-up: NVDA, COHR, MU, SNDK pass the growth bar (all Buy, my estimates); HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing.",
       "lastRunAt": "2026-11-17T08:03:57-06:00",
       "runTimes": [
-        "2026-11-04T08:03:00-06:00",
         "2026-11-04T18:55:00-06:00",
         "2026-11-05T08:04:00-06:00",
         "2026-11-05T18:50:21-06:00",
@@ -395,7 +394,7 @@
       "waitingOnYou": [],
       "runsCompleted": 53,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T08:03:00-06:00",
+      "firstSeenAt": "2026-11-04T18:55:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-11-17T08:03:57-06:00",
       "avatar": {
@@ -535,10 +534,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-17T16:44:00-06:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-11-17T17:38:00-06:00",
       "runTimes": [
-        "2026-11-13T10:45:00-06:00",
         "2026-11-13T11:45:00-06:00",
         "2026-11-13T12:50:00-06:00",
         "2026-11-13T13:45:00-06:00",
@@ -567,17 +565,18 @@
         "2026-11-17T12:38:00-06:00",
         "2026-11-17T13:43:00-06:00",
         "2026-11-17T14:38:00-06:00",
-        "2026-11-17T16:44:00-06:00"
+        "2026-11-17T16:44:00-06:00",
+        "2026-11-17T17:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-17T17:35:00-06:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-11-17T18:35:00-06:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 359,
+      "runsCompleted": 360,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-04T08:41:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-17T16:44:00-06:00",
+      "updatedAt": "2026-11-17T17:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1761,6 +1760,12 @@
     },
     {
       "bot": "portfolio-news",
+      "at": "2026-11-17T17:38:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-17T16:44:00-06:00",
       "text": "Sent 1 alert"
     },
@@ -1811,21 +1816,15 @@
       "at": "2026-11-17T09:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-17T09:18:39.452693-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Phil · Portfolio News late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
+      "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-17T16:45:00-06:00"
+    "at": "2026-11-17T17:38:41-06:00"
   },
-  "generatedAt": "2026-11-17T16:45:00-06:00"
+  "generatedAt": "2026-11-17T17:38:41-06:00"
 }
