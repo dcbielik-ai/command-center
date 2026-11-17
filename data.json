@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:42:24-06:00",
+  "updatedAt": "2026-11-17T08:03:57-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -365,8 +365,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 16 after-close brief: Buy POWL (beat, record $2.7B backlog), HUBS & TEAM (CEO insider buys), NVDA (into earnings); Hold ARMK, ACM, HTHT, STWD, XP; Sell TSN (FY27 profit reset).",
-      "lastRunAt": "2026-11-16T18:44:00-06:00",
+      "lastRun": "Nov 17 pre-market trending heads-up: NVDA, COHR, MU, SNDK pass the growth bar (all Buy, my estimates); HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing.",
+      "lastRunAt": "2026-11-17T08:03:57-06:00",
       "runTimes": [
         "2026-11-03T18:55:00-06:00",
         "2026-11-04T08:03:00-06:00",
@@ -388,17 +388,18 @@
         "2026-11-13T08:16:00-06:00",
         "2026-11-13T18:55:00-06:00",
         "2026-11-16T08:15:00-06:00",
-        "2026-11-16T18:44:00-06:00"
+        "2026-11-16T18:44:00-06:00",
+        "2026-11-17T08:03:57-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-17T08:01:00-06:00",
-      "latestFinding": "Powell Industries Q4 EPS $2.23 vs $1.56 est., revenue +33%, backlog +96% to $2.7B; HubSpot's returning CEO Halligan bought ~$5.0M of stock.",
+      "nextRunAt": "2026-11-17T18:40:00-06:00",
+      "latestFinding": "Coherent indicated ~+8% premarket on US China equipment curbs (TTM revenue +31%, fwd P/E 13.6); Nvidia reports Q3 after the close today.",
       "waitingOnYou": [],
-      "runsCompleted": 52,
+      "runsCompleted": 53,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-03T18:55:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-16T18:44:00-06:00",
+      "updatedAt": "2026-11-17T08:03:57-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -577,7 +578,7 @@
       "waitingOnYou": [],
       "runsCompleted": 351,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-03T13:41:00-06:00",
+      "firstSeenAt": "2026-11-03T14:38:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-17T07:44:00-06:00",
       "avatar": {
@@ -1761,6 +1762,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-17T08:03:57-06:00",
+      "text": "Nov 17 pre-market trending heads-up: NVDA, COHR, MU, SNDK pass the growth bar (all Buy, my estimates); HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing.",
+      "finding": "Coherent indicated ~+8% premarket on US China equipment curbs (TTM revenue +31%, fwd P/E 13.6); Nvidia reports Q3 after the close today."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-17T07:42:00-06:00",
       "text": "Completed a news check",
@@ -1813,21 +1820,15 @@
       "at": "2026-11-16T15:42:00-06:00",
       "text": "After-close Nov 16: 126 buy hits, 6 sell warnings (GS, GOOGL, GOOG, LYG, new; COPX, SE continuing); QQQ -2.67% alert sent.",
       "finding": "SPY 739.95 (-1.91%, 1.45x vol, 200d 729.58); QQQ 661.75 (-2.67%, below 200d 681.41); COPX 65.51 (-5.4%) on 2.8x volume."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-16T15:38:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
+      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-17T07:42:24-06:00"
+    "at": "2026-11-17T08:03:57-06:00"
   },
-  "generatedAt": "2026-11-17T07:42:24-06:00"
+  "generatedAt": "2026-11-17T08:03:57-06:00"
 }
