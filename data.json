@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:26:29-06:00",
+  "updatedAt": "2026-11-17T07:41:14-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -446,8 +446,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Nov 16: 126 buy hits, 6 sell warnings (GS, GOOGL, GOOG, LYG, new; COPX, SE continuing); QQQ -2.67% alert sent.",
-      "lastRunAt": "2026-11-16T15:42:00-06:00",
+      "lastRun": "Pre-market Nov 17 (as-of Nov 16): 127 buy hits, 6 sell warnings (none new vs. Nov 16 close check).",
+      "lastRunAt": "2026-11-17T07:41:00-06:00",
       "runTimes": [
         "2026-11-03T15:44:00-06:00",
         "2026-11-04T07:48:00-06:00",
@@ -467,17 +467,18 @@
         "2026-11-13T07:46:00-06:00",
         "2026-11-13T15:48:00-06:00",
         "2026-11-16T07:40:00-06:00",
-        "2026-11-16T15:42:00-06:00"
+        "2026-11-16T15:42:00-06:00",
+        "2026-11-17T07:41:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-17T07:38:00-06:00",
-      "latestFinding": "SPY 739.95 (-1.91%, 1.45x vol, 200d 729.58); QQQ 661.75 (-2.67%, below 200d 681.41); COPX 65.51 (-5.4%) on 2.8x volume.",
+      "nextRunAt": "2026-11-18T07:38:00-06:00",
+      "latestFinding": "S&P 500 7416.59 (-1.92%), Nasdaq 24509.76 (-2.49%), VIX 22.98; top buy: NTES 121.57 held SMA20 120.56 w/ 2.4x volume.",
       "waitingOnYou": [],
-      "runsCompleted": 59,
+      "runsCompleted": 60,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-03T15:44:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-16T15:45:00-06:00",
+      "updatedAt": "2026-11-17T07:45:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -576,7 +577,7 @@
       "waitingOnYou": [],
       "runsCompleted": 350,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-03T12:38:00-06:00",
+      "firstSeenAt": "2026-11-03T13:41:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-16T18:38:00-06:00",
       "avatar": {
@@ -1731,40 +1732,46 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "technical-analyst",
+      "at": "2026-11-17T07:41:00-06:00",
+      "text": "Pre-market Nov 17 (as-of Nov 16): 127 buy hits, 6 sell warnings (none new vs. Nov 16 close check).",
+      "finding": "S&P 500 7416.59 (-1.92%), Nasdaq 24509.76 (-2.49%), VIX 22.98; top buy: NTES 121.57 held SMA20 120.56 w/ 2.4x volume."
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-17T07:30:00-06:00",
       "text": "Tuesday brief Nov 17: NVDA is #1 again (1,198 Reddit mentions, up from 633) heading into its earnings, the first report since Huang's ouster. Tech futures are lower, Dow futures are off about 200 points, Eisman is warning on neoclouds, and the Trump-account NVDA trades story is in the mix. Anthropic's IPO this week is the #2 theme. Other news-driven names: DIS beat, HD beat plus a new CEO, Deutsche Bank whistleblower leak. SPY and QQQ chatter is up about 3-4x as hedging talk rises.",
       "finding": "UNUSUAL SPIKE: SLS went #121 to #15 (5 to 58 mentions, Phase 3 REGAL AML survival win, and it's #1 on Stocktwits). GOOGL went #41 to #7 (11 to 88). IREN went #572 to #22. ASTS went #14 to #6 (27 to 91). AGI went #317 to #24 on WSB. SPY mentions are about 4x. IT, DTE, ET and AM look like word collisions."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "chief-of-staff",
@@ -1813,21 +1820,15 @@
       "at": "2026-11-16T14:41:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-16T13:36:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
-      "Latest: Norbert · Investing Buzz: Tuesday brief Nov 17: NVDA is #1 again (1,198 Reddit mentions, up from 633) heading…"
+      "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-17T07:26:29-06:00"
+    "at": "2026-11-17T07:41:14-06:00"
   },
-  "generatedAt": "2026-11-17T07:26:29-06:00"
+  "generatedAt": "2026-11-17T07:41:14-06:00"
 }
