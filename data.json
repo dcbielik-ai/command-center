@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T13:42:31-06:00",
+  "updatedAt": "2026-11-17T14:37:38-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -537,9 +537,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-17T13:43:00-06:00",
+      "lastRunAt": "2026-11-17T14:38:00-06:00",
       "runTimes": [
-        "2026-11-13T08:45:00-06:00",
         "2026-11-13T09:45:00-06:00",
         "2026-11-13T10:45:00-06:00",
         "2026-11-13T11:45:00-06:00",
@@ -568,17 +567,18 @@
         "2026-11-17T10:35:00-06:00",
         "2026-11-17T11:35:00-06:00",
         "2026-11-17T12:38:00-06:00",
-        "2026-11-17T13:43:00-06:00"
+        "2026-11-17T13:43:00-06:00",
+        "2026-11-17T14:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-17T14:35:00-06:00",
+      "nextRunAt": "2026-11-17T15:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 357,
+      "runsCompleted": 358,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T07:43:00-06:00",
+      "firstSeenAt": "2026-11-04T08:41:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-17T13:43:00-06:00",
+      "updatedAt": "2026-11-17T14:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1732,7 +1732,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-17T13:43:00-06:00",
+      "at": "2026-11-17T14:38:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1765,6 +1765,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-17T13:43:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "ai-guide",
@@ -1813,21 +1819,15 @@
       "at": "2026-11-17T08:20:06-06:00",
       "text": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
       "finding": "Morning refresh Nov 17: Stocks — Fundamentals pre-market trending heads-up (NVDA, COHR, MU, SNDK pass the growth bar, all Buy by its estimates; HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing; Coherent indicated ~+8% premarket on US China equipment curbs, TTM revenue +31%, fwd P/E 13.6; Nvidia reports Q3 after the close today); Technical pre-market Nov 17 as-of Nov 16 close (127 buy hits, 6 sell warnings, none new vs. Nov 16 close check; S&P 500 7416.59 (-1.92%), Nasdaq 24509.76 (-2.49%), VIX 22.98; top buy: NTES 121.57 held SMA20 120.56 w/ 2.4x volume); NVDA earnings today); Investing Buzz Tuesday brief (NVDA #1 again, 1,198 Reddit mentions, up from 633, heading into earnings, the first report since Huang's ouster; tech futures lower, Dow futures off about 200 points; unusual spikes: SLS #121 to #15 and #1 on Stocktwits after a Phase 3 REGAL AML survival win, GOOGL #41 to #7, IREN #572 to #22, ASTS #14 to #6, AGI #317 to #24 on WSB). The morning Japan trip bots quality check could not read or message those bots' chats (newest saved transcripts are from Nov 16, 10:15 PM JST), so it could not complete a fact-check. No new teammate bots since the last refresh. Other zones unchanged."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-17T08:03:57-06:00",
-      "text": "Nov 17 pre-market trending heads-up: NVDA, COHR, MU, SNDK pass the growth bar (all Buy, my estimates); HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing.",
-      "finding": "Coherent indicated ~+8% premarket on US China equipment curbs (TTM revenue +31%, fwd P/E 13.6); Nvidia reports Q3 after the close today."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 2:35 PM CT",
+      "Next run: Phil · Portfolio News · News check, today 3:35 PM CT",
       "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-17T13:42:31-06:00"
+    "at": "2026-11-17T14:37:38-06:00"
   },
-  "generatedAt": "2026-11-17T13:42:31-06:00"
+  "generatedAt": "2026-11-17T14:37:38-06:00"
 }
