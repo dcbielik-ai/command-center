@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T08:04:57-06:00",
+  "updatedAt": "2026-11-18T08:20:31-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -285,8 +285,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-17T19:18:13-06:00",
+      "lastRun": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-18T08:20:25-06:00",
       "runTimes": [
         "2026-11-04T19:20:00-06:00",
         "2026-11-05T08:20:00-06:00",
@@ -306,17 +306,18 @@
         "2026-11-16T08:15:49-06:00",
         "2026-11-16T19:22:42-06:00",
         "2026-11-17T08:20:06-06:00",
-        "2026-11-17T19:18:13-06:00"
+        "2026-11-17T19:18:13-06:00",
+        "2026-11-18T08:20:25-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-18T08:10:00-06:00",
-      "latestFinding": "Evening refresh Nov 17: Stocks — Fundamentals after-close brief (Buy NVDA, AS, TEAM; Hold DIS, JD, MNSO, ESLT, HD, BILL, VIK, DLB; Sell ENR, its estimates); Nvidia Q3 revenue (+103%) beat, Q4 guide , shares ~+5% after hours and Nasdaq 100 futures +1.6%. Technical after-close Nov 17: 173 buy hits, 7 sell warnings (AXON new); no alert-worthy moves, no message sent; SPY 732.44 (-1.01%, 1.5x vol), QQQ 656.95 (-0.73%), IWM 269.05 (-1.43%); new sell warning AXON 298.59 (death cross, 1.3x vol). Portfolio News last checked at 6:43 PM CT: nothing new and big, no alerts sent (latest finding: NVDA Q3 FY27 revenue , Q4 guide ; stock ~+3% after hours Nov 17). Investing Buzz had no new run since the morning brief (next Wed 7:30 AM CT). AI Lab — AI Guide midday urgent check: nothing new met the alert bar (Oregon AG suit vs OpenAI over teen safety, Visa AI-fraud report, AI chatbot-toy warnings ahead of Black Friday); no alert sent. Fairway Daughters daily post draft (Nov 17 CT): Post M v3 still waiting on Dennis's OK (reminded Nov 13), so no new draft and no repeat reminder; nothing posted; still waiting on photo-finish alternatives, wordmark font, bag picks, Post M v3 OK, and factory picks. No new teammate bots since the last refresh. Other zones unchanged.",
+      "nextRunAt": "2026-11-18T19:10:00-06:00",
+      "latestFinding": "Morning refresh Nov 18: Stocks — Investing Buzz Wednesday brief: NVDA mentions nearly doubled again (1,224 to 2,226) after an earnings beat and stronger outlook in its first report without Huang; shares up ~4% premarket; neoclouds (NBIS, CRWV, IREN) and memory (MU, SNDK) rallying. Unusual spikes: SLS #66 to #2 (43 to 374 mentions) after its REGAL AML trial win, then a stock offering; GP (GreenPower Motor) #673 to #10 (2 to 70) on a 72% run with no news; AAOI #224 to #27 (3 to 30) on a at-the-market offering. Technical pre-market Nov 18 (as-of Nov 17 close): 180 buy hits, 7 sell warnings (none new vs after-close); brief sent; S&P 500 7,340.53 (-1.03%), Nasdaq 24,328.38 (-0.74%), Russell 2000 2,701.87 (-1.50%), VIX 24.49; top buy setups CHD, MCO, MSCI, AES. Fundamentals pre-market trending heads-up: pass NVDA (Buy), MU (Buy), SNDK (Buy), GLBE (Hold); hype-only TTWO, TJX, LOW, TGT, SLS, AAOI (its estimates); Nvidia Q3 FY27 revenue (+103% YoY), EPS +108%; shares ~+3% premarket. Portfolio News last checked at 7:38 AM CT: nothing new and big, no alerts sent (latest finding: NVDA Q3 FY27 revenue , Q4 guide ; stock ~+3% after hours Nov 17). AI Lab — no new run since the Nov 17 midday check (next urgent check Wed 12:50 PM CT). Fairway Daughters still waiting on Dennis (photo-finish alternatives, wordmark font, bag picks, Post M v3 OK, factory picks); no new run since the Nov 17 draft. No new teammate bots since the last refresh. Other zones unchanged.",
       "waitingOnYou": [],
-      "runsCompleted": 62,
+      "runsCompleted": 63,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-04T19:20:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-17T19:18:13-06:00",
+      "updatedAt": "2026-11-18T08:20:25-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -857,7 +858,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-17T12:54:00-06:00",
       "runTimes": [
-        "2026-11-04T12:59:00-06:00",
         "2026-11-05T08:00:00-06:00",
         "2026-11-05T08:07:48-06:00",
         "2026-11-05T12:57:06-06:00",
@@ -884,7 +884,7 @@
       "waitingOnYou": [],
       "runsCompleted": 54,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T12:59:00-06:00",
+      "firstSeenAt": "2026-11-05T08:00:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-17T12:54:00-06:00",
       "avatar": {
@@ -1762,6 +1762,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "chief-of-staff",
+      "at": "2026-11-18T08:20:25-06:00",
+      "text": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
+      "finding": "Morning refresh Nov 18: Stocks — Investing Buzz Wednesday brief: NVDA mentions nearly doubled again (1,224 to 2,226) after an earnings beat and stronger outlook in its first report without Huang; shares up ~4% premarket; neoclouds (NBIS, CRWV, IREN) and memory (MU, SNDK) rallying. Unusual spikes: SLS #66 to #2 (43 to 374 mentions) after its REGAL AML trial win, then a stock offering; GP (GreenPower Motor) #673 to #10 (2 to 70) on a 72% run with no news; AAOI #224 to #27 (3 to 30) on a at-the-market offering. Technical pre-market Nov 18 (as-of Nov 17 close): 180 buy hits, 7 sell warnings (none new vs after-close); brief sent; S&P 500 7,340.53 (-1.03%), Nasdaq 24,328.38 (-0.74%), Russell 2000 2,701.87 (-1.50%), VIX 24.49; top buy setups CHD, MCO, MSCI, AES. Fundamentals pre-market trending heads-up: pass NVDA (Buy), MU (Buy), SNDK (Buy), GLBE (Hold); hype-only TTWO, TJX, LOW, TGT, SLS, AAOI (its estimates); Nvidia Q3 FY27 revenue (+103% YoY), EPS +108%; shares ~+3% premarket. Portfolio News last checked at 7:38 AM CT: nothing new and big, no alerts sent (latest finding: NVDA Q3 FY27 revenue , Q4 guide ; stock ~+3% after hours Nov 17). AI Lab — no new run since the Nov 17 midday check (next urgent check Wed 12:50 PM CT). Fairway Daughters still waiting on Dennis (photo-finish alternatives, wordmark font, bag picks, Post M v3 OK, factory picks); no new run since the Nov 17 draft. No new teammate bots since the last refresh. Other zones unchanged."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-18T08:04:56-06:00",
       "text": "Nov 18 pre-market trending heads-up: fundamentals pass NVDA (Buy), MU (Buy), SNDK (Buy), GLBE (Hold); hype-only TTWO, TJX, LOW, TGT, SLS, AAOI (my estimates).",
@@ -1813,21 +1819,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-17T16:44:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-11-17T15:41:00-06:00",
-      "text": "After-close Nov 17: 173 buy hits, 7 sell warnings (AXON new); no alert-worthy moves, no message sent.",
-      "finding": "SPY 732.44 (-1.01%, 1.5x vol), QQQ 656.95 (-0.73%), IWM 269.05 (-1.43%); new sell warning AXON 298.59 (death cross, 1.3x vol)."
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
+      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-18T08:04:57-06:00"
+    "at": "2026-11-18T08:20:31-06:00"
   },
-  "generatedAt": "2026-11-18T08:04:57-06:00"
+  "generatedAt": "2026-11-18T08:20:31-06:00"
 }
