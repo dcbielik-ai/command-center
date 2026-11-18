@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:43:53-06:00",
+  "updatedAt": "2026-11-17T18:51:59-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -288,7 +288,6 @@
       "lastRun": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-17T08:20:06-06:00",
       "runTimes": [
-        "2026-11-04T08:20:00-06:00",
         "2026-11-04T19:20:00-06:00",
         "2026-11-05T08:20:00-06:00",
         "2026-11-05T19:12:25-06:00",
@@ -314,7 +313,7 @@
       "waitingOnYou": [],
       "runsCompleted": 61,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T08:20:00-06:00",
+      "firstSeenAt": "2026-11-04T19:20:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-17T08:20:06-06:00",
       "avatar": {
@@ -365,8 +364,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 17 pre-market trending heads-up: NVDA, COHR, MU, SNDK pass the growth bar (all Buy, my estimates); HD, DIS, SLS, KLAR, JD, BABA, LITE trending without fundamentals backing.",
-      "lastRunAt": "2026-11-17T08:03:57-06:00",
+      "lastRun": "Nov 17 after-close brief: Buy NVDA, AS, TEAM; Hold DIS, JD, MNSO, ESLT, HD, BILL, VIK, DLB; Sell ENR (my estimates).",
+      "lastRunAt": "2026-11-17T18:50:00-06:00",
       "runTimes": [
         "2026-11-04T18:55:00-06:00",
         "2026-11-05T08:04:00-06:00",
@@ -386,17 +385,18 @@
         "2026-11-13T18:55:00-06:00",
         "2026-11-16T08:15:00-06:00",
         "2026-11-16T18:44:00-06:00",
-        "2026-11-17T08:03:57-06:00"
+        "2026-11-17T08:03:57-06:00",
+        "2026-11-17T18:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-17T18:40:00-06:00",
-      "latestFinding": "Coherent indicated ~+8% premarket on US China equipment curbs (TTM revenue +31%, fwd P/E 13.6); Nvidia reports Q3 after the close today.",
+      "nextRunAt": "2026-11-18T08:01:00-06:00",
+      "latestFinding": "Nvidia Q3 revenue $115.8B (+103%) beat, Q4 guide $130B; shares ~+5% after hours and Nasdaq 100 futures +1.6%.",
       "waitingOnYou": [],
-      "runsCompleted": 53,
+      "runsCompleted": 54,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-04T18:55:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-17T08:03:57-06:00",
+      "updatedAt": "2026-11-17T18:50:00-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1758,6 +1758,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-17T18:50:00-06:00",
+      "text": "Nov 17 after-close brief: Buy NVDA, AS, TEAM; Hold DIS, JD, MNSO, ESLT, HD, BILL, VIK, DLB; Sell ENR (my estimates).",
+      "finding": "Nvidia Q3 revenue $115.8B (+103%) beat, Q4 guide $130B; shares ~+5% after hours and Nasdaq 100 futures +1.6%."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-17T18:43:00-06:00",
       "text": "Completed a news check",
@@ -1809,12 +1815,6 @@
       "at": "2026-11-17T11:35:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-17T10:35:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
@@ -1823,7 +1823,7 @@
       "Next run: Kevin · Chief of Staff · Command center refresh, today 7:10 PM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-17T18:43:53-06:00"
+    "at": "2026-11-17T18:51:59-06:00"
   },
-  "generatedAt": "2026-11-17T18:43:53-06:00"
+  "generatedAt": "2026-11-17T18:51:59-06:00"
 }
