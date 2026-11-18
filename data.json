@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T07:45:52-06:00",
+  "updatedAt": "2026-11-18T08:04:57-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -365,8 +365,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 17 after-close brief: Buy NVDA, AS, TEAM; Hold DIS, JD, MNSO, ESLT, HD, BILL, VIK, DLB; Sell ENR (my estimates).",
-      "lastRunAt": "2026-11-17T18:50:00-06:00",
+      "lastRun": "Nov 18 pre-market trending heads-up: fundamentals pass NVDA (Buy), MU (Buy), SNDK (Buy), GLBE (Hold); hype-only TTWO, TJX, LOW, TGT, SLS, AAOI (my estimates).",
+      "lastRunAt": "2026-11-18T08:04:56-06:00",
       "runTimes": [
         "2026-11-04T18:55:00-06:00",
         "2026-11-05T08:04:00-06:00",
@@ -387,17 +387,18 @@
         "2026-11-16T08:15:00-06:00",
         "2026-11-16T18:44:00-06:00",
         "2026-11-17T08:03:57-06:00",
-        "2026-11-17T18:50:00-06:00"
+        "2026-11-17T18:50:00-06:00",
+        "2026-11-18T08:04:56-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-18T08:01:00-06:00",
-      "latestFinding": "Nvidia Q3 revenue $115.8B (+103%) beat, Q4 guide $130B; shares ~+5% after hours and Nasdaq 100 futures +1.6%.",
+      "nextRunAt": "2026-11-18T18:40:00-06:00",
+      "latestFinding": "Nvidia Q3 FY27 revenue $115.8B (+103% YoY), EPS +108%; shares ~+3% premarket and AI-infrastructure names rallying in sympathy.",
       "waitingOnYou": [],
-      "runsCompleted": 54,
+      "runsCompleted": 55,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-04T18:55:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-17T18:50:00-06:00",
+      "updatedAt": "2026-11-18T08:04:56-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -576,7 +577,7 @@
       "waitingOnYou": [],
       "runsCompleted": 362,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T12:39:00-06:00",
+      "firstSeenAt": "2026-11-04T13:40:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-18T07:40:00-06:00",
       "avatar": {
@@ -1761,6 +1762,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-18T08:04:56-06:00",
+      "text": "Nov 18 pre-market trending heads-up: fundamentals pass NVDA (Buy), MU (Buy), SNDK (Buy), GLBE (Hold); hype-only TTWO, TJX, LOW, TGT, SLS, AAOI (my estimates).",
+      "finding": "Nvidia Q3 FY27 revenue $115.8B (+103% YoY), EPS +108%; shares ~+3% premarket and AI-infrastructure names rallying in sympathy."
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-18T07:44:00-06:00",
       "text": "Pre-market Nov 18 (as-of Nov 17 close): 180 buy hits, 7 sell warnings (none new vs after-close); brief sent.",
@@ -1812,21 +1819,15 @@
       "at": "2026-11-17T15:41:00-06:00",
       "text": "After-close Nov 17: 173 buy hits, 7 sell warnings (AXON new); no alert-worthy moves, no message sent.",
       "finding": "SPY 732.44 (-1.01%, 1.5x vol), QQQ 656.95 (-0.73%), IWM 269.05 (-1.43%); new sell warning AXON 298.59 (death cross, 1.3x vol)."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-17T14:38:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
+      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
+      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-18T07:45:52-06:00"
+    "at": "2026-11-18T08:04:57-06:00"
   },
-  "generatedAt": "2026-11-18T07:45:52-06:00"
+  "generatedAt": "2026-11-18T08:04:57-06:00"
 }
