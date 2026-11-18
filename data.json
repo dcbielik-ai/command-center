@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T08:20:31-06:00",
+  "updatedAt": "2026-11-18T08:35:53-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -539,9 +539,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-18T07:38:00-06:00",
+      "lastRunAt": "2026-11-18T08:36:00-06:00",
       "runTimes": [
-        "2026-11-13T13:45:00-06:00",
         "2026-11-13T14:40:00-06:00",
         "2026-11-13T15:45:00-06:00",
         "2026-11-13T16:45:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-17T16:44:00-06:00",
         "2026-11-17T17:38:00-06:00",
         "2026-11-17T18:43:00-06:00",
-        "2026-11-18T07:38:00-06:00"
+        "2026-11-18T07:38:00-06:00",
+        "2026-11-18T08:36:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-18T08:35:00-06:00",
+      "nextRunAt": "2026-11-18T09:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 362,
+      "runsCompleted": 363,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-04T13:40:00-06:00",
+      "firstSeenAt": "2026-11-04T14:37:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-18T07:40:00-06:00",
+      "updatedAt": "2026-11-18T08:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1732,6 +1732,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-18T08:36:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": null,
       "text": "Working on brand designs",
@@ -1814,20 +1820,15 @@
       "at": "2026-11-17T17:38:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-17T16:44:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
+      "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-18T08:20:31-06:00"
+    "at": "2026-11-18T08:35:53-06:00"
   },
-  "generatedAt": "2026-11-18T08:20:31-06:00"
+  "generatedAt": "2026-11-18T08:35:53-06:00"
 }
