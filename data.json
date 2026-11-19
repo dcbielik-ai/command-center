@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T11:42:20-06:00",
+  "updatedAt": "2026-11-19T12:37:14-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -539,9 +539,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-19T11:43:00-06:00",
+      "lastRunAt": "2026-11-19T12:38:00-06:00",
       "runTimes": [
-        "2026-11-16T17:41:00-06:00",
         "2026-11-16T18:36:00-06:00",
         "2026-11-17T07:42:00-06:00",
         "2026-11-17T08:41:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-19T08:40:00-06:00",
         "2026-11-19T09:40:00-06:00",
         "2026-11-19T10:40:00-06:00",
-        "2026-11-19T11:43:00-06:00"
+        "2026-11-19T11:43:00-06:00",
+        "2026-11-19T12:38:00-06:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-11-19T13:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 378,
+      "runsCompleted": 379,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-05T13:43:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T11:43:00-06:00",
+      "updatedAt": "2026-11-19T12:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -859,7 +859,6 @@
       "lastRun": "Sent a safety alert",
       "lastRunAt": "2026-11-19T07:59:00-06:00",
       "runTimes": [
-        "2026-11-05T12:57:06-06:00",
         "2026-11-06T12:54:24-06:00",
         "2026-11-07T13:00:00-06:00",
         "2026-11-08T12:54:28-06:00",
@@ -884,7 +883,7 @@
       "waitingOnYou": [],
       "runsCompleted": 56,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-05T12:57:06-06:00",
+      "firstSeenAt": "2026-11-06T12:54:24-06:00",
       "notes": "",
       "updatedAt": "2026-11-19T07:59:00-06:00",
       "avatar": {
@@ -1730,7 +1729,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-19T11:43:00-06:00",
+      "at": "2026-11-19T12:38:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
     },
@@ -1763,6 +1762,12 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-19T11:43:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
     },
     {
       "bot": "portfolio-news",
@@ -1810,21 +1815,15 @@
       "at": "2026-11-19T08:15:00-06:00",
       "text": "Nov 19 pre-market heads-up: Buy MU; Hold NVDA, AMD, P (Everpure); hype-only Hold/Avoid on PANW, CRWD, WMT, PDD, BABA, TTWO, SPCX, ASTS, CAPR (my estimates).",
       "finding": "Anthropic (ANT) debuts on Nasdaq today and is lifting chips; Micron trades ~3.4x forward EPS with revenue +379% YoY, while Nvidia's CEO exit keeps it on Hold despite +103% revenue."
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-19T07:59:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 12:35 PM CT",
+      "Next run: John · AI Guide · Scam watch, today 12:50 PM CT",
       "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-19T11:42:20-06:00"
+    "at": "2026-11-19T12:37:14-06:00"
   },
-  "generatedAt": "2026-11-19T11:42:20-06:00"
+  "generatedAt": "2026-11-19T12:37:14-06:00"
 }
