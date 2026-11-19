@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T15:39:29-06:00",
+  "updatedAt": "2026-11-19T15:47:54-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -447,8 +447,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market Nov 19 (as of Nov 18 close): 167 buy hits, 11 sell warnings (new: RIO, BCS, PH, VWO, TRX-USD).",
-      "lastRunAt": "2026-11-19T07:46:00-06:00",
+      "lastRun": "After-close Nov 19: SPY -1.96%, QQQ -2.19% on 1.6x volume; 133 buy hits, 11 sell warnings (new: GDX, XLM-USD, ROK); MCO morning pick failed.",
+      "lastRunAt": "2026-11-19T15:46:00-06:00",
       "runTimes": [
         "2026-11-06T08:02:06-06:00",
         "2026-11-06T15:47:38-06:00",
@@ -468,17 +468,18 @@
         "2026-11-17T15:41:00-06:00",
         "2026-11-18T07:44:00-06:00",
         "2026-11-18T15:46:00-06:00",
-        "2026-11-19T07:46:00-06:00"
+        "2026-11-19T07:46:00-06:00",
+        "2026-11-19T15:46:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-19T15:38:00-06:00",
-      "latestFinding": "Top buy setups: AKAM +8.3% oversold bounce w/ accumulation, MCO held SMA50 478.79, BBY held SMA20 100.23; S&P 500 7,323.63, VIX 24.56 at Nov 18 close.",
+      "nextRunAt": "2026-11-20T07:38:00-06:00",
+      "latestFinding": "SPY 715.87 closed below 200d (730.20) and 20d-low; QQQ 645.04 below 20d-low 647.05; VIX 28.44.",
       "waitingOnYou": [],
-      "runsCompleted": 64,
+      "runsCompleted": 65,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-06T08:02:06-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T07:50:00-06:00",
+      "updatedAt": "2026-11-19T15:50:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -577,7 +578,7 @@
       "waitingOnYou": [],
       "runsCompleted": 382,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-05T16:36:00-06:00",
+      "firstSeenAt": "2026-11-05T17:41:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-19T15:40:00-06:00",
       "avatar": {
@@ -1728,40 +1729,46 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "technical-analyst",
+      "at": "2026-11-19T15:46:00-06:00",
+      "text": "After-close Nov 19: SPY -1.96%, QQQ -2.19% on 1.6x volume; 133 buy hits, 11 sell warnings (new: GDX, XLM-USD, ROK); MCO morning pick failed.",
+      "finding": "SPY 715.87 closed below 200d (730.20) and 20d-low; QQQ 645.04 below 20d-low 647.05; VIX 28.44."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-19T15:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "portfolio-news",
@@ -1809,21 +1816,15 @@
       "at": "2026-11-19T10:05:00-06:00",
       "text": "Working on sports research",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-19T09:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
       "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-19T15:39:29-06:00"
+    "at": "2026-11-19T15:47:54-06:00"
   },
-  "generatedAt": "2026-11-19T15:39:29-06:00"
+  "generatedAt": "2026-11-19T15:47:54-06:00"
 }
