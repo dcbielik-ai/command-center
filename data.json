@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:44:59-06:00",
+  "updatedAt": "2026-11-19T07:46:05-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -598,23 +598,24 @@
       "schedule": "Every 3 days at 7:42 AM CT",
       "routines": "Assumable VA listings check every 3 days (TX + OK) (Every 3 days at 7:42 AM CT)",
       "slots": [],
-      "lastRun": "Added 12 new deals; 812 deals tracked across TX and OK",
-      "lastRunAt": "2026-11-16T07:52:00-06:00",
+      "lastRun": "Added 20 new deals; 832 deals tracked across TX and OK",
+      "lastRunAt": "2026-11-19T07:45:00-06:00",
       "runTimes": [
         "2026-11-07T08:19:55-06:00",
         "2026-11-10T08:07:19-06:00",
         "2026-11-13T08:12:00-06:00",
-        "2026-11-16T07:52:00-06:00"
+        "2026-11-16T07:52:00-06:00",
+        "2026-11-19T07:45:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-19T07:42:00-06:00",
-      "latestFinding": "812 deals tracked",
+      "nextRunAt": "2026-11-22T07:42:00-06:00",
+      "latestFinding": "832 deals tracked",
       "waitingOnYou": [],
-      "runsCompleted": 29,
+      "runsCompleted": 30,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-07T08:19:55-06:00",
       "notes": "",
-      "updatedAt": "2026-11-16T07:52:00-06:00",
+      "updatedAt": "2026-11-19T07:45:00-06:00",
       "avatar": {
         "hat": "hardhat",
         "head": "#e8d6c0",
@@ -943,7 +944,6 @@
       "lastRun": "Working on brand designs",
       "lastRunAt": "2026-11-18T09:57:11.523066-06:00",
       "runTimes": [
-        "2026-11-05T09:10:00-06:00",
         "2026-11-10T08:02:00-06:00",
         "2026-11-11T09:07:00-06:00",
         "2026-11-12T20:08:31.768959-06:00",
@@ -964,7 +964,7 @@
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
       "runsCompleted": 45,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-11-05T09:10:00-06:00",
+      "firstSeenAt": "2026-11-07T17:28:24-06:00",
       "notes": "",
       "updatedAt": "2026-11-18T09:57:11.523066-06:00",
       "avatar": {
@@ -1729,39 +1729,45 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-19T07:45:00-06:00",
       "text": "Sent 1 alert"
     },
     {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
+      "bot": "va-deal-scout",
+      "at": "2026-11-19T07:45:00-06:00",
+      "text": "Added 20 new deals; 832 deals tracked across TX and OK",
+      "finding": "832 deals tracked"
     },
     {
       "bot": "investing-buzz",
@@ -1810,21 +1816,15 @@
       "at": "2026-11-18T15:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-18T14:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
       "Next run: John · AI Guide · AI briefing, today 7:50 AM CT",
-      "Latest: Phil · Portfolio News: Sent 1 alert"
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-19T07:44:59-06:00"
+    "at": "2026-11-19T07:46:05-06:00"
   },
-  "generatedAt": "2026-11-19T07:44:59-06:00"
+  "generatedAt": "2026-11-19T07:46:05-06:00"
 }
