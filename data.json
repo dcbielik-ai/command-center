@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T16:41:28-06:00",
+  "updatedAt": "2026-11-19T17:38:00-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -539,9 +539,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-19T16:41:00-06:00",
+      "lastRunAt": "2026-11-19T17:38:00-06:00",
       "runTimes": [
-        "2026-11-17T10:35:00-06:00",
         "2026-11-17T11:35:00-06:00",
         "2026-11-17T12:38:00-06:00",
         "2026-11-17T13:43:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-19T13:41:00-06:00",
         "2026-11-19T14:40:00-06:00",
         "2026-11-19T15:40:00-06:00",
-        "2026-11-19T16:41:00-06:00"
+        "2026-11-19T16:41:00-06:00",
+        "2026-11-19T17:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-19T17:35:00-06:00",
+      "nextRunAt": "2026-11-19T18:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 383,
+      "runsCompleted": 384,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-05T18:40:00-06:00",
+      "firstSeenAt": "2026-11-06T08:08:58-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T16:41:00-06:00",
+      "updatedAt": "2026-11-19T17:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1760,6 +1760,12 @@
     },
     {
       "bot": "portfolio-news",
+      "at": "2026-11-19T17:38:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-19T16:41:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1810,21 +1816,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-19T10:40:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "sports-picks",
-      "at": "2026-11-19T10:10:00-06:00",
-      "text": "Working on sports research",
-      "finding": "Details stay private"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-19T16:41:28-06:00"
+    "at": "2026-11-19T17:38:00-06:00"
   },
-  "generatedAt": "2026-11-19T16:41:28-06:00"
+  "generatedAt": "2026-11-19T17:38:00-06:00"
 }
