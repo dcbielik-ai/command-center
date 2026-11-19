@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T08:40:15-06:00",
+  "updatedAt": "2026-11-19T09:18:02-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -946,7 +946,7 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-11-18T09:57:11.523066-06:00",
+      "lastRunAt": "2026-11-19T09:18:01.954153-06:00",
       "runTimes": [
         "2026-11-10T08:02:00-06:00",
         "2026-11-11T09:07:00-06:00",
@@ -958,7 +958,8 @@
         "2026-11-16T10:13:15.735537-06:00",
         "2026-11-17T09:18:39.452693-06:00",
         "2026-11-18T09:15:50.286809-06:00",
-        "2026-11-18T09:57:11.523066-06:00"
+        "2026-11-18T09:57:11.523066-06:00",
+        "2026-11-19T09:18:01.954153-06:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -966,11 +967,11 @@
         "Needs a decision from you"
       ],
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
-      "runsCompleted": 45,
+      "runsCompleted": 46,
       "created": "2026-10-07",
       "firstSeenAt": "2026-11-07T17:28:24-06:00",
       "notes": "",
-      "updatedAt": "2026-11-18T09:57:11.523066-06:00",
+      "updatedAt": "2026-11-19T09:18:01.954153-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1306,7 +1307,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-05T10:38:27-06:00",
         "2026-11-05T10:56:06-06:00",
         "2026-11-06T12:51:18-06:00",
         "2026-11-06T13:59:59-06:00",
@@ -1336,7 +1336,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-05T10:38:27-06:00",
+      "firstSeenAt": "2026-11-05T10:56:06-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1759,6 +1759,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "fairway-daughters",
+      "at": "2026-11-19T09:18:01.954153-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-19T08:40:00-06:00",
       "text": "Completed a news check",
@@ -1810,21 +1816,15 @@
       "at": "2026-11-18T19:23:24-06:00",
       "text": "Evening command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
       "finding": "Evening refresh Nov 18: Stocks — Fundamentals after-close brief: Buy P (Everpure) and KLIC; Hold PANW, GLBE, TGT, TJX, LOW, WWD, UNH, HUM; Sell BRBR (its estimates); Everpure revenue +51% YoY with a third straight raise at ~24x forward; Palo Alto beat-and-raise plus all-stock AI deal, shares ~+11% after hours. Technical after-close Nov 18: 165 buy hits, 12 sell warnings; big movers OKTA +12.1% (8.6x vol), TGT +4.0% (3.2x), COPX -6.3% (3.7x); alert sent; S&P 500 7,323.63 (-0.23%), Nasdaq 24,429.88 (+0.42%), VIX 24.56; morning picks MCO/MSCI held, CHD no setup. Portfolio News last checked at 6:38 PM CT: nothing new and big, no alerts sent (latest finding: NVDA Q3 FY27 revenue , Q4 guide ; stock ~+3% after hours Nov 17). Investing Buzz had no new run since the morning brief (next Thu 7:30 AM CT). AI Lab — AI Guide midday urgent check: nothing new met the alert bar (FTC grandkid voice-clone scam alert, New York AI chatbot safeguards for minors law, follow-up coverage of Oregon's OpenAI suit); no alert sent. Fairway Daughters drafted the Nov 23-29 content calendar (7 posts, all existing assets, ) and sent it for feedback; still waiting on that feedback, OK on Post M v3, wordmark font, bag picks, and factory picks. Nothing posted. No new teammate bots since the last refresh. Other zones unchanged."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-18T18:55:00-06:00",
-      "text": "Nov 18 after-close brief: Buy P (Everpure) and KLIC; Hold PANW, GLBE, TGT, TJX, LOW, WWD, UNH, HUM; Sell BRBR (my estimates).",
-      "finding": "Everpure revenue +51% YoY with a third straight raise at ~24x forward; Palo Alto beat-and-raise plus $4.5B all-stock AI deal, shares ~+11% after hours."
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
+      "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
       "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-19T08:40:15-06:00"
+    "at": "2026-11-19T09:18:02-06:00"
   },
-  "generatedAt": "2026-11-19T08:40:15-06:00"
+  "generatedAt": "2026-11-19T09:18:02-06:00"
 }
