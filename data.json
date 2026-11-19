@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T08:17:27-06:00",
+  "updatedAt": "2026-11-19T08:40:15-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -538,10 +538,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-19T07:45:00-06:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-11-19T08:40:00-06:00",
       "runTimes": [
-        "2026-11-16T13:36:00-06:00",
         "2026-11-16T14:41:00-06:00",
         "2026-11-16T15:38:00-06:00",
         "2026-11-16T16:42:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-18T16:40:00-06:00",
         "2026-11-18T17:40:00-06:00",
         "2026-11-18T18:38:00-06:00",
-        "2026-11-19T07:45:00-06:00"
+        "2026-11-19T07:45:00-06:00",
+        "2026-11-19T08:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-19T08:35:00-06:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-11-19T10:35:00-06:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 374,
+      "runsCompleted": 375,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-05T10:41:50-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T07:45:00-06:00",
+      "updatedAt": "2026-11-19T08:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1306,7 +1306,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-05T10:33:38-06:00",
         "2026-11-05T10:38:27-06:00",
         "2026-11-05T10:56:06-06:00",
         "2026-11-06T12:51:18-06:00",
@@ -1337,7 +1336,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-05T10:33:38-06:00",
+      "firstSeenAt": "2026-11-05T10:38:27-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1760,6 +1759,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-19T08:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-19T08:17:25-06:00",
       "text": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
@@ -1811,21 +1816,15 @@
       "at": "2026-11-18T18:55:00-06:00",
       "text": "Nov 18 after-close brief: Buy P (Everpure) and KLIC; Hold PANW, GLBE, TGT, TJX, LOW, WWD, UNH, HUM; Sell BRBR (my estimates).",
       "finding": "Everpure revenue +51% YoY with a third straight raise at ~24x forward; Palo Alto beat-and-raise plus $4.5B all-stock AI deal, shares ~+11% after hours."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-18T18:38:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
+      "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-19T08:17:27-06:00"
+    "at": "2026-11-19T08:40:15-06:00"
   },
-  "generatedAt": "2026-11-19T08:17:27-06:00"
+  "generatedAt": "2026-11-19T08:40:15-06:00"
 }
