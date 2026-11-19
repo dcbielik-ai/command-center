@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T10:38:46-06:00",
+  "updatedAt": "2026-11-19T11:42:20-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -538,10 +538,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 1 alert",
-      "lastRunAt": "2026-11-19T10:40:00-06:00",
+      "lastRun": "Completed a news check",
+      "lastRunAt": "2026-11-19T11:43:00-06:00",
       "runTimes": [
-        "2026-11-16T16:42:00-06:00",
         "2026-11-16T17:41:00-06:00",
         "2026-11-16T18:36:00-06:00",
         "2026-11-17T07:42:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-19T07:45:00-06:00",
         "2026-11-19T08:40:00-06:00",
         "2026-11-19T09:40:00-06:00",
-        "2026-11-19T10:40:00-06:00"
+        "2026-11-19T10:40:00-06:00",
+        "2026-11-19T11:43:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-19T12:35:00-06:00",
-      "latestFinding": "Sent 1 alert",
+      "nextRunAt": "2026-11-19T13:35:00-06:00",
+      "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 377,
+      "runsCompleted": 378,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-05T13:43:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T10:40:00-06:00",
+      "updatedAt": "2026-11-19T11:43:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -860,7 +860,6 @@
       "lastRunAt": "2026-11-19T07:59:00-06:00",
       "runTimes": [
         "2026-11-05T12:57:06-06:00",
-        "2026-11-05T12:58:00-06:00",
         "2026-11-06T12:54:24-06:00",
         "2026-11-07T13:00:00-06:00",
         "2026-11-08T12:54:28-06:00",
@@ -1731,38 +1730,44 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-19T11:43:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-19T10:40:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "sports-picks",
@@ -1811,21 +1816,15 @@
       "at": "2026-11-19T07:59:00-06:00",
       "text": "Sent a safety alert",
       "finding": "Safety details shared privately"
-    },
-    {
-      "bot": "technical-analyst",
-      "at": "2026-11-19T07:46:00-06:00",
-      "text": "Pre-market Nov 19 (as of Nov 18 close): 167 buy hits, 11 sell warnings (new: RIO, BCS, PH, VWO, TRX-USD).",
-      "finding": "Top buy setups: AKAM +8.3% oversold bounce w/ accumulation, MCO held SMA50 478.79, BBY held SMA20 100.23; S&P 500 7,323.63, VIX 24.56 at Nov 18 close."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 11:35 AM CT",
-      "Latest: Phil · Portfolio News: Sent 1 alert"
+      "Next run: Phil · Portfolio News · News check, today 12:35 PM CT",
+      "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-19T10:38:46-06:00"
+    "at": "2026-11-19T11:42:20-06:00"
   },
-  "generatedAt": "2026-11-19T10:38:46-06:00"
+  "generatedAt": "2026-11-19T11:42:20-06:00"
 }
