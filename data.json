@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T07:32:33-06:00",
+  "updatedAt": "2026-11-20T07:36:37-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -538,9 +538,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-19T18:45:00-06:00",
+      "lastRunAt": "2026-11-20T07:36:00-06:00",
       "runTimes": [
-        "2026-11-17T12:38:00-06:00",
         "2026-11-17T13:43:00-06:00",
         "2026-11-17T14:38:00-06:00",
         "2026-11-17T16:44:00-06:00",
@@ -569,17 +568,18 @@
         "2026-11-19T15:40:00-06:00",
         "2026-11-19T16:41:00-06:00",
         "2026-11-19T17:38:00-06:00",
-        "2026-11-19T18:45:00-06:00"
+        "2026-11-19T18:45:00-06:00",
+        "2026-11-20T07:36:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-19T19:35:00-06:00",
+      "nextRunAt": "2026-11-20T08:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 385,
+      "runsCompleted": 386,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-06T08:08:58-06:00",
+      "firstSeenAt": "2026-11-06T09:44:32-06:00",
       "notes": "",
-      "updatedAt": "2026-11-19T18:45:00-06:00",
+      "updatedAt": "2026-11-20T07:36:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1758,6 +1758,12 @@
       "finding": "Details stay private until launch"
     },
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-20T07:36:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-20T07:30:00-06:00",
       "text": "Friday brief Nov 20: AI selloff deepens. Anthropic (ANT) down ~9% premarket a day after its debut (closed day one +17%). Nasdaq-100 futures -1.9%, S&P -1%; Dow closed below 50,000 Thursday and nears correction, worst week since Apr 2025. AMD -7.7% Thursday on Hunterbrook short report alleging China exposure, another ~6% lower premarket. MU/SNDK falling on NAND glut forecast. Intuit -10% on Credit Karma guide cut and Mailchimp sale. Asia: Nikkei -5%, Kospi -5.2%.",
@@ -1810,21 +1816,15 @@
       "at": "2026-11-19T14:40:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-19T13:41:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Next run: Mark · Technical Analyst · Pre-market technical scan, today 7:38 AM CT",
       "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-20T07:32:33-06:00"
+    "at": "2026-11-20T07:36:37-06:00"
   },
-  "generatedAt": "2026-11-20T07:32:33-06:00"
+  "generatedAt": "2026-11-20T07:36:37-06:00"
 }
