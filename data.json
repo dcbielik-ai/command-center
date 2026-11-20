@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T14:40:49-06:00",
+  "updatedAt": "2026-11-20T15:44:30-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -539,9 +539,8 @@
         }
       ],
       "lastRun": "Sent 0 alerts",
-      "lastRunAt": "2026-11-20T14:41:00-06:00",
+      "lastRunAt": "2026-11-20T15:50:00-06:00",
       "runTimes": [
-        "2026-11-18T09:37:00-06:00",
         "2026-11-18T10:37:00-06:00",
         "2026-11-18T11:44:00-06:00",
         "2026-11-18T12:43:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-20T11:40:00-06:00",
         "2026-11-20T12:43:00-06:00",
         "2026-11-20T13:38:00-06:00",
-        "2026-11-20T14:41:00-06:00"
+        "2026-11-20T14:41:00-06:00",
+        "2026-11-20T15:50:00-06:00"
       ],
       "nextRun": "Scheduled",
       "nextRunAt": "2026-11-23T07:35:00-06:00",
       "latestFinding": "Sent 0 alerts",
       "waitingOnYou": [],
-      "runsCompleted": 393,
+      "runsCompleted": 394,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-06T15:58:29-06:00",
       "notes": "",
-      "updatedAt": "2026-11-20T14:41:00-06:00",
+      "updatedAt": "2026-11-20T15:50:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1307,7 +1307,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-06T14:57:20-06:00",
         "2026-11-06T15:30:38-06:00",
         "2026-11-07T10:16:19-06:00",
         "2026-11-07T17:47:19-06:00",
@@ -1333,7 +1332,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-06T14:57:20-06:00",
+      "firstSeenAt": "2026-11-06T15:30:38-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1729,7 +1728,7 @@
   "feed": [
     {
       "bot": "portfolio-news",
-      "at": "2026-11-20T14:41:00-06:00",
+      "at": "2026-11-20T15:50:00-06:00",
       "text": "Sent 0 alerts"
     },
     {
@@ -1761,6 +1760,11 @@
       "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-20T14:41:00-06:00",
+      "text": "Sent 0 alerts"
     },
     {
       "bot": "portfolio-news",
@@ -1808,21 +1812,15 @@
       "at": "2026-11-20T08:44:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-20T08:20:10-06:00",
-      "text": "Morning command center refresh: synced 32 bots across 14 zones, built and published the dashboard.",
-      "finding": "Morning refresh Nov 20: Stocks — Fundamentals pre-market heads-up: Buy MU, NVDA, META; Hold AMD, SNDK (passed growth bar); 10 hyped names (ANT, SPCX, INTU, INSM, others) failed the bar; Micron trades ~3.8x FY2027 consensus EPS after +379% YoY quarterly revenue; Nasdaq futures -1.7% as Anthropic fell ~10% premarket a day after its IPO. Technical pre-market Nov 20 (as-of Nov 19 close): 132 buy hits, 11 sell warnings (new: GDX, ROK, XLM-USD); top picks CIBR, TGT, TXN, OMC, DHR; top-ranked CIBR 96.36 (RSI 46.6, 2.0x vol), TGT 167.46 (3.2x vol spike, RSI 62.9); 11 death-cross sell warnings incl. GOOGL, GDX. Portfolio News last checked at 7:36 AM CT: nothing new and big (latest finding still: AMD fell ~8-11% on Nov 19 after a Hunterbrook Media short report alleging China-linked export issues). Investing Buzz Friday brief: AI selloff deepens; Anthropic (ANT) down ~9% premarket a day after its debut (closed day one +17%); Nasdaq-100 futures -1.9%, S&P -1%; Dow closed below 50,000 Thursday and nears correction, worst week since Apr 2025; AMD -7.7% Thursday on the Hunterbrook short report, another ~6% lower premarket; MU/SNDK falling on NAND glut forecast; Intuit -10% on Credit Karma guide cut and Mailchimp sale; Asia: Nikkei -5%, Kospi -5.2%; unusual spikes in AMD, SPY, TQQQ, GME, GLD, TLT, OPEN. AI Lab — no new run since the Nov 19 midday check (next urgent check Fri 12:50 PM CT). Fairway Daughters unchanged: still waiting on feedback on the Nov 23-29 calendar, OK on Post M v3, wordmark font, bag picks, and factory picks. Nothing posted. The 7:00 AM CT Japan trip bots quality check could not finish this morning (this run cannot read other bots' transcripts; handed back to the main session). No new teammate bots since the last refresh. Other zones unchanged."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 8 setting up",
-      "Next run: Phil · Portfolio News · News check, today 3:35 PM CT",
+      "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
       "Latest: Phil · Portfolio News: Sent 0 alerts"
     ],
-    "at": "2026-11-20T14:40:49-06:00"
+    "at": "2026-11-20T15:44:30-06:00"
   },
-  "generatedAt": "2026-11-20T14:40:49-06:00"
+  "generatedAt": "2026-11-20T15:44:30-06:00"
 }
