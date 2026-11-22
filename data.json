@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T09:22:02-06:00",
+  "updatedAt": "2026-11-22T12:51:01-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -857,7 +857,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-11-21T12:56:00-06:00",
+      "lastRunAt": "2026-11-22T12:52:00-06:00",
       "runTimes": [
         "2026-11-08T12:54:28-06:00",
         "2026-11-09T07:58:00-06:00",
@@ -876,17 +876,18 @@
         "2026-11-19T07:59:00-06:00",
         "2026-11-19T12:57:00-06:00",
         "2026-11-20T12:57:00-06:00",
-        "2026-11-21T12:56:00-06:00"
+        "2026-11-21T12:56:00-06:00",
+        "2026-11-22T12:52:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-22T12:50:00-06:00",
+      "nextRunAt": "2026-11-23T07:50:00-06:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [],
-      "runsCompleted": 59,
+      "runsCompleted": 60,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-08T12:54:28-06:00",
       "notes": "",
-      "updatedAt": "2026-11-21T12:56:00-06:00",
+      "updatedAt": "2026-11-22T12:52:00-06:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1756,38 +1757,38 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-11-22T12:52:00-06:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-11-22T09:23:00-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
     },
@@ -1845,10 +1846,10 @@
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 9 setting up",
-      "Next run: John · AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
+      "Latest: John · AI Guide: Sent a safety alert"
     ],
-    "at": "2026-11-22T09:22:02-06:00"
+    "at": "2026-11-22T12:51:01-06:00"
   },
-  "generatedAt": "2026-11-22T09:22:02-06:00"
+  "generatedAt": "2026-11-22T12:51:01-06:00"
 }
