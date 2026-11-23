@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T07:33:04-06:00",
+  "updatedAt": "2026-11-23T07:38:27-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -538,10 +538,9 @@
           ]
         }
       ],
-      "lastRun": "Sent 0 alerts",
-      "lastRunAt": "2026-11-20T18:40:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-23T07:38:00-06:00",
       "runTimes": [
-        "2026-11-18T13:39:00-06:00",
         "2026-11-18T14:40:00-06:00",
         "2026-11-18T15:40:00-06:00",
         "2026-11-18T16:40:00-06:00",
@@ -570,17 +569,18 @@
         "2026-11-20T15:50:00-06:00",
         "2026-11-20T16:45:00-06:00",
         "2026-11-20T17:40:00-06:00",
-        "2026-11-20T18:40:00-06:00"
+        "2026-11-20T18:40:00-06:00",
+        "2026-11-23T07:38:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-23T07:35:00-06:00",
-      "latestFinding": "Sent 0 alerts",
+      "nextRunAt": "2026-11-23T08:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 397,
+      "runsCompleted": 398,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-09T07:42:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-20T18:40:00-06:00",
+      "updatedAt": "2026-11-23T07:38:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1758,28 +1758,27 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "fairway-daughters",
+      "at": null,
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
+      "bot": "portfolio-news",
+      "at": "2026-11-23T07:38:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "investing-buzz",
       "at": "2026-11-23T07:35:00-06:00",
       "text": "Monday brief Nov 23: Relief-rally premarket after Nasdaq's worst week since 2020. Futures ~8:15 AM ET: Dow +1.9%, S&P +2.6-2.9%, Nasdaq-100 +3.4-3.6%. NVDA +6-8% premarket after Trump post hoping board rehires Huang; AMD, MU, CRWV, AVGO up; Anthropic flat. Zscaler up on CrowdStrike deal; MARA/MSTR up as BTC . Asia weak (KOSPI -3.3%). Week: flash PMIs Mon, Dell Tue, PCE + GDP Wed, closed Thu.",
       "finding": "No unusual spikes. Chatter recovering from weekend lull: NVDA 319 to 451 mentions, SPY 109 to 203, QQQ 56 to 136. Biggest jumps: SOXL 16 to 44 (3x chip ETF, rebound bets), VT 18 to 34, MAGA ETF 6 to 18 (Trump/midterm blame thread). NYT, DTE, AM, ET, IT, ALL, ES likely word collisions."
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": null,
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     },
     {
       "bot": "ai-guide",
@@ -1847,10 +1846,10 @@
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 9 setting up",
-      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
-      "Latest: Norbert · Investing Buzz: Monday brief Nov 23: Relief-rally premarket after Nasdaq's worst week since 2020.…"
+      "Next run: John · AI Guide · AI briefing, today 7:50 AM CT",
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-23T07:33:04-06:00"
+    "at": "2026-11-23T07:38:27-06:00"
   },
-  "generatedAt": "2026-11-23T07:33:04-06:00"
+  "generatedAt": "2026-11-23T07:38:27-06:00"
 }
