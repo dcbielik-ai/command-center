@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T15:47:58-06:00",
+  "updatedAt": "2026-11-24T16:38:04-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -288,7 +288,6 @@
       "lastRun": "Morning command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-24T08:19:09-06:00",
       "runTimes": [
-        "2026-11-09T08:23:34-06:00",
         "2026-11-09T19:21:21-06:00",
         "2026-11-10T08:18:22-06:00",
         "2026-11-10T19:17:27-06:00",
@@ -318,7 +317,7 @@
       "waitingOnYou": [],
       "runsCompleted": 71,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-09T08:23:34-06:00",
+      "firstSeenAt": "2026-11-09T19:21:21-06:00",
       "notes": "",
       "updatedAt": "2026-11-24T08:19:09-06:00",
       "avatar": {
@@ -547,9 +546,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-24T15:41:00-06:00",
+      "lastRunAt": "2026-11-24T16:37:00-06:00",
       "runTimes": [
-        "2026-11-20T10:45:00-06:00",
         "2026-11-20T11:40:00-06:00",
         "2026-11-20T12:43:00-06:00",
         "2026-11-20T13:38:00-06:00",
@@ -578,17 +576,18 @@
         "2026-11-24T12:43:00-06:00",
         "2026-11-24T13:43:00-06:00",
         "2026-11-24T14:43:00-06:00",
-        "2026-11-24T15:41:00-06:00"
+        "2026-11-24T15:41:00-06:00",
+        "2026-11-24T16:37:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-24T16:35:00-06:00",
+      "nextRunAt": "2026-11-24T17:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 418,
+      "runsCompleted": 419,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-09T08:38:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-24T15:41:00-06:00",
+      "updatedAt": "2026-11-24T16:37:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1849,6 +1848,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-24T16:37:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "technical-analyst",
       "at": "2026-11-24T15:47:00-06:00",
       "text": "After-close Nov 24: 177 buy hits, 17 sell warnings; QQQ -1.99%, ADI/HPE 200d breakdowns on heavy volume; alert sent.",
@@ -1930,20 +1935,15 @@
       "at": "2026-11-24T07:45:00-06:00",
       "text": "Pre-market Nov 24 (as-of Nov 23 close): 276 buy hits, 15 sell warnings (9 new); brief sent to Dennis.",
       "finding": "Nov 23 close scan: top pullback holds GPN 91.47 (SMA20 92.05, RSI 52), SPG 227.07, CHD 110.87; BTC 61,211 RSI 27 oversold."
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-24T07:38:00-06:00",
-      "text": "Sent 1 alert"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
-      "Latest: Mark · Technical Analyst: After-close Nov 24: 177 buy hits, 17 sell warnings; QQQ -1.99%, ADI/HPE 200d…"
+      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
+      "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-24T15:47:58-06:00"
+    "at": "2026-11-24T16:38:04-06:00"
   },
-  "generatedAt": "2026-11-24T15:47:58-06:00"
+  "generatedAt": "2026-11-24T16:38:04-06:00"
 }
