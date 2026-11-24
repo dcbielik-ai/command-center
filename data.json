@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:16:26-06:00",
+  "updatedAt": "2026-11-24T07:29:48-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -983,7 +983,7 @@
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
       "runsCompleted": 50,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-11-07T18:19:26-06:00",
+      "firstSeenAt": "2026-11-07T18:39:01.860316-06:00",
       "notes": "",
       "updatedAt": "2026-11-23T10:25:00-06:00",
       "avatar": {
@@ -1525,8 +1525,8 @@
           ]
         }
       ],
-      "lastRun": "Monday brief Nov 23: Relief-rally premarket after Nasdaq's worst week since 2020. Futures ~8:15 AM ET: Dow +1.9%, S&P +2.6-2.9%, Nasdaq-100 +3.4-3.6%. NVDA +6-8% premarket after Trump post hoping board rehires Huang; AMD, MU, CRWV, AVGO up; Anthropic flat. Zscaler up on CrowdStrike deal; MARA/MSTR up as BTC . Asia weak (KOSPI -3.3%). Week: flash PMIs Mon, Dell Tue, PCE + GDP Wed, closed Thu.",
-      "lastRunAt": "2026-11-23T07:35:00-06:00",
+      "lastRun": "Tuesday brief Nov 24: Futures giving back part of Monday's rally (Nasdaq +6.5%, S&P +4.7%, best day since Apr 2025) after Huang reinstated as Nvidia CEO and NVDA +31% to . Premarket ~8 AM ET: Nasdaq-100 -2.1%, S&P -1.2%, Dow -0.6%; NVDA -5%, Anthropic -6% (briefly below IPO price). HPE -12% on margin warning despite beat; Insmed +14% on Sanofi deal; DKS +16%, KSS +7%, BBY +3%, DLTR +9-11%. Fed futures ~95% odds of Dec 25bp hike. Kospi +6.3%.",
+      "lastRunAt": "2026-11-24T07:30:00-06:00",
       "runTimes": [
         "2026-11-08T07:46:00-06:00",
         "2026-11-09T07:45:00-06:00",
@@ -1541,17 +1541,18 @@
         "2026-11-19T07:30:00-06:00",
         "2026-11-20T07:30:00-06:00",
         "2026-11-22T07:30:00-06:00",
-        "2026-11-23T07:35:00-06:00"
+        "2026-11-23T07:35:00-06:00",
+        "2026-11-24T07:30:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-24T07:30:00-06:00",
-      "latestFinding": "No unusual spikes. Chatter recovering from weekend lull: NVDA 319 to 451 mentions, SPY 109 to 203, QQQ 56 to 136. Biggest jumps: SOXL 16 to 44 (3x chip ETF, rebound bets), VT 18 to 34, MAGA ETF 6 to 18 (Trump/midterm blame thread). NYT, DTE, AM, ET, IT, ALL, ES likely word collisions.",
+      "nextRunAt": "2026-11-25T07:30:00-06:00",
+      "latestFinding": "UNUSUAL SPIKE: NVDA 439 to 1,914 mentions (~4.4x), Huang return; retail + news. Also DJT 5 to 57 (Trump Media +8.6%, Nov 30 note deadline), HPE 1 to 53 (earnings), AMD 52 to 126, MU 44 to 94, SPY 193 to 387. HR, CIA, YOU, PR, GOAT, NYT, DTE, ET, ALL, AM, IT likely word collisions.",
       "waitingOnYou": [],
-      "runsCompleted": 22,
+      "runsCompleted": 23,
       "created": "2026-10-29",
       "firstSeenAt": "2026-11-08T07:46:00-06:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-23T07:36:00-06:00",
+      "updatedAt": "2026-11-24T07:35:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1851,6 +1852,12 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-24T07:30:00-06:00",
+      "text": "Tuesday brief Nov 24: Futures giving back part of Monday's rally (Nasdaq +6.5%, S&P +4.7%, best day since Apr 2025) after Huang reinstated as Nvidia CEO and NVDA +31% to . Premarket ~8 AM ET: Nasdaq-100 -2.1%, S&P -1.2%, Dow -0.6%; NVDA -5%, Anthropic -6% (briefly below IPO price). HPE -12% on margin warning despite beat; Insmed +14% on Sanofi deal; DKS +16%, KSS +7%, BBY +3%, DLTR +9-11%. Fed futures ~95% odds of Dec 25bp hike. Kospi +6.3%.",
+      "finding": "UNUSUAL SPIKE: NVDA 439 to 1,914 mentions (~4.4x), Huang return; retail + news. Also DJT 5 to 57 (Trump Media +8.6%, Nov 30 note deadline), HPE 1 to 53 (earnings), AMD 52 to 126, MU 44 to 94, SPY 193 to 387. HR, CIA, YOU, PR, GOAT, NYT, DTE, ET, ALL, AM, IT likely word collisions."
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-23T19:16:13-06:00",
       "text": "Evening refresh Nov 23: Stocks — Fundamentals after-close brief: 7 picks (SMTC, NVDA, HPE, MU, IESC Buy; POWL, KEYS Hold) and 2 red flags (FLNC, CRWV Sell) on a +4.7% S&P relief-rally day. Semtech (SMTC) is the top call: revenue +58% YoY, Q4 guide above consensus, target (+27%), Buy. Technical after-close: 279 buy hits, 15 sell warnings; alerted a huge index rally (SPY +4.71%, QQQ +7.00% on ~1.8x volume; NVDA +31.5% on 4.3x volume); SPY/QQQ still below the 20/50-day. Portfolio News last check at 6:41 PM CT found nothing new. Investing Buzz had already filed its Monday morning brief (no unusual spikes). The Shop — Trend Scout Monday weekly report saved: no new batch; biggest new mover is matching couple tees (Etsy views +219% vs a usual week); Three Kings Day is downgraded to a small test. Fairway Daughters Monday store/Pinterest readiness check: no change (no shop, listings drafts, POD/supplier, or Pinterest account yet); still waiting on the Nov 23–29 calendar, OK on Post M v3, wordmark font, bag picks, and factory picks; nothing posted or spent. AI Lab — midday urgent check: nothing new met the alert bar; no alert sent; items logged for Thursday's briefing. no runs yet). Other zones unchanged."
@@ -1930,21 +1937,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-23T10:40:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "fairway-daughters",
-      "at": "2026-11-23T10:25:00-06:00",
-      "text": "Working on brand designs",
-      "finding": "Details stay private until launch"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 12 setting up",
-      "Next run: Kevin · Chief of Staff · Japan trip bots quality check, tomorrow 7:00 AM CT",
-      "Latest: Kevin · Chief of Staff: Evening refresh Nov 23: Stocks — Fundamentals after-close brief: 7 picks (SMTC, NVDA,…"
+      "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
+      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Latest: Norbert · Investing Buzz: Tuesday brief Nov 24: Futures giving back part of Monday's rally (Nasdaq +6.5%, S&P…"
     ],
-    "at": "2026-11-23T19:16:26-06:00"
+    "at": "2026-11-24T07:29:48-06:00"
   },
-  "generatedAt": "2026-11-23T19:16:26-06:00"
+  "generatedAt": "2026-11-24T07:29:48-06:00"
 }
