@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:43:01-06:00",
+  "updatedAt": "2026-11-24T14:43:34-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -456,7 +456,6 @@
       "lastRun": "Pre-market Nov 24 (as-of Nov 23 close): 276 buy hits, 15 sell warnings (9 new); brief sent to Dennis.",
       "lastRunAt": "2026-11-24T07:45:00-06:00",
       "runTimes": [
-        "2026-11-09T07:47:00-06:00",
         "2026-11-09T15:45:00-06:00",
         "2026-11-10T07:46:00-06:00",
         "2026-11-10T15:46:00-06:00",
@@ -486,7 +485,7 @@
       "waitingOnYou": [],
       "runsCompleted": 70,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-09T07:47:00-06:00",
+      "firstSeenAt": "2026-11-09T15:45:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-24T07:45:00-06:00",
       "avatar": {
@@ -548,9 +547,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-24T13:43:00-06:00",
+      "lastRunAt": "2026-11-24T14:43:00-06:00",
       "runTimes": [
-        "2026-11-20T08:44:00-06:00",
         "2026-11-20T09:45:00-06:00",
         "2026-11-20T10:45:00-06:00",
         "2026-11-20T11:40:00-06:00",
@@ -579,17 +577,18 @@
         "2026-11-24T10:40:00-06:00",
         "2026-11-24T11:40:00-06:00",
         "2026-11-24T12:43:00-06:00",
-        "2026-11-24T13:43:00-06:00"
+        "2026-11-24T13:43:00-06:00",
+        "2026-11-24T14:43:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-24T14:35:00-06:00",
+      "nextRunAt": "2026-11-24T15:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 416,
+      "runsCompleted": 417,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-09T08:38:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-24T13:43:00-06:00",
+      "updatedAt": "2026-11-24T14:43:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1529,7 +1528,6 @@
       "lastRun": "Tuesday brief Nov 24: Futures giving back part of Monday's rally (Nasdaq +6.5%, S&P +4.7%, best day since Apr 2025) after Huang reinstated as Nvidia CEO and NVDA +31% to . Premarket ~8 AM ET: Nasdaq-100 -2.1%, S&P -1.2%, Dow -0.6%; NVDA -5%, Anthropic -6% (briefly below IPO price). HPE -12% on margin warning despite beat; Insmed +14% on Sanofi deal; DKS +16%, KSS +7%, BBY +3%, DLTR +9-11%. Fed futures ~95% odds of Dec 25bp hike. Kospi +6.3%.",
       "lastRunAt": "2026-11-24T07:30:00-06:00",
       "runTimes": [
-        "2026-11-09T07:45:00-06:00",
         "2026-11-10T07:30:00-06:00",
         "2026-11-11T07:30:00-06:00",
         "2026-11-12T07:30:00-06:00",
@@ -1550,7 +1548,7 @@
       "waitingOnYou": [],
       "runsCompleted": 23,
       "created": "2026-10-29",
-      "firstSeenAt": "2026-11-09T07:45:00-06:00",
+      "firstSeenAt": "2026-11-10T07:30:00-06:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
       "updatedAt": "2026-11-24T07:35:00-06:00",
       "avatar": {
@@ -1853,6 +1851,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-24T14:43:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-24T13:43:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1931,21 +1935,15 @@
       "bot": "chief-of-staff",
       "at": "2026-11-23T19:16:13-06:00",
       "text": "Evening refresh Nov 23: Stocks — Fundamentals after-close brief: 7 picks (SMTC, NVDA, HPE, MU, IESC Buy; POWL, KEYS Hold) and 2 red flags (FLNC, CRWV Sell) on a +4.7% S&P relief-rally day. Semtech (SMTC) is the top call: revenue +58% YoY, Q4 guide above consensus, target (+27%), Buy. Technical after-close: 279 buy hits, 15 sell warnings; alerted a huge index rally (SPY +4.71%, QQQ +7.00% on ~1.8x volume; NVDA +31.5% on 4.3x volume); SPY/QQQ still below the 20/50-day. Portfolio News last check at 6:41 PM CT found nothing new. Investing Buzz had already filed its Monday morning brief (no unusual spikes). The Shop — Trend Scout Monday weekly report saved: no new batch; biggest new mover is matching couple tees (Etsy views +219% vs a usual week); Three Kings Day is downgraded to a small test. Fairway Daughters Monday store/Pinterest readiness check: no change (no shop, listings drafts, POD/supplier, or Pinterest account yet); still waiting on the Nov 23–29 calendar, OK on Post M v3, wordmark font, bag picks, and factory picks; nothing posted or spent. AI Lab — midday urgent check: nothing new met the alert bar; no alert sent; items logged for Thursday's briefing. no runs yet). Other zones unchanged."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-23T18:42:00-06:00",
-      "text": "Nov 23 after-close brief: 7 picks (SMTC, NVDA, HPE, MU, IESC Buy; POWL, KEYS Hold) and 2 red flags (FLNC, CRWV Sell) on a +4.7% S&P relief-rally day.",
-      "finding": "Semtech (SMTC): revenue +58% YoY to a record $423M, Q4 guide ~$480M vs $449M consensus, ~15.7x forward EPS. My target $132 (+27%): Buy."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 2:35 PM CT",
+      "Next run: Phil · Portfolio News · News check, today 3:35 PM CT",
       "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-24T13:43:01-06:00"
+    "at": "2026-11-24T14:43:34-06:00"
   },
-  "generatedAt": "2026-11-24T13:43:01-06:00"
+  "generatedAt": "2026-11-24T14:43:34-06:00"
 }
