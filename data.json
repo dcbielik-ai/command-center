@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T10:00:10-06:00",
+  "updatedAt": "2026-11-25T10:40:55-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -373,7 +373,6 @@
       "lastRun": "Nov 25 pre-market heads-up: Nasdaq-100 futures -2-3% on AI/tariff/rate worries. 7 trending names pass the growth bar; Buys: DELL, MU, AVGO. Hold: NVDA, AMD, GOOGL, ORCL. AMBA, NTNX, WDAY fail the bar.",
       "lastRunAt": "2026-11-25T08:09:46-06:00",
       "runTimes": [
-        "2026-11-09T18:55:00-06:00",
         "2026-11-10T08:05:00-06:00",
         "2026-11-10T08:15:00-06:00",
         "2026-11-10T18:58:00-06:00",
@@ -405,7 +404,7 @@
       "waitingOnYou": [],
       "runsCompleted": 65,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-09T18:55:00-06:00",
+      "firstSeenAt": "2026-11-10T08:05:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
       "updatedAt": "2026-11-25T08:09:46-06:00",
       "avatar": {
@@ -549,10 +548,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-25T09:41:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-25T10:40:00-06:00",
       "runTimes": [
-        "2026-11-20T16:45:00-06:00",
         "2026-11-20T17:40:00-06:00",
         "2026-11-20T18:40:00-06:00",
         "2026-11-23T07:38:00-06:00",
@@ -581,17 +579,18 @@
         "2026-11-24T18:38:00-06:00",
         "2026-11-25T07:43:00-06:00",
         "2026-11-25T08:42:00-06:00",
-        "2026-11-25T09:41:00-06:00"
+        "2026-11-25T09:41:00-06:00",
+        "2026-11-25T10:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-25T10:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-25T11:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 424,
+      "runsCompleted": 425,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-10T07:40:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-25T09:41:00-06:00",
+      "updatedAt": "2026-11-25T10:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1854,6 +1853,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-25T10:40:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-11-25T10:05:00-06:00",
       "text": "Working on brand designs",
@@ -1936,21 +1940,15 @@
       "at": "2026-11-24T17:44:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-24T16:37:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 10:35 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 11:35 AM CT",
+      "Latest: Phil · Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-25T10:00:10-06:00"
+    "at": "2026-11-25T10:40:55-06:00"
   },
-  "generatedAt": "2026-11-25T10:00:10-06:00"
+  "generatedAt": "2026-11-25T10:40:55-06:00"
 }
