@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T12:54:49-06:00",
+  "updatedAt": "2026-11-25T13:37:45-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -548,9 +548,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-25T12:42:00-06:00",
+      "lastRunAt": "2026-11-25T13:37:00-06:00",
       "runTimes": [
-        "2026-11-23T07:38:00-06:00",
         "2026-11-23T08:42:00-06:00",
         "2026-11-23T09:36:00-06:00",
         "2026-11-23T10:40:00-06:00",
@@ -579,17 +578,18 @@
         "2026-11-25T09:41:00-06:00",
         "2026-11-25T10:40:00-06:00",
         "2026-11-25T11:36:00-06:00",
-        "2026-11-25T12:42:00-06:00"
+        "2026-11-25T12:42:00-06:00",
+        "2026-11-25T13:37:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-25T13:35:00-06:00",
+      "nextRunAt": "2026-11-25T14:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 427,
+      "runsCompleted": 428,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-10T07:40:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-25T12:42:00-06:00",
+      "updatedAt": "2026-11-25T13:37:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -988,7 +988,7 @@
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
       "runsCompleted": 53,
       "created": "2026-10-07",
-      "firstSeenAt": "2026-11-09T19:27:17-06:00",
+      "firstSeenAt": "2026-11-10T08:02:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-25T10:05:00-06:00",
       "avatar": {
@@ -1852,6 +1852,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-25T13:37:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-25T12:56:00-06:00",
       "text": "Sent a safety alert",
@@ -1933,21 +1939,15 @@
       "at": "2026-11-25T07:30:00-06:00",
       "text": "Wednesday brief Nov 25: Futures sharply lower ~8 AM ET (Nasdaq-100 -2.8%, S&P -1.9%, Dow -1.3%) on renewed AI/chip selling plus Reuters report of imminent new Trump tariffs on 16 partners incl. China/EU. NVDA -5.5% premarket after -5.9% Tue; AMD, MU, SNDK lower; Ambarella -40% on weak guide. Dell record Q3 ( rev, raised FY to ) but ~-5% premarket. Kospi -6%, SoftBank -10-15%. PCE/GDP/claims at 8:30 ET; ~98% odds of Dec 25bp hike.",
       "finding": "UNUSUAL SPIKES: DELL 25 to 171 mentions (~6.8x, earnings), AAPL 23 to 108 (~4.7x), AMBA 1 to 28 (-40% guide), WMT 3 to 34. NVDA cooled 1,901 to 660 but still #1. DTE, ET, AM, IT, NYT, CIA, YOU likely word collisions."
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-24T19:29:44-06:00",
-      "text": "Evening command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
-      "finding": "Evening refresh Nov 24: Stocks — Fundamentals after-close brief: 11 names. Buys: DELL (new), MU, AMAT, P. HPE cut to Hold on margin guide; NVDA Hold until 10-Q filed; ADI new Hold after -17% guide drop; AMD, META, SNDK, ZS Hold. Top call is DELL: Q3 revenue (+103%), EPS vs est., FY27 EPS guide raised to , + buyback; ~10x guided EPS; target (+31%), Buy. Technical after-close: 177 buy hits, 17 sell warnings; alert sent. Nov 24 close: QQQ 638.10 (-1.99%), SPY 718.78 (-0.49%); ADI 312.95 (-17.4%, 3.1x vol) and HPE 40.19 (-16.3%, 2.5x vol) with 200-day breakdowns; GPN 94.28 held SMA20. Portfolio News last check at 6:38 PM CT found nothing new; latest item is BNP Paribas Exane downgrading Micron to Neutral on 2028 demand risks (Nov 24). Investing Buzz had already filed its Tuesday morning brief (unusual NVDA mention spike after Huang's return). AI Lab — midday urgent check at 12:56 PM CT: nothing new met the alert bar; no alert sent. Logged New York's 5-year AI chatbot toy ban, an FBI warning on the ARTEX AI hacking framework, an urgent Chrome sandbox-escape patch (CVE-2026-134401), and holiday AI shopping-scam alerts for Thursday's briefing. Fairway Daughters — daily post draft at 9:20 AM CT: nothing new; still waiting on Dennis. Nothing posted or spent. Other zones unchanged."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 1:35 PM CT",
-      "Latest: John · AI Guide: Sent a safety alert"
+      "Next run: Phil · Portfolio News · News check, today 2:35 PM CT",
+      "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-25T12:54:49-06:00"
+    "at": "2026-11-25T13:37:45-06:00"
   },
-  "generatedAt": "2026-11-25T12:54:49-06:00"
+  "generatedAt": "2026-11-25T13:37:45-06:00"
 }
