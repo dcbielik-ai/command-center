@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:42:51-06:00",
+  "updatedAt": "2026-11-25T17:41:14-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -456,7 +456,6 @@
       "lastRun": "After-close Nov 25: 217 buy hits, 13 sell warnings; no big moves, no alert sent.",
       "lastRunAt": "2026-11-25T15:50:00-06:00",
       "runTimes": [
-        "2026-11-10T07:46:00-06:00",
         "2026-11-10T15:46:00-06:00",
         "2026-11-11T07:46:00-06:00",
         "2026-11-11T15:50:00-06:00",
@@ -487,7 +486,7 @@
       "waitingOnYou": [],
       "runsCompleted": 73,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-10T07:46:00-06:00",
+      "firstSeenAt": "2026-11-10T15:46:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-25T15:50:00-06:00",
       "avatar": {
@@ -549,9 +548,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-25T16:42:00-06:00",
+      "lastRunAt": "2026-11-25T17:40:00-06:00",
       "runTimes": [
-        "2026-11-23T11:40:00-06:00",
         "2026-11-23T12:37:00-06:00",
         "2026-11-23T13:37:00-06:00",
         "2026-11-23T14:42:00-06:00",
@@ -580,17 +578,18 @@
         "2026-11-25T13:37:00-06:00",
         "2026-11-25T14:39:00-06:00",
         "2026-11-25T15:44:00-06:00",
-        "2026-11-25T16:42:00-06:00"
+        "2026-11-25T16:42:00-06:00",
+        "2026-11-25T17:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-25T17:35:00-06:00",
+      "nextRunAt": "2026-11-25T18:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 431,
+      "runsCompleted": 432,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-10T08:46:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-25T16:42:00-06:00",
+      "updatedAt": "2026-11-25T17:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1852,6 +1851,12 @@
   "feed": [
     {
       "bot": "portfolio-news",
+      "at": "2026-11-25T17:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
+      "bot": "portfolio-news",
       "at": "2026-11-25T16:42:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
@@ -1932,21 +1937,15 @@
       "at": "2026-11-25T08:20:30-06:00",
       "text": "Morning command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
       "finding": "Morning refresh Nov 25: Stocks — Fundamentals pre-market heads-up: Nasdaq-100 futures -2-3% on AI/tariff/rate worries. 7 trending names pass the growth bar; Buys: DELL, MU, AVGO. Hold: NVDA, AMD, GOOGL, ORCL. AMBA, NTNX, WDAY fail the bar. DELL is the top call: -7% premarket despite Q3 revenue +103% and FY27 EPS guidance raised; ~8.5x FY28E EPS of ; target (+41%), Buy. Technical pre-market (as of Nov 24 close): 176 buy hits, 17 sell warnings (4 new); brief sent. Nov 24 close: S&P 7201.09 (-0.50%), Nasdaq 23733.54 (-1.48%), Russell 2684.94 (+0.57%), VIX 31.27; top setups VTV 220.10, GPN 94.28, IFF 85.32. Portfolio News 7:43 AM CT check found nothing new; latest item is BNP Paribas Exane downgrading Micron to Neutral on 2028 demand risks (Nov 24). Investing Buzz Wednesday brief: futures sharply lower ~8 AM ET (Nasdaq-100 -2.8%, S&P -1.9%, Dow -1.3%) on renewed AI/chip selling plus a Reuters report of imminent new Trump tariffs on 16 partners incl. China/EU; unusual spikes in DELL, AAPL, AMBA, and WMT. Real Estate — VA Deal Scout 3-day check: all 8 Zillow keyword searches captured after one brief connection drop (277 cards, 38 new); added 6 VA assumable rows and logged 3 price cuts (853 rows tracked). New 2.25% VA assumable in Edmond OK ( gap) and 3% in El Paso; a Moore OK 5.875% VA offered at about the loan balance (near-zero cash); price cuts on 3.875% and 3.4% Oklahoma listings. Other zones unchanged."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-25T08:09:46-06:00",
-      "text": "Nov 25 pre-market heads-up: Nasdaq-100 futures -2-3% on AI/tariff/rate worries. 7 trending names pass the growth bar; Buys: DELL, MU, AVGO. Hold: NVDA, AMD, GOOGL, ORCL. AMBA, NTNX, WDAY fail the bar.",
-      "finding": "DELL -7% premarket ($273.93) despite Q3 revenue +103% and FY27 EPS guidance raised; ~8.5x FY28E EPS of $32.26; my target $387 (+41%): Buy."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 5:35 PM CT",
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
       "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-25T16:42:51-06:00"
+    "at": "2026-11-25T17:41:14-06:00"
   },
-  "generatedAt": "2026-11-25T16:42:51-06:00"
+  "generatedAt": "2026-11-25T17:41:14-06:00"
 }
