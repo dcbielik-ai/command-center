@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:46:03-06:00",
+  "updatedAt": "2026-11-25T07:47:56-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -453,8 +453,8 @@
           ]
         }
       ],
-      "lastRun": "After-close Nov 24: 177 buy hits, 17 sell warnings; QQQ -1.99%, ADI/HPE 200d breakdowns on heavy volume; alert sent.",
-      "lastRunAt": "2026-11-24T15:47:00-06:00",
+      "lastRun": "Pre-market Nov 25 (as of Nov 24 close): 176 buy hits, 17 sell warnings (4 new); brief sent.",
+      "lastRunAt": "2026-11-25T07:50:00-06:00",
       "runTimes": [
         "2026-11-09T15:45:00-06:00",
         "2026-11-10T07:46:00-06:00",
@@ -478,17 +478,18 @@
         "2026-11-23T11:40:00-06:00",
         "2026-11-23T15:40:48-06:00",
         "2026-11-24T07:45:00-06:00",
-        "2026-11-24T15:47:00-06:00"
+        "2026-11-24T15:47:00-06:00",
+        "2026-11-25T07:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-25T07:38:00-06:00",
-      "latestFinding": "Nov 24 close: QQQ 638.10 (-1.99%), SPY 718.78 (-0.49%); ADI 312.95 (-17.4%, 3.1x vol), HPE 40.19 (-16.3%, 2.5x vol); GPN 94.28 held SMA20.",
+      "nextRunAt": "2026-11-25T15:38:00-06:00",
+      "latestFinding": "Nov 24 close: S&P 7201.09 (-0.50%), Nasdaq 23733.54 (-1.48%), Russell 2684.94 (+0.57%), VIX 31.27; top setups VTV 220.10, GPN 94.28, IFF 85.32.",
       "waitingOnYou": [],
-      "runsCompleted": 71,
+      "runsCompleted": 72,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-09T15:45:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-24T15:47:00-06:00",
+      "updatedAt": "2026-11-25T07:50:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -587,7 +588,7 @@
       "waitingOnYou": [],
       "runsCompleted": 422,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-09T13:46:00-06:00",
+      "firstSeenAt": "2026-11-09T14:41:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-25T07:43:00-06:00",
       "avatar": {
@@ -1850,6 +1851,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-25T07:50:00-06:00",
+      "text": "Pre-market Nov 25 (as of Nov 24 close): 176 buy hits, 17 sell warnings (4 new); brief sent.",
+      "finding": "Nov 24 close: S&P 7201.09 (-0.50%), Nasdaq 23733.54 (-1.48%), Russell 2684.94 (+0.57%), VIX 31.27; top setups VTV 220.10, GPN 94.28, IFF 85.32."
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-11-25T07:46:03-06:00",
       "text": "Added 6 new deals; 853 deals tracked across TX and OK",
@@ -1932,21 +1939,15 @@
       "at": "2026-11-24T12:43:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-24T11:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
       "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Jerry · VA Deal Scout: Added 6 new deals; 853 deals tracked across TX and OK"
+      "Latest: Mark · Technical Analyst: Pre-market Nov 25 (as of Nov 24 close): 176 buy hits, 17 sell warnings (4 new); brief…"
     ],
-    "at": "2026-11-25T07:46:03-06:00"
+    "at": "2026-11-25T07:47:56-06:00"
   },
-  "generatedAt": "2026-11-25T07:46:03-06:00"
+  "generatedAt": "2026-11-25T07:47:56-06:00"
 }
