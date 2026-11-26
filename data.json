@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T08:01:50-06:00",
+  "updatedAt": "2026-11-26T08:25:01-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -285,8 +285,8 @@
           ]
         }
       ],
-      "lastRun": "Evening command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
-      "lastRunAt": "2026-11-25T19:16:57-06:00",
+      "lastRun": "Morning command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
+      "lastRunAt": "2026-11-26T08:24:46-06:00",
       "runTimes": [
         "2026-11-10T19:17:27-06:00",
         "2026-11-11T08:13:40-06:00",
@@ -310,17 +310,18 @@
         "2026-11-24T08:19:09-06:00",
         "2026-11-24T19:29:44-06:00",
         "2026-11-25T08:20:30-06:00",
-        "2026-11-25T19:16:57-06:00"
+        "2026-11-25T19:16:57-06:00",
+        "2026-11-26T08:24:46-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-26T08:10:00-06:00",
-      "latestFinding": "Evening refresh Nov 25: Stocks — Fundamentals after-close brief: Nasdaq -0.62% after a -4.6% intraday low. Buy DELL, MU, AVGO; Hold NVDA, AMD, GOOGL, ORCL, NTNX; Sell AMBA. DELL Q3 revenue +103%, FY27 guide raised to ; closed at 8.8x next-year EPS; target (+31%): Buy. Technical after-close: 217 buy hits, 13 sell warnings; no big moves, no alert sent. Nov 25 close: SPY 716.70 (-0.29%), QQQ 633.93 (-0.65%), IWM 268.87 (+0.65%), VIX 28.29; top setup VTV 221.04 (held SMA50 area). Portfolio News: Nasdaq down ~4% midday Nov 25 on hot PCE inflation and new Trump tariffs; NVDA ~-8%, AMD ~-9%, MU ~-12%, AVGO ~-6%. AI Lab — midday urgent check: nothing new met the alert bar; no alert sent. Logged Anthropic's Siren sandbox-escape test results, 1Password's limited breach disclosure (names/emails, no vault data), and holiday AI shopping-scam warnings for Thursday's briefing. Fairway Daughters — weekly calendar Nov 25: Nov 30-Dec 6 plan drafted and shared; waiting on Dennis. Nothing posted or spent. Other zones unchanged since morning.",
+      "nextRunAt": "2026-11-26T19:10:00-06:00",
+      "latestFinding": "Morning refresh Nov 26: Stocks — US markets closed for Thanksgiving. Fundamentals pre-market heads-up: trending list recapped, calls unchanged (Buy DELL, MU, AVGO). CRWD upgraded to Buy by Guggenheim and Deutsche Bank; FY27E revenue +26%, EPS +38%, but ~163x forward P/E fails the valuation bar. Technical pre-market (data as of Nov 25): 214 buy hits, 13 sell warnings (2 new: PH, TER); top setups VTV 221.04 (SMA50 area, RSI 45.7), MCO 485.69 (held SMA50 478.58); BTC 60,378 RSI 27.5. Investing Buzz Thanksgiving brief: Wed recap Nasdaq was down ~4.6% intraday then closed -0.6%, S&P -0.3%, Dow +0.3% at 50,185; unusual spikes in ASTS, VOO/VTI/SGOV, CRWV, NOW; FT/Reuters say Nvidia told Dell/Supermicro to pause server shipments to Singapore/Malaysia/Thailand/Indonesia under new US license rules. AI Lab — Thursday briefing written and handed off: OpenAI GPT-6 protein design, Anthropic Siren sandbox-escape test and Claude Ship, Google Workspace MCP servers, the RSI Safety Act and UN AI framework call, Black Friday AI fake-store scams, 1Password breach, New York's AI toy ban, and a year-end client check-in AI tip. Japan trip bots quality check ran this morning (routine succeeded; no issues were flagged to Dennis). Other zones unchanged since the evening refresh.",
       "waitingOnYou": [],
-      "runsCompleted": 74,
+      "runsCompleted": 75,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-10T19:17:27-06:00",
       "notes": "",
-      "updatedAt": "2026-11-25T19:16:57-06:00",
+      "updatedAt": "2026-11-26T08:24:46-06:00",
       "avatar": {
         "hat": "crown",
         "head": "#c8d3f5",
@@ -588,7 +589,7 @@
       "waitingOnYou": [],
       "runsCompleted": 434,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-10T12:40:00-06:00",
+      "firstSeenAt": "2026-11-10T13:45:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-26T07:35:00-06:00",
       "avatar": {
@@ -1851,6 +1852,12 @@
   ],
   "feed": [
     {
+      "bot": "chief-of-staff",
+      "at": "2026-11-26T08:24:46-06:00",
+      "text": "Morning command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
+      "finding": "Morning refresh Nov 26: Stocks — US markets closed for Thanksgiving. Fundamentals pre-market heads-up: trending list recapped, calls unchanged (Buy DELL, MU, AVGO). CRWD upgraded to Buy by Guggenheim and Deutsche Bank; FY27E revenue +26%, EPS +38%, but ~163x forward P/E fails the valuation bar. Technical pre-market (data as of Nov 25): 214 buy hits, 13 sell warnings (2 new: PH, TER); top setups VTV 221.04 (SMA50 area, RSI 45.7), MCO 485.69 (held SMA50 478.58); BTC 60,378 RSI 27.5. Investing Buzz Thanksgiving brief: Wed recap Nasdaq was down ~4.6% intraday then closed -0.6%, S&P -0.3%, Dow +0.3% at 50,185; unusual spikes in ASTS, VOO/VTI/SGOV, CRWV, NOW; FT/Reuters say Nvidia told Dell/Supermicro to pause server shipments to Singapore/Malaysia/Thailand/Indonesia under new US license rules. AI Lab — Thursday briefing written and handed off: OpenAI GPT-6 protein design, Anthropic Siren sandbox-escape test and Claude Ship, Google Workspace MCP servers, the RSI Safety Act and UN AI framework call, Black Friday AI fake-store scams, 1Password breach, New York's AI toy ban, and a year-end client check-in AI tip. Japan trip bots quality check ran this morning (routine succeeded; no issues were flagged to Dennis). Other zones unchanged since the evening refresh."
+    },
+    {
       "bot": "fundamentals-analyst",
       "at": "2026-11-26T08:05:00-06:00",
       "text": "Nov 26 pre-market heads-up: US markets closed for Thanksgiving; trending list recapped, calls unchanged (Buy DELL, MU, AVGO).",
@@ -1933,21 +1940,15 @@
       "at": "2026-11-25T13:37:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "ai-guide",
-      "at": "2026-11-25T12:56:00-06:00",
-      "text": "Sent a safety alert",
-      "finding": "Safety details shared privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 12 setting up",
-      "Next run: Kevin · Chief of Staff · Command center refresh, today 8:10 AM CT",
-      "Latest: Tim · Fundamentals Analyst: Nov 26 pre-market heads-up: US markets closed for Thanksgiving; trending list…"
+      "Next run: Phil · Portfolio News · News check, today 8:35 AM CT",
+      "Latest: Kevin · Chief of Staff: Morning command center refresh: synced 36 bots across 14 zones, built and published…"
     ],
-    "at": "2026-11-26T08:01:50-06:00"
+    "at": "2026-11-26T08:25:01-06:00"
   },
-  "generatedAt": "2026-11-26T08:01:50-06:00"
+  "generatedAt": "2026-11-26T08:25:01-06:00"
 }
