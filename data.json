@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:17:05-06:00",
+  "updatedAt": "2026-11-26T07:26:16-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -288,7 +288,6 @@
       "lastRun": "Evening command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
       "lastRunAt": "2026-11-25T19:16:57-06:00",
       "runTimes": [
-        "2026-11-10T08:18:22-06:00",
         "2026-11-10T19:17:27-06:00",
         "2026-11-11T08:13:40-06:00",
         "2026-11-11T19:15:52-06:00",
@@ -319,7 +318,7 @@
       "waitingOnYou": [],
       "runsCompleted": 74,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-10T08:18:22-06:00",
+      "firstSeenAt": "2026-11-10T19:17:27-06:00",
       "notes": "",
       "updatedAt": "2026-11-25T19:16:57-06:00",
       "avatar": {
@@ -1523,8 +1522,8 @@
           ]
         }
       ],
-      "lastRun": "Wednesday brief Nov 25: Futures sharply lower ~8 AM ET (Nasdaq-100 -2.8%, S&P -1.9%, Dow -1.3%) on renewed AI/chip selling plus Reuters report of imminent new Trump tariffs on 16 partners incl. China/EU. NVDA -5.5% premarket after -5.9% Tue; AMD, MU, SNDK lower; Ambarella -40% on weak guide. Dell record Q3 ( rev, raised FY to ) but ~-5% premarket. Kospi -6%, SoftBank -10-15%. PCE/GDP/claims at 8:30 ET; ~98% odds of Dec 25bp hike.",
-      "lastRunAt": "2026-11-25T07:30:00-06:00",
+      "lastRun": "Thanksgiving brief Nov 26 (US cash markets closed; CME equity futures halt 12:00 CT, Fri early close). Wed recap: Nasdaq was down ~4.6% intraday then closed -0.6%, S&P -0.3%, Dow +0.3% at 50,185. Core PCE 3.3% y/y (vs 3.2% est), Q3 GDP revised to 4.3%, claims 189K; Dec hike still expected. Overnight: FT/Reuters say Nvidia told Dell/Supermicro to pause server shipments to Singapore/Malaysia/Thailand/Indonesia under new US license rules. Asia/Europe up on AI rebound; Kospi bounce after -6.2% Wed.",
+      "lastRunAt": "2026-11-26T07:30:00-06:00",
       "runTimes": [
         "2026-11-11T07:30:00-06:00",
         "2026-11-12T07:30:00-06:00",
@@ -1538,17 +1537,18 @@
         "2026-11-22T07:30:00-06:00",
         "2026-11-23T07:35:00-06:00",
         "2026-11-24T07:30:00-06:00",
-        "2026-11-25T07:30:00-06:00"
+        "2026-11-25T07:30:00-06:00",
+        "2026-11-26T07:30:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-26T07:30:00-06:00",
-      "latestFinding": "UNUSUAL SPIKES: DELL 25 to 171 mentions (~6.8x, earnings), AAPL 23 to 108 (~4.7x), AMBA 1 to 28 (-40% guide), WMT 3 to 34. NVDA cooled 1,901 to 660 but still #1. DTE, ET, AM, IT, NYT, CIA, YOU likely word collisions.",
+      "nextRunAt": "2026-11-27T07:30:00-06:00",
+      "latestFinding": "UNUSUAL SPIKES: ASTS 12 to 57 mentions (~4.8x, +10% Wed, director buy), VOO 30 to 93 (~3.1x) plus VTI 8 to 29 and SGOV 8 to 33 (shift to index/cash talk), CRWV 14 to 36, NOW 13 to 32. NVDA cooled 661 to 469 but still #1; DELL faded 167 to 47.",
       "waitingOnYou": [],
-      "runsCompleted": 24,
+      "runsCompleted": 25,
       "created": "2026-10-29",
       "firstSeenAt": "2026-11-11T07:30:00-06:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-25T07:35:00-06:00",
+      "updatedAt": "2026-11-26T07:35:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1848,6 +1848,12 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-26T07:30:00-06:00",
+      "text": "Thanksgiving brief Nov 26 (US cash markets closed; CME equity futures halt 12:00 CT, Fri early close). Wed recap: Nasdaq was down ~4.6% intraday then closed -0.6%, S&P -0.3%, Dow +0.3% at 50,185. Core PCE 3.3% y/y (vs 3.2% est), Q3 GDP revised to 4.3%, claims 189K; Dec hike still expected. Overnight: FT/Reuters say Nvidia told Dell/Supermicro to pause server shipments to Singapore/Malaysia/Thailand/Indonesia under new US license rules. Asia/Europe up on AI rebound; Kospi bounce after -6.2% Wed.",
+      "finding": "UNUSUAL SPIKES: ASTS 12 to 57 mentions (~4.8x, +10% Wed, director buy), VOO 30 to 93 (~3.1x) plus VTI 8 to 29 and SGOV 8 to 33 (shift to index/cash talk), CRWV 14 to 36, NOW 13 to 32. NVDA cooled 661 to 469 but still #1; DELL faded 167 to 47."
+    },
+    {
       "bot": "chief-of-staff",
       "at": "2026-11-25T19:16:57-06:00",
       "text": "Evening command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
@@ -1929,21 +1935,15 @@
       "at": "2026-11-25T10:05:00-06:00",
       "text": "Working on brand designs",
       "finding": "Details stay private until launch"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-25T09:41:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 12 setting up",
-      "Next run: Kevin · Chief of Staff · Japan trip bots quality check, tomorrow 7:00 AM CT",
-      "Latest: Kevin · Chief of Staff: Evening command center refresh: synced 36 bots across 14 zones, built and published…"
+      "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
+      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Latest: Norbert · Investing Buzz: Thanksgiving brief Nov 26 (US cash markets closed; CME equity futures halt 12:00 CT,…"
     ],
-    "at": "2026-11-25T19:17:05-06:00"
+    "at": "2026-11-26T07:26:16-06:00"
   },
-  "generatedAt": "2026-11-25T19:17:05-06:00"
+  "generatedAt": "2026-11-26T07:26:16-06:00"
 }
