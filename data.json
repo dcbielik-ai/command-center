@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:56:11-06:00",
+  "updatedAt": "2026-11-27T13:44:20-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -548,10 +548,9 @@
           ]
         }
       ],
-      "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-27T12:44:00-06:00",
+      "lastRun": "Sent 1 alert",
+      "lastRunAt": "2026-11-27T13:43:00-06:00",
       "runTimes": [
-        "2026-11-25T07:43:00-06:00",
         "2026-11-25T08:42:00-06:00",
         "2026-11-25T09:41:00-06:00",
         "2026-11-25T10:40:00-06:00",
@@ -580,17 +579,18 @@
         "2026-11-27T09:40:00-06:00",
         "2026-11-27T10:41:00-06:00",
         "2026-11-27T11:42:00-06:00",
-        "2026-11-27T12:44:00-06:00"
+        "2026-11-27T12:44:00-06:00",
+        "2026-11-27T13:43:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-27T13:35:00-06:00",
-      "latestFinding": "Alerts delivered privately",
+      "nextRunAt": "2026-11-27T14:35:00-06:00",
+      "latestFinding": "Sent 1 alert",
       "waitingOnYou": [],
-      "runsCompleted": 451,
+      "runsCompleted": 452,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-11T18:39:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-27T12:44:00-06:00",
+      "updatedAt": "2026-11-27T13:43:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1327,7 +1327,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-11T17:59:09-06:00",
         "2026-11-11T18:49:00-06:00",
         "2026-11-11T20:31:39-06:00",
         "2026-11-11T20:42:17-06:00",
@@ -1342,7 +1341,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-11T17:59:09-06:00",
+      "firstSeenAt": "2026-11-11T18:49:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1887,6 +1886,11 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-27T13:43:00-06:00",
+      "text": "Sent 1 alert"
+    },
+    {
       "bot": "ai-guide",
       "at": "2026-11-27T12:56:00-06:00",
       "text": "Sent a safety alert",
@@ -1968,21 +1972,15 @@
       "at": "2026-11-26T19:17:47-06:00",
       "text": "Evening command center refresh: synced 36 bots across 14 zones, built and published the dashboard.",
       "finding": "Evening refresh Nov 26: Stocks — US markets closed for Thanksgiving. Fundamentals after-close: no new closing data or earnings; prior calls unchanged (Buy DELL, MU, AVGO). Technical after-close: no session to scan; no alert sent. Nvidia told partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia under tighter US export controls (FT via CoinDesk, Nov 26). Sports Zone — Thanksgiving CFB/NFL card posted. Graded Nov 21-22: CFB/NFL 1-4 (only 49ers -3 won; BYU and UCLA lost in triple OT), all 4 parlays lost, -7.1u. UFC Doha went 5-0 with all 4 parlays won (5-leg +1596), +28.4u. Picks: Lions +1.5 (today 12pm CT), Penn State -7, Oklahoma State -6.5, Marshall -5, coin-flip Steelers +4.5. Running record: 27-16-1, parlays 12-16, ~+50u on 72u (~+69% ROI). No UFC event Nov 28-29. AI Lab — midday urgent safety check: nothing new met the alert bar. Logged for the Monday briefing: 42 state AGs moving to block the Dec 1 Character.AI auction of 21M users' chat histories (2.1M minors), and the FBI's FaceStealer fake-meeting crypto theft warning. Fairway Daughters daily draft skipped a new post (Post M v3 and the Nov 30–Dec 6 calendar still await Dennis); nothing posted or spent. Fairway Daughters daily check routine succeeded this evening. Other zones unchanged since the morning refresh."
-    },
-    {
-      "bot": "fundamentals-analyst",
-      "at": "2026-11-26T18:41:00-06:00",
-      "text": "Nov 26 after-close brief: US markets closed for Thanksgiving, no new closing data or earnings; prior calls unchanged (Buy DELL, MU, AVGO).",
-      "finding": "CRWD upgraded to Buy by Guggenheim and Deutsche Bank; FY27E revenue +26%, EPS +38%, but ~163x forward P/E fails the valuation bar."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 1:35 PM CT",
-      "Latest: John · AI Guide: Sent a safety alert"
+      "Next run: Phil · Portfolio News · News check, today 2:35 PM CT",
+      "Latest: Phil · Portfolio News: Sent 1 alert"
     ],
-    "at": "2026-11-27T12:56:11-06:00"
+    "at": "2026-11-27T13:44:20-06:00"
   },
-  "generatedAt": "2026-11-27T12:56:11-06:00"
+  "generatedAt": "2026-11-27T13:44:20-06:00"
 }
