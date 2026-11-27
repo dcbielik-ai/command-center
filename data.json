@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:42:15-06:00",
+  "updatedAt": "2026-11-27T07:48:54-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -452,8 +452,8 @@
           ]
         }
       ],
-      "lastRun": "After-close check Nov 26: US markets closed for Thanksgiving, no session to scan; no alert sent.",
-      "lastRunAt": "2026-11-26T15:47:00-06:00",
+      "lastRun": "Pre-market scan Nov 27 (as-of Nov 25 close): 682 scanned, 214 buy hits, 13 sell warnings (2 new: TER, PH); brief sent.",
+      "lastRunAt": "2026-11-27T07:50:00-06:00",
       "runTimes": [
         "2026-11-11T15:50:00-06:00",
         "2026-11-12T07:50:00-06:00",
@@ -477,17 +477,18 @@
         "2026-11-25T07:50:00-06:00",
         "2026-11-25T15:50:00-06:00",
         "2026-11-26T07:45:00-06:00",
-        "2026-11-26T15:47:00-06:00"
+        "2026-11-26T15:47:00-06:00",
+        "2026-11-27T07:50:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-27T07:38:00-06:00",
-      "latestFinding": "Nov 25 close top setups: VTV 221.04 (SMA50 area, RSI 45.7), MCO 485.69 (held SMA50 478.58); BTC 60,378 RSI 27.5.",
+      "nextRunAt": "2026-11-30T07:38:00-06:00",
+      "latestFinding": "Top setups Nov 25 close: VTV 221.04 (SMA50 222.67, RSI 45.7), MCO 485.69, DLTR 152.21 on 2.7x volume; BTC 60,378 RSI 27.5.",
       "waitingOnYou": [],
-      "runsCompleted": 75,
+      "runsCompleted": 76,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-11T15:50:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-26T15:47:00-06:00",
+      "updatedAt": "2026-11-27T07:50:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -586,7 +587,7 @@
       "waitingOnYou": [],
       "runsCompleted": 446,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-11T10:40:00-06:00",
+      "firstSeenAt": "2026-11-11T11:45:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-27T07:41:00-06:00",
       "avatar": {
@@ -1849,6 +1850,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-27T07:50:00-06:00",
+      "text": "Pre-market scan Nov 27 (as-of Nov 25 close): 682 scanned, 214 buy hits, 13 sell warnings (2 new: TER, PH); brief sent.",
+      "finding": "Top setups Nov 25 close: VTV 221.04 (SMA50 222.67, RSI 45.7), MCO 485.69, DLTR 152.21 on 2.7x volume; BTC 60,378 RSI 27.5."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-27T07:41:00-06:00",
       "text": "Sent 1 alert"
@@ -1929,21 +1936,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-26T11:40:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-26T10:44:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
       "Next run: Tim · Fundamentals Analyst · Daily trending stocks heads-up, today 8:01 AM CT",
-      "Latest: Phil · Portfolio News: Sent 1 alert"
+      "Latest: Mark · Technical Analyst: Pre-market scan Nov 27 (as-of Nov 25 close): 682 scanned, 214 buy hits, 13 sell…"
     ],
-    "at": "2026-11-27T07:42:15-06:00"
+    "at": "2026-11-27T07:48:54-06:00"
   },
-  "generatedAt": "2026-11-27T07:42:15-06:00"
+  "generatedAt": "2026-11-27T07:48:54-06:00"
 }
