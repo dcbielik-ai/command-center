@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:19:18-06:00",
+  "updatedAt": "2026-11-27T07:30:24-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -1524,8 +1524,8 @@
           ]
         }
       ],
-      "lastRun": "Thanksgiving brief Nov 26 (US cash markets closed; CME equity futures halt 12:00 CT, Fri early close). Wed recap: Nasdaq was down ~4.6% intraday then closed -0.6%, S&P -0.3%, Dow +0.3% at 50,185. Core PCE 3.3% y/y (vs 3.2% est), Q3 GDP revised to 4.3%, claims 189K; Dec hike still expected. Overnight: FT/Reuters say Nvidia told Dell/Supermicro to pause server shipments to Singapore/Malaysia/Thailand/Indonesia under new US license rules. Asia/Europe up on AI rebound; Kospi bounce after -6.2% Wed.",
-      "lastRunAt": "2026-11-26T07:30:00-06:00",
+      "lastRun": "Black Friday brief Nov 27 (early close 1 PM ET). Futures surge as AI trade rebounds: Nasdaq-100 +2.2%, S&P +1.6%, Dow +1.3% (6:42 AM ET). NVDA +3.6% premarket, AMD +4.4%, MU +5%, CRWV +6.5%, NBIS +7%. S&P/Nasdaq headed for best week since Apr/Aug but worst November since 2008. Brent -96 on Houthi attacks on Saudi energy sites; 10y 4.84%; Dec Fed hike near fully priced.",
+      "lastRunAt": "2026-11-27T07:30:00-06:00",
       "runTimes": [
         "2026-11-12T07:30:00-06:00",
         "2026-11-13T07:30:00-06:00",
@@ -1539,17 +1539,18 @@
         "2026-11-23T07:35:00-06:00",
         "2026-11-24T07:30:00-06:00",
         "2026-11-25T07:30:00-06:00",
-        "2026-11-26T07:30:00-06:00"
+        "2026-11-26T07:30:00-06:00",
+        "2026-11-27T07:30:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-27T07:30:00-06:00",
-      "latestFinding": "UNUSUAL SPIKES: ASTS 12 to 57 mentions (~4.8x, +10% Wed, director buy), VOO 30 to 93 (~3.1x) plus VTI 8 to 29 and SGOV 8 to 33 (shift to index/cash talk), CRWV 14 to 36, NOW 13 to 32. NVDA cooled 661 to 469 but still #1; DELL faded 167 to 47.",
+      "nextRunAt": "2026-11-29T07:30:00-06:00",
+      "latestFinding": "No unusual spikes: holiday-thin chatter, mentions down ~60% across the board (NVDA 480 to 197, still #1; SPY 465 to 108). TTWO had a 5.1K-upvote post post-GTA VI but flat mentions. Retail-vs-news: today's move is news-driven.",
       "waitingOnYou": [],
-      "runsCompleted": 25,
+      "runsCompleted": 26,
       "created": "2026-10-29",
       "firstSeenAt": "2026-11-12T07:30:00-06:00",
       "notes": "Rolling 30-day lookback. Skip Saturday.",
-      "updatedAt": "2026-11-26T07:35:00-06:00",
+      "updatedAt": "2026-11-27T07:35:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#d4f5e8",
@@ -1849,6 +1850,12 @@
   ],
   "feed": [
     {
+      "bot": "investing-buzz",
+      "at": "2026-11-27T07:30:00-06:00",
+      "text": "Black Friday brief Nov 27 (early close 1 PM ET). Futures surge as AI trade rebounds: Nasdaq-100 +2.2%, S&P +1.6%, Dow +1.3% (6:42 AM ET). NVDA +3.6% premarket, AMD +4.4%, MU +5%, CRWV +6.5%, NBIS +7%. S&P/Nasdaq headed for best week since Apr/Aug but worst November since 2008. Brent -96 on Houthi attacks on Saudi energy sites; 10y 4.84%; Dec Fed hike near fully priced.",
+      "finding": "No unusual spikes: holiday-thin chatter, mentions down ~60% across the board (NVDA 480 to 197, still #1; SPY 465 to 108). TTWO had a 5.1K-upvote post post-GTA VI but flat mentions. Retail-vs-news: today's move is news-driven."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-26T19:38:00-06:00",
       "text": "Completed a news check",
@@ -1930,21 +1937,15 @@
       "at": "2026-11-26T10:10:00-06:00",
       "text": "Working on sports research",
       "finding": "Details stay private"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-26T09:44:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 12 items need you · 12 setting up",
-      "Next run: Kevin · Chief of Staff · Japan trip bots quality check, tomorrow 7:00 AM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "8 of 8 scheduled bots healthy · 12 items need you · 12 setting up",
+      "Next run: Phil · Portfolio News · News check, today 7:35 AM CT",
+      "Latest: Norbert · Investing Buzz: Black Friday brief Nov 27 (early close 1 PM ET). Futures surge as AI trade rebounds:…"
     ],
-    "at": "2026-11-26T19:19:18-06:00"
+    "at": "2026-11-27T07:30:24-06:00"
   },
-  "generatedAt": "2026-11-26T19:19:18-06:00"
+  "generatedAt": "2026-11-27T07:30:24-06:00"
 }
