@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T15:37:16-06:00",
+  "updatedAt": "2026-11-27T15:42:35-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -453,8 +453,8 @@
           ]
         }
       ],
-      "lastRun": "Pre-market scan Nov 27 (as-of Nov 25 close): 682 scanned, 214 buy hits, 13 sell warnings (2 new: TER, PH); brief sent.",
-      "lastRunAt": "2026-11-27T07:50:00-06:00",
+      "lastRun": "After-close check Nov 27 (half-day): 683 scanned, 253 buy hits, 5 sell warnings; QQQ +2.69% flagged.",
+      "lastRunAt": "2026-11-27T15:45:00-06:00",
       "runTimes": [
         "2026-11-12T07:50:00-06:00",
         "2026-11-12T15:50:00-06:00",
@@ -478,17 +478,18 @@
         "2026-11-25T15:50:00-06:00",
         "2026-11-26T07:45:00-06:00",
         "2026-11-26T15:47:00-06:00",
-        "2026-11-27T07:50:00-06:00"
+        "2026-11-27T07:50:00-06:00",
+        "2026-11-27T15:45:00-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-30T07:38:00-06:00",
-      "latestFinding": "Top setups Nov 25 close: VTV 221.04 (SMA50 222.67, RSI 45.7), MCO 485.69, DLTR 152.21 on 2.7x volume; BTC 60,378 RSI 27.5.",
+      "nextRunAt": "2026-11-30T13:38:00-06:00",
+      "latestFinding": "QQQ 650.99 (+2.69%), SPY 728.32 (+1.62%), IWM 273.79 (+1.83%) on light half-day volume (~0.55-0.76x avg); VTV 223.80 held SMA50 222.73.",
       "waitingOnYou": [],
-      "runsCompleted": 76,
+      "runsCompleted": 77,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-12T07:50:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-27T07:50:00-06:00",
+      "updatedAt": "2026-11-27T15:45:00-06:00",
       "avatar": {
         "hat": "antenna",
         "head": "#bfe9ff",
@@ -1326,7 +1327,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-11T18:49:00-06:00",
         "2026-11-11T20:31:39-06:00",
         "2026-11-11T20:42:17-06:00",
         "2026-11-12T01:34:36-06:00",
@@ -1340,7 +1340,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-11T18:49:00-06:00",
+      "firstSeenAt": "2026-11-11T20:31:39-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1885,6 +1885,12 @@
   ],
   "feed": [
     {
+      "bot": "technical-analyst",
+      "at": "2026-11-27T15:45:00-06:00",
+      "text": "After-close check Nov 27 (half-day): 683 scanned, 253 buy hits, 5 sell warnings; QQQ +2.69% flagged.",
+      "finding": "QQQ 650.99 (+2.69%), SPY 728.32 (+1.62%), IWM 273.79 (+1.83%) on light half-day volume (~0.55-0.76x avg); VTV 223.80 held SMA50 222.73."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-27T15:36:00-06:00",
       "text": "Completed a news check",
@@ -1965,21 +1971,15 @@
       "bot": "portfolio-news",
       "at": "2026-11-27T07:41:00-06:00",
       "text": "Sent 1 alert"
-    },
-    {
-      "bot": "investing-buzz",
-      "at": "2026-11-27T07:30:00-06:00",
-      "text": "Black Friday brief Nov 27 (early close 1 PM ET). Futures surge as AI trade rebounds: Nasdaq-100 +2.2%, S&P +1.6%, Dow +1.3% (6:42 AM ET). NVDA +3.6% premarket, AMD +4.4%, MU +5%, CRWV +6.5%, NBIS +7%. S&P/Nasdaq headed for best week since Apr/Aug but worst November since 2008. Brent -96 on Houthi attacks on Saudi energy sites; 10y 4.84%; Dec Fed hike near fully priced.",
-      "finding": "No unusual spikes: holiday-thin chatter, mentions down ~60% across the board (NVDA 480 to 197, still #1; SPY 465 to 108). TTWO had a 5.1K-upvote post post-GTA VI but flat mentions. Retail-vs-news: today's move is news-driven."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 12 setting up",
-      "Next run: Mark · Technical Analyst · After-close big-move alert, today 3:38 PM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "Next run: Phil · Portfolio News · News check, today 4:35 PM CT",
+      "Latest: Mark · Technical Analyst: After-close check Nov 27 (half-day): 683 scanned, 253 buy hits, 5 sell warnings; QQQ…"
     ],
-    "at": "2026-11-27T15:37:16-06:00"
+    "at": "2026-11-27T15:42:35-06:00"
   },
-  "generatedAt": "2026-11-27T15:37:16-06:00"
+  "generatedAt": "2026-11-27T15:42:35-06:00"
 }
