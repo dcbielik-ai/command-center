@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T09:15:43-06:00",
+  "updatedAt": "2026-11-27T09:41:02-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -550,9 +550,8 @@
         }
       ],
       "lastRun": "Completed a news check",
-      "lastRunAt": "2026-11-27T08:42:00-06:00",
+      "lastRunAt": "2026-11-27T09:40:00-06:00",
       "runTimes": [
-        "2026-11-24T15:41:00-06:00",
         "2026-11-24T16:37:00-06:00",
         "2026-11-24T17:44:00-06:00",
         "2026-11-24T18:38:00-06:00",
@@ -581,17 +580,18 @@
         "2026-11-26T18:35:00-06:00",
         "2026-11-26T19:38:00-06:00",
         "2026-11-27T07:41:00-06:00",
-        "2026-11-27T08:42:00-06:00"
+        "2026-11-27T08:42:00-06:00",
+        "2026-11-27T09:40:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-27T09:35:00-06:00",
+      "nextRunAt": "2026-11-27T10:35:00-06:00",
       "latestFinding": "Alerts delivered privately",
       "waitingOnYou": [],
-      "runsCompleted": 447,
+      "runsCompleted": 448,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-11T14:37:00-06:00",
+      "firstSeenAt": "2026-11-11T15:40:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-27T08:42:00-06:00",
+      "updatedAt": "2026-11-27T09:40:00-06:00",
       "avatar": {
         "hat": "fedora",
         "head": "#ffe2b8",
@@ -1887,6 +1887,12 @@
   ],
   "feed": [
     {
+      "bot": "portfolio-news",
+      "at": "2026-11-27T09:40:00-06:00",
+      "text": "Completed a news check",
+      "finding": "Alerts delivered privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-11-27T09:17:00-06:00",
       "text": "Working on brand designs",
@@ -1968,21 +1974,15 @@
       "at": "2026-11-26T15:42:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-26T14:38:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 12 setting up",
-      "Next run: Phil · Portfolio News · News check, today 9:35 AM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Phil · Portfolio News · News check, today 10:35 AM CT",
+      "Latest: Phil · Portfolio News: Completed a news check"
     ],
-    "at": "2026-11-27T09:15:43-06:00"
+    "at": "2026-11-27T09:41:02-06:00"
   },
-  "generatedAt": "2026-11-27T09:15:43-06:00"
+  "generatedAt": "2026-11-27T09:41:02-06:00"
 }
