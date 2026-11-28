@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T07:44:46-06:00",
+  "updatedAt": "2026-11-28T09:17:18-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -589,7 +589,7 @@
       "waitingOnYou": [],
       "runsCompleted": 457,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-12T07:45:00-06:00",
+      "firstSeenAt": "2026-11-12T08:40:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-27T18:42:00-06:00",
       "avatar": {
@@ -960,7 +960,7 @@
       "routines": "Not confirmed yet",
       "slots": [],
       "lastRun": "Working on brand designs",
-      "lastRunAt": "2026-11-27T09:17:00-06:00",
+      "lastRunAt": "2026-11-28T09:17:00-06:00",
       "runTimes": [
         "2026-11-12T20:08:31.768959-06:00",
         "2026-11-13T09:21:12.675085-06:00",
@@ -981,7 +981,8 @@
         "2026-11-25T09:20:00-06:00",
         "2026-11-25T10:05:00-06:00",
         "2026-11-26T09:25:00-06:00",
-        "2026-11-27T09:17:00-06:00"
+        "2026-11-27T09:17:00-06:00",
+        "2026-11-28T09:17:00-06:00"
       ],
       "nextRun": "Not scheduled yet",
       "latestFinding": "Details stay private until launch",
@@ -989,11 +990,11 @@
         "Needs a decision from you"
       ],
       "waitingSince": "2026-11-12T20:08:31.768959-06:00",
-      "runsCompleted": 55,
+      "runsCompleted": 56,
       "created": "2026-10-07",
       "firstSeenAt": "2026-11-12T20:08:31.768959-06:00",
       "notes": "",
-      "updatedAt": "2026-11-27T09:17:00-06:00",
+      "updatedAt": "2026-11-28T09:17:00-06:00",
       "avatar": {
         "hat": "visor",
         "head": "#ffe6ee",
@@ -1882,6 +1883,12 @@
   ],
   "feed": [
     {
+      "bot": "fairway-daughters",
+      "at": "2026-11-28T09:17:00-06:00",
+      "text": "Working on brand designs",
+      "finding": "Details stay private until launch"
+    },
+    {
       "bot": "va-deal-scout",
       "at": "2026-11-28T07:44:46-06:00",
       "text": "Added 13 new deals; 866 deals tracked across TX and OK",
@@ -1963,21 +1970,15 @@
       "at": "2026-11-27T10:41:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-27T09:40:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
-      "8 of 8 scheduled bots healthy · 13 items need you · 12 setting up",
+      "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 13 items need you · 12 setting up",
       "Next run: John · AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Jerry · VA Deal Scout: Added 13 new deals; 866 deals tracked across TX and OK"
+      "Latest: Margo · Fairway Daughters: Working on brand designs"
     ],
-    "at": "2026-11-28T07:44:46-06:00"
+    "at": "2026-11-28T09:17:18-06:00"
   },
-  "generatedAt": "2026-11-28T07:44:46-06:00"
+  "generatedAt": "2026-11-28T09:17:18-06:00"
 }
