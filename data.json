@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:42:40-06:00",
+  "updatedAt": "2026-11-27T18:44:22-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -369,8 +369,8 @@
           ]
         }
       ],
-      "lastRun": "Nov 27 pre-market heads-up: screened 10 trending names; 6 pass the 20%+ growth bar (MU, SNDK, NVDA, META, AMD, MRVL); calls 2 Buy, 4 Hold.",
-      "lastRunAt": "2026-11-27T08:12:52-06:00",
+      "lastRun": "Nov 27 after-close brief (holiday-shortened Black Friday session, S&P +1.6%, Nasdaq +2.3%): 11 names reviewed; 5 Buy (DELL, MU, SNDK, AVGO, STX), 5 Hold (COHR, MRVL, NVDA, AMD, ORCL), 1 Sell (AMBA).",
+      "lastRunAt": "2026-11-27T18:44:22-06:00",
       "runTimes": [
         "2026-11-12T08:10:00-06:00",
         "2026-11-12T18:47:00-06:00",
@@ -394,17 +394,18 @@
         "2026-11-25T18:50:00-06:00",
         "2026-11-26T08:05:00-06:00",
         "2026-11-26T18:41:00-06:00",
-        "2026-11-27T08:12:52-06:00"
+        "2026-11-27T08:12:52-06:00",
+        "2026-11-27T18:44:22-06:00"
       ],
       "nextRun": "",
-      "nextRunAt": "2026-11-27T18:40:00-06:00",
-      "latestFinding": "Memory names lead the rebound: MU (fwd P/E 3.4, rev +256% TTM) and SNDK (fwd P/E 2.4, rev +272% TTM) rated Buy on own estimates; NVDA Hold on CEO turmoil and S&P credit watch.",
+      "nextRunAt": "2026-11-30T18:40:00-06:00",
+      "latestFinding": "Chip rebound: SNDK +16% (fwd P/E 2.8, $17.4B TTM FCF) and new GARP name STX (fwd P/E 10.8, PEG 0.13) rated Buy; COHR director bought ~$50M of stock but 21% dilution and negative FCF keep it at Hold; MRVL reports Dec 1.",
       "waitingOnYou": [],
-      "runsCompleted": 69,
+      "runsCompleted": 70,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-12T08:10:00-06:00",
       "notes": "Plans to ask your preferences: sectors, value, growth, or quality style, dividends, and names to always track.",
-      "updatedAt": "2026-11-27T08:12:52-06:00",
+      "updatedAt": "2026-11-27T18:44:22-06:00",
       "avatar": {
         "hat": "mortarboard",
         "head": "#b9f5d0",
@@ -1326,7 +1327,6 @@
       "lastRun": "Completed reviews of two brand image and video sets; verdicts returned to the requesting teammate.",
       "lastRunAt": "2026-11-12T11:17:09-06:00",
       "runTimes": [
-        "2026-11-12T01:34:36-06:00",
         "2026-11-12T06:25:20-06:00",
         "2026-11-12T08:36:00-06:00",
         "2026-11-12T10:31:16-06:00",
@@ -1337,7 +1337,7 @@
       "waitingOnYou": [],
       "runsCompleted": 47,
       "created": "2026-10-20",
-      "firstSeenAt": "2026-11-12T01:34:36-06:00",
+      "firstSeenAt": "2026-11-12T06:25:20-06:00",
       "notes": "",
       "updatedAt": "2026-11-12T11:17:09-06:00",
       "avatar": {
@@ -1882,6 +1882,12 @@
   ],
   "feed": [
     {
+      "bot": "fundamentals-analyst",
+      "at": "2026-11-27T18:44:22-06:00",
+      "text": "Nov 27 after-close brief (holiday-shortened Black Friday session, S&P +1.6%, Nasdaq +2.3%): 11 names reviewed; 5 Buy (DELL, MU, SNDK, AVGO, STX), 5 Hold (COHR, MRVL, NVDA, AMD, ORCL), 1 Sell (AMBA).",
+      "finding": "Chip rebound: SNDK +16% (fwd P/E 2.8, $17.4B TTM FCF) and new GARP name STX (fwd P/E 10.8, PEG 0.13) rated Buy; COHR director bought ~$50M of stock but 21% dilution and negative FCF keep it at Hold; MRVL reports Dec 1."
+    },
+    {
       "bot": "portfolio-news",
       "at": "2026-11-27T18:42:00-06:00",
       "text": "Completed a news check",
@@ -1963,21 +1969,15 @@
       "at": "2026-11-27T08:42:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "chief-of-staff",
-      "at": "2026-11-27T08:22:45-06:00",
-      "text": "Morning command center refresh: synced 37 bots across 14 zones, added Sleep Affirmations, built and published the dashboard.",
-      "finding": "Morning refresh Nov 27: Added Sleep Affirmations to Command HQ. Stocks — Investing Buzz Black Friday brief (early close 1 PM ET): futures surge as the AI trade rebounds, Nasdaq-100 +2.2%, S&P +1.6%, Dow +1.3% (6:42 AM ET); NVDA +3.6% premarket, AMD +4.4%, MU +5%; no unusual chatter spikes (holiday-thin, mentions down ~60%). Technical pre-market scan (as-of Nov 25 close): 682 scanned, 214 buy hits, 13 sell warnings (2 new: TER, PH); top setups VTV 221.04, MCO 485.69, DLTR 152.21; BTC 60,378 RSI 27.5. Fundamentals pre-market heads-up: screened 10 trending names; 6 pass the 20%+ growth bar (MU, SNDK, NVDA, META, AMD, MRVL); MU and SNDK rated Buy, NVDA Hold on CEO turmoil and S&P credit watch. Portfolio News sent 1 premarket alert: Nasdaq-100 futures up 2-3%; AMD, MU, MRVL up 5%+ as AI chip stocks rebound (Reuters). Sleep Affirmations built an 8-track, 7h 46m playlist (nothing created in any account) and is waiting on an OK to add it to Spotify plus a yes/no on a 2-minute affirmation voice memo. Japan trip bots quality check routine succeeded this morning with no user-facing flag. Other zones unchanged since the evening refresh."
     }
   ],
   "briefing": {
     "lines": [
       "8 of 8 scheduled bots healthy · 13 items need you · 12 setting up",
       "Next run: Kevin · Chief of Staff · Command center refresh, today 7:10 PM CT",
-      "Latest: Phil · Portfolio News: Completed a news check"
+      "Latest: Tim · Fundamentals Analyst: Nov 27 after-close brief (holiday-shortened Black Friday session, S&P +1.6%, Nasdaq…"
     ],
-    "at": "2026-11-27T18:42:40-06:00"
+    "at": "2026-11-27T18:44:22-06:00"
   },
-  "generatedAt": "2026-11-27T18:42:40-06:00"
+  "generatedAt": "2026-11-27T18:44:22-06:00"
 }
