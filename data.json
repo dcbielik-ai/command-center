@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T09:17:18-06:00",
+  "updatedAt": "2026-11-28T12:59:48-06:00",
   "schemaVersion": 2,
   "team": {
     "name": "Team Bielik",
@@ -457,7 +457,6 @@
       "lastRun": "After-close check Nov 27 (half-day): 683 scanned, 253 buy hits, 5 sell warnings; QQQ +2.69% flagged.",
       "lastRunAt": "2026-11-27T15:45:00-06:00",
       "runTimes": [
-        "2026-11-12T07:50:00-06:00",
         "2026-11-12T15:50:00-06:00",
         "2026-11-13T07:46:00-06:00",
         "2026-11-13T15:48:00-06:00",
@@ -488,7 +487,7 @@
       "waitingOnYou": [],
       "runsCompleted": 77,
       "created": "2026-10-04",
-      "firstSeenAt": "2026-11-12T07:50:00-06:00",
+      "firstSeenAt": "2026-11-12T15:50:00-06:00",
       "notes": "",
       "updatedAt": "2026-11-27T15:45:00-06:00",
       "avatar": {
@@ -869,7 +868,7 @@
         }
       ],
       "lastRun": "Sent a safety alert",
-      "lastRunAt": "2026-11-27T12:56:00-06:00",
+      "lastRunAt": "2026-11-28T13:02:00-06:00",
       "runTimes": [
         "2026-11-12T07:55:00-06:00",
         "2026-11-12T12:55:00-06:00",
@@ -891,17 +890,18 @@
         "2026-11-25T12:56:00-06:00",
         "2026-11-26T07:54:01-06:00",
         "2026-11-26T13:00:00-06:00",
-        "2026-11-27T12:56:00-06:00"
+        "2026-11-27T12:56:00-06:00",
+        "2026-11-28T13:02:00-06:00"
       ],
       "nextRun": "Scheduled",
-      "nextRunAt": "2026-11-28T12:50:00-06:00",
+      "nextRunAt": "2026-11-30T07:50:00-06:00",
       "latestFinding": "Safety details shared privately",
       "waitingOnYou": [],
-      "runsCompleted": 67,
+      "runsCompleted": 68,
       "created": "2026-10-04",
       "firstSeenAt": "2026-11-12T07:55:00-06:00",
       "notes": "",
-      "updatedAt": "2026-11-27T12:56:00-06:00",
+      "updatedAt": "2026-11-28T13:02:00-06:00",
       "avatar": {
         "hat": "dish",
         "head": "#dfe6ff",
@@ -1883,6 +1883,12 @@
   ],
   "feed": [
     {
+      "bot": "ai-guide",
+      "at": "2026-11-28T13:02:00-06:00",
+      "text": "Sent a safety alert",
+      "finding": "Safety details shared privately"
+    },
+    {
       "bot": "fairway-daughters",
       "at": "2026-11-28T09:17:00-06:00",
       "text": "Working on brand designs",
@@ -1964,21 +1970,15 @@
       "at": "2026-11-27T11:42:00-06:00",
       "text": "Completed a news check",
       "finding": "Alerts delivered privately"
-    },
-    {
-      "bot": "portfolio-news",
-      "at": "2026-11-27T10:41:00-06:00",
-      "text": "Completed a news check",
-      "finding": "Alerts delivered privately"
     }
   ],
   "briefing": {
     "lines": [
       "7 of 8 scheduled bots healthy (Kevin · Chief of Staff late) · 13 items need you · 12 setting up",
-      "Next run: John · AI Guide · Scam watch, today 12:50 PM CT",
-      "Latest: Margo · Fairway Daughters: Working on brand designs"
+      "Next run: Kevin · Chief of Staff · Fairway Daughters daily check, today 6:00 PM CT",
+      "Latest: John · AI Guide: Sent a safety alert"
     ],
-    "at": "2026-11-28T09:17:18-06:00"
+    "at": "2026-11-28T12:59:48-06:00"
   },
-  "generatedAt": "2026-11-28T09:17:18-06:00"
+  "generatedAt": "2026-11-28T12:59:48-06:00"
 }
